@@ -3,8 +3,7 @@ import { localeMeta, type Locale } from "@/lib/i18n/config";
 import type { Article } from "@/lib/content/types";
 import { content, guides, posts, hasLocale } from "@/lib/content";
 import { contentUi } from "@/lib/content/ui";
-
-const SITE_URL = "https://tern.app";
+import { SITE_URL } from "@/lib/site";
 
 export default function ArticleView({
   article,

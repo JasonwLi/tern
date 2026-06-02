@@ -1,8 +1,7 @@
 import type { MetadataRoute } from "next";
 import { locales } from "@/lib/i18n/config";
 import { guides, posts, availableLocales } from "@/lib/content";
-
-const SITE_URL = "https://tern.app";
+import { SITE_URL } from "@/lib/site";
 
 function altsAll(path: string) {
   const languages: Record<string, string> = {};
