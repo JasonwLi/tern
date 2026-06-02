@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { addSignup, countSignups } from "@/lib/db";
-import { sendSignupNotification } from "@/lib/email";
+import { sendSignupNotification } from "@/lib/notify";
 
 export const runtime = "nodejs";
 
