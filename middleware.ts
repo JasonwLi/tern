@@ -30,28 +30,38 @@ function clientIp(req: NextRequest): string | null {
   return ip;
 }
 
-// Look up the visitor's country code from their IP (only used on first visit,
-// when no CDN geo header is present). Returns a 2-letter code, or an "err:*"
-// marker (surfaced in the x-tern-geo diagnostic header) so failures are visible.
-async function countryFromIp(ip: string): Promise<string> {
+const COUNTRY_RE = /^[A-Z]{2}$/;
+
+async function fetchJson(
+  url: string,
+  pick: (d: Record<string, unknown>) => unknown
+): Promise<string> {
   try {
     const ctrl = new AbortController();
     const timer = setTimeout(() => ctrl.abort(), 2500);
-    const res = await fetch(`https://ipwho.is/${ip}`, {
+    const res = await fetch(url, {
       signal: ctrl.signal,
       headers: { "user-agent": "tern-geo/1.0" },
     });
     clearTimeout(timer);
     if (!res.ok) return `err:http${res.status}`;
-    const data = (await res.json()) as { success?: boolean; country_code?: string };
-    if (data?.success === false) return "err:api";
-    return data?.country_code ?? "err:nocode";
+    const data = (await res.json()) as Record<string, unknown>;
+    const code = pick(data);
+    return typeof code === "string" && code ? code.toUpperCase() : "err:nocode";
   } catch (e) {
     return `err:${(e as Error).name || "fetch"}`;
   }
 }
 
-const COUNTRY_RE = /^[A-Z]{2}$/;
+// Look up the visitor's country code from their IP (only on first visit, when no
+// CDN geo header is present). Uses country.is (datacenter-friendly, free, https)
+// with ipwho.is as a fallback. Returns a 2-letter code or an "err:*" marker.
+async function countryFromIp(ip: string): Promise<string> {
+  const primary = await fetchJson(`https://api.country.is/${ip}`, (d) => d.country);
+  if (COUNTRY_RE.test(primary)) return primary;
+  const fallback = await fetchJson(`https://ipwho.is/${ip}`, (d) => d.country_code);
+  return COUNTRY_RE.test(fallback) ? fallback : primary;
+}
 
 interface Resolved {
   locale: Locale;
