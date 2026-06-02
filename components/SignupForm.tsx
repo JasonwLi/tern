@@ -46,6 +46,10 @@ export default function SignupForm({
           whvCountry,
           company,
           referrer: typeof document !== "undefined" ? document.referrer : "",
+          locale:
+            typeof window !== "undefined"
+              ? window.location.pathname.split("/")[1] || ""
+              : "",
         }),
       });
       const data = await res.json();

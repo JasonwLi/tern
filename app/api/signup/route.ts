@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { addSignup, countSignups } from "@/lib/db";
+import { sendSignupNotification } from "@/lib/email";
 
 export const runtime = "nodejs";
 
@@ -38,10 +39,14 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ ok: true, alreadyJoined: false, position: 0 });
   }
 
+  const homeCountry = typeof body.homeCountry === "string" ? body.homeCountry : undefined;
+  const whvCountry = typeof body.whvCountry === "string" ? body.whvCountry : undefined;
+  const locale = typeof body.locale === "string" ? body.locale : undefined;
+
   const result = await addSignup({
     email,
-    homeCountry: typeof body.homeCountry === "string" ? body.homeCountry : undefined,
-    whvCountry: typeof body.whvCountry === "string" ? body.whvCountry : undefined,
+    homeCountry,
+    whvCountry,
     referrer: typeof body.referrer === "string" ? body.referrer : undefined,
   });
 
@@ -52,10 +57,19 @@ export async function POST(req: NextRequest) {
     );
   }
 
+  const position = WAITLIST_BASELINE + result.position;
+  const total = WAITLIST_BASELINE + (await countSignups());
+
+  // Notify the owner of genuinely new signups (skips duplicates & bots).
+  // Awaited but failure-tolerant, so a flaky email never breaks the signup.
+  if (!result.alreadyJoined) {
+    await sendSignupNotification({ email, homeCountry, whvCountry, position, total, locale });
+  }
+
   return NextResponse.json({
     ok: true,
     alreadyJoined: result.alreadyJoined,
-    position: WAITLIST_BASELINE + result.position,
-    total: WAITLIST_BASELINE + (await countSignups()),
+    position,
+    total,
   });
 }
