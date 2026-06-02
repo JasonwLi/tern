@@ -1,12 +1,23 @@
-// Sends the owner a notification when someone joins the waitlist, via Resend.
-// No-ops if RESEND_API_KEY is unset, so signups never fail on email problems.
+// Emails the owner when someone joins the waitlist.
+//
+// Two free-ish options, auto-selected:
+//   1. SMTP (e.g. your own Gmail) — set SMTP_PASS (a Gmail App Password). Host,
+//      port, user and from default to Gmail + jzwl96@gmail.com, so SMTP_PASS is
+//      usually the only var you need.
+//   2. Resend — set RESEND_API_KEY instead.
+// If neither is configured it no-ops, so signups never fail on email problems.
 
-const RESEND_API_KEY = process.env.RESEND_API_KEY;
 const NOTIFY_EMAIL = process.env.NOTIFY_EMAIL ?? "jzwl96@gmail.com";
-// Until a domain is verified in Resend, "onboarding@resend.dev" only delivers
-// to the Resend account's own email. Set SIGNUP_FROM_EMAIL once a domain is
-// verified (e.g. "Tern <waitlist@whvwithtern.com>").
-const FROM_EMAIL = process.env.SIGNUP_FROM_EMAIL ?? "Tern Waitlist <onboarding@resend.dev>";
+
+// SMTP (defaults to Gmail)
+const SMTP_HOST = process.env.SMTP_HOST ?? "smtp.gmail.com";
+const SMTP_PORT = Number(process.env.SMTP_PORT ?? 465);
+const SMTP_USER = process.env.SMTP_USER ?? NOTIFY_EMAIL;
+const SMTP_PASS = process.env.SMTP_PASS; // Gmail App Password (16 chars)
+
+// Resend (fallback)
+const RESEND_API_KEY = process.env.RESEND_API_KEY;
+const RESEND_FROM = process.env.SIGNUP_FROM_EMAIL ?? "Tern Waitlist <onboarding@resend.dev>";
 
 export interface SignupNotification {
   email: string;
@@ -23,9 +34,7 @@ function esc(s: string): string {
   );
 }
 
-export async function sendSignupNotification(n: SignupNotification): Promise<void> {
-  if (!RESEND_API_KEY) return;
-
+function buildEmail(n: SignupNotification) {
   const rows: [string, string][] = [
     ["Email", n.email],
     ["From (home)", n.homeCountry || "—"],
@@ -34,7 +43,7 @@ export async function sendSignupNotification(n: SignupNotification): Promise<voi
     ["Total signups", n.total.toLocaleString()],
     ["Page language", n.locale || "—"],
   ];
-
+  const subject = `🎉 New Tern signup — ${n.email} (#${n.position})`;
   const html = `
   <div style="font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:520px">
     <h2 style="margin:0 0 4px">🎉 New Tern waitlist signup</h2>
@@ -43,20 +52,49 @@ export async function sendSignupNotification(n: SignupNotification): Promise<voi
       ${rows
         .map(
           ([k, v]) =>
-            `<tr>
-              <td style="padding:8px 12px;border:1px solid #eee;background:#faf8ff;font-weight:600;width:160px">${esc(k)}</td>
-              <td style="padding:8px 12px;border:1px solid #eee">${esc(v)}</td>
-            </tr>`
+            `<tr><td style="padding:8px 12px;border:1px solid #eee;background:#faf8ff;font-weight:600;width:160px">${esc(
+              k
+            )}</td><td style="padding:8px 12px;border:1px solid #eee">${esc(v)}</td></tr>`
         )
         .join("")}
     </table>
   </div>`;
-
   const text = `New Tern waitlist signup (#${n.position})\n\n${rows
     .map(([k, v]) => `${k}: ${v}`)
     .join("\n")}`;
+  return { subject, html, text };
+}
 
+async function sendViaSmtp(n: SignupNotification): Promise<boolean> {
+  if (!SMTP_PASS) return false;
   try {
+    const nodemailer = await import("nodemailer");
+    const transporter = nodemailer.createTransport({
+      host: SMTP_HOST,
+      port: SMTP_PORT,
+      secure: SMTP_PORT === 465,
+      auth: { user: SMTP_USER, pass: SMTP_PASS },
+    });
+    const { subject, html, text } = buildEmail(n);
+    await transporter.sendMail({
+      from: `Tern Waitlist <${SMTP_USER}>`,
+      to: NOTIFY_EMAIL,
+      replyTo: n.email,
+      subject,
+      html,
+      text,
+    });
+    return true;
+  } catch (err) {
+    console.error("[email] SMTP send failed", err);
+    return false;
+  }
+}
+
+async function sendViaResend(n: SignupNotification): Promise<boolean> {
+  if (!RESEND_API_KEY) return false;
+  try {
+    const { subject, html, text } = buildEmail(n);
     const res = await fetch("https://api.resend.com/emails", {
       method: "POST",
       headers: {
@@ -64,18 +102,23 @@ export async function sendSignupNotification(n: SignupNotification): Promise<voi
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        from: FROM_EMAIL,
+        from: RESEND_FROM,
         to: [NOTIFY_EMAIL],
         reply_to: n.email,
-        subject: `🎉 New Tern signup — ${n.email} (#${n.position})`,
+        subject,
         html,
         text,
       }),
     });
-    if (!res.ok) {
-      console.error("[email] Resend error", res.status, await res.text());
-    }
+    if (!res.ok) console.error("[email] Resend error", res.status, await res.text());
+    return res.ok;
   } catch (err) {
-    console.error("[email] signup notification failed", err);
+    console.error("[email] Resend send failed", err);
+    return false;
   }
+}
+
+export async function sendSignupNotification(n: SignupNotification): Promise<void> {
+  if (await sendViaSmtp(n)) return;
+  await sendViaResend(n);
 }
