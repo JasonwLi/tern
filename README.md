@@ -4,7 +4,7 @@ A bold, SEO-optimized marketing landing page for **Tern**, a concept neobank bui
 **working holiday visa (WHV) holders** — young people who work abroad temporarily while travelling.
 
 Built with **Next.js 15 (App Router) + React 19 + Tailwind CSS v4**, with a real
-**SQLite-backed waitlist API**.
+**Postgres-backed waitlist API**, deployed on Railway.
 
 ## Quick start
 
@@ -30,7 +30,15 @@ npm run build && npm start   # production
 
 - `POST /api/signup` → `{ email, homeCountry?, whvCountry? }` — validates, dedupes, stores, returns waitlist position. Includes a honeypot field for bot protection.
 - `GET /api/signup` → `{ count }` — total signups (with a display baseline).
-- Storage: `lib/db.ts` (SQLite via `better-sqlite3`, file at `.data/waitlist.db`). The API only depends on `addSignup` / `countSignups`, so swapping to Postgres later is a one-file change.
+- Storage: `lib/db.ts` (Postgres via `pg`, using `DATABASE_URL`). Falls back to an in-memory store when `DATABASE_URL` is unset, so `npm run dev` works locally without a database. The API only depends on `addSignup` / `countSignups`.
+
+## Deployment (Railway)
+
+- Live: **https://tern-production.up.railway.app**
+- Project `tern` with two services: the Next.js app (`tern`) and a `Postgres` database. The app's `DATABASE_URL` is a reference variable → `${{Postgres.DATABASE_URL}}` (private network, no SSL).
+- Build: Nixpacks (`railway.json`), Node 20 (`.nvmrc`), `npm run build` → `npm run start` (Next honors `$PORT`).
+- Push to `main` (GitHub: `JasonwLi/tern`) and run `railway up -s tern`, or connect the GitHub repo in the Railway dashboard for auto-deploys.
+- Note: geo auto-redirect uses edge geo headers; Railway doesn't set `x-vercel-ip-country`, so it falls back to `Accept-Language` (still works). Canonical/OG URLs are hardcoded to `https://tern.app` — point that domain at the Railway service (Settings → Networking → Custom Domain) for production.
 
 ## SEO
 
