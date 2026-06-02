@@ -74,6 +74,11 @@ async function sendViaSmtp(n: SignupNotification): Promise<boolean> {
       port: SMTP_PORT,
       secure: SMTP_PORT === 465,
       auth: { user: SMTP_USER, pass: SMTP_PASS },
+      // Fail fast: most cloud hosts (incl. Railway) block outbound SMTP, which
+      // would otherwise hang the connection. Use an HTTP API (Resend) in prod.
+      connectionTimeout: 5000,
+      greetingTimeout: 5000,
+      socketTimeout: 5000,
     });
     const { subject, html, text } = buildEmail(n);
     await transporter.sendMail({
@@ -119,6 +124,8 @@ async function sendViaResend(n: SignupNotification): Promise<boolean> {
 }
 
 export async function sendSignupNotification(n: SignupNotification): Promise<void> {
-  if (await sendViaSmtp(n)) return;
-  await sendViaResend(n);
+  // Resend (HTTP, works on Railway) is tried first; SMTP is a fallback for
+  // hosts that allow it. Both are no-ops if unconfigured.
+  if (await sendViaResend(n)) return;
+  await sendViaSmtp(n);
 }

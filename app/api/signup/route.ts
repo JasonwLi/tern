@@ -61,9 +61,11 @@ export async function POST(req: NextRequest) {
   const total = WAITLIST_BASELINE + (await countSignups());
 
   // Notify the owner of genuinely new signups (skips duplicates & bots).
-  // Awaited but failure-tolerant, so a flaky email never breaks the signup.
+  // Fire-and-forget: never block or fail the signup response on email.
   if (!result.alreadyJoined) {
-    await sendSignupNotification({ email, homeCountry, whvCountry, position, total, locale });
+    void sendSignupNotification({ email, homeCountry, whvCountry, position, total, locale }).catch(
+      (e) => console.error("[email] notify failed", e)
+    );
   }
 
   return NextResponse.json({
