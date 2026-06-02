@@ -10,7 +10,7 @@ const WAITLIST_BASELINE = 2480;
 
 export async function GET() {
   try {
-    const real = countSignups();
+    const real = await countSignups();
     return NextResponse.json({ count: WAITLIST_BASELINE + real });
   } catch {
     return NextResponse.json({ count: WAITLIST_BASELINE });
@@ -38,7 +38,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ ok: true, alreadyJoined: false, position: 0 });
   }
 
-  const result = addSignup({
+  const result = await addSignup({
     email,
     homeCountry: typeof body.homeCountry === "string" ? body.homeCountry : undefined,
     whvCountry: typeof body.whvCountry === "string" ? body.whvCountry : undefined,
@@ -56,6 +56,6 @@ export async function POST(req: NextRequest) {
     ok: true,
     alreadyJoined: result.alreadyJoined,
     position: WAITLIST_BASELINE + result.position,
-    total: WAITLIST_BASELINE + countSignups(),
+    total: WAITLIST_BASELINE + (await countSignups()),
   });
 }
