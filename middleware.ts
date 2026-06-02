@@ -31,22 +31,27 @@ function clientIp(req: NextRequest): string | null {
 }
 
 // Look up the visitor's country code from their IP (only used on first visit,
-// when no CDN geo header is present). Fails open: returns null on error/timeout.
-async function countryFromIp(ip: string): Promise<string | null> {
+// when no CDN geo header is present). Returns a 2-letter code, or an "err:*"
+// marker (surfaced in the x-tern-geo diagnostic header) so failures are visible.
+async function countryFromIp(ip: string): Promise<string> {
   try {
     const ctrl = new AbortController();
-    const timer = setTimeout(() => ctrl.abort(), 1500);
-    const res = await fetch(`https://ipwho.is/${ip}?fields=country_code`, {
+    const timer = setTimeout(() => ctrl.abort(), 2500);
+    const res = await fetch(`https://ipwho.is/${ip}`, {
       signal: ctrl.signal,
+      headers: { "user-agent": "tern-geo/1.0" },
     });
     clearTimeout(timer);
-    if (!res.ok) return null;
-    const data = (await res.json()) as { country_code?: string };
-    return data.country_code ?? null;
-  } catch {
-    return null;
+    if (!res.ok) return `err:http${res.status}`;
+    const data = (await res.json()) as { success?: boolean; country_code?: string };
+    if (data?.success === false) return "err:api";
+    return data?.country_code ?? "err:nocode";
+  } catch (e) {
+    return `err:${(e as Error).name || "fetch"}`;
   }
 }
+
+const COUNTRY_RE = /^[A-Z]{2}$/;
 
 interface Resolved {
   locale: Locale;
@@ -70,13 +75,16 @@ async function resolveLocale(req: NextRequest): Promise<Resolved> {
   const ip = clientIp(req);
   if (ip) {
     const country = await countryFromIp(ip);
-    const byIp = localeFromCountry(country);
-    if (byIp) return { locale: byIp, source: `ip:${ip}:${country}` };
-    if (country) {
-      // Looked up successfully but country has no localized site → fall through.
+    if (COUNTRY_RE.test(country)) {
+      const byIp = localeFromCountry(country);
+      if (byIp) return { locale: byIp, source: `ip:${ip}:${country}` };
+      // Valid country but no localized site for it → use browser language.
       const byLang = localeFromAcceptLanguage(req.headers.get("accept-language"));
       return { locale: byLang ?? defaultLocale, source: `ip:${ip}:${country}->lang` };
     }
+    // Lookup failed — record why, then fall through to Accept-Language.
+    const byLang = localeFromAcceptLanguage(req.headers.get("accept-language"));
+    return { locale: byLang ?? defaultLocale, source: `ip:${ip}:${country}` };
   }
 
   // 4. Browser language preference
@@ -84,7 +92,7 @@ async function resolveLocale(req: NextRequest): Promise<Resolved> {
   if (byLang) return { locale: byLang, source: "lang" };
 
   // 5. Fall back to English
-  return { locale: defaultLocale, source: ip ? `ip:${ip}:none` : "default" };
+  return { locale: defaultLocale, source: "default" };
 }
 
 export async function middleware(req: NextRequest) {
