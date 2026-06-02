@@ -30,9 +30,9 @@ function clientIp(req: NextRequest): string | null {
   return ip;
 }
 
-// Look up the visitor's country from their IP (only used on first visit, when
-// no CDN geo header is present). Fails open: returns null on any error/timeout.
-async function localeFromIp(ip: string): Promise<Locale | null> {
+// Look up the visitor's country code from their IP (only used on first visit,
+// when no CDN geo header is present). Fails open: returns null on error/timeout.
+async function countryFromIp(ip: string): Promise<string | null> {
   try {
     const ctrl = new AbortController();
     const timer = setTimeout(() => ctrl.abort(), 1500);
@@ -42,38 +42,49 @@ async function localeFromIp(ip: string): Promise<Locale | null> {
     clearTimeout(timer);
     if (!res.ok) return null;
     const data = (await res.json()) as { country_code?: string };
-    return localeFromCountry(data.country_code);
+    return data.country_code ?? null;
   } catch {
     return null;
   }
 }
 
-async function resolveLocale(req: NextRequest): Promise<Locale> {
+interface Resolved {
+  locale: Locale;
+  source: string; // for the x-tern-geo diagnostic header
+}
+
+async function resolveLocale(req: NextRequest): Promise<Resolved> {
   // 1. Explicit choice remembered in a cookie
   const cookie = req.cookies.get(COOKIE)?.value;
-  if (cookie && isLocale(cookie)) return cookie;
+  if (cookie && isLocale(cookie)) return { locale: cookie, source: "cookie" };
 
   // 2. Geo header set by a CDN/edge (Cloudflare, Vercel, Netlify) — instant, free
-  const country =
+  const headerCountry =
     req.headers.get("x-vercel-ip-country") ||
     req.headers.get("cf-ipcountry") ||
     req.headers.get("x-country");
-  const byHeader = localeFromCountry(country);
-  if (byHeader) return byHeader;
+  const byHeader = localeFromCountry(headerCountry);
+  if (byHeader) return { locale: byHeader, source: `header:${headerCountry}` };
 
   // 3. IP geolocation lookup (Railway has no geo header)
   const ip = clientIp(req);
   if (ip) {
-    const byIp = await localeFromIp(ip);
-    if (byIp) return byIp;
+    const country = await countryFromIp(ip);
+    const byIp = localeFromCountry(country);
+    if (byIp) return { locale: byIp, source: `ip:${ip}:${country}` };
+    if (country) {
+      // Looked up successfully but country has no localized site → fall through.
+      const byLang = localeFromAcceptLanguage(req.headers.get("accept-language"));
+      return { locale: byLang ?? defaultLocale, source: `ip:${ip}:${country}->lang` };
+    }
   }
 
   // 4. Browser language preference
   const byLang = localeFromAcceptLanguage(req.headers.get("accept-language"));
-  if (byLang) return byLang;
+  if (byLang) return { locale: byLang, source: "lang" };
 
   // 5. Fall back to English
-  return defaultLocale;
+  return { locale: defaultLocale, source: ip ? `ip:${ip}:none` : "default" };
 }
 
 export async function middleware(req: NextRequest) {
@@ -93,11 +104,12 @@ export async function middleware(req: NextRequest) {
   }
 
   // No locale in the path — auto-detect and redirect.
-  const locale = await resolveLocale(req);
+  const { locale, source } = await resolveLocale(req);
   const url = req.nextUrl.clone();
   url.pathname = `/${locale}${pathname === "/" ? "" : pathname}`;
   const res = NextResponse.redirect(url);
   res.cookies.set(COOKIE, locale, { path: "/", maxAge: ONE_YEAR });
+  res.headers.set("x-tern-geo", source); // diagnostic: how the locale was chosen
   return res;
 }
 
