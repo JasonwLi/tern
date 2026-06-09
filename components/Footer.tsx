@@ -41,8 +41,8 @@ export default function Footer({
           />
           <FooterCol
             title={t.companyTitle}
-            links={t.company}
-            hrefs={[`${home}/about`, "#", "#", "#"]}
+            links={[t.company[0], t.company[2], t.company[3]]}
+            hrefs={[`${home}/about`, `${home}/privacy`, `${home}/terms`]}
           />
         </div>
 

@@ -40,7 +40,7 @@ export default function Hero({
           </div>
 
           <div className="mt-6">
-            <WaitlistCount suffix={t.waitlistSuffix} />
+            <WaitlistCount suffix={t.waitlistSuffix} early={t.waitlistEarly} />
           </div>
         </div>
 

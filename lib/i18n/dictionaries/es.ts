@@ -4,7 +4,7 @@ export const es: Dictionary = {
   meta: {
     title: "Tern — El neobanco hecho para la vida con visa working holiday",
     description:
-      "Cobra en el país de tu working holiday, recibe dinero de casa sin comisiones abusivas de cambio, gana cashback en hostels, intercambia divisas entre viajeros por una tarifa fija y viaja con tarjeta física sin comisiones en cajeros. Únete a la lista de espera de Tern.",
+      "El neobanco para working holiday: cobra desde el día uno, recibe fondos de casa, cambia divisas con tarifa fija y usa cajeros sin comisión. Únete.",
     keywords: [
       // núcleo / marca
       "cuenta bancaria working holiday Australia",
@@ -69,6 +69,7 @@ export const es: Dictionary = {
     subhead:
       "Tern es el neobanco para viajeros con visa working holiday. Cobra desde el primer día, recibe fondos de casa sin comisiones abusivas, gana cashback en hostels e intercambia divisas con otros viajeros por una tarifa fija — todo desde una sola app.",
     waitlistSuffix: "mochileros ya en la lista de espera",
+    waitlistEarly: "Mochileros de todo el mundo se están uniendo a la lista de espera",
   },
 
   marquee: {
@@ -327,6 +328,10 @@ export const es: Dictionary = {
     invalidEmail: "Por favor, introduce una dirección de email válida.",
     errorGeneric: "Algo salió mal. Inténtalo de nuevo.",
     networkError: "Error de red. Por favor, inténtalo de nuevo.",
+    referralTitle: "¿Quieres subir en la lista?",
+    referralBody: "Comparte tu enlace: cada amigo que se una te sube 10 puestos.",
+    referralCopy: "Copiar enlace",
+    referralCopied: "¡Copiado!",
   },
 
   about: {

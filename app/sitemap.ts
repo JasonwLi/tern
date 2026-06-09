@@ -10,7 +10,8 @@ function altsAll(path: string) {
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date("2026-06-01");
+  // Bump when site content meaningfully changes.
+  const now = new Date("2026-06-03");
   const entries: MetadataRoute.Sitemap = [];
 
   // Marketing + about + section indexes
@@ -22,7 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
       alternates: { languages: altsAll("") },
     });
-    for (const p of ["/about", "/guides", "/blog"]) {
+    for (const p of ["/about", "/guides", "/blog", "/privacy", "/terms"]) {
       entries.push({
         url: `${SITE_URL}/${locale}${p}`,
         lastModified: now,

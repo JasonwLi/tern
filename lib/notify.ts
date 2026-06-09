@@ -21,6 +21,7 @@ export interface SignupNotification {
   position: number;
   total: number;
   locale?: string;
+  referredBy?: string;
 }
 
 function esc(s: string): string {
@@ -49,7 +50,8 @@ async function sendViaTelegram(n: SignupNotification): Promise<boolean> {
     `📧 ${esc(n.email)}\n` +
     `🏠 From: ${esc(n.homeCountry || "—")}\n` +
     `✈️ Working in: ${esc(n.whvCountry || "—")}\n` +
-    `🌐 Page: ${esc(n.locale || "—")}`;
+    `🌐 Page: ${esc(n.locale || "—")}` +
+    (n.referredBy ? `\n🔗 Referred by code: ${esc(n.referredBy)}` : "");
   try {
     const res = await fetch(
       `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`,

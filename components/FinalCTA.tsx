@@ -6,10 +6,12 @@ export default function FinalCTA({
   t,
   signup,
   waitlistSuffix,
+  waitlistEarly,
 }: {
   t: Dictionary["finalCta"];
   signup: Dictionary["signup"];
   waitlistSuffix: string;
+  waitlistEarly: string;
 }) {
   return (
     <section id="waitlist" className="scroll-mt-20 px-5 py-20">
@@ -28,7 +30,7 @@ export default function FinalCTA({
           </div>
 
           <div className="mt-6 flex justify-center">
-            <WaitlistCount suffix={waitlistSuffix} />
+            <WaitlistCount suffix={waitlistSuffix} early={waitlistEarly} />
           </div>
         </div>
       </div>

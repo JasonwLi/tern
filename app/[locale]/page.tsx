@@ -9,6 +9,7 @@ import Features from "@/components/Features";
 import Spotlights from "@/components/Spotlight";
 import ExtraFeatures from "@/components/ExtraFeatures";
 import HowItWorks from "@/components/HowItWorks";
+import GuidesTeaser from "@/components/GuidesTeaser";
 import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import FinalCTA from "@/components/FinalCTA";
@@ -34,9 +35,10 @@ export default async function Home({
         <Spotlights t={dict.spotlights} />
         <ExtraFeatures t={dict.extras} />
         <HowItWorks t={dict.how} />
+        <GuidesTeaser locale={locale} />
         <Testimonials t={dict.testimonials} />
         <FAQ t={dict.faq} />
-        <FinalCTA t={dict.finalCta} signup={dict.signup} waitlistSuffix={dict.hero.waitlistSuffix} />
+        <FinalCTA t={dict.finalCta} signup={dict.signup} waitlistSuffix={dict.hero.waitlistSuffix} waitlistEarly={dict.hero.waitlistEarly} />
       </main>
       <Footer locale={locale} t={dict.footer} />
     </>

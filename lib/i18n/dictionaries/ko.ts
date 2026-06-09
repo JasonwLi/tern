@@ -4,7 +4,7 @@ export const ko: Dictionary = {
   meta: {
     title: "Tern — 워킹홀리데이 비자를 위한 네오뱅크",
     description:
-      "워킹홀리데이 국가에서 바로 급여를 받고, 수수료 없이 본국에서 송금받고, 호스텔 캐시백을 챙기고, 단일 수수료로 P2P 환전하고, 실물 카드로 ATM 수수료 없이 여행하세요. Tern 웨이팅리스트에 지금 합류하세요.",
+      "워홀 전용 네오뱅크 — 첫날부터 급여 수령, 한국에서 충전, 정액 수수료 환전, ATM 수수료 무료. 지금 웨이팅리스트에 등록하세요.",
     keywords: [
       "워킹홀리데이 은행 계좌 호주",
       "워홀 추천 은행",
@@ -61,6 +61,7 @@ export const ko: Dictionary = {
     subhead:
       "Tern은 워킹홀리데이 비자 여행자를 위한 네오뱅크예요. 첫 출근 날부터 급여를 받고, 수수료 없이 본국에서 충전하고, 호스텔 캐시백을 얻고, 다른 워홀러와 단일 수수료로 환전까지 — 모두 하나의 앱에서.",
     waitlistSuffix: "명의 배낭여행자가 이미 웨이팅리스트에 합류했어요",
+    waitlistEarly: "전 세계 워홀러들이 웨이팅리스트에 등록하고 있어요",
   },
 
   marquee: {
@@ -319,6 +320,10 @@ export const ko: Dictionary = {
     invalidEmail: "유효한 이메일 주소를 입력해주세요.",
     errorGeneric: "오류가 발생했어요. 다시 시도해주세요.",
     networkError: "네트워크 오류가 발생했어요. 다시 시도해주세요.",
+    referralTitle: "더 빨리 받고 싶나요?",
+    referralBody: "링크를 공유하세요. 친구가 가입할 때마다 10자리 앞당겨져요.",
+    referralCopy: "링크 복사",
+    referralCopied: "복사됨!",
   },
 
   about: {

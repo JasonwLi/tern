@@ -4,7 +4,7 @@ export const zhTW: Dictionary = {
   meta: {
     title: "Tern — 專為打工度假簽證設計的純網銀",
     description:
-      "在打工度假的國家收薪水、用即時匯率從台灣儲值零手續費、住青旅賺現金回饋、與其他旅人點對點換匯只收固定費用，再搭配實體卡與全球免ATM手續費出行。立即加入 Tern 候補名單。",
+      "為打工度假打造的數位銀行——第一天就能收薪水、從台灣儲值、固定費用換匯、全球免ATM手續費。立即加入候補名單。",
     keywords: [
       "打工度假 澳洲 銀行帳戶",
       "打工度假 開戶 不需地址",
@@ -61,6 +61,7 @@ export const zhTW: Dictionary = {
     subhead:
       "Tern 是專為打工度假簽證旅人設計的純網銀。第一天上班就能收到薪水、從台灣儲值零手續費、住青旅賺現金回饋、與其他旅人固定費用換匯——全部在一支 App 搞定。",
     waitlistSuffix: "位背包客已加入候補名單",
+    waitlistEarly: "世界各地的背包客正陸續加入候補名單",
   },
 
   marquee: {
@@ -319,6 +320,10 @@ export const zhTW: Dictionary = {
     invalidEmail: "請輸入有效的電子郵件地址。",
     errorGeneric: "發生錯誤，請再試一次。",
     networkError: "網路錯誤，請再試一次。",
+    referralTitle: "想更快輪到你嗎？",
+    referralBody: "分享你的專屬連結，每位朋友加入就前進 10 個名次。",
+    referralCopy: "複製連結",
+    referralCopied: "已複製！",
   },
 
   about: {

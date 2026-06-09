@@ -29,6 +29,8 @@ export default function SignupForm({
   const [company, setCompany] = useState(""); // honeypot
   const [status, setStatus] = useState<Status>("idle");
   const [message, setMessage] = useState("");
+  const [referralCode, setReferralCode] = useState<string | null>(null);
+  const [copied, setCopied] = useState(false);
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -50,6 +52,10 @@ export default function SignupForm({
             typeof window !== "undefined"
               ? window.location.pathname.split("/")[1] || ""
               : "",
+          ref:
+            typeof window !== "undefined"
+              ? new URLSearchParams(window.location.search).get("ref") || ""
+              : "",
         }),
       });
       const data = await res.json();
@@ -60,6 +66,9 @@ export default function SignupForm({
         return;
       }
 
+      if (typeof data.referralCode === "string" && data.referralCode) {
+        setReferralCode(data.referralCode);
+      }
       if (data.alreadyJoined) {
         setStatus("already");
         setMessage(t.alreadyBody);
@@ -70,6 +79,28 @@ export default function SignupForm({
     } catch {
       setStatus("error");
       setMessage(t.networkError);
+    }
+  }
+
+  function referralLink(): string {
+    if (typeof window === "undefined" || !referralCode) return "";
+    const localeSeg = window.location.pathname.split("/")[1] || "en";
+    return `${window.location.origin}/${localeSeg}?ref=${referralCode}`;
+  }
+
+  async function copyLink() {
+    const link = referralLink();
+    if (!link) return;
+    try {
+      if (navigator.share) {
+        await navigator.share({ url: link });
+        return;
+      }
+      await navigator.clipboard.writeText(link);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2500);
+    } catch {
+      // user cancelled share sheet — nothing to do
     }
   }
 
@@ -86,6 +117,27 @@ export default function SignupForm({
           <span aria-hidden>🎉</span> {t.successTitle}
         </div>
         <p className="text-ink-soft">{message}</p>
+
+        {referralCode && (
+          <div className="mt-4 rounded-2xl bg-white p-4">
+            <p className="font-display text-sm font-bold text-ink">{t.referralTitle}</p>
+            <p className="mt-1 text-sm text-ink-soft">{t.referralBody}</p>
+            <div className="mt-3 flex flex-col gap-2 sm:flex-row">
+              <input
+                readOnly
+                value={referralLink()}
+                onFocus={(e) => e.target.select()}
+                className="min-w-0 flex-1 rounded-full border-2 border-ink/10 bg-grape-50 px-4 py-2.5 text-xs text-ink-soft outline-none"
+              />
+              <button
+                onClick={copyLink}
+                className="shrink-0 rounded-full bg-grape-500 px-5 py-2.5 text-sm font-bold text-white transition hover:bg-grape-600"
+              >
+                {copied ? t.referralCopied : t.referralCopy}
+              </button>
+            </div>
+          </div>
+        )}
       </div>
     );
   }

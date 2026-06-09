@@ -2,7 +2,17 @@
 
 import { useEffect, useState } from "react";
 
-export default function WaitlistCount({ suffix }: { suffix: string }) {
+// Shows the real waitlist count once it's meaningful social proof;
+// before that, a truthful "backpackers are joining" line with no number.
+const SHOW_NUMBER_FROM = 100;
+
+export default function WaitlistCount({
+  suffix,
+  early,
+}: {
+  suffix: string;
+  early: string;
+}) {
   const [count, setCount] = useState<number | null>(null);
 
   useEffect(() => {
@@ -18,6 +28,8 @@ export default function WaitlistCount({ suffix }: { suffix: string }) {
     };
   }, []);
 
+  const showNumber = count !== null && count >= SHOW_NUMBER_FROM;
+
   return (
     <div className="flex items-center gap-3">
       <div className="flex -space-x-2">
@@ -32,8 +44,13 @@ export default function WaitlistCount({ suffix }: { suffix: string }) {
         ))}
       </div>
       <p className="text-sm font-medium text-ink-soft">
-        <span className="font-bold text-ink">{count ? count.toLocaleString() : "2,480+"}</span>{" "}
-        {suffix}
+        {showNumber ? (
+          <>
+            <span className="font-bold text-ink">{count.toLocaleString()}</span> {suffix}
+          </>
+        ) : (
+          early
+        )}
       </p>
     </div>
   );

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Logo } from "./Logo";
 import LanguageSwitcher from "./LanguageSwitcher";
+import MobileMenu from "./MobileMenu";
 import type { Locale } from "@/lib/i18n/config";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
 import { contentUi } from "@/lib/content/ui";
@@ -49,10 +50,21 @@ export default function Nav({
           <LanguageSwitcher locale={locale} label={t.language} />
           <a
             href={`${home}#waitlist`}
-            className="rounded-full bg-ink px-5 py-2.5 text-sm font-bold text-cream transition hover:-translate-y-0.5 hover:bg-grape-500"
+            className="hidden rounded-full bg-ink px-5 py-2.5 text-sm font-bold text-cream transition hover:-translate-y-0.5 hover:bg-grape-500 sm:block"
           >
             {t.joinWaitlist}
           </a>
+          <MobileMenu
+            links={[
+              { href: `${home}#features`, label: t.features },
+              { href: `${home}#extras`, label: t.builtForWhv },
+              { href: `${home}/guides`, label: ui.guidesNav },
+              { href: `${home}/blog`, label: ui.blogNav },
+              { href: `${home}/about`, label: t.about },
+              { href: `${home}#faq`, label: t.faq },
+            ]}
+            cta={{ href: `${home}#waitlist`, label: t.joinWaitlist }}
+          />
         </div>
       </nav>
     </header>

@@ -86,18 +86,40 @@ export const viewport: Viewport = {
 function jsonLd(locale: Locale, description: string) {
   return {
     "@context": "https://schema.org",
-    "@type": "FinancialProduct",
-    name: "Tern",
-    description,
-    url: `${SITE_URL}/${locale}`,
-    category: "Neobank account for working holiday visa holders",
-    audience: {
-      "@type": "Audience",
-      audienceType: "Working holiday visa holders, backpackers, gap-year travellers",
-    },
-    feesAndCommissionsSpecification:
-      "No monthly fee. No foreign ATM fees. Flat-fee peer-to-peer currency swaps.",
-    areaServed: ["AU", "NZ", "CA", "GB", "IE", "JP", "DE"],
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": `${SITE_URL}/#org`,
+        name: "Tern",
+        url: SITE_URL,
+        logo: { "@type": "ImageObject", url: `${SITE_URL}/icon.svg`, width: 512, height: 512 },
+        description:
+          "Tern is a pre-launch neobank built for working holiday visa travellers.",
+      },
+      {
+        "@type": "WebSite",
+        "@id": `${SITE_URL}/#website`,
+        name: "Tern",
+        url: SITE_URL,
+        inLanguage: localeMeta[locale].htmlLang,
+        publisher: { "@id": `${SITE_URL}/#org` },
+      },
+      {
+        "@type": "FinancialProduct",
+        name: "Tern",
+        description,
+        url: `${SITE_URL}/${locale}`,
+        provider: { "@id": `${SITE_URL}/#org` },
+        category: "Neobank account for working holiday visa holders",
+        audience: {
+          "@type": "Audience",
+          audienceType: "Working holiday visa holders, backpackers, gap-year travellers",
+        },
+        feesAndCommissionsSpecification:
+          "No monthly fee. No foreign ATM fees. Flat-fee peer-to-peer currency swaps.",
+        areaServed: ["AU", "NZ", "CA", "GB", "IE", "JP", "DE"],
+      },
+    ],
   };
 }
 

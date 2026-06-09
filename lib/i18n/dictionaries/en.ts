@@ -3,7 +3,7 @@ export const en = {
   meta: {
     title: "Tern — The neobank built for working holiday visa life",
     description:
-      "Get paid in your working-holiday country, top up from home with no rip-off FX, earn cashback on hostels, swap currency peer-to-peer for a flat fee, and travel with a physical card and zero ATM fees. Join the Tern waitlist.",
+      "The neobank for working holiday makers — get paid day one, top up from home, swap currency for a flat fee and pay zero ATM fees. Join the waitlist.",
     keywords: [
       // core / brand
       "working holiday visa bank account",
@@ -68,6 +68,7 @@ export const en = {
     subhead:
       "Tern is the neobank for working holiday visa travellers. Get paid by your employer day one, top up from home with no rip-off fees, earn cashback on hostels, and swap currency with fellow travellers at a flat fee — all from one app.",
     waitlistSuffix: "backpackers already on the waitlist",
+    waitlistEarly: "Backpackers from all over the world are joining the waitlist",
   },
 
   marquee: {
@@ -326,6 +327,10 @@ export const en = {
     invalidEmail: "Please enter a valid email address.",
     errorGeneric: "Something went wrong. Try again.",
     networkError: "Network error. Please try again.",
+    referralTitle: "Want to move up the list?",
+    referralBody: "Share your link — every friend who joins moves you up 10 spots.",
+    referralCopy: "Copy link",
+    referralCopied: "Copied!",
   },
 
   about: {
