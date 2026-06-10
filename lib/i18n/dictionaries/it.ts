@@ -2,9 +2,9 @@ import type { Dictionary } from "./en";
 
 export const it: Dictionary = {
   meta: {
-    title: "Tern — Il neobank per chi fa il working holiday",
+    title: "Tern — La neobank per chi fa il working holiday",
     description:
-      "Il neobank per il working holiday: ricevi lo stipendio dal primo giorno, ricarica da casa, cambia valuta a tariffa fissa e preleva gratis ovunque. Unisciti alla lista.",
+      "La neobank per il working holiday: ricevi lo stipendio dal primo giorno, ricarica da casa, cambia valuta a tariffa fissa e preleva gratis ovunque. Unisciti alla lista.",
     keywords: [
       // nucleo / brand
       "conto corrente working holiday Australia",
@@ -54,7 +54,7 @@ export const it: Dictionary = {
   nav: {
     features: "Funzionalità",
     howItWorks: "Come funziona",
-    builtForWhv: "Fatto per il WHV",
+    builtForWhv: "Pensata per il WHV",
     about: "Chi siamo",
     faq: "FAQ",
     joinWaitlist: "Iscriviti alla lista",
@@ -62,12 +62,12 @@ export const it: Dictionary = {
   },
 
   hero: {
-    badge: "Fatto per la vita in working holiday",
+    badge: "Pensata per la vita in working holiday",
     headlinePre: "I tuoi soldi,",
     headlineHighlight: "in ordine",
     headlinePost: "prima di atterrare.",
     subhead:
-      "Tern è il neobank per chi viaggia con il visto working holiday. Ricevi lo stipendio dal primo giorno, ricarica da casa senza commissioni assurde, guadagna cashback sugli ostelli e scambia valuta con altri viaggiatori a tariffa fissa — tutto da un'unica app.",
+      "Tern è la neobank per chi viaggia con il visto working holiday. Ricevi lo stipendio dal primo giorno, ricarica da casa senza commissioni assurde, guadagna cashback sugli ostelli e scambia valuta con altri viaggiatori a tariffa fissa — tutto da un'unica app.",
     waitlistSuffix: "backpacker già in lista d'attesa",
     waitlistEarly: "Backpacker da tutto il mondo si stanno iscrivendo alla lista d'attesa",
     tryDemo: "Prova la demo interattiva",
@@ -85,7 +85,7 @@ export const it: Dictionary = {
     eyebrow: "La trappola finanziaria del working holiday",
     title: "Le banche tradizionali non sono state pensate per chi cambia paese per un anno.",
     intro:
-      "Non lo abbiamo letto su un forum — lo abbiamo vissuto in prima persona. Lavorando tra Australia, Canada e USA, abbiamo incontrato ognuno di questi muri con le nostre mani. Questi quattro tornano sempre, e sono i quattro su cui siamo ossessionati.",
+      "Non lo abbiamo letto su un forum — lo abbiamo vissuto sulla nostra pelle. Lavorando tra Australia, Canada e USA, abbiamo incontrato ognuno di questi muri di persona. Questi quattro tornano sempre, e sono i quattro su cui siamo ossessionati.",
     items: [
       {
         title: "\"Senza indirizzo fisso, niente conto.\"",
@@ -220,7 +220,7 @@ export const it: Dictionary = {
       },
       {
         title: "Copertura assicurativa per chi lavora",
-        body: "La maggior parte delle assicurazioni di viaggio esclude in piccolo esattamente i lavori che fai — agricoltura, edilizia, ristorazione. Attiva una copertura giornaliera che include davvero il lavoro manuale, direttamente dalla carta.",
+        body: "La maggior parte delle assicurazioni di viaggio esclude nelle clausole in piccolo esattamente i lavori che fai — agricoltura, edilizia, ristorazione. Attiva una copertura giornaliera che include davvero il lavoro manuale, direttamente dalla carta.",
         pain: "\"La mia assicurazione ha negato il risarcimento perché il lavoro in fattoria era 'pericoloso'.\"",
       },
     ],
@@ -251,12 +251,12 @@ export const it: Dictionary = {
     sub: "Storie esemplificative della nostra community di accesso anticipato.",
     items: [
       {
-        quote: "Il mio numero di conto era pronto prima ancora che il mio volo atterrasse. L'ho dato alla fattoria il primo giorno e sono stato pagato quel venerdì — niente tre settimane di attesa come i miei amici.",
+        quote: "Il mio numero di conto era pronto prima ancora che il mio volo atterrasse. L'ho dato alla fattoria il primo giorno e sono stata pagata quel venerdì — niente tre settimane di attesa come i miei amici.",
         name: "Lena",
         from: "🇩🇪 → 🇦🇺 Bundaberg",
       },
       {
-        quote: "Mia madre mi ricarica da casa e io ricevo il tasso di cambio reale. Più la cosa dei prelievi gratuiti mi ha fatto risparmiare circa $40 a settimana di contanti durante il road trip.",
+        quote: "Mia madre mi ricarica da casa e io ricevo il tasso di cambio reale. E poi con i prelievi gratuiti ho risparmiato circa $40 a settimana durante il road trip.",
         name: "Tom",
         from: "🇬🇧 → 🇳🇿 Queenstown",
       },
@@ -274,7 +274,7 @@ export const it: Dictionary = {
     items: [
       {
         q: "Cos'è Tern?",
-        a: "Tern è un neobank (un conto bancario interamente su app) progettato specificamente per i titolari di visto working holiday. Raggruppa un conto locale per lo stipendio, ricariche da casa senza commissioni, una carta multivaluta senza commissioni bancomat, scambi di valuta tra privati, cashback sugli ostelli e una serie di strumenti pensati per il WHV come i rimborsi della super e i certificati proof of funds.",
+        a: "Tern è una neobank (un conto bancario interamente su app) pensata specificamente per i titolari di visto working holiday. Raggruppa un conto locale per lo stipendio, ricariche da casa senza commissioni, una carta multivaluta senza commissioni bancomat, scambi di valuta tra privati, cashback sugli ostelli e una serie di strumenti pensati per il WHV come i rimborsi della super e i certificati proof of funds.",
       },
       {
         q: "In quali paesi funziona?",
@@ -286,7 +286,7 @@ export const it: Dictionary = {
       },
       {
         q: "Come guadagnate se non ci sono commissioni bancomat né canone mensile?",
-        a: "Come altri neobank: interchange sugli acquisti con carta, abbonamenti premium opzionali, la tariffa fissa sugli scambi tra privati, margini sui cashback dei partner e FX sui bonifici oltre i generosi limiti gratuiti — tutto in modo trasparente, senza addebiti a sorpresa nascosti nell'estratto conto.",
+        a: "Come altre neobank: interchange sugli acquisti con carta, abbonamenti premium opzionali, la tariffa fissa sugli scambi tra privati, margini sui cashback dei partner e FX sui bonifici oltre i generosi limiti gratuiti — tutto in modo trasparente, senza addebiti a sorpresa nascosti nell'estratto conto.",
       },
       {
         q: "I miei soldi sono al sicuro?",
@@ -300,14 +300,14 @@ export const it: Dictionary = {
   },
 
   finalCta: {
-    title: "Atterrа con tutto a posto. Iscriviti alla lista d'attesa.",
+    title: "Atterra con tutto a posto. Iscriviti alla lista d'attesa.",
     sub: "Sii tra i primi quando Tern apre sulla tua rotta di working holiday. Niente spam, nessun impegno — solo il modo più intelligente di gestire i soldi on the road.",
   },
 
   footer: {
-    desc: "Il neobank pensato per la vita in working holiday — guadagna, spendi, risparmia e viaggia oltre i confini senza commissioni né grattacapi.",
+    desc: "La neobank pensata per la vita in working holiday — guadagna, spendi, risparmia e viaggia oltre i confini senza commissioni né grattacapi.",
     productTitle: "Prodotto",
-    product: ["Funzionalità", "Come funziona", "Fatto per il WHV", "FAQ"],
+    product: ["Funzionalità", "Come funziona", "Pensata per il WHV", "FAQ"],
     destinationsTitle: "Destinazioni",
     destinations: ["Australia", "Nuova Zelanda", "Canada", "Giappone"],
     companyTitle: "Azienda",
@@ -353,11 +353,11 @@ export const it: Dictionary = {
     story: [
       "Ciao — sono {name}, e Tern è la banca che avrei voluto avere.",
       "Nel corso degli anni ho viaggiato in 45 paesi e ho davvero lavorato in quattro di essi — tra cui un periodo di working holiday in Australia, del tempo in Canada e una parentesi negli USA. Ho fatto la fila in banca con un indirizzo di ostello che non hanno voluto accettare. Ho iniziato un lavoro e aspettato settimane per il primo stipendio perché non riuscivo a dare al datore di lavoro i dati del conto giusti. Ho visto un bonifico da casa arrivare sensibilmente ridotto, e ho dato $5 a un bancomat più volte di quante vorrei ammettere.",
-      "Niente di tutto questo viene da un pitch deck. Sono le mie ricevute vere.",
+      "Niente di tutto questo viene da un pitch deck. Sono esperienze reali, non storie inventate.",
       "Il fatto è che passo anche la mia vita lavorativa nel fintech — costruendo l'infrastruttura monetaria che rende tutto questo banale nel momento in cui qualcuno si preoccupa di progettare pensando a te. Chi fa il working holiday cambia paese, cambia lavoro, riceve pagamenti oltre confine e manda soldi a casa continuamente — eppure la maggior parte delle banche ci tratta ancora come turisti che se ne andranno tra due settimane.",
       "Quindi sto costruendo Tern: il conto di cui avevo bisogno all'inizio, quando stavo fuori da una banca che mi aveva appena rifiutato.",
       "Tutto quello che trovi su questo sito nasce da un muro che ho incontrato di persona. Il conto locale pronto prima che atterri. Ricaricare da casa al tasso reale. Scambiare valuta con chi vola nella direzione opposta invece di pagare una percentuale alla banca. Niente commissioni bancomat — perché ne ho pagate abbastanza per tutti noi.",
-      "Se stai per fare il tuo working holiday: ci sono io.",
+      "Se stai per fare il tuo working holiday: ci ho pensato io per te.",
     ],
     signatureRole: "Founder, Tern",
     avatarCountries: "paesi",

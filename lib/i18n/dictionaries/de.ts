@@ -66,7 +66,7 @@ export const de: Dictionary = {
     headlineHighlight: "geregelt",
     headlinePost: "bevor du landest.",
     subhead:
-      "Tern ist das Neobank-Konto für Working-Holiday-Visa-Reisende. Empfange ab dem ersten Tag Gehalt von deinem Arbeitgeber, lade von zu Hause ohne horrende Gebühren auf, kassiere Cashback auf Hostels und tausche Währungen mit anderen Reisenden gegen eine Pauschalgebühr — alles in einer App.",
+      "Tern ist das Neobank-Konto für Work-and-Travel-Reisende. Empfange ab dem ersten Tag Gehalt von deinem Arbeitgeber, lade von zu Hause ohne horrende Gebühren auf, kassiere Cashback auf Hostels und tausche Währungen mit anderen Reisenden gegen eine Pauschalgebühr — alles in einer App.",
     waitlistSuffix: "Backpacker bereits auf der Warteliste",
     waitlistEarly: "Backpacker aus aller Welt tragen sich in die Warteliste ein",
     tryDemo: "Interaktive Demo ausprobieren",
@@ -198,7 +198,7 @@ export const de: Dictionary = {
         pain: "\"Verlorene Gehaltsnachweise können dein zweites Visum-Jahr zunichte machen.\"",
       },
       {
-        title: "Multiwährung & Sparziel fürs Heimatkonto",
+        title: "Multiwährung & Sparziel für zu Hause",
         body: "Halte AUD, NZD, GBP, EUR, JPY und mehr, und beobachte, wie dein Guthaben in Echtzeit auf ein Ziel in deiner Heimatwährung hinarbeitet — \"€8.000 sparen, bevor ich gehe\" — mit Aufrundungs-Automatik, die die Arbeit erledigt.",
         pain: "\"Ich wusste nie, was meine Ersparnisse zu Hause wirklich wert waren.\"",
       },
@@ -214,7 +214,7 @@ export const de: Dictionary = {
       },
       {
         title: "Kosten aufteilen über Währungen hinweg",
-        body: "Teile das Campingbus-Mietauto, das Schlafsaal-Zimmer und den Wocheneinkauf mit Mitreisenden, die alle in verschiedenen Währungen verdienen. Fordere, teile und begleiche sofort zum echten Kurs — ohne die Splitwise-zur-Bank-Kette.",
+        body: "Teile das gemietete Wohnmobil, das Schlafsaal-Zimmer und den Wocheneinkauf mit Mitreisenden, die alle in verschiedenen Währungen verdienen. Fordere, teile und begleiche sofort zum echten Kurs — ohne die Splitwise-zur-Bank-Kette.",
         pain: "\"Sechs Nationalitäten wegen des Roadtrip-Sprits zu jagen war ein Albtraum.\"",
       },
       {
@@ -273,7 +273,7 @@ export const de: Dictionary = {
     items: [
       {
         q: "Was ist Tern?",
-        a: "Tern ist ein Neobank-Konto (ein vollständig app-basiertes Bankkonto), das speziell für Working-Holiday-Visa-Inhaber entwickelt wurde. Es vereint ein lokales Konto für dein Gehalt, gebührenfreies Aufladen von zu Hause, eine Multiwährungskarte ohne Geldautomaten-Gebühren, Peer-to-Peer-Währungstausch, Hostel-Cashback und eine Reihe von WHV-spezifischen Werkzeugen wie Superannuation-Rückerstattungen und Finanznachweis-Bescheinigungen.",
+        a: "Tern ist ein Neobank-Konto (ein vollständig app-basiertes Bankkonto), das speziell für Work-and-Travel-Reisende entwickelt wurde. Es vereint ein lokales Konto für dein Gehalt, gebührenfreies Aufladen von zu Hause, eine Multiwährungskarte ohne Geldautomaten-Gebühren, Peer-to-Peer-Währungstausch, Hostel-Cashback und eine Reihe von WHV-spezifischen Werkzeugen wie Superannuation-Rückerstattungen und Finanznachweis-Bescheinigungen.",
       },
       {
         q: "In welchen Ländern funktioniert es?",
@@ -352,11 +352,11 @@ export const de: Dictionary = {
     story: [
       "Hi — ich bin {name}, und Tern ist die Bank, die ich mir gewünscht hätte.",
       "Im Laufe der Jahre habe ich 45 Länder bereist und in vier davon wirklich gearbeitet — darunter ein Work-and-Travel-Aufenthalt in Australien, Zeit in Kanada und eine Weile in den USA. Ich habe in einer Bankfiliale Schlange gestanden mit einer Hostel-Adresse, die sie nicht akzeptieren wollten. Ich habe einen Job angefangen und wochenlang auf meinen ersten Lohn gewartet, weil ich meinem Arbeitgeber nicht die richtigen Kontodaten geben konnte. Ich habe zugesehen, wie eine Überweisung von zu Hause spürbar kleiner ankam — und ich habe dem Geldautomaten öfter $5 gefüttert, als ich zugeben möchte.",
-      "Das alles kam nicht aus einem Pitch-Deck. Das sind meine echten Belege.",
+      "Das alles kam nicht aus einem Pitch-Deck. Das sind echte Erfahrungen — keine erfundene Geschichte.",
       "Ich verbringe mein Berufsleben aber auch im Fintech — ich baue die Geldinfrastruktur, die all das trivial macht, sobald sich jemand die Mühe macht, für dich zu gestalten. Work-and-Travel-Reisende wechseln Länder, wechseln Jobs, werden über Grenzen hinweg bezahlt und überweisen ständig Geld nach Hause — und doch behandeln die meisten Banken uns noch immer wie Touristen, die in zwei Wochen wieder weg sind.",
       "Deshalb baue ich Tern: das Konto, das ich am Anfang gebraucht hätte, als ich draußen vor einer Bank stand, die mich gerade abgewiesen hatte.",
       "Alles auf dieser Seite stammt aus einer Mauer, gegen die ich persönlich gestoßen bin. Das lokale Konto, das bereit ist, bevor du landest. Von zu Hause aufladen zum echten Kurs. Währungen mit jemandem tauschen, der in die andere Richtung fliegt, statt einen Prozentsatz an eine Bank zu zahlen. Keine Geldautomaten-Gebühren — denn ich habe genug davon für uns alle gezahlt.",
-      "Wenn du dein eigenes Work and Travel gerade planst: Ich hab dich.",
+      "Wenn du dein eigenes Work and Travel gerade planst: Daran habe ich gedacht.",
     ],
     signatureRole: "Gründer, Tern",
     avatarCountries: "Länder",
