@@ -329,6 +329,10 @@ export const fr: Dictionary = {
     referralBody: "Partage ton lien — chaque personne qui s'inscrit te fait gagner 10 places.",
     referralCopy: "Copier le lien",
     referralCopied: "Copié !",
+    kitTeaser: "🎁 Inscris-toi et reçois immédiatement le WHV Money Kit gratuit (PDF).",
+    kitDownload: "Télécharge ton WHV Money Kit",
+    foundingNote: "Les 500 premiers de la liste deviennent Membres Fondateurs — un an d'échanges de devises sans frais au lancement.",
+    foundingUnlocked: "🏆 Place de Membre Fondateur réservée — tu fais partie des 500 premiers.",
   },
 
   about: {

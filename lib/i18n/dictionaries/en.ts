@@ -332,6 +332,10 @@ export const en = {
     referralBody: "Share your link — every friend who joins moves you up 10 spots.",
     referralCopy: "Copy link",
     referralCopied: "Copied!",
+    kitTeaser: "🎁 Join now and instantly get the free WHV Money Kit (PDF).",
+    kitDownload: "Download your WHV Money Kit",
+    foundingNote: "The first 500 on the list become Founding Members — a year of fee-free currency swaps at launch.",
+    foundingUnlocked: "🏆 Founding Member spot secured — you're in the first 500.",
   },
 
   about: {

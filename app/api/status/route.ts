@@ -7,6 +7,7 @@ export const runtime = "nodejs";
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 // Keep in sync with /api/signup.
 const REFERRAL_BOOST = 10;
+const FOUNDING_CUTOFF = 500;
 
 export async function POST(req: NextRequest) {
   // Abuse guard: this endpoint reveals waitlist membership for an email, so
@@ -32,9 +33,11 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ found: false });
   }
 
+  const position = Math.max(1, status.position - REFERRAL_BOOST * status.referralCount);
   return NextResponse.json({
     found: true,
-    position: Math.max(1, status.position - REFERRAL_BOOST * status.referralCount),
+    position,
+    founding: position <= FOUNDING_CUTOFF,
     referralCode: status.referralCode,
     referralCount: status.referralCount,
     boostPerReferral: REFERRAL_BOOST,

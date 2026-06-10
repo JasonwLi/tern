@@ -10,6 +10,9 @@ const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 // Each successful referral moves you this many places up the list.
 const REFERRAL_BOOST = 10;
 
+// First N signups get Founding Member perks (see Terms).
+const FOUNDING_CUTOFF = 500;
+
 export async function GET() {
   try {
     return NextResponse.json({ count: await countSignups() });
@@ -96,5 +99,6 @@ export async function POST(req: NextRequest) {
     referralCode: result.referralCode,
     referralCount: result.referralCount,
     boostPerReferral: REFERRAL_BOOST,
+    founding: position <= FOUNDING_CUTOFF,
   });
 }

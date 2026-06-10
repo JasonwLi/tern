@@ -32,6 +32,7 @@ export default function SignupForm({
   const [status, setStatus] = useState<Status>("idle");
   const [message, setMessage] = useState("");
   const [referralCode, setReferralCode] = useState<string | null>(null);
+  const [founding, setFounding] = useState(false);
   const [copied, setCopied] = useState(false);
 
   async function handleSubmit(e: React.FormEvent) {
@@ -71,6 +72,7 @@ export default function SignupForm({
       if (typeof data.referralCode === "string" && data.referralCode) {
         setReferralCode(data.referralCode);
       }
+      if (data.founding === true) setFounding(true);
       if (data.alreadyJoined) {
         setStatus("already");
         setMessage(t.alreadyBody);
@@ -128,6 +130,21 @@ export default function SignupForm({
           <span aria-hidden>🎉</span> {t.successTitle}
         </div>
         <p className="text-ink-soft">{message}</p>
+
+        {founding && (
+          <p className="mt-2 rounded-xl bg-white/70 px-3 py-2 text-sm font-bold text-ink">
+            {t.foundingUnlocked}
+          </p>
+        )}
+
+        <a
+          href="/downloads/tern-whv-money-kit.pdf"
+          target="_blank"
+          rel="noopener"
+          className="mt-3 inline-flex items-center gap-2 rounded-full bg-ink px-5 py-2.5 text-sm font-bold text-cream transition hover:bg-grape-600"
+        >
+          🎁 {t.kitDownload}
+        </a>
 
         {referralCode && (
           <div className="mt-4 rounded-2xl bg-white p-4">
@@ -245,7 +262,9 @@ export default function SignupForm({
           {message}
         </p>
       )}
-      <p className="mt-3 text-xs text-ink-soft/70">{t.noSpam}</p>
+      <p className="mt-3 text-sm font-semibold text-ink">{t.kitTeaser}</p>
+      <p className="mt-1 text-xs text-ink-soft">{t.foundingNote}</p>
+      <p className="mt-2 text-xs text-ink-soft/70">{t.noSpam}</p>
     </form>
   );
 }

@@ -333,6 +333,10 @@ export const es: Dictionary = {
     referralBody: "Comparte tu enlace: cada amigo que se una te sube 10 puestos.",
     referralCopy: "Copiar enlace",
     referralCopied: "¡Copiado!",
+    kitTeaser: "🎁 Únete y recibe al instante la Guía de Dinero WHV gratis (PDF).",
+    kitDownload: "Descarga tu Guía de Dinero WHV",
+    foundingNote: "Los primeros 500 de la lista serán Miembros Fundadores — un año de cambios de divisa sin comisión al lanzar.",
+    foundingUnlocked: "🏆 Lugar de Miembro Fundador asegurado — estás entre los primeros 500.",
   },
 
   about: {

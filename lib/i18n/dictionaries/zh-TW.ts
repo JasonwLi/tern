@@ -325,6 +325,10 @@ export const zhTW: Dictionary = {
     referralBody: "分享你的專屬連結，每位朋友加入就前進 10 個名次。",
     referralCopy: "複製連結",
     referralCopied: "已複製！",
+    kitTeaser: "🎁 立即加入，馬上免費獲得 WHV 理財懶人包（PDF）。",
+    kitDownload: "下載你的 WHV 理財懶人包",
+    foundingNote: "前 500 名將成為創始會員 — 上線後一年換匯免手續費。",
+    foundingUnlocked: "🏆 創始會員資格已鎖定 — 你在前 500 名內。",
   },
 
   about: {

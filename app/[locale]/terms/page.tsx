@@ -47,6 +47,7 @@ const SECTIONS: { h: string; ps: string[] }[] = [
     h: "The waitlist",
     ps: [
       "Joining the waitlist is free and creates no obligation on you or us. A waitlist position is indicative only — it does not guarantee access, timing, pricing or any particular feature. If we offer referral rewards or position boosts, we may adjust or cancel them to prevent abuse (for example fake or self-referred signups).",
+      "Founding Member perks (such as a period of fee-free currency swaps for early waitlist positions) describe our current intentions for launch. They are conditional on Tern launching in your market, may be modified before launch, have no monetary value before launch, and may be withdrawn in cases of abuse.",
     ],
   },
   {

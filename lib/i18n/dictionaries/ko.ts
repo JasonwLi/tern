@@ -325,6 +325,10 @@ export const ko: Dictionary = {
     referralBody: "링크를 공유하세요. 친구가 가입할 때마다 10자리 앞당겨져요.",
     referralCopy: "링크 복사",
     referralCopied: "복사됨!",
+    kitTeaser: "🎁 지금 등록하면 무료 WHV 머니 키트(PDF)를 바로 받을 수 있어요.",
+    kitDownload: "WHV 머니 키트 다운로드",
+    foundingNote: "선착순 500명은 파운딩 멤버 — 출시 후 1년간 환전 수수료 무료.",
+    foundingUnlocked: "🏆 파운딩 멤버 확정 — 선착순 500명 안에 들었어요.",
   },
 
   about: {

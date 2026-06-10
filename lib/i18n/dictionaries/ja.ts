@@ -323,6 +323,10 @@ export const ja: Dictionary = {
     referralBody: "リンクをシェアしよう。友達が1人登録するごとに10番早くなります。",
     referralCopy: "リンクをコピー",
     referralCopied: "コピーしました",
+    kitTeaser: "🎁 今すぐ登録すると、無料のWHVマネーキット（PDF）をすぐに受け取れます。",
+    kitDownload: "WHVマネーキットをダウンロード",
+    foundingNote: "先着500名はファウンディングメンバーに — ローンチ後1年間、両替手数料が無料。",
+    foundingUnlocked: "🏆 ファウンディングメンバー確定 — 先着500名以内です。",
   },
 
   about: {

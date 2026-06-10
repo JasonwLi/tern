@@ -9,6 +9,7 @@ interface StatusResult {
   position: number;
   referralCode: string;
   referralCount: number;
+  founding?: boolean;
 }
 
 export default function StatusChecker({
@@ -132,6 +133,21 @@ export default function StatusChecker({
               <p className="font-display text-4xl font-bold text-ink">{result.referralCount}</p>
             </div>
           </div>
+
+          {result.founding && (
+            <p className="mt-4 rounded-xl bg-lime-300/50 px-3 py-2 text-sm font-bold text-ink">
+              {signup.foundingUnlocked}
+            </p>
+          )}
+
+          <a
+            href="/downloads/tern-whv-money-kit.pdf"
+            target="_blank"
+            rel="noopener"
+            className="mt-4 inline-flex items-center gap-2 rounded-full bg-ink px-5 py-2.5 text-sm font-bold text-cream transition hover:bg-grape-600"
+          >
+            🎁 {signup.kitDownload}
+          </a>
 
           <div className="mt-5">
             <p className="font-display text-sm font-bold text-ink">{signup.referralTitle}</p>

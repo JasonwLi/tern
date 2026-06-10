@@ -333,6 +333,10 @@ export const it: Dictionary = {
     referralBody: "Condividi il tuo link — ogni amico che si iscrive ti fa guadagnare 10 posti.",
     referralCopy: "Copia il link",
     referralCopied: "Copiato!",
+    kitTeaser: "🎁 Iscriviti e ricevi subito il WHV Money Kit gratuito (PDF).",
+    kitDownload: "Scarica il tuo WHV Money Kit",
+    foundingNote: "I primi 500 in lista diventano Founding Member — un anno di cambi valuta senza commissioni al lancio.",
+    foundingUnlocked: "🏆 Posto da Founding Member assicurato — sei tra i primi 500.",
   },
 
   about: {
