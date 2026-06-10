@@ -329,6 +329,8 @@ export const ko: Dictionary = {
     kitDownload: "WHV 머니 키트 다운로드",
     foundingNote: "선착순 500명은 파운딩 멤버 — 출시 후 1년간 환전 수수료 무료.",
     foundingUnlocked: "🏆 파운딩 멤버 확정 — 선착순 500명 안에 들었어요.",
+    metalNote: "선착순 1,000명에게는 출시 때 이름과 디자인을 커스텀할 수 있는 메탈 카드를 무료로 드려요.",
+    metalUnlocked: "💳 커스텀 메탈 카드 예약 완료 — 선착순 1,000명 안에 들었어요.",
   },
 
   about: {

@@ -12,6 +12,8 @@ const REFERRAL_BOOST = 10;
 
 // First N signups get Founding Member perks (see Terms).
 const FOUNDING_CUTOFF = 500;
+// First N signups get the free customisable metal card at launch (see Terms).
+const METAL_CUTOFF = 1000;
 
 export async function GET() {
   try {
@@ -100,5 +102,6 @@ export async function POST(req: NextRequest) {
     referralCount: result.referralCount,
     boostPerReferral: REFERRAL_BOOST,
     founding: position <= FOUNDING_CUTOFF,
+    metalCard: position <= METAL_CUTOFF,
   });
 }

@@ -33,6 +33,7 @@ export default function SignupForm({
   const [message, setMessage] = useState("");
   const [referralCode, setReferralCode] = useState<string | null>(null);
   const [founding, setFounding] = useState(false);
+  const [metalCard, setMetalCard] = useState(false);
   const [copied, setCopied] = useState(false);
 
   async function handleSubmit(e: React.FormEvent) {
@@ -73,6 +74,7 @@ export default function SignupForm({
         setReferralCode(data.referralCode);
       }
       if (data.founding === true) setFounding(true);
+      if (data.metalCard === true) setMetalCard(true);
       if (data.alreadyJoined) {
         setStatus("already");
         setMessage(t.alreadyBody);
@@ -134,6 +136,12 @@ export default function SignupForm({
         {founding && (
           <p className="mt-2 rounded-xl bg-white/70 px-3 py-2 text-sm font-bold text-ink">
             {t.foundingUnlocked}
+          </p>
+        )}
+
+        {metalCard && (
+          <p className="mt-2 rounded-xl bg-white/70 px-3 py-2 text-sm font-bold text-ink">
+            {t.metalUnlocked}
           </p>
         )}
 
@@ -264,6 +272,7 @@ export default function SignupForm({
       )}
       <p className="mt-3 text-sm font-semibold text-ink">{t.kitTeaser}</p>
       <p className="mt-1 text-xs text-ink-soft">{t.foundingNote}</p>
+      <p className="mt-1 text-xs text-ink-soft">{t.metalNote}</p>
       <p className="mt-2 text-xs text-ink-soft/70">{t.noSpam}</p>
     </form>
   );

@@ -336,6 +336,8 @@ export const de: Dictionary = {
     kitDownload: "Lade dein WHV Money Kit herunter",
     foundingNote: "Die ersten 500 auf der Liste werden Founding Members — ein Jahr gebührenfreie Währungs-Swaps zum Start.",
     foundingUnlocked: "🏆 Founding-Member-Platz gesichert — du bist unter den ersten 500.",
+    metalNote: "Die ersten 1.000 bekommen zum Start eine gratis personalisierbare Metallkarte — dein Name, dein Design.",
+    metalUnlocked: "💳 Personalisierte Metallkarte reserviert — du bist unter den ersten 1.000.",
   },
 
   about: {

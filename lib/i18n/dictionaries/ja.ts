@@ -327,6 +327,8 @@ export const ja: Dictionary = {
     kitDownload: "WHVマネーキットをダウンロード",
     foundingNote: "先着500名はファウンディングメンバーに — ローンチ後1年間、両替手数料が無料。",
     foundingUnlocked: "🏆 ファウンディングメンバー確定 — 先着500名以内です。",
+    metalNote: "先着1,000名には、名前とデザインをカスタムできるメタルカードをローンチ時に無料でお届け。",
+    metalUnlocked: "💳 カスタムメタルカード確保 — 先着1,000名以内です。",
   },
 
   about: {

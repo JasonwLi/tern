@@ -329,6 +329,8 @@ export const zhTW: Dictionary = {
     kitDownload: "下載你的 WHV 理財懶人包",
     foundingNote: "前 500 名將成為創始會員 — 上線後一年換匯免手續費。",
     foundingUnlocked: "🏆 創始會員資格已鎖定 — 你在前 500 名內。",
+    metalNote: "前 1,000 名可在上線時免費獲得客製化金屬卡 — 刻上你的名字、選你的設計。",
+    metalUnlocked: "💳 客製金屬卡已保留 — 你在前 1,000 名內。",
   },
 
   about: {

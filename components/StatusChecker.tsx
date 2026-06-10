@@ -10,6 +10,7 @@ interface StatusResult {
   referralCode: string;
   referralCount: number;
   founding?: boolean;
+  metalCard?: boolean;
 }
 
 export default function StatusChecker({
@@ -137,6 +138,12 @@ export default function StatusChecker({
           {result.founding && (
             <p className="mt-4 rounded-xl bg-lime-300/50 px-3 py-2 text-sm font-bold text-ink">
               {signup.foundingUnlocked}
+            </p>
+          )}
+
+          {result.metalCard && (
+            <p className="mt-2 rounded-xl bg-grape-50 px-3 py-2 text-sm font-bold text-ink">
+              {signup.metalUnlocked}
             </p>
           )}
 

@@ -189,7 +189,7 @@ doc.roundedRect(M, boxY, W - 2 * M, 130, 14).fill(GRAPE);
 logo(M + 20, boxY + 20, 0.9);
 doc.font("Helvetica-Bold").fontSize(16).fillColor(CREAM).text("You're on the list — bring your crew.", M + 70, boxY + 24, { width: W - 2 * M - 90 });
 doc.font("Helvetica").fontSize(10.5).fillColor(CREAM).text(
-  "Every friend who joins with your link moves you 10 spots up the waitlist. The first 500 become Founding Members.",
+  "Every friend who joins with your link moves you 10 spots up the waitlist. First 500: Founding Member perks. First 1,000: a free customisable metal card at launch.",
   M + 70, doc.y + 6, { width: W - 2 * M - 90, lineGap: 2.5 }
 );
 doc.y = boxY + 140;

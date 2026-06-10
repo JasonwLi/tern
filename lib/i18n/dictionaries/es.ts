@@ -337,6 +337,8 @@ export const es: Dictionary = {
     kitDownload: "Descarga tu Guía de Dinero WHV",
     foundingNote: "Los primeros 500 de la lista serán Miembros Fundadores — un año de cambios de divisa sin comisión al lanzar.",
     foundingUnlocked: "🏆 Lugar de Miembro Fundador asegurado — estás entre los primeros 500.",
+    metalNote: "Los primeros 1,000 reciben una tarjeta de metal personalizable gratis al lanzar — tu nombre, tu diseño.",
+    metalUnlocked: "💳 Tarjeta de metal personalizada reservada — estás entre los primeros 1,000.",
   },
 
   about: {

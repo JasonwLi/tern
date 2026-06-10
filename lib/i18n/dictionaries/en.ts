@@ -336,6 +336,8 @@ export const en = {
     kitDownload: "Download your WHV Money Kit",
     foundingNote: "The first 500 on the list become Founding Members — a year of fee-free currency swaps at launch.",
     foundingUnlocked: "🏆 Founding Member spot secured — you're in the first 500.",
+    metalNote: "The first 1,000 get a free customisable metal card at launch — your name, your design.",
+    metalUnlocked: "💳 Custom metal card reserved — you're in the first 1,000.",
   },
 
   about: {
