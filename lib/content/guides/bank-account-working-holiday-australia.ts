@@ -348,5 +348,200 @@ export const article: Article = {
         },
       ],
     },
+    de: {
+      title: "Bankkonto für Work and Travel Australien eröffnen",
+      description:
+        "Australisches Bankkonto für dein Work and Travel vor der Abreise eröffnen — ohne feste Adresse. Was du brauchst und wie du ab dem ersten Zahltag Geld bekommst.",
+      excerpt:
+        "Keine Stromrechnung, keine feste Adresse, kein zweiwöchiges Warten. So eröffnen Work-and-Travel-Reisende wirklich ein australisches Konto — und bekommen schon am ersten Zahltag ihr Geld.",
+      sections: [
+        {
+          paragraphs: [
+            "Ein Bankkonto zu eröffnen ist die erste echte Hürde bei jedem Work and Travel in Australien — und genau hier verschwenden die meisten Backpacker Zeit und Geld. Du brauchst ein lokales Konto, um bezahlt zu werden, aber die großen Banken verlangen eine lokale Adresse und einen Filialbesuch, den du vom Hostel aus nicht erledigen kannst. Dieser Leitfaden zeigt dir deine Optionen und den schnellsten Weg zu einem funktionsfähigen Konto.",
+          ],
+        },
+        {
+          heading: "Was du für ein australisches Konto brauchst",
+          paragraphs: ["Für ein Working-Holiday-Visum (subclass 417 oder 462) benötigst du in der Regel:"],
+          bullets: [
+            "Gültiger Reisepass",
+            "Deine Working-Holiday-Visumsgenehmigung",
+            "Eine australische oder ausländische Adresse (Neobanken akzeptieren meist deine Heimatadresse)",
+            "Eine Steuernummer (TFN) — kannst du in den ersten Wochen nachreichen, aber ohne sie wird dir der Höchststeuersatz einbehalten",
+          ],
+        },
+        {
+          heading: "Das Problem ohne feste Adresse",
+          paragraphs: [
+            "Traditionelle Banken verlangen häufig einen Nachweis der lokalen Wohnadresse — ein Teufelskreis, wenn du im Hostel oder Campervan lebst. App-basierte Banken (Neobanken) verifizieren dich stattdessen mit Reisepass und Visum, sodass du das Konto schon von deiner Couch zu Hause eröffnen kannst, bevor du überhaupt fliegst.",
+            "Das ist wichtig, weil dein Arbeitgeber dich erst bezahlen kann, wenn du ihm eine lokale Kontonummer gibst. Richte es frühzeitig ein und dein erster Zahltag kommt nicht drei Wochen zu spät.",
+          ],
+        },
+        {
+          heading: "BSB und Kontonummer vor der Ankunft sichern",
+          paragraphs: [
+            "Eine australische Kontonummer besteht aus zwei Teilen: einer 6-stelligen [BSB](~/blog/what-is-a-bsb-number) (die Bank und Filiale identifiziert) und deiner Kontonummer. Dein Arbeitgeber braucht beides für die Gehaltsabrechnung. Mit einem digitalen Konto erhältst du beides sofort bei der Anmeldung — plus eine virtuelle Karte zum Zahlen, bevor die physische Karte ankommt.",
+          ],
+        },
+        {
+          heading: "Gebühren vermeiden, die sich still summieren",
+          bullets: [
+            "Auslands-ATM- und Kartengebühren, während du auf eine lokale Karte wartest",
+            "Monatliche Kontoführungsgebühren bei manchen herkömmlichen Konten",
+            "Schlechte Wechselkurse, wenn Familie von zu Hause Geld überweist",
+          ],
+        },
+        {
+          heading: "So hilft dir Tern",
+          paragraphs: [
+            "Tern ist für Work-and-Travel-Reisende gemacht: Eröffne ein Konto vom Ausland aus mit nur Reisepass und Visum, erhalte sofort eine echte BSB und Kontonummer für deinen Arbeitgeber, lade von zu Hause zum echten Wechselkurs auf und zahle ohne ATM-Gebühren. Deine physische Karte wird zu deinem ersten Hostel oder deiner Wohngemeinschaft geschickt.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "Kann ich ein australisches Bankkonto vor meiner Ankunft eröffnen?",
+          a: "Ja. Eine Neobank wie Tern verifiziert dich mit Reisepass und Working-Holiday-Visum, sodass du das Konto von zu Hause aus eröffnen und mit deiner Kontonummer für den Arbeitgeber in Australien ankommen kannst.",
+        },
+        {
+          q: "Brauche ich eine TFN, um das Konto zu eröffnen?",
+          a: "Nein — du kannst das Konto zuerst eröffnen. Beantrage deine Steuernummer aber schnell, denn ohne sie muss dein Arbeitgeber bis zur Nachreichung den höchsten Steuersatz einbehalten.",
+        },
+        {
+          q: "Wie werde ich beim Work and Travel bezahlt?",
+          a: "Gib deinem Arbeitgeber deine BSB und Kontonummer. Der Lohn wird am Zahltag direkt auf dein Konto überwiesen. Richtest du das Konto vor Arbeitsbeginn ein, vermeidest du wochenlange Verzögerungen.",
+        },
+      ],
+    },
+    fr: {
+      title: "Ouvrir un compte bancaire australien pour son PVT",
+      description:
+        "Ouvre un compte bancaire australien pour ton PVT avant d'arriver — sans adresse fixe. Ce qu'il te faut et comment être payé dès le premier jour.",
+      excerpt:
+        "Pas de facture d'électricité, pas d'adresse fixe, pas deux semaines d'attente. Voilà comment les pvtistes ouvrent vraiment un compte australien — et touchent leur salaire dès le premier jour de paie.",
+      sections: [
+        {
+          paragraphs: [
+            "Ouvrir un compte bancaire est le premier vrai obstacle de tout PVT en Australie — et c'est là que la plupart des backpackers perdent du temps et de l'argent. Tu as besoin d'un compte local pour être payé, mais les grandes banques réclament souvent une adresse locale et une visite en agence impossible à faire depuis une auberge. Ce guide passe en revue tes options et le chemin le plus rapide vers un compte opérationnel.",
+          ],
+        },
+        {
+          heading: "Ce qu'il te faut pour ouvrir un compte australien",
+          paragraphs: ["Pour un visa working holiday (subclass 417 ou 462), il te faudra généralement :"],
+          bullets: [
+            "Un passeport en cours de validité",
+            "L'accord d'attribution de ton visa working holiday",
+            "Une adresse australienne ou étrangère (une néobanque accepte généralement ton adresse de chez toi)",
+            "Un numéro fiscal (TFN) — tu peux l'ajouter dans les premières semaines, mais sans lui tu seras imposé au taux maximum",
+          ],
+        },
+        {
+          heading: "Le problème de l'adresse fixe",
+          paragraphs: [
+            "Les banques traditionnelles demandent souvent un justificatif de domicile local — un cercle vicieux quand tu vis en auberge ou en van. Les banques sur application (néobanques) te vérifient avec ton passeport et ton visa, donc tu peux ouvrir un compte depuis ton canapé avant même de prendre l'avion.",
+            "C'est crucial car ton employeur ne peut pas te payer tant qu'il n'a pas ton numéro de compte local. Ouvre-le tôt et ton premier jour de paie n'aura pas trois semaines de retard.",
+          ],
+        },
+        {
+          heading: "Obtiens ton BSB et ton numéro de compte avant d'atterrir",
+          paragraphs: [
+            "Un compte australien se compose de deux éléments : un [BSB](~/blog/what-is-a-bsb-number) à 6 chiffres (qui identifie la banque et l'agence) et ton numéro de compte. Ton employeur a besoin des deux pour te mettre en paie. Avec un compte digital, tu les obtiens instantanément à l'inscription, plus une carte virtuelle pour dépenser avant que ta carte physique arrive.",
+          ],
+        },
+        {
+          heading: "Évite les frais qui s'accumulent discrètement",
+          bullets: [
+            "Frais de retrait et de paiement à l'étranger en attendant ta carte locale",
+            "Frais de tenue de compte mensuels sur certains comptes classiques",
+            "Mauvais taux de change quand ta famille te vire de l'argent depuis la France",
+          ],
+        },
+        {
+          heading: "Comment Tern t'aide",
+          paragraphs: [
+            "Tern est conçu pour les pvtistes : ouvre un compte depuis l'étranger avec juste ton passeport et ton visa, reçois instantanément un vrai BSB et un numéro de compte à donner à ton employeur, recharge depuis chez toi au taux de change réel et paie sans frais de retrait. Ta carte physique est envoyée à ta première auberge ou colocation.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "Puis-je ouvrir un compte bancaire australien avant d'arriver ?",
+          a: "Oui. Une néobanque comme Tern te vérifie avec ton passeport et ton visa working holiday, donc tu peux ouvrir le compte depuis ton pays et arriver avec ton numéro de compte prêt pour ton employeur.",
+        },
+        {
+          q: "Ai-je besoin d'un TFN pour ouvrir le compte ?",
+          a: "Non — tu peux ouvrir le compte d'abord. Mais demande ton numéro fiscal rapidement, car sans lui ton employeur doit prélever des impôts au taux le plus élevé jusqu'à ce qu'il soit renseigné.",
+        },
+        {
+          q: "Comment suis-je payé en PVT ?",
+          a: "Donne à ton employeur ton BSB et ton numéro de compte. Le salaire est versé directement sur ton compte le jour de paie. Ouvrir le compte avant de commencer à travailler évite des semaines de délai.",
+        },
+      ],
+    },
+    it: {
+      title: "Aprire un conto bancario australiano per il working holiday",
+      description:
+        "Apri un conto bancario australiano per il tuo working holiday prima di arrivare — senza indirizzo fisso. Cosa ti serve e come ricevere il pagamento dal primo giorno.",
+      excerpt:
+        "Nessuna bolletta, nessun indirizzo fisso, nessuna attesa di due settimane. Ecco come chi fa working holiday apre davvero un conto australiano — e riceve il primo stipendio in tempo.",
+      sections: [
+        {
+          paragraphs: [
+            "Aprire un conto bancario è il primo vero ostacolo di qualsiasi working holiday in Australia — ed è qui che la maggior parte dei backpacker perde tempo e denaro. Ti serve un conto locale per ricevere lo stipendio, ma le grandi banche spesso richiedono un indirizzo locale e una visita in filiale impossibile da fare da un ostello. Questa guida ti illustra le opzioni e il percorso più rapido per avere un conto operativo.",
+          ],
+        },
+        {
+          heading: "Cosa ti serve per aprire un conto australiano",
+          paragraphs: ["Per un visto working holiday (subclass 417 o 462), di solito ti servirà:"],
+          bullets: [
+            "Un passaporto valido",
+            "La concessione del tuo visto working holiday",
+            "Un indirizzo australiano o estero (una neobank di solito accetta il tuo indirizzo di casa)",
+            "Un codice fiscale australiano (TFN) — puoi aggiungerlo entro le prime settimane, ma senza di esso verrai tassato all'aliquota massima",
+          ],
+        },
+        {
+          heading: "Il problema dell'assenza di indirizzo fisso",
+          paragraphs: [
+            "Le banche tradizionali chiedono spesso la prova di un indirizzo residenziale locale — un paradosso quando vivi in ostelli o in un camper. Le banche digitali (neobank) ti verificano con passaporto e visto, così puoi aprire il conto dal divano di casa prima ancora di partire.",
+            "È fondamentale perché il tuo datore di lavoro non può pagarti finché non gli fornisci un numero di conto locale. Aprilo in anticipo e il tuo primo giorno di paga non arriverà con tre settimane di ritardo.",
+          ],
+        },
+        {
+          heading: "Ottieni BSB e numero di conto prima di atterrare",
+          paragraphs: [
+            "Un conto australiano è composto da due parti: un [BSB](~/blog/what-is-a-bsb-number) a 6 cifre (che identifica la banca e la filiale) e il numero di conto. Il tuo datore di lavoro ha bisogno di entrambi per elaborare la busta paga. Con un conto digitale li ottieni immediatamente alla registrazione, più una carta virtuale per spendere prima che arrivi quella fisica.",
+          ],
+        },
+        {
+          heading: "Evita le commissioni che si accumulano in silenzio",
+          bullets: [
+            "Commissioni su ATM stranieri e carte mentre aspetti la carta locale",
+            "Spese mensili di gestione conto su alcuni conti tradizionali",
+            "Tassi di cambio sfavorevoli quando la famiglia ti ricarica da casa",
+          ],
+        },
+        {
+          heading: "Come ti aiuta Tern",
+          paragraphs: [
+            "Tern è costruita per chi fa working holiday: apri un conto dall'estero con solo passaporto e visto, ricevi subito un BSB reale e un numero di conto da consegnare al datore di lavoro, ricarica da casa al tasso di cambio reale e paga senza commissioni ATM. La carta fisica viene spedita al tuo primo ostello o casa condivisa.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "Posso aprire un conto bancario australiano prima di arrivare?",
+          a: "Sì. Una neobank come Tern ti verifica con passaporto e visto working holiday, quindi puoi aprire il conto dal tuo Paese e arrivare con il numero di conto già pronto per il datore di lavoro.",
+        },
+        {
+          q: "Ho bisogno di un TFN per aprire il conto?",
+          a: "No — puoi aprire prima il conto. Ma richiedi il codice fiscale australiano in fretta, perché senza di esso il tuo datore di lavoro è obbligato a trattenere le tasse all'aliquota più alta finché non viene aggiunto.",
+        },
+        {
+          q: "Come vengo pagato durante il working holiday?",
+          a: "Dai al tuo datore di lavoro il tuo BSB e il numero di conto. Lo stipendio viene accreditato direttamente sul conto il giorno di paga. Aprire il conto prima di iniziare a lavorare evita settimane di ritardo.",
+        },
+      ],
+    },
   },
 };

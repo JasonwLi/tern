@@ -398,5 +398,233 @@ export const article: Article = {
         },
       ],
     },
+    de: {
+      title: "Bankkonto in Kanada für Work and Travel (IEC)",
+      description:
+        "Work and Travel Kanada (IEC): SIN beantragen, Bankkonto eröffnen, CAD 2.500 Einreisenachweis und Gehalt in CAD empfangen.",
+      excerpt:
+        "Ohne SIN darfst du in Kanada nicht legal arbeiten. Hier erfährst du den schnellsten Weg zu SIN, Bankkonto und erstem CAD-Gehalt — in der richtigen Reihenfolge.",
+      sections: [
+        {
+          paragraphs: [
+            "Das IEC-Work-and-Travel-Visum öffnet dir die Tür nach Kanada — aber bevor du den ersten Dollar verdienst, brauchst du zwei Dinge in der richtigen Reihenfolge: eine Sozialversicherungsnummer (SIN) und ein kanadisches Bankkonto. Wer die Reihenfolge vertauscht, macht sich die erste Lohnabrechnung unnötig kompliziert.",
+          ],
+        },
+        {
+          heading: "Finanznachweis: die CAD 2.500 an der Grenze",
+          paragraphs: [
+            "Am kanadischen Grenzübergang kann dich ein Grenzbeamter auffordern, ausreichend Mittel für die ersten drei Monate nachzuweisen. Der Standardbetrag liegt bei CAD 2.500 in frei verfügbaren Mitteln.",
+            "Du musst einen Kontoauszug vorlegen, der nicht älter als eine Woche vor deiner Abreise ist. Darauf müssen dein Name und das Ausstellungsdatum deutlich erkennbar sein. Kreditkarten zählen nicht — akzeptiert werden nur liquide Mittel wie Bargeld, Sparkonten, Bankwechsel, beglaubigte Schecks oder Reiseschecks. Reist du mit CAD 10.000 oder mehr in irgendeiner Form ein, bist du gesetzlich verpflichtet, dies dem Grenzbeamten zu melden.",
+          ],
+        },
+        {
+          heading: "SIN beantragen — das kommt zuerst",
+          paragraphs: [
+            "Die Sozialversicherungsnummer (SIN) ist eine 9-stellige Nummer, die du brauchst, um in Kanada legal zu arbeiten und Regierungsprogramme zu nutzen. Als IEC-Work-and-Travel-Visumsinhaber erhältst du eine temporäre SIN, die mit der Ziffer '9' beginnt und dasselbe Ablaufdatum wie deine Arbeitserlaubnis hat.",
+            "Du kannst deine SIN online über Service Canada beantragen — das ist der schnellste Weg. Du benötigst deine IEC-Arbeitserlaubnis (das Dokument, das besagt, dass du \"in Kanada eine Beschäftigung annehmen darfst\"). Die Beantragung ist kostenlos.",
+          ],
+          bullets: [
+            "Online unter canada.ca beantragen oder persönlich bei einem Service-Canada-Büro",
+            "IEC-Arbeitserlaubnis und Reisepass mitbringen",
+            "Online-Anträge werden schnell bearbeitet — persönliche Besuche können Wartezeiten erfordern",
+            "Teile deine SIN dem Arbeitgeber vor oder spätestens 3 Tage nach Arbeitsbeginn mit",
+            "Deine temporäre SIN (beginnt mit '9') gilt bis zum Ablauf deiner Arbeitserlaubnis — verlängere sie rechtzeitig, damit die SIN gültig bleibt",
+          ],
+        },
+        {
+          heading: "Kanadisches Bankkonto eröffnen",
+          paragraphs: [
+            "Die meisten großen kanadischen Banken — TD, RBC, Scotiabank, BMO und CIBC — erlauben temporären Einwohnern mit gültiger Arbeitserlaubnis die Eröffnung eines Girokontos. Viele ermöglichen es dir, den Antrag vor der Einreise online zu starten und ihn dann mit deinen Unterlagen in der Filiale abzuschließen.",
+            "Typischerweise benötigst du: Reisepass, IEC-Arbeitserlaubnis, SIN (manche Banken lassen die Eröffnung zunächst ohne SIN zu und fügen sie später hinzu) sowie eine kanadische Adresse. Für die Adresse akzeptieren viele Banken vorübergehend ein Hostel, Airbnb oder die Adresse eines Freundes, solange du noch keine feste Unterkunft gefunden hast.",
+          ],
+          bullets: [
+            "TD und RBC bieten Neuzugezogenen die Möglichkeit, das Konto schon vor der Einreise online zu eröffnen",
+            "Reisepass, Arbeitserlaubnis und SIN zum Aktivierungstermin in der Filiale mitbringen",
+            "Eine vorübergehende Adresse (Hostel, Kurzzeitmiete) wird meist akzeptiert — frage bei deiner Bank nach",
+            "Die meisten Konten beinhalten ab dem ersten Tag eine Debitkarte und Online-Banking",
+            "Frage nach \"Newcomer\"- oder gebührenfreien Konten — mehrere Banken erlassen die Gebühren im ersten Jahr",
+          ],
+        },
+        {
+          heading: "Gehalt in CAD erhalten — was dein Arbeitgeber braucht",
+          paragraphs: [
+            "Damit dein kanadischer Arbeitgeber dir das Gehalt direkt überweisen kann, musst du die Transit-Nummer deiner Bank (5 Stellen), die Institutsnummer (3 Stellen) und die Kontonummer (7–12 Stellen) angeben. Diese Daten sind auf der Unterseite eines Schecks aufgedruckt oder stehen in deiner Banking-App unter \"Überweisungsdaten\".",
+            "Dein Arbeitgeber benötigt außerdem deine SIN für die Lohnbuchhaltung und den Steuerabzug. Bundeseinkommensteuer, Prämien zur Beschäftigungsversicherung (EI) und Beiträge zum Canada Pension Plan (CPP) werden direkt vom Lohn einbehalten. Am Jahresende reichst du eine T1-Steuererklärung ein, um alles abzurechnen — und erhältst möglicherweise eine Rückerstattung.",
+          ],
+        },
+        {
+          heading: "So hilft dir Tern",
+          paragraphs: [
+            "Tern führt dich bei der Ankunft Schritt für Schritt durch SIN-Antrag und Kontoeröffnung in der richtigen Reihenfolge, speichert deine kanadischen Bankdaten sicher und verfolgt deine Steuereinbehalte während des gesamten Aufenthalts. Wenn die Steuersaison kommt, hat Tern deine Einkommens- und Abzugshistorie parat — so wird das Einreichen deiner T1-Erklärung zum Selbstläufer und keine Rückerstattung geht verloren.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "Kann ich in Kanada arbeiten, bevor ich eine SIN habe?",
+          a: "Du musst die SIN innerhalb von 3 Tagen nach Arbeitsbeginn beantragen. Du kannst vor Erhalt der Nummer anfangen zu arbeiten, musst sie aber sofort beantragen und deinem Arbeitgeber spätestens 3 Tage nach Erhalt mitteilen. Ohne je eine SIN beantragt zu haben zu arbeiten ist illegal.",
+        },
+        {
+          q: "Was passiert, wenn ich an der Grenze keine CAD 2.500 nachweisen kann?",
+          a: "Grenzbeamte haben einen Ermessensspielraum. Kannst du keine ausreichenden Mittel nachweisen, stellen sie möglicherweise weitere Fragen oder verweigern im schlimmsten Fall die Einreise. Sorge dafür, dass dein Auszug nicht älter als 7 Tage vor Reiseantritt ist, deinen Namen deutlich zeigt und verfügbares Guthaben ausweist — kein Kreditlimit.",
+        },
+        {
+          q: "Bekomme ich kanadische Einkommensteuer zurück, wenn ich abreise?",
+          a: "Möglicherweise ja. Wenn im Laufe des Jahres zu viel Steuer einbehalten wurde — was häufig vorkommt, wenn du nur einen Teil des Jahres gearbeitet hast — kannst du eine T1-Steuererklärung einreichen und eine Erstattung erhalten. Die Erklärung kann auch nach der Ausreise aus Kanada eingereicht werden. Hebe alle T4-Belege deiner Arbeitgeber auf.",
+        },
+      ],
+    },
+    fr: {
+      title: "Compte bancaire au Canada en PVT (IEC)",
+      description:
+        "Guide bancaire pour les pvtistes au Canada (IEC) — obtenir son SIN, ouvrir un compte, la preuve de fonds CAD 2 500 et se faire payer en CAD.",
+      excerpt:
+        "Sans SIN, impossible de travailler légalement au Canada. Voici le chemin le plus rapide vers le SIN, un compte bancaire et ton premier salaire en CAD — dans le bon ordre.",
+      sections: [
+        {
+          paragraphs: [
+            "Le PVT (Programme Vacances-Travail) ouvre les portes du Canada — mais avant de gagner le moindre dollar, il te faut deux choses dans le bon ordre : un numéro d'assurance sociale (SIN) et un compte bancaire canadien. Si tu inverses la séquence, ta première paie risque de virer au casse-tête.",
+          ],
+        },
+        {
+          heading: "Preuve de fonds : les CAD 2 500 à montrer à la frontière",
+          paragraphs: [
+            "À ton arrivée à un point d'entrée canadien, un agent des services frontaliers peut te demander de prouver que tu disposes de fonds suffisants pour subvenir à tes besoins pendant les trois premiers mois. Le montant standard exigé est de CAD 2 500 en fonds disponibles.",
+            "Tu dois présenter un relevé bancaire émis au plus une semaine avant ton départ. Le relevé doit clairement indiquer ton nom et la date d'émission. Les cartes de crédit ne sont pas acceptées — seuls les fonds liquides comme le cash, les comptes d'épargne, les traites bancaires, les chèques certifiés ou les chèques de voyage sont recevables. Si tu arrives avec CAD 10 000 ou plus sous quelque forme que ce soit, tu es légalement tenu de le déclarer à l'agent frontalier.",
+          ],
+        },
+        {
+          heading: "Obtenir ton SIN — commence par là",
+          paragraphs: [
+            "Le numéro d'assurance sociale (SIN) est un numéro à 9 chiffres indispensable pour travailler légalement au Canada et accéder aux programmes gouvernementaux. En tant que pvtiste sous visa IEC, tu recevras un SIN temporaire commençant par le chiffre '9', dont la date d'expiration correspond à celle de ton permis de travail.",
+            "Tu peux demander ton SIN en ligne via Service Canada — c'est la méthode la plus rapide. Il te faudra ton permis de travail IEC (le document indiquant que tu \"peux accepter un emploi au Canada\"). La demande est gratuite.",
+          ],
+          bullets: [
+            "Faire la demande en ligne sur canada.ca ou en personne dans un bureau Service Canada",
+            "Apporter ton permis de travail IEC et ton passeport",
+            "Les demandes en ligne sont traitées rapidement — les visites en personne peuvent nécessiter une attente",
+            "Une fois obtenu, communique ton SIN à ton employeur avant ou dans les 3 jours suivant le début du travail",
+            "Ton SIN temporaire (commençant par '9') est valide jusqu'à l'expiration de ton permis de travail — renouvelle-le à temps pour garder ton SIN actif",
+          ],
+        },
+        {
+          heading: "Ouvrir un compte bancaire canadien",
+          paragraphs: [
+            "La plupart des grandes banques canadiennes — TD, RBC, Scotiabank, BMO et CIBC — permettent aux résidents temporaires titulaires d'un permis de travail valide d'ouvrir un compte chèques. Beaucoup te laissent démarrer la demande en ligne avant ton arrivée et la finaliser en agence avec tes documents.",
+            "Tu auras généralement besoin de : ton passeport, ton permis de travail IEC, ton SIN (certaines banques acceptent d'ouvrir le compte sans SIN dans un premier temps et de l'ajouter ensuite), et une adresse canadienne. Pour l'adresse, beaucoup de banques acceptent une auberge de jeunesse, un Airbnb ou l'adresse d'un ami comme adresse temporaire le temps de trouver un logement permanent.",
+          ],
+          bullets: [
+            "TD et RBC proposent l'ouverture de compte en ligne avant l'arrivée pour les nouveaux résidents",
+            "Apporter passeport, permis de travail et SIN au rendez-vous d'activation en agence",
+            "Une adresse temporaire (auberge, location courte durée) est généralement acceptée — vérifie auprès de ta banque",
+            "La plupart des comptes incluent une carte de débit et la banque en ligne dès le premier jour",
+            "Renseigne-toi sur les comptes \"nouveaux arrivants\" ou \"sans frais mensuels\" — plusieurs banques suppriment les frais la première année",
+          ],
+        },
+        {
+          heading: "Se faire payer en CAD — ce dont ton employeur a besoin",
+          paragraphs: [
+            "Pour recevoir un virement direct d'un employeur canadien, tu dois lui fournir le numéro de transit de ta banque (5 chiffres), le numéro d'institution (3 chiffres) et le numéro de compte (7 à 12 chiffres). Ces informations figurent au bas d'un chèque ou dans l'appli de ta banque sous \"informations de dépôt direct\".",
+            "Ton employeur aura également besoin de ton SIN pour la paie et la retenue d'impôt. L'impôt fédéral sur le revenu, les cotisations à l'assurance-emploi (EI) et les cotisations au Régime de pensions du Canada (CPP) sont tous déduits directement de ton salaire. En fin d'année, tu déposes une déclaration T1 pour régulariser la situation — et potentiellement obtenir un remboursement.",
+          ],
+        },
+        {
+          heading: "Comment Tern t'aide",
+          paragraphs: [
+            "Tern te guide pas à pas dans les démarches SIN et ouverture de compte dans le bon ordre dès ton arrivée, conserve tes coordonnées bancaires canadiennes en sécurité et suit tes retenues tout au long de ton séjour. Quand la saison fiscale arrive, Tern a ton historique de revenus et de déductions prêt — déposer ta déclaration T1 devient simple, et aucun remboursement ne t'échappe.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "Puis-je commencer à travailler au Canada avant d'avoir un SIN ?",
+          a: "Tu dois demander ton SIN dans les 3 jours suivant le début de l'emploi. Tu peux commencer à travailler avant de recevoir le numéro, mais tu dois en faire la demande immédiatement et le communiquer à ton employeur dans les 3 jours suivant sa réception. Travailler sans jamais avoir demandé de SIN est illégal.",
+        },
+        {
+          q: "Que se passe-t-il si je ne peux pas prouver CAD 2 500 à la frontière ?",
+          a: "Les agents des services frontaliers disposent d'un pouvoir discrétionnaire. Si tu ne peux pas démontrer des fonds suffisants, ils pourront te poser des questions supplémentaires ou, dans le pire des cas, te refuser l'entrée. Assure-toi que ton relevé date de moins de 7 jours avant le voyage, indique clairement ton nom et reflète des liquidités disponibles — pas seulement une limite de crédit.",
+        },
+        {
+          q: "Puis-je récupérer l'impôt sur le revenu canadien quand je pars ?",
+          a: "Oui, c'est possible. Si trop d'impôt a été retenu dans l'année — ce qui est fréquent quand on n'a travaillé qu'une partie de l'année — tu peux déposer une déclaration T1 et recevoir un remboursement. Tu peux la déposer même après avoir quitté le Canada. Conserve tous tes feuillets T4 remis par tes employeurs.",
+        },
+      ],
+    },
+    it: {
+      title: "Conto bancario in Canada con il working holiday (IEC)",
+      description:
+        "Guida bancaria per il visto working holiday IEC in Canada — ottenere il SIN, aprire un conto, i CAD 2.500 di prova dei fondi e ricevere lo stipendio in CAD.",
+      excerpt:
+        "Senza SIN non puoi lavorare legalmente in Canada. Ecco il percorso più rapido per ottenere il SIN, aprire un conto e ricevere il tuo primo stipendio in CAD — nell'ordine giusto.",
+      sections: [
+        {
+          paragraphs: [
+            "Il visto working holiday IEC ti apre le porte del Canada — ma prima di guadagnare un singolo dollaro hai bisogno di due cose nell'ordine giusto: un numero di assicurazione sociale (SIN) e un conto bancario canadese. Se li ottieni nell'ordine sbagliato, il tuo primo periodo di paga diventa un problema.",
+          ],
+        },
+        {
+          heading: "Prova dei fondi: i CAD 2.500 da mostrare alla frontiera",
+          paragraphs: [
+            "Quando arrivi a un punto di ingresso canadese, un agente dei servizi di frontiera potrebbe chiederti di dimostrare di avere fondi sufficienti per mantenerti durante i primi tre mesi. Il requisito standard è di CAD 2.500 in fondi accessibili.",
+            "Devi esibire un estratto conto bancario emesso non più di una settimana prima della tua partenza. L'estratto deve indicare chiaramente il tuo nome e la data di emissione. Le carte di credito non sono accettate — sono ammessi solo fondi liquidi come contanti, conti di risparmio, vaglia bancari, assegni certificati o traveller's cheque. Se arrivi con CAD 10.000 o più in qualsiasi forma, sei legalmente obbligato a dichiararlo all'agente di frontiera.",
+          ],
+        },
+        {
+          heading: "Ottenere il SIN — fallo prima di tutto",
+          paragraphs: [
+            "Il numero di assicurazione sociale (SIN) è un numero a 9 cifre necessario per lavorare legalmente in Canada e accedere ai programmi governativi. Come titolare del visto working holiday IEC, riceverai un SIN temporaneo che inizia con la cifra '9' e ha una data di scadenza corrispondente a quella del tuo permesso di lavoro.",
+            "Puoi richiedere il SIN online tramite Service Canada — è il metodo più rapido. Avrai bisogno del tuo permesso di lavoro IEC (il documento che indica che puoi \"accettare un impiego in Canada\"). Non ci sono costi per la richiesta.",
+          ],
+          bullets: [
+            "Fai la richiesta online su canada.ca o di persona presso un ufficio Service Canada",
+            "Porta il tuo permesso di lavoro IEC e il passaporto",
+            "Le richieste online vengono elaborate rapidamente — le visite di persona potrebbero richiedere attesa",
+            "Una volta ottenuto, fornisci il SIN al tuo datore di lavoro prima o entro 3 giorni dall'inizio del lavoro",
+            "Il tuo SIN temporaneo (che inizia con '9') è valido fino alla scadenza del tuo permesso di lavoro — rinnova il permesso per mantenere il SIN valido",
+          ],
+        },
+        {
+          heading: "Aprire un conto bancario canadese",
+          paragraphs: [
+            "La maggior parte delle grandi banche canadesi — TD, RBC, Scotiabank, BMO e CIBC — consente ai residenti temporanei con un permesso di lavoro valido di aprire un conto corrente. Molte ti permettono di iniziare la domanda online prima di arrivare e di completarla in filiale con i tuoi documenti.",
+            "In genere hai bisogno di: passaporto, permesso di lavoro IEC, SIN (alcune banche ti permettono di aprire il conto senza e di aggiungerlo in seguito) e un indirizzo canadese. Per l'indirizzo, molte banche accettano un ostello, un Airbnb o l'indirizzo di un amico come indirizzo temporaneo mentre cerchi un alloggio permanente.",
+          ],
+          bullets: [
+            "TD e RBC offrono l'apertura del conto online prima dell'arrivo per i nuovi residenti",
+            "Porta passaporto, permesso di lavoro e SIN all'appuntamento di attivazione in filiale",
+            "Un indirizzo temporaneo (ostello, affitto a breve termine) è di solito accettato — verifica con la tua banca",
+            "La maggior parte dei conti include una carta di debito e il banking online dal primo giorno",
+            "Chiedi dei conti 'per nuovi arrivati' o 'senza canone mensile' — diverse banche azzerano le commissioni per il primo anno",
+          ],
+        },
+        {
+          heading: "Ricevere lo stipendio in CAD — cosa serve al tuo datore di lavoro",
+          paragraphs: [
+            "Per ricevere un bonifico diretto da un datore di lavoro canadese, devi fornire il numero di transito della tua banca (5 cifre), il numero di istituto (3 cifre) e il numero di conto (7–12 cifre). Questi dati sono stampati nella parte inferiore di un assegno, oppure li trovi nell'app della tua banca nella sezione 'informazioni per il deposito diretto'.",
+            "Il tuo datore di lavoro avrà bisogno anche del tuo SIN per la gestione delle paghe e la ritenuta fiscale. L'imposta federale sul reddito, i premi per l'assicurazione contro la disoccupazione (EI) e i contributi al Canada Pension Plan (CPP) vengono tutti trattenuti dalla tua busta paga. A fine anno presenti una dichiarazione dei redditi T1 per fare il conguaglio — e potenzialmente ricevere un rimborso.",
+          ],
+        },
+        {
+          heading: "Come ti aiuta Tern",
+          paragraphs: [
+            "Tern ti guida attraverso le fasi del SIN e del conto bancario nell'ordine corretto all'arrivo, conserva in modo sicuro i tuoi dati bancari canadesi e tiene traccia delle tue ritenute per tutta la durata del soggiorno. Quando arriva la stagione fiscale, Tern ha pronto il tuo storico di redditi e detrazioni così che presentare la dichiarazione T1 sia semplice — e nessun rimborso vada perso.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "Posso iniziare a lavorare in Canada prima di avere un SIN?",
+          a: "Devi richiedere il SIN entro 3 giorni dall'inizio del lavoro. Puoi cominciare a lavorare prima di ricevere il numero, ma devi farne richiesta immediatamente e fornirlo al tuo datore di lavoro entro 3 giorni dalla ricezione. Lavorare senza aver mai richiesto un SIN è illegale.",
+        },
+        {
+          q: "Cosa succede se non riesco a dimostrare CAD 2.500 alla frontiera?",
+          a: "Gli agenti dei servizi di frontiera hanno potere discrezionale. Se non riesci a dimostrare fondi sufficienti, potrebbero farti ulteriori domande o, nel peggiore dei casi, negarti l'ingresso. Assicurati che il tuo estratto conto sia datato entro 7 giorni dal viaggio, mostri chiaramente il tuo nome e rifletta liquidità disponibile — non solo un limite di credito.",
+        },
+        {
+          q: "Posso recuperare l'imposta sul reddito canadese quando me ne vado?",
+          a: "Sì, è possibile. Se durante l'anno è stata trattenuta più imposta del necessario — cosa comune se hai lavorato solo per parte dell'anno — puoi presentare una dichiarazione T1 e ricevere un rimborso. Puoi presentarla anche dopo aver lasciato il Canada. Conserva tutti i tuoi moduli T4 rilasciati dai datori di lavoro.",
+        },
+      ],
+    },
   },
 };

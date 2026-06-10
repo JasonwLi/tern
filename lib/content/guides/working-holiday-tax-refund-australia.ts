@@ -334,5 +334,194 @@ export const article: Article = {
         },
       ],
     },
+    de: {
+      title: "45% Backpacker-Steuer in Australien — so holst du dir Geld zurück",
+      description:
+        "Ohne TFN werden in Australien 45% einbehalten. Wie die Backpacker-Steuer funktioniert, wie du eine TFN beantragst und deine Steuerrückerstattung (ca. $2.600) einfordern kannst.",
+      excerpt:
+        "Ohne Steuernummer behält dein Arbeitgeber brutale 45% ein. So vermeidest du das — und holst dir beim Abflug im Schnitt ~$2.600 zurück.",
+      sections: [
+        {
+          paragraphs: [
+            "Steuern sind der Bereich, in dem Work-and-Travel-Reisende am meisten Geld verlieren — erst durch zu hohe Einbehaltungen, dann weil sie nie eine Rückerstattung beantragen. Die gute Nachricht: Der Großteil lässt sich vermeiden, und vieles bekommst du zurück.",
+          ],
+        },
+        {
+          heading: "Warum dir 45% abgezogen werden können",
+          paragraphs: [
+            "Wenn du anfängst zu arbeiten, ohne deinem Arbeitgeber eine [Steuernummer (TFN)](~/blog/what-is-a-tfn) zu geben, ist dieser gesetzlich verpflichtet, 45% Steuer auf alles, was du verdienst, einzubehalten. Beantrage deine TFN direkt nach der Ankunft (kostenlos) und gib sie deinem Arbeitgeber, damit der korrekte Steuersatz gilt.",
+            "Mit einer TFN zahlen Work-and-Travel-Reisende 15% auf die ersten $45.000 ihres Einkommens — deutlich weniger als 45%.",
+          ],
+        },
+        {
+          heading: "So beantragst du eine Steuernummer (TFN)",
+          bullets: [
+            "Beantrage sie kostenlos online über das Australian Taxation Office (ATO), sobald du in Australien bist",
+            "Du brauchst deinen Reisepass und deine Visadaten",
+            "Sie kommt in der Regel innerhalb von etwa zwei Wochen an",
+            "Gib sie jedem Arbeitgeber, damit der Work-and-Travel-Steuersatz gilt und nicht 45%",
+          ],
+        },
+        {
+          heading: "So beantragst du deine Steuerrückerstattung bei der Abreise",
+          paragraphs: [
+            "Am Ende des Steuerjahres (oder wenn du Australien endgültig verlässt) reichst du eine Steuererklärung ein. Wenn zu viel einbehalten wurde — sehr häufig, wenn du einen Job angetreten hast, bevor deine TFN ankam — bekommst du die Differenz zurück. Die durchschnittliche Rückerstattung für Backpacker liegt bei rund $2.600.",
+            "Hebe alle Gehaltsabrechnungen und deine Einkommensbescheinigung auf. Du brauchst sie für eine genaue Steuererklärung und als Nachweis, was du verdient und was einbehalten wurde.",
+          ],
+        },
+        {
+          heading: "Verwechsle Steuer nicht mit Superannuation",
+          paragraphs: [
+            "Deine Steuerrückerstattung und dein Superannuation (die Altersvorsorge, die dein Arbeitgeber zusätzlich zum Lohn einzahlt) sind zwei getrennte Töpfe. Den Super beantragst du separat bei der Abreise — lies dazu unseren DASP-Guide.",
+          ],
+        },
+        {
+          heading: "Wie Tern dir hilft",
+          paragraphs: [
+            "Tern erinnert dich bei der Anmeldung daran, deine TFN zu beantragen, speichert deine Gehaltsabrechnungen an einem Ort, damit die Steuererklärung unkompliziert ist, und gibt dir Bescheid, wenn dein Arbeitgeber den falschen Steuersatz einbehält — damit du mehr von deinem Verdienst behältst und zurückbekommst, was dir zusteht.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "Warum werden mir bei Work and Travel 45% Steuern abgezogen?",
+          a: "Weil du deinem Arbeitgeber keine Steuernummer gegeben hast. Ohne TFN schreibt das Gesetz vor, 45% einzubehalten. Beantrage eine TFN und reiche sie ein, um auf den Work-and-Travel-Steuersatz von 15% zu kommen.",
+        },
+        {
+          q: "Wie hoch ist die durchschnittliche Steuerrückerstattung bei Work and Travel?",
+          a: "Rund $2.600, aber es hängt davon ab, wie viel du verdient und wie viel einbehalten wurde. Zu hohe Einbehaltungen vor der Ausstellung der TFN sind der häufigste Grund für eine hohe Rückerstattung.",
+        },
+        {
+          q: "Wann kann ich meine Steuern zurückfordern?",
+          a: "Nach Ende des Steuerjahres (30 June) oder wenn du Australien endgültig verlässt. Du reichst eine Steuererklärung beim ATO ein — mit deiner Einkommensbescheinigung und den Gehaltsabrechnungen.",
+        },
+      ],
+    },
+    fr: {
+      title: "Taxe backpacker 45% en Australie — récupère ton remboursement",
+      description:
+        "Sans TFN en Australie, 45% sont retenus à la source. Comment fonctionne la taxe backpacker, comment obtenir ton TFN et réclamer ton remboursement (moy. ~$2 600).",
+      excerpt:
+        "Sans numéro fiscal, ton employeur retient un brutal 45%. Voici comment l'éviter — et récupérer en moyenne ~$2 600 à ton départ.",
+      sections: [
+        {
+          paragraphs: [
+            "Les impôts, c'est là que les pvtistes perdent le plus d'argent en silence — d'abord à cause d'une retenue excessive, ensuite parce qu'ils ne réclament jamais de remboursement. La bonne nouvelle : la plupart de ces pertes sont évitables, et une bonne partie est récupérable.",
+          ],
+        },
+        {
+          heading: "Pourquoi tu peux être taxé à 45%",
+          paragraphs: [
+            "Si tu commences à travailler sans donner à ton employeur un [numéro fiscal (TFN)](~/blog/what-is-a-tfn), la loi l'oblige à retenir l'impôt au taux marginal maximum — 45% — sur tout ce que tu gagnes. Fais ta demande de TFN dès ton arrivée (c'est gratuit) et transmets-le à ton employeur pour être imposé au bon taux.",
+            "Avec un TFN, les titulaires d'un PVT sont imposés à 15% sur les premiers $45 000 de revenus — bien loin des 45%.",
+          ],
+        },
+        {
+          heading: "Comment obtenir un numéro fiscal (TFN)",
+          bullets: [
+            "Fais ta demande gratuitement en ligne auprès de l'Australian Taxation Office (ATO) dès que tu es en Australie",
+            "Tu auras besoin de ton passeport et des détails de ton visa",
+            "Il arrive généralement en deux semaines environ",
+            "Donne-le à chaque employeur pour être taxé au taux PVT et non à 45%",
+          ],
+        },
+        {
+          heading: "Réclamer ton remboursement d'impôt à ton départ",
+          paragraphs: [
+            "À la fin de l'année fiscale (ou quand tu quittes définitivement l'Australie), tu déposes une déclaration d'impôts. Si trop a été retenu — très courant si tu as commencé à travailler avant que ton TFN n'arrive — tu récupères la différence. Le remboursement moyen pour un backpacker est d'environ $2 600.",
+            "Conserve chaque bulletin de salaire et ton relevé de revenus. Tu en auras besoin pour déclarer avec précision et prouver ce que tu as gagné et ce qui a été retenu.",
+          ],
+        },
+        {
+          heading: "Ne confonds pas impôt et superannuation",
+          paragraphs: [
+            "Ton remboursement d'impôt et ta superannuation (l'épargne retraite que ton employeur verse en plus de ton salaire) sont deux cagnottes distinctes. Tu réclames la super séparément à ton départ — consulte notre guide DASP.",
+          ],
+        },
+        {
+          heading: "Comment Tern t'aide",
+          paragraphs: [
+            "Tern te rappelle de faire ta demande de TFN à l'inscription, stocke tes bulletins de salaire en un seul endroit pour que ta déclaration soit sans prise de tête, et te signale si ton employeur retient le mauvais taux — pour que tu gardes le maximum de ce que tu gagnes et récupères ce qui t'appartient.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "Pourquoi suis-je taxé à 45% pendant mon PVT ?",
+          a: "Parce que tu n'as pas donné ton numéro fiscal à ton employeur. Sans TFN, la loi impose une retenue au taux maximum de 45%. Fais ta demande de TFN et transmets-le pour passer au taux PVT de 15%.",
+        },
+        {
+          q: "Quel est le remboursement d'impôt moyen pour un PVT ?",
+          a: "Environ $2 600, selon ce que tu as gagné et ce qui a été retenu. La retenue excessive avant le traitement de ton TFN est la raison la plus fréquente d'un remboursement élevé.",
+        },
+        {
+          q: "Quand puis-je récupérer mes impôts ?",
+          a: "Après la fin de l'année fiscale (30 June) ou quand tu quittes définitivement l'Australie. Tu déposes une déclaration d'impôts auprès de l'ATO en utilisant ton relevé de revenus et tes bulletins de salaire.",
+        },
+      ],
+    },
+    it: {
+      title: "Tassa backpacker 45% in Australia — come ottenere il rimborso",
+      description:
+        "Senza TFN in Australia ti trattengono fino al 45%. Come funziona la tassa backpacker, come ottenere il TFN e richiedere il rimborso fiscale (media ~$2.600).",
+      excerpt:
+        "Senza codice fiscale il tuo datore di lavoro trattiene un brutale 45%. Ecco come evitarlo — e come recuperare in media ~$2.600 quando parti.",
+      sections: [
+        {
+          paragraphs: [
+            "Le tasse sono il settore in cui chi fa una working holiday perde più soldi in silenzio — prima per le trattenute eccessive, poi perché non richiede mai il rimborso. La buona notizia: la maggior parte è evitabile, e molto è rimborsabile.",
+          ],
+        },
+        {
+          heading: "Perché potresti essere tassato al 45%",
+          paragraphs: [
+            "Se inizi a lavorare senza dare al tuo datore di lavoro un [codice fiscale (TFN)](~/blog/what-is-a-tfn), la legge lo obbliga a trattenere le imposte all'aliquota massima del 45% su tutto ciò che guadagni. Richiedi il TFN appena arrivi (è gratuito) e consegnalo al tuo datore di lavoro per essere tassato correttamente.",
+            "Con un TFN, chi è in working holiday paga il 15% sui primi $45.000 di guadagni — ben lontano dal 45%.",
+          ],
+        },
+        {
+          heading: "Come ottenere un codice fiscale (TFN)",
+          bullets: [
+            "Fai domanda gratuitamente online tramite l'Australian Taxation Office (ATO) una volta che sei in Australia",
+            "Avrai bisogno del passaporto e dei dettagli del visto",
+            "Di solito arriva entro circa due settimane",
+            "Consegnalo a ogni datore di lavoro per essere tassato all'aliquota working holiday e non al 45%",
+          ],
+        },
+        {
+          heading: "Come richiedere il rimborso fiscale alla partenza",
+          paragraphs: [
+            "Alla fine dell'anno fiscale (o quando lasci definitivamente l'Australia) presenti la dichiarazione dei redditi. Se ti è stato trattenuto troppo — molto comune se hai iniziato a lavorare prima che arrivasse il TFN — ricevi indietro la differenza. Il rimborso medio per i backpacker è di circa $2.600.",
+            "Conserva tutte le buste paga e il tuo prospetto dei redditi. Ti serviranno per dichiarare con precisione e dimostrare quanto hai guadagnato e quanto ti è stato trattenuto.",
+          ],
+        },
+        {
+          heading: "Non confondere le tasse con la superannuation",
+          paragraphs: [
+            "Il rimborso fiscale e la superannuation (il risparmio previdenziale che il tuo datore di lavoro versa in aggiunta allo stipendio) sono due fondi separati. Richiedi la super separatamente quando parti — consulta la nostra guida DASP.",
+          ],
+        },
+        {
+          heading: "Come ti aiuta Tern",
+          paragraphs: [
+            "Tern ti ricorda di richiedere il TFN all'iscrizione, conserva le tue buste paga in un unico posto per rendere la dichiarazione dei redditi indolore, e ti avvisa se il tuo datore di lavoro trattiene l'aliquota sbagliata — così tieni di più di quello che guadagni e recuperi quello che ti spetta.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "Perché mi stanno tassando al 45% durante la mia working holiday?",
+          a: "Perché non hai fornito al tuo datore di lavoro il codice fiscale. Senza TFN, la legge impone la trattenuta all'aliquota massima del 45%. Richiedi un TFN e consegnalo per scendere all'aliquota working holiday del 15%.",
+        },
+        {
+          q: "Quanto vale il rimborso fiscale medio per una working holiday?",
+          a: "Circa $2.600, ma dipende da quanto hai guadagnato e da quanto ti è stato trattenuto. Le trattenute eccessive prima dell'elaborazione del TFN sono il motivo più comune per un rimborso elevato.",
+        },
+        {
+          q: "Quando posso richiedere il rimborso fiscale?",
+          a: "Dopo la fine dell'anno fiscale (30 June) o quando lasci definitivamente l'Australia. Presenti la dichiarazione dei redditi all'ATO usando il prospetto dei redditi e le buste paga.",
+        },
+      ],
+    },
   },
 };

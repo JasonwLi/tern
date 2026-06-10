@@ -34,6 +34,21 @@ const LOCALES = [
     cjk: false,
   },
   {
+    locale: "de",
+    tagline: "Die Neobank für dein\nWork and Travel",
+    cjk: false,
+  },
+  {
+    locale: "fr",
+    tagline: "La néobanque pensée\npour ton PVT",
+    cjk: false,
+  },
+  {
+    locale: "it",
+    tagline: "La neobank per il tuo\nworking holiday",
+    cjk: false,
+  },
+  {
     locale: "ja",
     tagline: "ワーホリのための\n新しい銀行",
     cjk: true,

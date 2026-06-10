@@ -356,5 +356,209 @@ export const article: Article = {
         },
       ],
     },
+    de: {
+      title: "Was ist eine BSB-Nummer? Australisches Banking erklärt",
+      description:
+        "Die BSB ist der 6-stellige Routing-Code, den dein australischer Arbeitgeber braucht, um dich zu bezahlen. Bedeutung, Fundort und typische Fehler.",
+      excerpt:
+        "Bevor dein erstes australisches Gehalt ankommen kann, braucht dein Arbeitgeber eine BSB-Nummer. Was das ist, wo du sie findest und warum dein SWIFT-Code dabei nichts nützt.",
+      sections: [
+        {
+          paragraphs: [
+            "Eine BSB-Nummer (Bank-State-Branch) ist ein 6-stelliger Code, der die Bank und Filiale identifiziert, bei der dein australisches Konto geführt wird. Zusammen mit deiner Kontonummer leitet er inländische Zahlungen in Australien direkt auf dein Konto — genauso wie ein Sort Code in Großbritannien oder eine Routing Number in den USA.",
+          ],
+        },
+        {
+          heading: "Aufbau einer BSB-Nummer",
+          paragraphs: [
+            "Die sechs Ziffern folgen dem Format XX-Y-ZZZ, oft mit einem Bindestrich nach der dritten Stelle geschrieben (zum Beispiel 062-000). Die ersten beiden Ziffern identifizieren das Geldinstitut. Die dritte Ziffer steht für das Bundesland (State), in dem die Filiale liegt. Die letzten drei Ziffern bestimmen die genaue Filialadresse.",
+            "BSB-Nummern werden vom Australian Payments Network (AusPayNet) verwaltet, dem Branchenverband für Australiens inländisches Zahlungssystem. Jede aktive BSB ist im offiziellen AusPayNet-Register eingetragen.",
+          ],
+        },
+        {
+          heading: "BSB + Kontonummer = so bekommst du dein Gehalt",
+          paragraphs: [
+            "Um eine Direktüberweisung von einem australischen Arbeitgeber zu erhalten, musst du zwei Angaben machen: deine BSB-Nummer und deine Kontonummer. Gemeinsam teilen sie dem Zahlungssystem genau mit, welches Konto gutgeschrieben werden soll. Keine der beiden Angaben allein reicht aus.",
+            "Deine Kontonummer hat typischerweise 6 bis 9 Stellen und ist nur dir zugeordnet. Die BSB teilen sich alle, die bei derselben Filiale desselben Instituts ein Konto haben. Beide Angaben werden auf Gehaltsformularen und Steuererklärungen benötigt.",
+          ],
+          bullets: [
+            "BSB: 6 Stellen, identifiziert deine Bank und Filiale",
+            "Kontonummer: 6–9 Stellen, identifiziert dein persönliches Konto",
+            "Beide sind erforderlich — wird nur eine angegeben, verzögert sich die Zahlung oder schlägt fehl",
+          ],
+        },
+        {
+          heading: "Wo du deine BSB-Nummer findest",
+          bullets: [
+            "In der mobilen App deiner Bank — suche nach 'Kontodetails' oder 'Geld überweisen'",
+            "In der Willkommens-E-Mail oder dem Brief, den deine Bank beim Kontoeröffnen geschickt hat",
+            "Auf deinem Kontoauszug (PDF oder Papier)",
+            "Beim Kundenservice deiner Bank per Telefon oder in der Filiale",
+            "Über die offizielle BSB-Suche von AusPayNet unter bsb.auspaynet.com.au, um eine BSB vor der Weitergabe zu prüfen",
+          ],
+        },
+        {
+          heading: "Häufige Fehler von Work-and-Travel-Teilnehmern",
+          bullets: [
+            "SWIFT/BIC-Code statt BSB angeben: SWIFT-Codes sind für internationale Überweisungen, nicht für australische Inlandsgehälter — das System deines Arbeitgebers wird die Zahlung ablehnen oder verzögern",
+            "Ziffern vertauschen: Eine einzige falsche Ziffer leitet dein Gehalt auf ein fremdes Konto oder löst eine Ablehnung aus; lies die BSB zur Kontrolle immer Ziffer für Ziffer vor",
+            "BSB und Kontonummer verwechseln: Die BSB hat immer genau 6 Stellen; gibst du mehr als 6 Stellen als BSB an, hast du einen Teil deiner Kontonummer mit eingeschlossen",
+            "BSB einer geschlossenen oder zusammengelegten Filiale verwenden: Banken setzen alte BSBs außer Betrieb, wenn Filialen schließen; prüfe deine BSB im Zweifelsfall in der AusPayNet-Suche, bevor du sie einem Arbeitgeber gibst",
+          ],
+        },
+        {
+          heading: "So hilft dir Tern",
+          paragraphs: [
+            "Wenn du in Australien ein Tern-Konto eröffnest, werden deine BSB und Kontonummer übersichtlich in der App angezeigt — in genau dem Format, das australische Gehaltsabrechnungssysteme erwarten. Du kannst deine Zahlungsdaten mit einem Tippen an deinen Arbeitgeber weitergeben, damit dein erstes Gehalt am richtigen Tag auf dem richtigen Konto landet.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "Ist eine BSB-Nummer dasselbe wie ein SWIFT-Code?",
+          a: "Nein. Eine BSB-Nummer wird für inländische Zahlungen innerhalb Australiens verwendet. Ein SWIFT/BIC-Code wird für internationale Banküberweisungen genutzt. Wenn dein Arbeitgeber dir ein lokales australisches Gehalt zahlt, braucht er deine BSB-Nummer und Kontonummer — keinen SWIFT-Code.",
+        },
+        {
+          q: "Kann ich dieselbe BSB für alle Konten bei derselben Bank verwenden?",
+          a: "Nicht unbedingt. BSB-Nummern identifizieren eine Bankfiliale, nicht die Bank als Ganzes. Wenn du Konten bei verschiedenen Filialen hast — oder wenn deine Bank ihre Filialstruktur geändert hat — kann deine BSB je nach Konto unterschiedlich sein. Geh nicht einfach davon aus, sondern prüfe immer die konkrete BSB, die für jedes Konto angezeigt wird.",
+        },
+      ],
+    },
+    fr: {
+      title: "C'est quoi un numéro BSB ? Le guide pour les pvtistes",
+      description:
+        "Le BSB est le code à 6 chiffres dont ton employeur australien a besoin pour te payer. Ce que ça signifie, où le trouver et les erreurs à éviter.",
+      excerpt:
+        "Avant de toucher ton premier salaire en Australie, ton employeur a besoin d'un numéro BSB. Ce que c'est, où le trouver, et pourquoi donner ton code SWIFT par erreur retarde ton virement.",
+      sections: [
+        {
+          paragraphs: [
+            "Un numéro BSB (Bank-State-Branch) est un code à 6 chiffres qui identifie la banque et l'agence précises où ton compte australien est domicilié. Associé à ton numéro de compte, il achemine les virements domestiques en Australie directement vers ton compte — comme le sort code au Royaume-Uni ou le routing number aux États-Unis.",
+          ],
+        },
+        {
+          heading: "La structure d'un numéro BSB",
+          paragraphs: [
+            "Les six chiffres suivent le format XX-Y-ZZZ, souvent écrit avec un tiret après le troisième chiffre (par exemple 062-000). Les deux premiers chiffres identifient l'établissement financier. Le troisième chiffre représente l'État australien où se trouve l'agence. Les trois derniers chiffres désignent l'adresse précise de l'agence.",
+            "Les numéros BSB sont gérés par l'Australian Payments Network (AusPayNet), l'organisme responsable du système de paiement domestique australien. Chaque BSB actif est enregistré dans le registre officiel d'AusPayNet.",
+          ],
+        },
+        {
+          heading: "BSB + numéro de compte = comment tu te fais payer",
+          paragraphs: [
+            "Pour recevoir un virement de ton employeur australien, tu dois lui fournir deux informations : ton numéro BSB et ton numéro de compte. Ensemble, ils indiquent au système de paiement exactement quel compte créditer. L'un sans l'autre ne suffit pas.",
+            "Ton numéro de compte fait généralement entre 6 et 9 chiffres et t'est propre. Le BSB est partagé par toutes les personnes qui ont un compte dans la même agence du même établissement. Les deux sont obligatoires sur les formulaires de paie et les déclarations fiscales.",
+          ],
+          bullets: [
+            "BSB : 6 chiffres, identifie ta banque et ton agence",
+            "Numéro de compte : 6 à 9 chiffres, identifie ton compte personnel",
+            "Les deux sont indispensables — n'en fournir qu'un seul retardera ou fera échouer le virement",
+          ],
+        },
+        {
+          heading: "Où trouver ton numéro BSB",
+          bullets: [
+            "Dans l'application mobile de ta banque — cherche « Détails du compte » ou les informations de virement",
+            "Dans l'e-mail ou le courrier de bienvenue envoyé par ta banque à l'ouverture du compte",
+            "Sur ton relevé de compte (PDF ou papier)",
+            "En appelant le service client de ta banque ou en te rendant en agence",
+            "Via l'outil de recherche BSB officiel d'AusPayNet sur bsb.auspaynet.com.au, pour vérifier un BSB avant de le communiquer",
+          ],
+        },
+        {
+          heading: "Les erreurs fréquentes des pvtistes",
+          bullets: [
+            "Donner un code SWIFT/BIC au lieu du BSB : les codes SWIFT servent aux virements internationaux, pas à la paie locale australienne — le système de ton employeur rejettera ou retardera le paiement",
+            "Inverser des chiffres : un seul chiffre erroné redirige ton salaire vers un autre compte ou provoque un rejet ; relis toujours le BSB chiffre par chiffre pour vérifier",
+            "Confondre le BSB et le numéro de compte : le BSB fait toujours exactement 6 chiffres ; si tu indiques plus de 6 chiffres pour le BSB, tu as inclus une partie de ton numéro de compte",
+            "Utiliser le BSB d'une agence fermée ou fusionnée : les banques retirent parfois d'anciens BSBs lors de fermetures d'agences ; en cas de doute, vérifie ton BSB dans l'outil AusPayNet avant de le donner à un employeur",
+          ],
+        },
+        {
+          heading: "Comment Tern t'aide",
+          paragraphs: [
+            "Quand tu ouvres un compte Tern en Australie, ton BSB et ton numéro de compte s'affichent clairement dans l'appli — exactement dans le format attendu par les systèmes de paie australiens. Tu peux partager tes coordonnées bancaires avec un employeur en un tap, pour que ton premier salaire arrive sur le bon compte au bon moment.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "Un numéro BSB, c'est la même chose qu'un code SWIFT ?",
+          a: "Non. Le numéro BSB sert aux paiements domestiques en Australie. Le code SWIFT/BIC sert aux virements bancaires internationaux. Si ton employeur te verse un salaire local en Australie, il a besoin de ton numéro BSB et de ton numéro de compte — pas d'un code SWIFT.",
+        },
+        {
+          q: "Puis-je utiliser le même BSB pour tous mes comptes dans la même banque ?",
+          a: "Pas nécessairement. Les numéros BSB identifient une agence bancaire, pas une banque dans son ensemble. Si tu as des comptes dans différentes agences — ou si ta banque a revu sa structure d'agences — ton BSB peut différer d'un compte à l'autre. Ne pars pas du principe qu'ils sont identiques : vérifie toujours le BSB affiché pour chaque compte.",
+        },
+      ],
+    },
+    it: {
+      title: "Cos'è il numero BSB? La guida al banking australiano",
+      description:
+        "Il BSB è il codice a 6 cifre che il tuo datore di lavoro australiano usa per pagarti. Cosa significa, dove trovarlo e gli errori da non fare.",
+      excerpt:
+        "Prima di ricevere il tuo primo stipendio in Australia, il datore di lavoro ha bisogno del numero BSB. Cos'è, dove trovarlo e perché dare il codice SWIFT per sbaglio ritarda il pagamento.",
+      sections: [
+        {
+          paragraphs: [
+            "Il numero BSB (Bank-State-Branch) è un codice a 6 cifre che identifica la banca e la filiale specifica in cui è acceso il tuo conto australiano. Insieme al numero di conto, instrada i pagamenti domestici in Australia direttamente sul tuo conto — proprio come il sort code nel Regno Unito o il routing number negli Stati Uniti.",
+          ],
+        },
+        {
+          heading: "Come è strutturato un numero BSB",
+          paragraphs: [
+            "Le sei cifre seguono il formato XX-Y-ZZZ, spesso scritto con un trattino dopo la terza cifra (per esempio 062-000). Le prime due cifre identificano l'istituto finanziario. La terza cifra indica lo Stato australiano in cui si trova la filiale. Le ultime tre cifre individuano l'indirizzo preciso della filiale.",
+            "I numeri BSB sono gestiti dall'Australian Payments Network (AusPayNet), l'ente responsabile del sistema di pagamento domestico australiano. Ogni BSB attivo è registrato nel registro ufficiale di AusPayNet.",
+          ],
+        },
+        {
+          heading: "BSB + numero di conto = come ricevi lo stipendio",
+          paragraphs: [
+            "Per ricevere un bonifico diretto da un datore di lavoro australiano devi fornire due informazioni: il numero BSB e il numero di conto. Insieme, dicono al sistema di pagamento esattamente su quale conto accreditare l'importo. Nessuno dei due da solo è sufficiente.",
+            "Il numero di conto è in genere lungo da 6 a 9 cifre ed è specifico per te. Il BSB è condiviso da tutti coloro che hanno un conto nella stessa filiale dello stesso istituto. Entrambi sono obbligatori sui moduli per la busta paga e nelle dichiarazioni fiscali.",
+          ],
+          bullets: [
+            "BSB: 6 cifre, identifica la tua banca e filiale",
+            "Numero di conto: 6–9 cifre, identifica il tuo conto personale",
+            "Entrambi sono necessari — fornirne solo uno ritarderà o farà fallire il pagamento",
+          ],
+        },
+        {
+          heading: "Dove trovare il tuo numero BSB",
+          bullets: [
+            "Nell'app mobile della tua banca — cerca \"Dettagli conto\" o le informazioni per i bonifici",
+            "Nell'e-mail o nella lettera di benvenuto che la banca ti ha inviato all'apertura del conto",
+            "Nel tuo estratto conto (PDF o cartaceo)",
+            "Chiamando il servizio clienti della tua banca o recandoti in filiale",
+            "Usando lo strumento ufficiale di ricerca BSB di AusPayNet su bsb.auspaynet.com.au per verificare un BSB prima di comunicarlo",
+          ],
+        },
+        {
+          heading: "Gli errori più comuni di chi fa un working holiday",
+          bullets: [
+            "Fornire un codice SWIFT/BIC al posto del BSB: i codici SWIFT servono per i bonifici internazionali, non per le buste paga locali australiane — il sistema del tuo datore di lavoro rifiuterà o ritarderà il pagamento",
+            "Trasporre le cifre: una sola cifra sbagliata dirige lo stipendio su un altro conto o provoca un rifiuto; rileggi sempre il BSB cifra per cifra per controllare",
+            "Confondere il BSB con il numero di conto: il BSB è sempre esattamente 6 cifre; se stai indicando più di 6 cifre per il BSB, hai incluso parte del numero di conto",
+            "Usare il BSB di una filiale chiusa o incorporata: le banche talvolta disattivano i vecchi BSB quando chiudono filiali; in caso di dubbio, verifica il tuo BSB nell'apposito strumento AusPayNet prima di darlo al datore di lavoro",
+          ],
+        },
+        {
+          heading: "Come ti aiuta Tern",
+          paragraphs: [
+            "Quando apri un conto Tern in Australia, il tuo BSB e il numero di conto sono mostrati chiaramente nell'app — nel formato esatto atteso dai sistemi paghe australiani. Puoi condividere le tue coordinate bancarie con il datore di lavoro con un solo tap, così il primo stipendio arriva sul conto giusto nel giorno giusto.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "Il numero BSB è uguale a un codice SWIFT?",
+          a: "No. Il numero BSB viene usato per i pagamenti domestici all'interno dell'Australia. Il codice SWIFT/BIC viene usato per i bonifici bancari internazionali. Se il tuo datore di lavoro ti paga uno stipendio locale australiano, ha bisogno del tuo numero BSB e del tuo numero di conto — non di un codice SWIFT.",
+        },
+        {
+          q: "Posso usare lo stesso BSB per tutti i miei conti nella stessa banca?",
+          a: "Non necessariamente. I numeri BSB identificano una filiale bancaria, non la banca nel suo insieme. Se hai conti in filiali diverse — o se la tua banca ha modificato la sua struttura di filiali — il BSB può essere diverso da conto a conto. Non dare nulla per scontato: verifica sempre il BSB specifico mostrato per ciascun conto.",
+        },
+      ],
+    },
   },
 };

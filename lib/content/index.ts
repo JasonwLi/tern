@@ -27,6 +27,9 @@ import { article as gNoAtm } from "./guides/no-atm-fees-working-holiday";
 import { article as gDepartJP } from "./guides/japan-departure-checklist-working-holiday";
 import { article as gDepartKR } from "./guides/korea-departure-checklist-working-holiday";
 import { article as gDepartTW } from "./guides/taiwan-departure-checklist-working-holiday";
+import { article as gDepartDE } from "./guides/germany-departure-checklist-working-holiday";
+import { article as gDepartFR } from "./guides/france-departure-checklist-working-holiday";
+import { article as gDepartIT } from "./guides/italy-departure-checklist-working-holiday";
 
 // Blog posts
 import { article as pSendMoney } from "./blog/send-money-home-working-holiday";
@@ -61,6 +64,9 @@ export const guides: Article[] = [
   gDepartJP,
   gDepartKR,
   gDepartTW,
+  gDepartDE,
+  gDepartFR,
+  gDepartIT,
   gNoAtm,
 ];
 

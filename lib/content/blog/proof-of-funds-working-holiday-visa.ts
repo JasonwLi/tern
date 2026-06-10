@@ -294,5 +294,167 @@ export const article: Article = {
         },
       ],
     },
+    de: {
+      title: "Finanznachweis fürs Work and Travel Visum: Betrag und Format",
+      description:
+        "Work and Travel Visa verlangen einen Finanznachweis — AUD 5.000 für Australien. Wie viel du brauchst, was gilt und wie du es am Grenzübergang vorlegst.",
+      excerpt:
+        "Australien erwartet ca. AUD 5.000, Neuseeland NZD 4.200. Hier erfährst du, was jedes Land verlangt — und wie du einen Finanznachweis erstellst, den Grenzbeamte akzeptieren.",
+      sections: [
+        {
+          paragraphs: [
+            "Die meisten Work and Travel Programme verlangen, dass du bei der Einreise nachweisen kannst, deinen Lebensunterhalt selbst zu bestreiten. Grenzbeamte können das — und tun es tatsächlich — stichprobenartig prüfen. Ohne geeignete Unterlagen anzureisen ist ein unnötig stressiger Start ins Abenteuer, dabei lässt es sich leicht vermeiden. Falls du noch dabei bist herauszufinden, [wie viel Geld du für deinen ersten Monat in Australien brauchst](~/guides/how-much-money-working-holiday-australia), kläre das zuerst, bevor du dich um das Format des Nachweises kümmerst.",
+          ],
+        },
+        {
+          heading: "Wie viel Geld brauchst du?",
+          bullets: [
+            "Australien (subclass 417/462): ca. AUD 5.000, plus Rückflugticket",
+            "Neuseeland: ca. NZD 4.200",
+            "Kanada (IEC): ca. CAD 2.500",
+            "Überprüfe vor dem Abflug immer die offiziellen Anforderungen für deine Staatsangehörigkeit und dein Visum — die Beträge können sich ändern",
+          ],
+        },
+        {
+          heading: "Was als Nachweis anerkannt wird",
+          paragraphs: [
+            "In der Regel ein aktueller Kontoauszug auf deinen Namen mit Kontostand. Das häufige Problem: App-generierte PDFs oder Screenshots wirken nicht \"offiziell\" genug und werden am Grenzübergang in Frage gestellt.",
+          ],
+        },
+        {
+          heading: "So vermeidest du Probleme an der Grenze",
+          bullets: [
+            "Einen formatierten Kontoauszug (PDF oder Ausdruck) mit einem Datum nahe deines Reisetages dabei haben",
+            "Sicherstellen, dass dein Name und der Kontostand klar erkennbar sind",
+            "Die Gelder vor dem Abflug auf deinem Konto verbuchen lassen — Last-Minute-Überweisungen können sich verzögern",
+            "Backup parat haben: ein zweiter Auszug oder ein Screenshot deines Kontostands in der App",
+          ],
+        },
+        {
+          heading: "Wie Tern dir hilft",
+          paragraphs: [
+            "Tern erstellt dir in Sekunden einen offiziellen, korrekt formatierten Finanznachweis — mit deinem Kontostand in lokaler Währung und deiner Heimatwährung sowie einem Verifizierungscode — damit du dem Grenzbeamten etwas vorzeigen kannst, das akzeptiert wird, und keinen Screenshot, der abgelehnt wird.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "Wie viel Geld brauche ich für ein australisches Work and Travel Visum?",
+          a: "Rund AUD 5.000, um bei der Einreise deine finanzielle Eigenversorgung nachzuweisen, plus ausreichend Mittel für einen Rück- oder Abflug. Prüfe vor der Reise den aktuellen offiziellen Betrag für deine Staatsangehörigkeit.",
+        },
+        {
+          q: "Was kann ich als Finanznachweis verwenden?",
+          a: "Ein aktueller Kontoauszug auf deinen Namen mit ausgewiesenem Kontostand. Ein klar formatiertes, offiziell wirkendes Dokument wird weit seltener in Frage gestellt als ein einfacher Screenshot.",
+        },
+      ],
+    },
+    fr: {
+      title: "Justificatif de fonds pour le PVT : montant et format requis",
+      description:
+        "Le PVT exige un justificatif de fonds — AUD 5 000 pour l'Australie. Montant requis, documents acceptés et comment les présenter à la frontière.",
+      excerpt:
+        "L'Australie demande ~AUD 5 000, la Nouvelle-Zélande NZD 4 200. Découvre ce qu'exige chaque pays et comment préparer un justificatif de fonds que les agents de frontière accepteront.",
+      sections: [
+        {
+          paragraphs: [
+            "La plupart des programmes PVT t'imposent de prouver que tu peux subvenir à tes besoins à ton arrivée. Les agents de frontière peuvent — et le font — effectuer des contrôles aléatoires. Arriver sans justificatif valable, c'est s'exposer à un stress inutile dès le départ, alors qu'il est tout à fait évitable. Si tu es encore en train d'estimer [combien d'argent il te faut pour ton premier mois en Australie](~/guides/how-much-money-working-holiday-australia), commence par là avant de te soucier du format du relevé.",
+          ],
+        },
+        {
+          heading: "Combien d'argent te faut-il ?",
+          bullets: [
+            "Australie (subclass 417/462) : environ AUD 5 000, plus les fonds pour un vol de retour",
+            "Nouvelle-Zélande : environ NZD 4 200",
+            "Canada (IEC) : environ CAD 2 500",
+            "Vérifie toujours les exigences officielles pour ta nationalité et ton visa avant de partir — les montants peuvent changer",
+          ],
+        },
+        {
+          heading: "Ce qui est accepté comme justificatif",
+          paragraphs: [
+            "En général, un relevé bancaire récent à ton nom indiquant ton solde. Le problème courant : les PDF générés par une appli ou les captures d'écran qui ne paraissent pas assez « officiels » et sont remis en question à la frontière.",
+          ],
+        },
+        {
+          heading: "Comment éviter les problèmes à la frontière",
+          bullets: [
+            "Apporter un relevé bancaire mis en forme (PDF ou imprimé) daté au plus près de ta date de voyage",
+            "Vérifier que ton nom et ton solde sont clairement visibles",
+            "T'assurer que les fonds sont bien disponibles sur ton compte avant de partir — les virements de dernière minute peuvent prendre du temps",
+            "Prévoir un justificatif de secours : un second relevé ou une capture d'écran de ton solde dans l'appli",
+          ],
+        },
+        {
+          heading: "Comment Tern t'aide",
+          paragraphs: [
+            "Tern génère en quelques secondes un justificatif de fonds officiel et correctement mis en forme — avec ton solde en devise locale et dans ta devise d'origine, accompagné d'un code de vérification — pour que tu puisses présenter à la frontière un document qui sera accepté, et non une capture d'écran qui sera refusée.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "Combien d'argent faut-il pour un PVT Australie ?",
+          a: "Environ AUD 5 000 pour prouver que tu peux subvenir à tes besoins à l'arrivée, plus de quoi payer un vol de retour ou de sortie du territoire. Vérifie le montant officiel en vigueur pour ta nationalité avant de partir.",
+        },
+        {
+          q: "Qu'est-ce que je peux utiliser comme justificatif de fonds ?",
+          a: "Un relevé bancaire récent à ton nom indiquant ton solde. Un document bien mis en forme et d'apparence officielle sera bien moins susceptible d'être contesté qu'une simple capture d'écran.",
+        },
+      ],
+    },
+    it: {
+      title: "Prova dei fondi per il working holiday visa: importo e formato",
+      description:
+        "Il working holiday visa richiede una prova dei fondi — AUD 5.000 per l'Australia. Quanto ti serve, cosa è valido e come presentarlo alla frontiera.",
+      excerpt:
+        "L'Australia richiede ~AUD 5.000, la Nuova Zelanda NZD 4.200. Scopri cosa chiede ogni paese e come preparare una prova dei fondi che gli agenti di frontiera accetteranno.",
+      sections: [
+        {
+          paragraphs: [
+            "La maggior parte dei programmi working holiday ti chiede di dimostrare che sei in grado di mantenerti all'arrivo. Gli agenti di frontiera possono — e lo fanno — effettuare controlli a campione. Arrivare senza i documenti giusti è un modo inutilmente stressante di iniziare un'avventura, e si può evitare del tutto. Se stai ancora calcolando [quanti soldi ti servono per il primo mese in Australia](~/guides/how-much-money-working-holiday-australia), inizia da lì prima di preoccuparti del formato dell'estratto conto.",
+          ],
+        },
+        {
+          heading: "Quanti soldi ti servono?",
+          bullets: [
+            "Australia (subclass 417/462): circa AUD 5.000, più i fondi per il volo di ritorno",
+            "Nuova Zelanda: circa NZD 4.200",
+            "Canada (IEC): circa CAD 2.500",
+            "Controlla sempre i requisiti ufficiali per la tua nazionalità e il tuo visto prima di partire — gli importi possono cambiare",
+          ],
+        },
+        {
+          heading: "Cosa vale come prova dei fondi",
+          paragraphs: [
+            "Di solito un estratto conto bancario recente a tuo nome che mostri il saldo. Il problema più comune: i PDF generati dall'app o gli screenshot non sembrano abbastanza \"ufficiali\" e vengono messi in discussione alla frontiera.",
+          ],
+        },
+        {
+          heading: "Come evitare problemi alla frontiera",
+          bullets: [
+            "Portare un estratto conto formattato (PDF o stampato) con una data vicina a quella del viaggio",
+            "Assicurarsi che il tuo nome e il saldo siano chiaramente visibili",
+            "Avere i fondi accreditati e disponibili sul conto prima di partire — i bonifici dell'ultimo minuto possono richiedere tempo",
+            "Tenere un backup: un secondo estratto conto o uno screenshot del saldo nell'app",
+          ],
+        },
+        {
+          heading: "Come ti aiuta Tern",
+          paragraphs: [
+            "Tern genera in pochi secondi una prova dei fondi ufficiale e correttamente formattata — con il saldo in valuta locale e nella tua valuta di origine, più un codice di verifica — così puoi mostrare alla frontiera un documento che verrà accettato, non uno screenshot che verrà rifiutato.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "Quanti soldi servono per un working holiday visa australiano?",
+          a: "Circa AUD 5.000 per dimostrare di potersi mantenere all'arrivo, più i fondi sufficienti per un volo di ritorno o di uscita dal paese. Verifica l'importo ufficiale aggiornato per la tua nazionalità prima di partire.",
+        },
+        {
+          q: "Cosa posso usare come prova dei fondi?",
+          a: "Un estratto conto bancario recente a tuo nome con il saldo ben visibile. Un documento ben formattato e dall'aspetto ufficiale ha molte meno probabilità di essere contestato rispetto a un semplice screenshot.",
+        },
+      ],
+    },
   },
 };

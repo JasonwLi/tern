@@ -449,5 +449,263 @@ export const article: Article = {
         },
       ],
     },
+    de: {
+      title: "Wie viel Geld brauchst du für Work and Travel Australien?",
+      description:
+        "Genaue Zahlen zu Visagebühr, AUD 5.000 Finanznachweis, Erstes-Monat-Budget und wie viel du vor dem Abflug sparen solltest.",
+      excerpt:
+        "Das Visum kostet AUD 670. Du brauchst AUD 5.000 auf dem Konto plus ein Rück- oder Weiterflugticket. So sieht dein erster Monat in Australien wirklich aus — und wie du mit genug Puffer ankommst.",
+      sections: [
+        {
+          paragraphs: [
+            "Work and Travel Australien (Subklasse 417) ist eines der beliebtesten Programme weltweit — aber bevor du Flüge buchst, musst du genau wissen, wie viel Geld du auf dem Konto haben solltest. Zwischen Visagebühr, Finanznachweis-Anforderung und den tatsächlichen Kosten des ersten Monats ist der Betrag höher, als die meisten erwarten.",
+          ],
+        },
+        {
+          heading: "Visaantragsgebühr",
+          paragraphs: [
+            "Die aktuelle Antragsgebühr für das Working Holiday Visum Subklasse 417 beträgt ungefähr AUD 670 (Stand Mitte 2026 — Gebühren werden jährlich überprüft, prüfe daher stets den aktuellen Betrag auf der Website des Department of Home Affairs vor der Antragstellung). Die Gebühr ist nicht erstattungsfähig und muss beim Einreichen des Antrags über ImmiAccount online bezahlt werden. Für die meisten Nationalitäten beim ersten 417-Visum fallen keine zusätzlichen Kosten für Biometrie oder Gesundheitsuntersuchungen an.",
+          ],
+        },
+        {
+          heading: "Finanznachweis: AUD 5.000 + Rückflugticket",
+          paragraphs: [
+            "Das Department of Home Affairs verlangt, dass Working-Holiday-Visainhaber über ausreichende Mittel zur Selbstversorgung für die gesamte Aufenthaltsdauer verfügen. Der allgemein genannte Richtwert sind AUD 5.000 an verfügbaren Ersparnissen plus ein Rück- oder Weiterflugticket — oder die Mittel, eines zu kaufen. Einen vollständigen Überblick darüber, was gilt und wie du es nachweist, findest du in unserem Leitfaden zum [Finanznachweis für das Working Holiday Visum](~/blog/proof-of-funds-working-holiday-visa).",
+            "Am Flughafen wird in der Regel kein Kontoauszug verlangt, aber Einwanderungsbeamte können danach fragen. Praktisch gesehen ist der AUD-5.000-Richtwert das, was dein Konto ausweisen sollte, um für alle Szenarien gewappnet zu sein — einschließlich eines Vermieters oder Arbeitgebers, der einen Finanznachweis verlangt.",
+          ],
+          bullets: [
+            "AUD 5.000 auf einem Spar- oder Girokonto — nur liquide Mittel; Kreditkartenlimits zählen nicht",
+            "Gebuchtes Rück- oder Weiterflugticket oder gleichwertige Mittel zum Kauf eines solchen",
+            "Kontoauszug der letzten 3 Monate mit Name und Kontostand",
+            "Wenn du AUD 10.000 oder mehr mitführst oder überweist, musst du dies auf deiner Einreiseerklärung angeben",
+          ],
+        },
+        {
+          heading: "Budget-Aufschlüsselung für den ersten Monat",
+          paragraphs: [
+            "Dein erster Monat in Australien ist in der Regel der teuerste — du zahlst für Unterkunft, bevor du ein WG-Zimmer gefunden hast, isst auswärts, bevor du eine Küche nutzen kannst, und kaufst Dinge, die du nicht eingepackt hast. Hier ist eine realistische Wochen- und Monatsübersicht für jemanden, der in einer Großstadt wie Sydney oder Melbourne lebt.",
+          ],
+          bullets: [
+            "Hostel-Schlafsaalplatz: AUD 180–320 pro Woche (je nach Stadt und Saison sehr unterschiedlich)",
+            "Lebensmittel und Einkäufe: AUD 80–150 pro Woche (Selbstkochen in der Hostelküche spart spürbar)",
+            "Lokale SIM-Karte: AUD 30–50 für den ersten Monat (Prepaid-Tarife von Telstra, Optus oder Vodafone)",
+            "Öffentlicher Nahverkehr: AUD 50–100 pro Woche je nach Mobilität",
+            "Mietkaution: AUD 1.000–2.000 beim Einzug in eine WG (in der Regel 4 Wochen Miete im Voraus plus Kaution)",
+            "Diverses (Hygieneartikel, Kleidung, Freizeit): AUD 100–200 pro Monat",
+          ],
+        },
+        {
+          heading: "Puffer bis zum ersten Gehalt",
+          paragraphs: [
+            "Die meisten australischen Arbeitgeber zahlen wöchentlich oder zweiwöchentlich. Wenn du in der ersten Woche anfängst zu arbeiten, könntest du dein erstes Gehalt innerhalb von 7–14 Tagen erhalten — aber Verzögerungen bei der Gehaltsabrechnung und die Zeit, die du brauchst, um ein Bankkonto zu eröffnen und eine Tax File Number (TFN) zu beantragen, machen zwei bis vier Wochen ohne Einkommen zu einer realistischen Erwartung.",
+            "Vier Wochen der oben genannten Kosten summieren sich auf AUD 1.800–3.000 an Lebenshaltungskosten, bevor du etwas verdienst. Deshalb ist AUD 5.000 das Minimum — kein komfortabler Puffer.",
+          ],
+        },
+        {
+          heading: "Richtwerte: Wie viel solltest du vor dem Abflug gespart haben?",
+          paragraphs: [
+            "Alles zusammengerechnet — das sind realistische Gesamt-Sparziele, bevor du ins Flugzeug steigst.",
+          ],
+          bullets: [
+            "Absolutes Minimum (knappes Budget, Schlafsaal, schnell Arbeit finden): AUD 5.000 + Rückflug",
+            "Komfortabler Puffer (erster Monat abgedeckt, kleiner Notgroschen): AUD 7.000–8.000",
+            "Empfohlen, wenn du erst reisen oder dir Zeit bei der Jobsuche lassen möchtest: AUD 10.000+",
+            "Beachte: Diese Beträge sind Ankunftsersparnisse — ohne die Visagebühr, die du vor der Abreise zahlst",
+          ],
+        },
+        {
+          heading: "Wie Tern dir hilft",
+          paragraphs: [
+            "Mit dem Finanznachweis-Generator von Tern kannst du eine saubere, datierte Kontostandszusammenfassung exportieren — für Einwanderungsbeamte, Vermieter oder Arbeitgeber, ohne langes Suchen nach dem richtigen Kontoauszugformat. Du kannst dein Tern-Konto von zu Hause aus zum echten Mittelkurs aufladen, bevor du fliegst, und so mit AUD in der Tasche ohne Aufschlag ankommen. Sobald du arbeitest, wird dein Gehalt pünktlich am Zahltag gutgeschrieben, und Tern berechnet keine ATM-Gebühren — jeder abhebende Euro gehört dir.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "Wie viel Geld brauche ich für Work and Travel Australien?",
+          a: "Das Department of Home Affairs setzt den Richtwert bei AUD 5.000 an verfügbaren Mitteln plus einem Aus- oder Rückflugticket an. Dazu kommen die Visaantragsgebühr von ungefähr AUD 670 (vor der Abreise zu zahlen) sowie realistisch AUD 1.800–3.000 Lebenshaltungskosten für den ersten Monat, bevor dein erstes Gehalt eintrifft. Mit einem Gesamt-Sparziel von AUD 7.000–8.000 vor der Abreise bist du komfortabel aufgestellt.",
+        },
+        {
+          q: "Überprüfen australische Einwanderungsbeamte wirklich den Finanznachweis?",
+          a: "Australische Grenzbeamte können prüfen, und das Department of Home Affairs kann bei der Antragstellung oder bei der Einreise einen Nachweis verlangen. Häufiger ist es so, dass Vermieter, WG-Anzeigen und manche Arbeitgeber einen Kontoauszug sehen möchten. Der praktische Standard, den du erfüllen solltest, sind AUD 5.000, die auf einem Bankkonto sichtbar sind — kein Kreditrahmen.",
+        },
+        {
+          q: "Kann ich mein Heimatkonto als Finanznachweis verwenden?",
+          a: "Ja — ein Kontoauszug deines Kontos im Heimatland, der einem Gegenwert von AUD 5.000 entspricht, ist für Visum und Grenzkontrolle akzeptabel. Sobald du in Australien bist, benötigst du jedoch ein australisches Bankkonto (mit BSB und Kontonummer) für die direkte Gehaltsüberweisung durch Arbeitgeber. Eröffne es gleich nach deiner Ankunft und beantrage gleichzeitig deine Tax File Number.",
+        },
+      ],
+    },
+    fr: {
+      title: "Combien d'argent faut-il pour un PVT en Australie ?",
+      description:
+        "Chiffres exacts pour les frais de visa, les AUD 5 000 de fonds requis, le budget du premier mois et ce qu'il faut économiser avant de partir.",
+      excerpt:
+        "Le visa coûte AUD 670. Il te faut AUD 5 000 en banque et un billet de retour. Voici ce que coûte vraiment ton premier mois en Australie — et comment arriver avec une marge suffisante.",
+      sections: [
+        {
+          paragraphs: [
+            "Le visa vacances-travail australien (sous-classe 417) est l'un des programmes PVT les plus populaires au monde — mais avant de réserver tes vols, tu dois savoir exactement combien d'argent avoir en banque. Entre les frais de visa, l'exigence de fonds, et le coût réel du premier mois, le montant est plus élevé que la plupart des pvtistes ne l'imaginent.",
+          ],
+        },
+        {
+          heading: "Frais de demande de visa",
+          paragraphs: [
+            "Les frais actuels de demande pour le visa vacances-travail sous-classe 417 sont d'environ AUD 670 (à mi-2026 — les frais sont révisés chaque année, vérifie toujours le montant en vigueur sur le site du Department of Home Affairs avant de postuler). Ces frais ne sont pas remboursables et doivent être réglés en ligne au moment du dépôt de ta demande via ImmiAccount. Pour la plupart des nationalités qui font leur première demande de visa 417, aucun frais supplémentaire de biométrie ou d'examen médical n'est requis.",
+          ],
+        },
+        {
+          heading: "Justificatif de fonds : AUD 5 000 + billet de sortie",
+          paragraphs: [
+            "Le Department of Home Affairs exige que les titulaires du visa vacances-travail disposent de fonds suffisants pour subvenir à leurs besoins pendant tout leur séjour. Le seuil communément cité est AUD 5 000 d'épargne disponible, plus un billet retour ou de continuation — ou les fonds pour en acheter un. Pour une présentation complète de ce qui est accepté et comment le justifier, consulte notre guide sur le [justificatif de fonds pour le PVT](~/blog/proof-of-funds-working-holiday-visa).",
+            "Tu ne seras généralement pas invité à présenter un relevé bancaire à l'aéroport, mais les agents de l'immigration peuvent le demander. Plus concrètement, les AUD 5 000 représentent ce que ton compte devrait afficher pour faire face à tous les scénarios possibles, y compris un propriétaire ou un employeur qui te demanderait un justificatif de fonds.",
+          ],
+          bullets: [
+            "AUD 5 000 sur un compte épargne ou courant — fonds liquides uniquement ; les plafonds de carte de crédit ne comptent pas",
+            "Réservation d'un billet retour ou de continuation, ou fonds équivalents pour en acheter un",
+            "Relevé de compte datant de moins de 3 mois indiquant ton nom et ton solde",
+            "Si tu transportes ou transfères AUD 10 000 ou plus, tu dois le déclarer sur ta carte de passager à l'arrivée",
+          ],
+        },
+        {
+          heading: "Budget détaillé du premier mois",
+          paragraphs: [
+            "Ton premier mois en Australie est généralement le plus coûteux — tu paies un hébergement avant d'avoir trouvé une colocation, tu manges au restaurant avant d'avoir accès à une cuisine, et tu achètes des affaires que tu n'as pas emportées. Voici une estimation réaliste semaine par semaine et mois par mois pour quelqu'un installé dans une grande ville comme Sydney ou Melbourne.",
+          ],
+          bullets: [
+            "Lit en dortoir d'auberge de jeunesse : AUD 180–320 par semaine (varie fortement selon la ville et la saison)",
+            "Alimentation et courses : AUD 80–150 par semaine (cuisiner dans la cuisine de l'auberge réduit nettement les dépenses)",
+            "Carte SIM locale : AUD 30–50 pour le premier mois (forfaits prépayés Telstra, Optus ou Vodafone)",
+            "Transports en commun : AUD 50–100 par semaine selon tes déplacements",
+            "Caution de location : AUD 1 000–2 000 si tu emménages en colocation (généralement 4 semaines de loyer d'avance plus caution)",
+            "Dépenses diverses (hygiène, vêtements, sorties) : AUD 100–200 par mois",
+          ],
+        },
+        {
+          heading: "Marge jusqu'au premier salaire",
+          paragraphs: [
+            "La plupart des employeurs australiens paient chaque semaine ou toutes les deux semaines. Si tu commences à travailler dès la première semaine, tu pourrais recevoir ta première paie dans les 7 à 14 jours — mais les délais de traitement de la paie et le temps nécessaire pour ouvrir un compte bancaire et obtenir un Tax File Number (TFN) font que deux à quatre semaines sans revenus est une attente réaliste.",
+            "Additionne quatre semaines des dépenses ci-dessus et tu arrives à AUD 1 800–3 000 de frais de vie avant de toucher quoi que ce soit. C'est pourquoi AUD 5 000 est le minimum — et non une marge confortable.",
+          ],
+        },
+        {
+          heading: "Récapitulatif : combien économiser avant de partir ?",
+          paragraphs: [
+            "En mettant tout bout à bout, voici des objectifs d'épargne totale réalistes avant d'embarquer.",
+          ],
+          bullets: [
+            "Strict minimum (budget serré, dortoir partagé, trouver du travail rapidement) : AUD 5 000 + billet retour",
+            "Marge confortable (premier mois couvert, petite réserve d'urgence) : AUD 7 000–8 000",
+            "Recommandé si tu veux voyager d'abord ou prendre le temps de chercher du travail : AUD 10 000+",
+            "À noter : ces montants correspondent à l'épargne à l'arrivée — sans compter les frais de visa que tu paieras avant de quitter ton pays",
+          ],
+        },
+        {
+          heading: "Comment Tern t'aide",
+          paragraphs: [
+            "Le générateur de justificatifs de fonds de Tern te permet d'exporter un récapitulatif clair et daté de ton solde à présenter aux agents de l'immigration, aux propriétaires ou aux employeurs — fini la chasse au bon format de relevé bancaire. Tu peux alimenter ton compte Tern depuis chez toi au taux de change réel avant de partir, et ainsi arriver avec des AUD directement disponibles sans aucune marge. Une fois que tu travailles, ton salaire arrive le jour de paie sans délai, et Tern ne facture aucuns frais de retrait — chaque dollar que tu retires est à toi.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "Combien d'argent faut-il pour un PVT en Australie ?",
+          a: "Le Department of Home Affairs fixe le seuil à AUD 5 000 de fonds disponibles plus un billet de sortie ou de retour. Ajoute à cela les frais de demande de visa d'environ AUD 670 (à payer avant de partir) et, réalistement, AUD 1 800–3 000 de frais de vie pour ton premier mois avant de toucher ta première paie. Un objectif d'épargne total avant le départ de AUD 7 000–8 000 te donne une marge confortable.",
+        },
+        {
+          q: "Les agents de l'immigration vérifient-ils vraiment les fonds à l'arrivée en Australie ?",
+          a: "Les agents des frontières australiens peuvent contrôler, et le Department of Home Affairs peut demander un justificatif lors de ta demande ou à l'arrivée. Plus couramment, les propriétaires, les annonces de colocation et certains employeurs demanderont à voir un relevé bancaire. La norme pratique à atteindre est AUD 5 000 visibles sur un compte bancaire — pas un plafond de crédit.",
+        },
+        {
+          q: "Puis-je utiliser mon compte bancaire français comme justificatif de fonds ?",
+          a: "Oui — un relevé de ton compte dans ton pays d'origine affichant l'équivalent de AUD 5 000 est acceptable pour le visa et le contrôle aux frontières. Cependant, une fois en Australie, tu auras besoin d'un compte bancaire australien (avec BSB et numéro de compte) pour recevoir ton salaire en virement direct. Ouvre-en un dès ton arrivée et fais ta demande de Tax File Number en même temps.",
+        },
+      ],
+    },
+    it: {
+      title: "Quanti soldi servono per un working holiday in Australia?",
+      description:
+        "Cifre precise su costi del visto, AUD 5.000 di fondi richiesti, budget del primo mese e quanto risparmiare prima di partire.",
+      excerpt:
+        "Il visto costa AUD 670. Servono AUD 5.000 in banca più un biglietto di uscita. Ecco quanto costa davvero il primo mese in Australia — e come arrivare con un margine sufficiente.",
+      sections: [
+        {
+          paragraphs: [
+            "Il visto working holiday australiano (sottoclasse 417) è uno dei programmi più popolari al mondo — ma prima di prenotare i voli devi sapere esattamente quanti soldi avere in banca. Tra la tassa del visto, il requisito di fondi e il costo reale del primo mese, la cifra è più alta di quanto la maggior parte delle persone si aspetti.",
+          ],
+        },
+        {
+          heading: "Costo della domanda di visto",
+          paragraphs: [
+            "La tassa attuale per la domanda del visto working holiday sottoclasse 417 è di circa AUD 670 (a metà 2026 — le tariffe vengono riviste ogni anno, quindi verifica sempre l'importo aggiornato sul sito del Department of Home Affairs prima di presentare domanda). La tassa non è rimborsabile e deve essere pagata online al momento dell'invio della domanda tramite ImmiAccount. Per la maggior parte delle nazionalità che richiedono il primo visto 417 non sono previsti costi aggiuntivi per biometria o visita medica.",
+          ],
+        },
+        {
+          heading: "Dimostrazione dei fondi: AUD 5.000 + biglietto di uscita",
+          paragraphs: [
+            "Il Department of Home Affairs richiede che i titolari del visto working holiday dispongano di fondi sufficienti per mantenersi durante tutto il soggiorno. Il parametro comunemente citato è AUD 5.000 di risparmi disponibili, più un biglietto di ritorno o di continuazione — oppure i fondi per acquistarlo. Per un'analisi completa di cosa è accettato e come dimostrarlo, consulta la nostra guida alla [dimostrazione dei fondi per il visto working holiday](~/blog/proof-of-funds-working-holiday-visa).",
+            "Di norma non ti verrà chiesto un estratto conto in aeroporto, ma i funzionari dell'immigrazione possono richiederlo. In pratica, il parametro di AUD 5.000 è ciò che il tuo conto dovrebbe mostrare per essere pronto a qualsiasi scenario, incluso un proprietario o un datore di lavoro che ti chieda una prova dei fondi.",
+          ],
+          bullets: [
+            "AUD 5.000 su un conto risparmio o corrente — solo fondi liquidi; i limiti della carta di credito non sono validi",
+            "Prenotazione di un biglietto di ritorno o di uscita, o fondi equivalenti per acquistarlo",
+            "Estratto conto degli ultimi 3 mesi con nome e saldo",
+            "Se porti o trasferisci AUD 10.000 o più, devi dichiararlo sulla scheda passeggero in arrivo",
+          ],
+        },
+        {
+          heading: "Budget dettagliato del primo mese",
+          paragraphs: [
+            "Il tuo primo mese in Australia è di solito il più costoso — paghi l'alloggio prima di trovare una stanza in condivisione, mangi fuori prima di avere una cucina a disposizione, e compri ciò che non hai portato. Ecco una stima settimanale e mensile realistica per chi si trova in una grande città come Sydney o Melbourne.",
+          ],
+          bullets: [
+            "Posto letto in dormitorio ostello: AUD 180–320 a settimana (varia molto in base alla città e alla stagione)",
+            "Cibo e spesa: AUD 80–150 a settimana (cucinare nella cucina comune dell'ostello riduce notevolmente i costi)",
+            "SIM locale: AUD 30–50 per il primo mese (piani prepagati di Telstra, Optus o Vodafone)",
+            "Trasporti pubblici: AUD 50–100 a settimana in base agli spostamenti",
+            "Caparra affitto: AUD 1.000–2.000 se ti trasferisci in una casa condivisa (di solito 4 settimane di affitto anticipato più cauzione)",
+            "Spese varie (igiene, abbigliamento, svago): AUD 100–200 al mese",
+          ],
+        },
+        {
+          heading: "Riserva fino al primo stipendio",
+          paragraphs: [
+            "La maggior parte dei datori di lavoro australiani paga settimanalmente o ogni due settimane. Se inizi a lavorare nella prima settimana, potresti ricevere la prima busta paga entro 7–14 giorni — ma i ritardi nell'elaborazione del pagamento e il tempo necessario per aprire un conto bancario e ottenere un Tax File Number (TFN) rendono due-quattro settimane senza reddito un'aspettativa realistica.",
+            "Sommando quattro settimane dei costi sopra indicati, si arriva a AUD 1.800–3.000 di spese di vita prima di guadagnare qualcosa. Per questo AUD 5.000 è il minimo — non un margine comodo.",
+          ],
+        },
+        {
+          heading: "Riepilogo: quanto risparmiare prima di partire",
+          paragraphs: [
+            "Mettendo tutto insieme, ecco obiettivi di risparmio totale realistici prima di salire sull'aereo.",
+          ],
+          bullets: [
+            "Minimo indispensabile (budget ridotto, dormitorio condiviso, trovare lavoro subito): AUD 5.000 + volo di ritorno",
+            "Margine confortevole (primo mese coperto, piccolo fondo di emergenza): AUD 7.000–8.000",
+            "Consigliato se vuoi viaggiare prima o prenderti il tempo di cercare lavoro: AUD 10.000+",
+            "Ricorda: queste sono le economie all'arrivo — esclusa la tassa del visto che pagherai prima di partire",
+          ],
+        },
+        {
+          heading: "Come ti aiuta Tern",
+          paragraphs: [
+            "Il generatore di documenti sui fondi di Tern ti permette di esportare un riepilogo del saldo chiaro e datato da mostrare ai funzionari dell'immigrazione, ai proprietari di casa o ai datori di lavoro — niente più ricerche del formato giusto dell'estratto conto. Puoi ricaricare il tuo conto Tern da casa al tasso di cambio reale prima di partire, così arrivi con AUD già in tasca senza commissioni. Una volta che lavori, lo stipendio arriva il giorno di paga senza ritardi, e Tern non applica commissioni agli ATM — ogni dollaro che prelievi è tuo.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "Quanti soldi servono per un working holiday in Australia?",
+          a: "Il Department of Home Affairs fissa il parametro a AUD 5.000 di fondi disponibili più un biglietto di uscita o di ritorno. Aggiungi la tassa di domanda del visto di circa AUD 670 (da pagare prima di partire) e realisticamente AUD 1.800–3.000 di spese di vita per il primo mese prima di ricevere il primo stipendio. Un obiettivo di risparmio totale pre-partenza di AUD 7.000–8.000 ti garantisce un margine confortevole.",
+        },
+        {
+          q: "I funzionari dell'immigrazione controllano davvero i fondi in Australia?",
+          a: "I funzionari di frontiera australiani possono controllare, e il Department of Home Affairs può richiedere una prova al momento della domanda o all'arrivo. Più comunemente, proprietari di casa, annunci di stanze in condivisione e alcuni datori di lavoro chiederanno di vedere un estratto conto. Lo standard pratico da soddisfare è AUD 5.000 visibili su un conto bancario — non un limite di credito.",
+        },
+        {
+          q: "Posso usare il mio conto bancario italiano come prova dei fondi?",
+          a: "Sì — un estratto conto del tuo conto nel paese d'origine che mostri l'equivalente di AUD 5.000 è accettabile sia per il visto che per il controllo alla frontiera. Tuttavia, una volta in Australia avrai bisogno di un conto bancario australiano (con BSB e numero di conto) per ricevere lo stipendio in accredito diretto. Aprilo appena arrivi e richiedi il Tax File Number allo stesso tempo.",
+        },
+      ],
+    },
   },
 };

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { isLocale } from "@/lib/i18n/config";
+import { isLocale, locales } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
@@ -23,7 +23,10 @@ export async function generateMetadata({
     description: dict.about.metaDescription,
     alternates: {
       canonical: `/${locale}/about`,
-      languages: { en: "/en/about", es: "/es/about", ja: "/ja/about", ko: "/ko/about", "zh-TW": "/zh-TW/about", "x-default": "/en/about" },
+      languages: Object.fromEntries([
+        ...locales.map((l) => [l, `/${l}/about`]),
+        ["x-default", "/en/about"],
+      ]),
     },
   };
 }

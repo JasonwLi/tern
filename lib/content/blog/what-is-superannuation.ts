@@ -354,5 +354,203 @@ export const article: Article = {
         },
       ],
     },
+    de: {
+      title: "Was ist Superannuation? Ratgeber für Work and Travel Australien",
+      description:
+        "Superannuation ist Australiens Pflichtrentensystem — dein Arbeitgeber zahlt 12% extra. Was du als Work-and-Travel-Visainhaber wissen musst und wie du das Geld per DASP zurückbekommst.",
+      excerpt:
+        "Dein australischer Arbeitgeber zahlt zusätzlich zu deinem Lohn 12% in einen Superannuation-Fonds ein. Wenn du Australien verlässt, kannst du den Großteil per DASP zurückfordern. So funktioniert das.",
+      sections: [
+        {
+          paragraphs: [
+            "Superannuation — kurz \"Super\" — ist Australiens verpflichtendes Altersvorsorgesystem. Dein Arbeitgeber zahlt zusätzlich zu deinem Nettolohn 12% deines Gehalts direkt in einen eigens für dich eingerichteten Super-Fonds ein.",
+          ],
+        },
+        {
+          heading: "So funktioniert Super für Arbeitnehmer",
+          paragraphs: [
+            "Der Super Guarantee (SG)-Satz beträgt im Steuerjahr 2025–26 genau 12% deines Grundlohns. Dein Arbeitgeber zahlt diesen Betrag zusätzlich zu deinem Gehalt — er wird nicht von deinem Lohn abgezogen. Ab dem 1. Juli 2026 sind Arbeitgeber außerdem verpflichtet, Super bei jeder Lohnzahlung zu überweisen, anstatt nur quartalsweise.",
+          ],
+          bullets: [
+            "Dein Arbeitgeber zahlt 12% deines Grundlohns in einen Super-Fonds ein",
+            "Dieser Betrag kommt zusätzlich zu deinem vereinbarten Lohn oder Gehalt",
+            "Das Geld wird im Fonds angelegt, bis du es abrufst",
+            "Beim Jobbeginn wählst du einen Fonds — tust du nichts, wählt dein Arbeitgeber einen Standardfonds",
+          ],
+        },
+        {
+          heading: "Warum Super für Work and Travel so wichtig ist",
+          paragraphs: [
+            "Super ist echtes Geld. Wer sechs Monate lang AUD 1.000 pro Woche verdient, hat beim Abflug rund AUD 3.120 in einem Super-Fonds auf dem eigenen Namen. Als temporärer Aufenthalter kommst du nicht im Rentenalter daran — aber du kannst den Großteil zurückfordern.",
+          ],
+        },
+        {
+          heading: "Super zurückbekommen: der DASP",
+          paragraphs: [
+            "Sobald dein Working-Holiday-Visum abgelaufen ist und du Australien dauerhaft verlassen hast (oder verlassen wirst), kannst du deine Superannuation über den [Departing Australia Superannuation Payment (DASP)](~/guides/superannuation-refund-dasp) beantragen. Für Inhaber eines Working-Holiday-Visums (subclass 417 und 462) beträgt die DASP-Quellensteuer 65% der steuerpflichtigen Komponente. Das ist ein hoher Steuerabzug — aber die verbleibenden 35% sind dennoch bares Geld, und viele Reisende lassen Tausende von Dollar liegen, weil sie den DASP schlicht nicht kennen.",
+          ],
+          bullets: [
+            "Antrag nach Ablauf des Visums über das Online-DASP-System der ATO stellen",
+            "Der Super-Fonds bearbeitet die Auszahlung und behält die Steuer ein",
+            "Die Bearbeitung dauert einige Wochen — die ATO empfiehlt, den Antrag nach der Ausreise zu stellen",
+            "Wer in mehreren Jobs gearbeitet hat, kann mehrere Super-Konten besitzen",
+          ],
+        },
+        {
+          heading: "Die Mehrfachkonto-Falle vermeiden",
+          paragraphs: [
+            "Jedes Mal, wenn du einen neuen Job ohne Fondsangabe beginnst, kann dein Arbeitgeber einen neuen Standardfonds für dich eröffnen. Mehrere kleine Guthaben bedeuten mehrfache Verwaltungsgebühren, die deine Ersparnisse auffressen. Wenn du eine neue Stelle antritst, gib deine bestehenden Super-Fonds-Daten an, damit alle Beiträge an einem Ort landen.",
+          ],
+        },
+        {
+          heading: "Wo Tern ins Spiel kommt",
+          paragraphs: [
+            "Tern wird speziell für Work-and-Travel-Reisende entwickelt. Neben den Banking-Funktionen bauen wir Tools, mit denen du dein Super-Guthaben im Blick behältst, deinen DASP-Anspruch verstehst und den Papierkram erledigst — damit du diese 12% nicht zurücklässt, wenn du weiterzieht.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "Haben Work-and-Travel-Visainhaber in Australien Anspruch auf Superannuation?",
+          a: "Ja. Jeder Arbeitgeber, der dir in Australien Lohn zahlt, muss unabhängig von deiner Visaart 12% deines Grundlohns in einen Super-Fonds auf deinen Namen einzahlen. Dieser Betrag kommt zusätzlich zu deinem Lohn.",
+        },
+        {
+          q: "Wie bekomme ich meine Super zurück, wenn ich Australien verlasse?",
+          a: "Nach Ablauf deines Visums stellst du einen Antrag auf Departing Australia Superannuation Payment (DASP) über die ATO. Für Working-Holiday-Visainhaber (subclass 417/462) fällt eine Quellensteuer von 65% auf die steuerpflichtige Komponente an — du erhältst also ungefähr 35 Cent pro Dollar in Super. Es lohnt sich trotzdem, den Antrag zu stellen.",
+        },
+      ],
+    },
+    fr: {
+      title: "C'est quoi la superannuation ? Guide pour les pvtistes en Australie",
+      description:
+        "La superannuation est le système de retraite australien — 12% en plus de ton salaire payés par l'employeur. Ce que tout pvtiste doit savoir et comment récupérer cet argent via le DASP.",
+      excerpt:
+        "Ton employeur australien doit verser 12% de ton salaire dans un fonds de retraite, en plus de ta rémunération. En partant, tu peux en récupérer une grande partie via le DASP. Voilà comment ça marche.",
+      sections: [
+        {
+          paragraphs: [
+            "La superannuation — ou simplement «super» — est le système d'épargne-retraite obligatoire en Australie : ton employeur verse 12% supplémentaires de ton salaire directement dans un fonds dédié à ton nom, en plus de ta paye nette.",
+          ],
+        },
+        {
+          heading: "Comment fonctionne la super pour les salariés",
+          paragraphs: [
+            "Le taux de garantie de superannuation (SG) pour l'exercice fiscal 2025–26 est de 12% de tes revenus en temps ordinaire. Il est versé par ton employeur en plus de ton salaire — il ne vient pas de ta poche et ne réduit pas ton salaire net. À partir du 1er juillet 2026, les employeurs seront également tenus de payer la super à chaque jour de paie plutôt que trimestriellement.",
+          ],
+          bullets: [
+            "Ton employeur verse 12% de tes revenus ordinaires dans un fonds de super",
+            "Ce montant s'ajoute à ton salaire convenu et n'en est pas déduit",
+            "L'argent reste dans le fonds et est investi jusqu'à ce que tu y accèdes",
+            "Tu choisis un fonds en commençant un emploi — si tu ne fais rien, ton employeur en choisit un par défaut",
+          ],
+        },
+        {
+          heading: "Pourquoi la super compte pour les pvtistes",
+          paragraphs: [
+            "La super, c'est de l'argent bien réel. Si tu gagnes AUD 1 000 par semaine pendant six mois, environ AUD 3 120 seront dans un fonds de super à ton nom au moment de partir. En tant que résident temporaire, tu ne peux pas y accéder à l'âge de la retraite — mais tu peux en récupérer la majeure partie.",
+          ],
+        },
+        {
+          heading: "Récupérer sa super : le DASP",
+          paragraphs: [
+            "Une fois ton visa PVT expiré et après avoir quitté (ou être sur le point de quitter) l'Australie définitivement, tu peux demander le remboursement de ta superannuation via le [Departing Australia Superannuation Payment (DASP)](~/guides/superannuation-refund-dasp). Pour les titulaires d'un visa working holiday maker (subclass 417 et 462), le taux de retenue DASP est de 65% de la composante imposable. C'est un impôt élevé — mais les 35% restants représentent quand même de l'argent réel, et beaucoup de pvtistes laissent des milliers de dollars sur la table simplement parce qu'ils ignorent l'existence du DASP.",
+          ],
+          bullets: [
+            "Fais ta demande via le système DASP en ligne de l'ATO après l'expiration de ton visa",
+            "Ton fonds de super traite le paiement et retient l'impôt",
+            "Compte plusieurs semaines de traitement — l'ATO recommande de faire la demande après avoir quitté l'Australie",
+            "Si tu as travaillé dans plusieurs emplois, tu peux avoir plusieurs comptes de super",
+          ],
+        },
+        {
+          heading: "Éviter le piège des multiples fonds",
+          paragraphs: [
+            "Chaque fois que tu commences un nouveau travail sans désigner de fonds, ton employeur peut en ouvrir un nouveau par défaut. Plusieurs petits soldes signifient plusieurs séries de frais de gestion qui grèvent ton épargne. Quand tu prends un nouveau poste, transmets les coordonnées de ton fonds de super existant pour que toutes les cotisations aillent au même endroit.",
+          ],
+        },
+        {
+          heading: "Le rôle de Tern",
+          paragraphs: [
+            "Tern est conçu spécifiquement pour les voyageurs en PVT. En plus des fonctionnalités bancaires, nous développons des outils pour t'aider à suivre ton solde de super, comprendre ton droit au DASP et gérer les démarches administratives — afin que ces 12% ne soient pas laissés de côté quand tu repars.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "Les titulaires d'un visa working holiday ont-ils droit à la superannuation en Australie ?",
+          a: "Oui. Tout employeur qui te verse un salaire en Australie est tenu de cotiser 12% de tes revenus ordinaires dans un fonds de super à ton nom, quel que soit ton type de visa. Ce montant s'ajoute à ton salaire.",
+        },
+        {
+          q: "Comment récupérer ma super en quittant l'Australie ?",
+          a: "Tu fais une demande de Departing Australia Superannuation Payment (DASP) auprès de l'ATO après l'expiration de ton visa. Les titulaires d'un visa working holiday maker (subclass 417/462) subissent une retenue à la source de 65% sur la composante imposable, ce qui te laisse environ 35 centimes par dollar de super — ça vaut tout de même la peine de le demander.",
+        },
+      ],
+    },
+    it: {
+      title: "Cos'è la superannuation? Guida per chi fa working holiday in Australia",
+      description:
+        "La superannuation è il sistema pensionistico australiano — il datore di lavoro versa il 12% in più del tuo stipendio. Tutto ciò che devi sapere per il working holiday e come recuperarla con il DASP.",
+      excerpt:
+        "Il tuo datore di lavoro australiano deve versare il 12% del tuo stipendio in un fondo previdenziale, in aggiunta alla tua retribuzione. Quando parti puoi recuperarne gran parte tramite il DASP. Ecco come funziona.",
+      sections: [
+        {
+          paragraphs: [
+            "La superannuation — o semplicemente \"super\" — è il sistema australiano di risparmio previdenziale obbligatorio: il tuo datore di lavoro versa un extra del 12% del tuo stipendio direttamente in un fondo dedicato a tuo nome, oltre alla tua paga netta.",
+          ],
+        },
+        {
+          heading: "Come funziona la super per i dipendenti",
+          paragraphs: [
+            "L'aliquota della super guarantee (SG) per l'anno fiscale 2025–26 è pari al 12% dei tuoi guadagni in orario ordinario. È pagata dal datore di lavoro in aggiunta al tuo stipendio — non viene detratta dalla tua busta paga. Dal 1° luglio 2026, i datori di lavoro saranno anche obbligati a versare la super a ogni giorno di paga anziché trimestralmente.",
+          ],
+          bullets: [
+            "Il tuo datore di lavoro versa il 12% dei tuoi guadagni ordinari in un fondo super",
+            "Questo importo si aggiunge al tuo stipendio concordato e non viene sottratto da esso",
+            "Il denaro resta nel fondo e viene investito fino a quando non puoi accedervi",
+            "Scegli un fondo quando inizi un lavoro — se non fai nulla, il datore di lavoro sceglie un fondo predefinito",
+          ],
+        },
+        {
+          heading: "Perché la super è importante per chi fa working holiday",
+          paragraphs: [
+            "La super è denaro reale. Se guadagni AUD 1.000 a settimana per sei mesi, al momento di partire avrai circa AUD 3.120 depositati in un fondo super a tuo nome. Come residente temporaneo non puoi accedervi all'età pensionabile — ma puoi recuperarne la maggior parte.",
+          ],
+        },
+        {
+          heading: "Come recuperare la super: il DASP",
+          paragraphs: [
+            "Una volta scaduto il tuo visto working holiday e dopo aver lasciato (o essere in procinto di lasciare) definitivamente l'Australia, puoi richiedere la tua superannuation tramite il [Departing Australia Superannuation Payment (DASP)](~/guides/superannuation-refund-dasp). Per i titolari di visto working holiday maker (subclass 417 e 462), l'aliquota di ritenuta DASP è del 65% della componente imponibile. È un prelievo fiscale elevato — ma il 35% restante è comunque denaro reale, e molti viaggiatori lasciano migliaia di dollari non reclamati semplicemente perché non sanno che il DASP esiste.",
+          ],
+          bullets: [
+            "Fai domanda tramite il sistema DASP online dell'ATO dopo la scadenza del tuo visto",
+            "Il fondo super elabora il pagamento e trattiene l'imposta",
+            "L'elaborazione richiede alcune settimane — l'ATO consiglia di fare domanda dopo aver lasciato l'Australia",
+            "Se hai lavorato in più lavori, potresti avere più conti super",
+          ],
+        },
+        {
+          heading: "Evitare la trappola dei fondi multipli",
+          paragraphs: [
+            "Ogni volta che inizi un nuovo lavoro senza indicare un fondo, il tuo datore di lavoro potrebbe aprirti un nuovo fondo predefinito. Più saldi di piccole dimensioni significano più commissioni di gestione che erodono i tuoi risparmi. Quando inizi un nuovo lavoro, fornisci i dati del tuo fondo super esistente in modo che tutti i contributi vadano nello stesso posto.",
+          ],
+        },
+        {
+          heading: "Il ruolo di Tern",
+          paragraphs: [
+            "Tern è pensato specificamente per i viaggiatori in working holiday. Insieme alle funzionalità bancarie, stiamo costruendo strumenti per aiutarti a monitorare il saldo della tua super, capire il tuo diritto al DASP e gestire le pratiche burocratiche — così quel 12% non rimarrà indietro quando ripartirai.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "I titolari di visto working holiday hanno diritto alla superannuation in Australia?",
+          a: "Sì. Qualsiasi datore di lavoro che ti paghi uno stipendio in Australia è tenuto a versare il 12% dei tuoi guadagni ordinari in un fondo super a tuo nome, indipendentemente dal tipo di visto. Questo importo si aggiunge al tuo stipendio.",
+        },
+        {
+          q: "Come recupero la mia super quando lascio l'Australia?",
+          a: "Fai domanda per il Departing Australia Superannuation Payment (DASP) tramite l'ATO dopo la scadenza del tuo visto. I titolari di visto working holiday maker (subclass 417/462) subiscono una ritenuta del 65% sulla componente imponibile, quindi riceverai circa 35 centesimi per ogni dollaro di super — vale comunque la pena di richiederlo.",
+        },
+      ],
+    },
   },
 };

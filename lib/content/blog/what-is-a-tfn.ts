@@ -335,5 +335,194 @@ export const article: Article = {
         },
       ],
     },
+    de: {
+      title: "Was ist eine TFN? Steuer-ID für Work and Travel Australien",
+      description:
+        "Die TFN ist deine persönliche Steueridentifikationsnummer in Australien. Ohne sie behält dein Arbeitgeber 45 % deines Lohns ein. So beantragst du sie kostenlos beim ATO.",
+      excerpt:
+        "Ohne TFN zieht dein Arbeitgeber 45 % deines Lohns ein. Hier erfährst du, was eine TFN ist, wie du sie nach deiner Ankunft kostenlos beim ATO beantragst – und warum die ABN-Falle jeden Work-and-Travel-Reisenden kennen sollte.",
+      sections: [
+        {
+          paragraphs: [
+            "Die Tax File Number (TFN) ist eine einmalige 9-stellige Nummer, die das Australian Taxation Office (ATO) ausgibt und mit der du im australischen Steuersystem identifiziert wirst. Jede Person, die in Australien Einkommen erzielt, benötigt eine TFN – ohne sie ist dein Arbeitgeber gesetzlich verpflichtet, von jeder Zahlung den Höchststeuersatz von 45 % einzubehalten.",
+          ],
+        },
+        {
+          heading: "Warum Work and Travel Reisende eine TFN brauchen",
+          paragraphs: [
+            "Wenn du mit einem Working Holiday Visa (Subklasse 417 oder 462) in Australien anfängst zu arbeiten, wird dein Arbeitgeber deine TFN auf dem Tax File Number Declaration Formular verlangen. Kannst du sie nicht vorweisen, muss er vom ersten Tag an den Höchststeuersatz von 45 % einbehalten.",
+            "Du hast eine Schonfrist von 28 Tagen: Wenn du zu arbeiten beginnst, bevor deine TFN eintrifft, kann dein Arbeitgeber den maximalen Einbehalt bis zu 28 Tage lang aussetzen, während dein Antrag bearbeitet wird. Nach 28 Tagen ohne TFN greift die 45-%-Einbehaltung automatisch. Am sichersten ist es, die TFN gleich am Tag deiner Ankunft zu beantragen.",
+          ],
+          bullets: [
+            "Mit TFN und registriertem WHM-Arbeitgeber: Steuerabzug von 15 % auf die ersten AUD 45.000 Einkommen",
+            "Ohne TFN: Steuerabzug von 45 % auf alle Zahlungen – beim Jahresabschluss kannst du den Großteil zurückfordern, aber ein erheblicher Teil deines Lohns ist vorübergehend eingefroren",
+            "28 Tage Schonfrist nach Arbeitsbeginn, bevor der Höchststeuersatz greift",
+          ],
+        },
+        {
+          heading: "So beantragst du eine TFN: kostenlos und online",
+          paragraphs: [
+            "Du musst dich physisch in Australien befinden, um den Antrag stellen zu können. Das Verfahren ist kostenlos – das ATO erhebt niemals Gebühren für eine TFN. Jede Website, die dir dafür Geld abnehmen will, ist ein Drittanbieter, den du nicht brauchst.",
+          ],
+          bullets: [
+            "Gehe auf ato.gov.au und navigiere unter \"Individuals\" zu \"Apply for a TFN\"",
+            "Inhaber eines Working Holiday Visas beantragen die TFN über den Pfad für ausländische Reisepassinhaber und vorübergehende Besucher",
+            "Du benötigst deine Reisepassdaten und deine australische Adresse",
+            "Nach der Online-Einreichung wird deine TFN an deine australische Adresse geschickt – bis zu 28 Tage Wartezeit, viele Antragsteller erhalten sie aber schon nach 1–2 Wochen",
+            "Halte deine TFN geheim – behandle sie wie ein Passwort; gib sie nur Arbeitgebern, dem ATO und deiner Bank",
+          ],
+        },
+        {
+          heading: "Die TFN-versus-ABN-Falle",
+          paragraphs: [
+            "Manche Arbeitgeber – besonders in der Gastronomie, Landwirtschaft und im Baugewerbe – werden dir vorschlagen, als selbstständiger Auftragnehmer mit einer Australian Business Number (ABN) zu arbeiten, statt als Angestellter. Das bedeutet: Du stellst Rechnungen, sie zahlen ohne Steuerabzug, und du bist selbst für deine Steuern verantwortlich.",
+            "Für die meisten Work-and-Travel-Jobs ist das die falsche Vereinbarung. Wenn du regelmäßig und kontinuierlich nach Weisung des Arbeitgebers, an seinem Arbeitsplatz und mit seinem Werkzeug arbeitest, bist du rechtlich ein Angestellter – kein Auftragnehmer. Als Scheinauftragnehmer zu arbeiten (manchmal 'sham contracting' genannt) bedeutet, dass du Ansprüche auf Mindestlohn, Superannuation, Unfallversicherung und bezahlten Urlaub verlierst. Außerdem wird deine Steuersituation komplizierter.",
+            "Die Faustregel: Wenn dein Arbeitgeber dir sagt, dass du eine ABN für eine offensichtliche Angestelltentätigkeit brauchst, verlange eine schriftliche Erklärung und erwäge, vor einer Zustimmung den Fair Work Ombudsman zu kontaktieren.",
+          ],
+        },
+        {
+          heading: "So hilft Tern",
+          paragraphs: [
+            "Tern erinnert dich daran, deine TFN vor oder unmittelbar nach der Ankunft zu beantragen, und speichert deinen TFN-Meldestatus sicher, damit du immer weißt, welchen Arbeitgebern du sie mitgeteilt hast. Am Ende des Steuerjahres zeigt Tern deine Einkommens- und Einbehaltungshistorie an, damit du deine Steuererklärung korrekt einreichen – und alle zu viel einbehaltenen Beträge vor der Frist zurückfordern kannst.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "Wie lange dauert es, in Australien eine TFN zu erhalten?",
+          a: "Nachdem du deinen Online-Antrag beim ATO eingereicht hast, wird deine TFN an deine australische Postadresse geschickt. Die meisten Antragsteller erhalten sie innerhalb von 1 bis 2 Wochen, plane aber bis zu 28 Tage ein. Beantrage sie so früh wie möglich nach der Ankunft, sobald du eine Adresse hast – die 28-tägige Schonfrist, bevor der 45-%-Einbehalt greift, läuft ab dem Tag, an dem du die Arbeit aufnimmst.",
+        },
+        {
+          q: "Kann mein Arbeitgeber die Zahlung verweigern, bis ich eine TFN habe?",
+          a: "Nein. Ein Arbeitgeber darf die Zahlung nicht zurückhalten; er muss lediglich nach der 28-tägigen Schonfrist 45 % Steuern von deinem Lohn einbehalten, wenn du keine TFN vorgelegt hast. Zu viel einbehaltene Beträge kannst du zurückfordern, wenn du beim ATO deine Jahressteuererklärung einreichst.",
+        },
+      ],
+    },
+    fr: {
+      title: "C'est quoi le TFN ? Guide fiscal Australie pour pvtistes",
+      description:
+        "Le TFN est ton numéro fiscal personnel en Australie. Sans lui, ton employeur retient 45 % de ton salaire. Comment l'obtenir gratuitement via l'ATO et éviter le piège de l'ABN.",
+      excerpt:
+        "Sans TFN, ton employeur retient 45 % de ton salaire. Voici ce qu'est un TFN, comment le demander gratuitement via l'ATO après ton arrivée en Australie, et le piège de l'ABN que tout pvtiste doit connaître.",
+      sections: [
+        {
+          paragraphs: [
+            "Le Tax File Number (TFN) est un numéro unique à 9 chiffres délivré par l'Australian Taxation Office (ATO) qui t'identifie dans le système fiscal australien. Toute personne qui perçoit des revenus en Australie en a besoin – sans lui, ton employeur est légalement tenu de prélever le taux maximal de 45 % sur chacun de tes versements.",
+          ],
+        },
+        {
+          heading: "Pourquoi les pvtistes ont besoin d'un TFN",
+          paragraphs: [
+            "Quand tu commences un emploi en Australie avec un visa vacances-travail (sous-classe 417 ou 462), ton employeur te demandera ton TFN sur le formulaire Tax File Number Declaration. Si tu ne peux pas le fournir, il devra retenir 45 % dès le premier jour.",
+            "Tu bénéficies d'un délai de grâce de 28 jours : si tu commences à travailler avant de recevoir ton TFN, ton employeur peut reporter la retenue maximale jusqu'à 28 jours le temps que ta demande soit traitée. Passé ce délai sans TFN, les 45 % s'appliquent automatiquement. Le plus sûr est de faire la demande le jour même de ton arrivée.",
+          ],
+          bullets: [
+            "Avec un TFN et un employeur enregistré WHM : retenue fiscale de 15 % sur les premiers AUD 45 000 de revenus",
+            "Sans TFN : retenue de 45 % sur tous les paiements – tu peux récupérer la majeure partie lors de ta déclaration fiscale, mais une grosse part de ton salaire est bloquée entre-temps",
+            "Délai de grâce de 28 jours à compter du début du travail avant l'application du taux maximal",
+          ],
+        },
+        {
+          heading: "Comment demander un TFN : gratuit et en ligne",
+          paragraphs: [
+            "Tu dois être physiquement en Australie pour faire la demande. La procédure est gratuite – l'ATO ne facture jamais un TFN, et tout site web qui te réclame de l'argent pour ça est un intermédiaire dont tu n'as pas besoin.",
+          ],
+          bullets: [
+            "Va sur ato.gov.au et cherche « Apply for a TFN » dans la section individus",
+            "Les titulaires d'un visa vacances-travail font leur demande via le parcours réservé aux détenteurs de passeport étranger et visiteurs temporaires",
+            "Tu auras besoin des informations de ton passeport et de ton adresse australienne",
+            "Après l'envoi en ligne, ton TFN est expédié à ton adresse australienne – compte jusqu'à 28 jours, mais la plupart des demandeurs le reçoivent en 1 à 2 semaines",
+            "Garde ton TFN confidentiel – traite-le comme un mot de passe ; ne le communique qu'à tes employeurs, à l'ATO et à ta banque",
+          ],
+        },
+        {
+          heading: "Le piège TFN contre ABN",
+          paragraphs: [
+            "Certains employeurs – notamment dans la restauration, l'agriculture et la construction – te suggéreront de travailler en tant qu'auto-entrepreneur sous un Australian Business Number (ABN) plutôt que comme salarié. Cela signifie que tu leur envoies des factures, qu'ils te paient sans retenue fiscale, et que tu es responsable de déclarer et payer tes impôts toi-même.",
+            "Pour la grande majorité des jobs en PVT, c'est la mauvaise formule. Si tu effectues un travail régulier et continu sous la direction de l'employeur, dans ses locaux et avec ses outils, tu es légalement un salarié – pas un prestataire. Travailler comme faux auto-entrepreneur (parfois appelé « sham contracting ») te prive du salaire minimum, de la superannuation, de la couverture accidents du travail et des congés payés. Cela complique aussi ta situation fiscale.",
+            "La règle de base : si ton employeur te dit qu'il te faut un ABN pour un travail qui est clairement du salariat, demande une explication écrite et envisage de consulter le Fair Work Ombudsman avant d'accepter.",
+          ],
+        },
+        {
+          heading: "Comment Tern t'aide",
+          paragraphs: [
+            "Tern te rappelle de demander ton TFN avant ou juste après ton arrivée, et conserve ton statut de déclaration TFN en toute sécurité pour que tu saches toujours à quels employeurs tu l'as transmis. En fin d'exercice fiscal, Tern récapitule tes revenus et tes retenues afin que tu puisses remplir ta déclaration avec précision – et récupérer toute retenue excessive avant la date limite.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "Combien de temps faut-il pour obtenir un TFN en Australie ?",
+          a: "Après avoir soumis ta demande en ligne via l'ATO, ton TFN est envoyé par courrier à ton adresse postale australienne. La plupart des demandeurs le reçoivent en 1 à 2 semaines, mais prévois jusqu'à 28 jours. Fais la demande dès que tu as une adresse – le délai de grâce de 28 jours avant que le taux de retenue de 45 % s'applique court à partir du jour où tu commences à travailler.",
+        },
+        {
+          q: "Mon employeur peut-il refuser de me payer si je n'ai pas de TFN ?",
+          a: "Non. Un employeur ne peut pas retenir ton salaire ; il doit simplement prélever 45 % d'impôts sur tes revenus si tu n'as pas fourni de TFN après le délai de grâce de 28 jours. Tu pourras récupérer toute retenue excessive lorsque tu soumettras ta déclaration fiscale annuelle à l'ATO.",
+        },
+      ],
+    },
+    it: {
+      title: "Cos'è il TFN? Guida al codice fiscale australiano per il working holiday",
+      description:
+        "Il TFN è il tuo numero fiscale personale in Australia. Senza di esso il datore di lavoro trattiene il 45% del tuo stipendio. Come richiederlo gratis tramite l'ATO ed evitare la trappola dell'ABN.",
+      excerpt:
+        "Senza TFN il tuo datore di lavoro trattiene il 45% dello stipendio. Ecco cos'è il TFN, come richiederlo gratis tramite l'ATO dopo il tuo arrivo in Australia, e la trappola dell'ABN che ogni titolare di working holiday visa dovrebbe conoscere.",
+      sections: [
+        {
+          paragraphs: [
+            "Il Tax File Number (TFN) è un numero univoco a 9 cifre emesso dall'Australian Taxation Office (ATO) che ti identifica nel sistema fiscale australiano. Chiunque percepisca un reddito in Australia ne ha bisogno – senza di esso, il datore di lavoro è tenuto per legge a trattenere l'aliquota massima del 45% su ogni pagamento.",
+          ],
+        },
+        {
+          heading: "Perché i titolari di working holiday visa hanno bisogno del TFN",
+          paragraphs: [
+            "Quando inizi un lavoro in Australia con un working holiday visa (sottoclasse 417 o 462), il tuo datore di lavoro ti chiederà il TFN sul modulo Tax File Number Declaration. Se non riesci a fornirlo, dovrà applicare l'aliquota massima del 45% fin dal primo giorno.",
+            "Hai un periodo di grazia di 28 giorni: se inizi a lavorare prima che il TFN arrivi, il datore di lavoro può sospendere la ritenuta massima per un massimo di 28 giorni mentre la tua domanda viene elaborata. Trascorsi 28 giorni senza TFN, la ritenuta del 45% scatta automaticamente. La mossa più sicura è fare richiesta il giorno stesso del tuo arrivo.",
+          ],
+          bullets: [
+            "Con TFN e datore di lavoro registrato come WHM: ritenuta fiscale del 15% sui primi AUD 45.000 di reddito",
+            "Senza TFN: ritenuta del 45% su tutti i pagamenti – puoi recuperare gran parte dell'importo con la dichiarazione dei redditi, ma una grossa fetta dello stipendio rimane bloccata nel frattempo",
+            "Periodo di grazia di 28 giorni dall'inizio del lavoro prima che si applichi l'aliquota massima",
+          ],
+        },
+        {
+          heading: "Come richiedere il TFN: gratis e online",
+          paragraphs: [
+            "Per fare richiesta devi trovarti fisicamente in Australia. La procedura è gratuita – l'ATO non addebita mai nulla per il TFN, e qualsiasi sito web che ti chieda un compenso per questo servizio è un intermediario di cui non hai bisogno.",
+          ],
+          bullets: [
+            "Vai su ato.gov.au e cerca \"Apply for a TFN\" nella sezione individui",
+            "I titolari di working holiday visa fanno richiesta tramite il percorso per titolari di passaporto straniero e visitatori temporanei",
+            "Ti serviranno i dati del tuo passaporto e il tuo indirizzo australiano",
+            "Dopo l'invio online, il TFN viene spedito al tuo indirizzo australiano per posta – possono volerci fino a 28 giorni, ma molti richiedenti lo ricevono in 1-2 settimane",
+            "Tieni il TFN riservato – trattalo come una password; forniscilo solo a datori di lavoro, all'ATO e alla tua banca",
+          ],
+        },
+        {
+          heading: "La trappola TFN contro ABN",
+          paragraphs: [
+            "Alcuni datori di lavoro – in particolare nella ristorazione, nell'agricoltura e nell'edilizia – ti suggeriranno di lavorare come libero professionista con un Australian Business Number (ABN) anziché come dipendente. Ciò significa che emetti fatture, loro ti pagano senza trattenute fiscali, e sei tu a dover versare le tasse.",
+            "Per la maggior parte dei lavori in working holiday, questo accordo è sbagliato. Se svolgi un lavoro regolare e continuativo sotto la direzione del datore di lavoro, nel suo luogo di lavoro e con i suoi strumenti, sei legalmente un dipendente – non un libero professionista. Lavorare come falso appaltatore (a volte chiamato \"sham contracting\") significa rinunciare al salario minimo, alla superannuation, all'assicurazione infortuni e alle ferie retribuite. Rende anche la situazione fiscale più complicata.",
+            "La regola pratica: se il tuo datore di lavoro ti dice che hai bisogno di un ABN per svolgere un lavoro che è chiaramente da dipendente, chiedi una spiegazione scritta e valuta di consultare il Fair Work Ombudsman prima di accettare.",
+          ],
+        },
+        {
+          heading: "Come ti aiuta Tern",
+          paragraphs: [
+            "Tern ti ricorda di richiedere il TFN prima o immediatamente dopo l'arrivo, e conserva in modo sicuro lo stato della tua dichiarazione TFN così sai sempre a quali datori di lavoro l'hai fornito. A fine anno fiscale, Tern mostra la cronologia dei tuoi redditi e delle ritenute in modo che tu possa presentare la dichiarazione dei redditi con precisione – e recuperare eventuali ritenute eccessive prima della scadenza.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "Quanto ci vuole per ottenere un TFN in Australia?",
+          a: "Dopo aver inviato la domanda online tramite l'ATO, il TFN viene spedito per posta al tuo indirizzo postale australiano. La maggior parte dei richiedenti lo riceve entro 1-2 settimane, ma prevedi fino a 28 giorni. Fai richiesta non appena sei arrivato e hai un indirizzo – il periodo di grazia di 28 giorni prima che si applichi l'aliquota di ritenuta del 45% decorre dal giorno in cui inizi a lavorare.",
+        },
+        {
+          q: "Il datore di lavoro può rifiutarsi di pagarmi finché non ho il TFN?",
+          a: "No. Il datore di lavoro non può trattenere il pagamento; deve semplicemente applicare una ritenuta fiscale del 45% sulla tua retribuzione se non hai fornito il TFN dopo il periodo di grazia di 28 giorni. Potrai recuperare l'eventuale eccesso di ritenuta quando presenterai la dichiarazione dei redditi annuale all'ATO.",
+        },
+      ],
+    },
   },
 };

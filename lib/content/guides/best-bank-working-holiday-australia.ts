@@ -455,5 +455,269 @@ export const article: Article = {
         },
       ],
     },
+    de: {
+      title: "Bestes Konto für Work and Travel Australien",
+      description:
+        "Ehrlicher Vergleich von australischen Banken, Reisekarten und Fintechs für WHV-Inhaber — worauf es wirklich ankommt und wo Tern anders ist.",
+      excerpt:
+        "Big-4-Banken, Wise, Revolut oder Tern — welche ist wirklich die beste Bank für Work and Travel Australien? Das solltest du vor der Einreise vergleichen.",
+      sections: [
+        {
+          paragraphs: [
+            "\"Beste Bank für Work and Travel Australien\" ist eine der meistgesuchten Fragen von WHV-Inhabern — und die ehrliche Antwort lautet: Es gibt keine einzelne Bank, die für jeden Reisenden perfekt ist. Die richtige Wahl hängt von deinen Prioritäten ab: Musst du das Konto vor der Ankunft eröffnen? Brauchst du Mehrwährungsfunktionen? Bleibst du sechs Monate oder zwei Jahre? Dieser Leitfaden zeigt, worauf es wirklich ankommt, bewertet die wichtigsten Optionen fair und erklärt, was Tern anders macht.",
+          ],
+        },
+        {
+          heading: "Was bei einem Work-and-Travel-Bankkonto wirklich zählt",
+          paragraphs: [
+            "Die meisten Bankvergleiche konzentrieren sich auf Zinssätze oder Zusatzfunktionen, die für Reisende irrelevant sind. Für WHV-Inhaber sind die folgenden Faktoren entscheidend:",
+          ],
+          bullets: [
+            "[Kontoeröffnung vor der Einreise](~/guides/bank-account-working-holiday-australia) — Kannst du BSB und Kontonummer erhalten, bevor du landest, damit dein Arbeitgeber dich vom ersten Tag an bezahlen kann?",
+            "Keine monatliche Kontoführungsgebühr — oder eine leicht erfüllbare Befreiungsbedingung wie eine Einzahlung pro Monat",
+            "Keine (oder niedrige) Gebühren für internationale Geldautomaten und Fremdwährungstransaktionen — du wirst möglicherweise regelmäßig an Automaten außerhalb deines Banknetzwerks abheben",
+            "Sofortige BSB und Kontonummer — damit du sie einem Arbeitgeber noch am Ankunftstag übergeben kannst",
+            "Einfaches Schließen und Auszahlen — wenn dein Visum abläuft, musst du dein Geld ohne bürokratische Verzögerung transferieren können",
+            "Mehrwährung oder gute Wechselkurse — wenn du während deines Work and Travel Geld nach Hause schickst oder andere Länder bereist",
+          ],
+        },
+        {
+          heading: "Die australischen Big-4-Banken — faire Bewertung",
+          paragraphs: [
+            "Commonwealth Bank (CommBank), ANZ, Westpac und NAB sind die vier größten Banken Australiens. Sie bieten ein breites Geldautomatennetz, Filialen in allen Bundesstaaten und werden überall akzeptiert.",
+          ],
+          bullets: [
+            "Monatliche Gebühren: Die meisten Alltagskonten der Big-4 erheben eine Monatsgebühr (in der Regel AUD 4–6), die entfällt, wenn du monatlich einen Mindestbetrag einzahlst — für einen regelmäßig bezahlten Work-and-Travel-Jobber ist das meist leicht zu erfüllen",
+            "Persönliche Identitätsverifizierung: Alle Big-4-Banken verlangen eine persönliche Identitätsprüfung mit Reisepass in der Filiale — als neuer Einreisender aus dem Ausland kannst du den Prozess nicht vollständig online abschließen",
+            "Anträge vor der Einreise: CommBank und ANZ erlauben eine Online-Bewerbung vor der Einreise; die Identitätsverifizierung findet nach der Landung in der Filiale statt",
+            "Fremd-Geldautomatengebühren: Big-4-Banken berechnen in der Regel AUD 2–5 pro Abhebung an einem fremden Geldautomaten und 2–3 % auf Fremdwährungstransaktionen",
+            "TFN-Verwaltung: Alle Big-4-Banken fordern dich im Online-Banking auf, deine Tax File Number hinzuzufügen; ohne sie werden Zinsen zum Höchststeuersatz einbehalten",
+          ],
+        },
+        {
+          heading: "Reisekarten und Fintechs — Wise und Revolut",
+          paragraphs: [
+            "Wise und Revolut sind bei WHV-Inhabern für Währungsumtausch, internationale Überweisungen und Ausgaben in mehreren Währungen beliebt. Für diese Anwendungsfälle sind sie wirklich ausgezeichnet. Allerdings sind sie als Mehrwährungs-Fintech-Produkte konzipiert, nicht als primäre australische Gehaltskonten.",
+          ],
+          bullets: [
+            "Wise: bietet ein australisches Bankkonto mit BSB und Kontonummer — du kannst AUD-Gehalt direkt empfangen; echte Mittelkurse sind ein echter Vorteil beim Heimatgeldtransfer; keine Monatsgebühr",
+            "Revolut: AUD-Konto verfügbar; starke Mehrwährungsfunktionen und gebührenfreie Geldautomatenabhebungen bis zu einem monatlichen Limit; Premium-Tarife schalten mehr frei",
+            "Superannuation: Weder Wise noch Revolut verfügen über eine Verknüpfung mit Super-Fonds-Tracking oder TFN/Super-Erinnerungen — du musst das selbst verwalten",
+            "AU-spezifische Funktionen: Keine der Plattformen hat integrierte Tools für australienspezifische WHV-Formalitäten wie TFN-Antragserinnerungen, Super-Fonds-Auswahl oder Steuerjahres-Zusammenfassungen",
+            "Beide sind solide Optionen für Devisen und Ausgaben; keine ersetzt ein spezielles WHV-Banking-Tool für Gehaltseingang und steuerliche Compliance",
+          ],
+        },
+        {
+          heading: "Wo Tern seinen Platz hat",
+          paragraphs: [
+            "Tern wurde speziell für Inhaber eines Working-Holiday-Visums entwickelt — nicht als Universalbank oder Mehrwährungskarte, sondern als Finanzbegleiter, der den WHV-Lebenszyklus versteht. Die wichtigsten Unterschiede:",
+          ],
+          bullets: [
+            "Gehalt ab dem ersten Tag: Tern stellt dir BSB und Kontonummer vor der Einreise bereit, damit dein Arbeitgeber dich bereits ab der ersten Schicht bezahlen kann",
+            "TFN-Erinnerungen: Tern erinnert dich daran, deine Tax File Number zu beantragen, und prüft, ob dein Arbeitgeber zum richtigen Steuersatz einbehält",
+            "Superannuation-Tracking: Tern verfolgt deine Super-Beiträge und hilft dir, dein Super zurückzufordern, wenn du Australien verlässt",
+            "Pauschale Währungstauschgebühr: keine prozentualen Fremdwährungsgebühren — eine feste Gebühr pro Tausch, unabhängig vom Betrag",
+            "Unkomplizierter Ausstieg: Wenn dein WHV endet, ist Tern darauf ausgelegt, das Schließen deines Kontos und die Rücküberweisung deines Geldes einfach und bürokratiefrei zu gestalten",
+            "Vorstart / Warteliste: Tern ist noch nicht live — trag dich in die Warteliste ein, um bei der Markteinführung als Erster dabei zu sein",
+          ],
+        },
+        {
+          heading: "Wie Tern dir hilft",
+          paragraphs: [
+            "Anders als die Big-4-Banken, die dich als Standardkunden behandeln, und anders als Fintechs, die dich als Mehrwährungsnutzer sehen, ist Tern rund um den Work-and-Travel-Zeitplan aufgebaut: ankommen, Gehalt erhalten, TFN und Super verwalten, sauber ausreisen. Wenn du ein Konto möchtest, das wirklich versteht, was du dort vorhast, trag dich in die Tern-Warteliste ein.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "Welche Bank ist am besten für Work and Travel Australien?",
+          a: "Das hängt von deinen Prioritäten ab. Für Filialzugang und ein breites Geldautomatennetz sind CommBank und ANZ die praktischsten Big-4-Optionen. Für null Fremdwährungsgebühren bietet Wise echte Mittelkurse mit einem AUD-Konto. Für eine speziell auf Work and Travel zugeschnittene Erfahrung mit Gehalt ab Tag eins, TFN-Erinnerungen und Super-Tracking ist Tern (derzeit im Vorstart) genau für dich entwickelt worden.",
+        },
+        {
+          q: "Kann ich ein australisches Bankkonto vor meiner Einreise eröffnen?",
+          a: "Teilweise. Sowohl CommBank als auch ANZ ermöglichen einen Online-Antrag von Übersee, aber du musst deine Identität nach der Landung in einer Filiale verifizieren — deine Kontodaten erhältst du erst nach diesem Schritt. Tern (im Vorstart) und einige Fintechs wie Wise ermöglichen eine vollständig digitale Kontoeröffnung, sodass du BSB und Kontonummer erhalten kannst, bevor du ins Flugzeug steigst.",
+        },
+        {
+          q: "Brauche ich eine TFN, um in Australien ein Bankkonto zu eröffnen?",
+          a: "Nein — du kannst ein Transaktionskonto ohne TFN eröffnen. Wenn du jedoch Zinsen verdienst, ist die Bank verpflichtet, Steuern zum Höchststeuersatz einzubehalten, solange keine TFN vorliegt. Bei einem Gehaltskonto mit minimalen Zinsen ist das in der Praxis selten ein Problem. Dennoch solltest du deine TFN so schnell wie möglich nach der Ankunft beantragen, da dein Arbeitgeber sie für die Lohnabrechnung benötigt — ohne TFN muss er Steuern zum Höchststeuersatz auf deinen Lohn einbehalten.",
+        },
+      ],
+    },
+    fr: {
+      title: "Meilleure banque pour un PVT en Australie",
+      description:
+        "Comparatif honnête des banques australiennes, cartes voyage et fintechs pour les pvtistes — ce qui compte vraiment et la place de Tern.",
+      excerpt:
+        "Big-4, Wise, Revolut ou Tern — quelle est vraiment la meilleure banque pour un PVT en Australie ? Ce qu'il faut comparer avant d'atterrir.",
+      sections: [
+        {
+          paragraphs: [
+            "\"Meilleure banque pour un PVT en Australie\" est l'une des questions les plus cherchées par les pvtistes — et la réponse honnête est qu'aucune banque n'est parfaite pour tous les voyageurs. Le bon choix dépend de tes priorités : as-tu besoin d'ouvrir un compte avant d'arriver ? As-tu besoin du multi-devises ? Tu restes six mois ou deux ans ? Ce guide décompose ce qui compte vraiment, évalue honnêtement les principales options et explique ce qui distingue Tern.",
+          ],
+        },
+        {
+          heading: "Ce qui compte vraiment pour un compte bancaire en PVT",
+          paragraphs: [
+            "La plupart des comparatifs de banques se concentrent sur les taux d'intérêt ou des fonctionnalités sans intérêt pour les voyageurs. Pour un titulaire de WHV, les facteurs qui font vraiment la différence sont :",
+          ],
+          bullets: [
+            "[Ouvrir avant l'arrivée](~/guides/bank-account-working-holiday-australia) — peux-tu obtenir ton BSB et ton numéro de compte avant d'atterrir, pour que ton employeur puisse te payer dès le premier jour ?",
+            "Pas de frais de tenue de compte mensuel — ou une condition de dispense facile à remplir, comme un seul virement par mois",
+            "Pas (ou peu) de frais de retrait international et de frais sur les transactions en devises étrangères — tu utiliseras peut-être régulièrement des distributeurs hors réseau",
+            "BSB et numéro de compte immédiats — pour les transmettre à un employeur le jour même de ton arrivée",
+            "Facile à clôturer et à récupérer ses fonds — quand ton visa expire, tu dois pouvoir rapatrier ton argent sans délai administratif",
+            "Multi-devises ou bons taux de change — si tu envoies de l'argent chez toi ou voyages dans d'autres pays pendant ton PVT",
+          ],
+        },
+        {
+          heading: "Les quatre grandes banques australiennes — évaluation honnête",
+          paragraphs: [
+            "La Commonwealth Bank (CommBank), ANZ, Westpac et NAB sont les quatre plus grandes banques d'Australie. Elles offrent un vaste réseau de distributeurs, des agences dans tous les États et sont acceptées partout.",
+          ],
+          bullets: [
+            "Frais mensuels : la plupart des comptes courants des big-4 facturent des frais mensuels (généralement AUD 4–6) supprimés si tu déposes un montant minimum chaque mois — pour un pvtiste qui perçoit un salaire régulier, c'est en général facile à atteindre",
+            "Vérification d'identité en agence : toutes les big-4 exigent une vérification d'identité en personne avec ton passeport — tu ne peux pas finaliser l'ouverture entièrement en ligne en tant que nouvel arrivant de l'étranger",
+            "Candidatures avant l'arrivée : CommBank et ANZ permettent une demande en ligne avant l'arrivée ; tu complètes la vérification d'identité en agence après avoir atterri",
+            "Frais de retrait hors réseau : les big-4 facturent en général AUD 2–5 par retrait hors réseau et 2–3 % sur les transactions en devises étrangères",
+            "Gestion du TFN : toutes les big-4 t'invitent à ajouter ton Tax File Number dans l'appli ; sans lui, les intérêts sont prélevés au taux marginal maximum",
+          ],
+        },
+        {
+          heading: "Cartes voyage et fintechs — Wise et Revolut",
+          paragraphs: [
+            "Wise et Revolut sont populaires auprès des pvtistes pour le change de devises, les virements internationaux et les dépenses en plusieurs devises. Ce sont d'excellentes solutions pour ces usages. Toutefois, ce sont des produits fintech multi-devises, pas des comptes salaires australiens à part entière.",
+          ],
+          bullets: [
+            "Wise : propose un compte bancaire australien avec BSB et numéro de compte — tu peux recevoir ton salaire en AUD directement ; les vrais taux de change interbancaires sont un vrai avantage pour envoyer de l'argent chez toi ; pas de frais mensuels",
+            "Revolut : compte en AUD disponible ; fonctionnalités multi-devises solides et retraits ATM sans frais jusqu'à un plafond mensuel ; les formules premium débloquent plus d'options",
+            "Superannuation : ni Wise ni Revolut ne proposent de suivi de la super ni de rappels TFN/super — tu dois gérer cela séparément",
+            "Fonctionnalités spécifiques à l'Australie : aucune des deux plateformes n'intègre d'outils pour les démarches WHV propres à l'Australie, comme les rappels d'enregistrement du TFN, la sélection d'un fonds de retraite ou les récapitulatifs de l'année fiscale australienne",
+            "Toutes deux sont de solides options pour le change et les dépenses ; aucune ne remplace un outil bancaire dédié aux pvtistes pour le suivi du salaire et des obligations fiscales",
+          ],
+        },
+        {
+          heading: "La place de Tern",
+          paragraphs: [
+            "Tern est conçu spécifiquement pour les titulaires d'un visa working holiday — pas comme une banque généraliste ni une carte multi-devises, mais comme un compagnon financier qui comprend le cycle de vie du PVT. Les différences clés :",
+          ],
+          bullets: [
+            "Salaire dès le premier jour : Tern te fournit ton BSB et ton numéro de compte avant d'atterrir, pour que ton employeur puisse te payer dès le premier jour de travail",
+            "Rappels TFN : Tern te rappelle de faire ta demande de Tax File Number et vérifie que ton employeur prélève au taux correct",
+            "Suivi de la superannuation : Tern suit tes cotisations de retraite et t'aide à récupérer ta super quand tu quittes l'Australie",
+            "Conversion de devises à tarif fixe : pas de frais proportionnels sur les transactions en devises — un tarif fixe par conversion, quel que soit le montant",
+            "Sortie facile : quand ton PVT se termine, Tern est conçu pour que la clôture de ton compte et le rapatriement de ton argent soient simples, sans tracas administratifs",
+            "Prélancement / liste d'attente : Tern n'est pas encore disponible — rejoins la liste d'attente pour être parmi les premiers à l'utiliser à son lancement",
+          ],
+        },
+        {
+          heading: "Comment Tern t'aide",
+          paragraphs: [
+            "Contrairement aux big-4 qui te traitent comme un client de détail standard, et aux fintechs qui te traitent comme un utilisateur multi-devises, Tern est construit autour du calendrier du PVT : arriver, être payé, gérer le TFN et la super, et repartir sans complications. Si tu veux un compte bancaire qui comprend vraiment ce que tu es venu faire là-bas, rejoins la liste d'attente Tern.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "Quelle banque est la meilleure pour un PVT en Australie ?",
+          a: "Cela dépend de tes priorités. Pour l'accès aux agences et un large réseau de distributeurs, CommBank et ANZ sont les options big-4 les plus pratiques. Pour zéro frais sur les transactions en devises étrangères, Wise offre les vrais taux interbancaires avec un compte en AUD. Pour une expérience conçue spécifiquement pour le PVT — salaire dès le premier jour, rappels TFN et suivi de la super — Tern (actuellement en prélancement) a été pensé spécialement pour toi.",
+        },
+        {
+          q: "Puis-je ouvrir un compte bancaire australien avant d'arriver ?",
+          a: "En partie. CommBank et ANZ te permettent de commencer la demande en ligne depuis l'étranger, mais tu dois vérifier ton identité en agence une fois sur place — tu ne peux pas recevoir tes coordonnées bancaires avant cette étape. Tern (en prélancement) et certains fintechs comme Wise permettent une ouverture de compte entièrement en ligne, ce qui signifie que tu peux recevoir ton BSB et ton numéro de compte avant de monter dans l'avion.",
+        },
+        {
+          q: "Ai-je besoin d'un TFN pour ouvrir un compte bancaire en Australie ?",
+          a: "Non — tu peux ouvrir un compte courant sans TFN. Cependant, si tu perçois des intérêts, la banque est tenue de prélever des impôts au taux marginal maximum en l'absence de TFN. Pour un compte salaire où les intérêts sont minimes, c'est rarement un problème en pratique. Cela dit, tu dois demander ton TFN dès ton arrivée, car ton employeur en a besoin pour la paie — sans lui, il doit prélever des impôts au taux maximum sur ton salaire.",
+        },
+      ],
+    },
+    it: {
+      title: "La migliore banca per il working holiday in Australia",
+      description:
+        "Confronto onesto tra banche australiane, carte viaggio e fintech per i titolari di WHV — cosa conta davvero e dove si posiziona Tern.",
+      excerpt:
+        "Big-4, Wise, Revolut o Tern — qual è davvero la banca migliore per il working holiday in Australia? Ecco cosa confrontare prima di partire.",
+      sections: [
+        {
+          paragraphs: [
+            "\"Migliore banca per il working holiday in Australia\" è una delle domande più cercate dai titolari di WHV — e la risposta onesta è che non esiste una banca perfetta per tutti i viaggiatori. La scelta giusta dipende dalle tue priorità: hai bisogno di aprire il conto prima di arrivare? Ti serve il multi-valuta? Resti sei mesi o due anni? Questa guida analizza ciò che conta davvero, valuta in modo equo le principali opzioni e spiega cosa rende Tern diverso.",
+          ],
+        },
+        {
+          heading: "Cosa conta davvero per un conto bancario in working holiday",
+          paragraphs: [
+            "La maggior parte dei confronti tra banche si concentra su tassi d'interesse o funzionalità irrilevanti per i viaggiatori. Per un titolare di WHV, i fattori che fanno la differenza sono:",
+          ],
+          bullets: [
+            "[Aprire prima dell'arrivo](~/guides/bank-account-working-holiday-australia) — puoi ottenere il BSB e il numero di conto prima di atterrare, in modo che il tuo datore di lavoro possa pagarti dal primo giorno?",
+            "Nessun canone mensile — o una condizione di esenzione facile da soddisfare, come un solo accredito al mese",
+            "Nessuna (o bassa) commissione per prelievi ATM internazionali e transazioni in valuta estera — potresti prelevare regolarmente da sportelli fuori dalla rete della tua banca",
+            "BSB e numero di conto immediati — per consegnarli a un datore di lavoro lo stesso giorno dell'arrivo",
+            "Facile da chiudere e prelevare i fondi — quando il visto scade devi poter trasferire i tuoi soldi senza ritardi burocratici",
+            "Multi-valuta o buoni tassi di cambio — se mandi soldi a casa o viaggi in altri paesi durante il tuo working holiday",
+          ],
+        },
+        {
+          heading: "Le quattro grandi banche australiane — valutazione onesta",
+          paragraphs: [
+            "Commonwealth Bank (CommBank), ANZ, Westpac e NAB sono le quattro banche più grandi d'Australia. Offrono una vasta rete di sportelli ATM, filiali in tutti gli Stati e sono accettate ovunque.",
+          ],
+          bullets: [
+            "Canoni mensili: la maggior parte dei conti correnti delle big-4 applica un canone mensile (di solito AUD 4–6) che viene azzerato se accrediti un importo minimo ogni mese — per un lavoratore in working holiday con stipendio regolare, questa condizione è in genere facile da soddisfare",
+            "Verifica dell'identità in filiale: tutte le big-4 richiedono una verifica dell'identità di persona con il passaporto — non puoi completare il processo interamente online come nuovo arrivato dall'estero",
+            "Richieste prima dell'arrivo: CommBank e ANZ permettono una domanda online prima dell'arrivo; completi la verifica dell'identità in filiale dopo l'atterraggio",
+            "Commissioni ATM esterni: le big-4 addebitano in genere AUD 2–5 per ogni prelievo a uno sportello esterno e il 2–3 % sulle transazioni in valuta estera",
+            "Gestione del TFN: tutte le big-4 ti invitano ad aggiungere il tuo Tax File Number nell'home banking; senza di esso, gli interessi vengono ritenuti all'aliquota massima",
+          ],
+        },
+        {
+          heading: "Carte viaggio e fintech — Wise e Revolut",
+          paragraphs: [
+            "Wise e Revolut sono popolari tra i titolari di WHV per il cambio valuta, i bonifici internazionali e le spese in più valute. Sono davvero eccellenti per questi utilizzi. Tuttavia, sono pensati come prodotti fintech multi-valuta, non come conti primari per ricevere lo stipendio in Australia.",
+          ],
+          bullets: [
+            "Wise: offre un conto bancario australiano con BSB e numero di conto — puoi ricevere lo stipendio in AUD direttamente; i tassi di cambio reali interbancari sono un vero vantaggio per inviare denaro a casa; nessun canone mensile",
+            "Revolut: conto in AUD disponibile; forti funzionalità multi-valuta e prelievi ATM senza commissioni fino a un limite mensile; i piani premium sbloccano di più",
+            "Superannuation: né Wise né Revolut offrono il tracciamento della super né promemoria TFN/super — devi gestirli separatamente",
+            "Funzionalità specifiche per l'Australia: nessuna delle due piattaforme ha strumenti integrati per le pratiche WHV specifiche dell'Australia, come promemoria per la richiesta del TFN, selezione del fondo pensionistico o riepiloghi dell'anno fiscale australiano",
+            "Entrambe sono ottime scelte per il cambio valuta e le spese; nessuna sostituisce uno strumento bancario dedicato al working holiday per la gestione dello stipendio e degli adempimenti fiscali",
+          ],
+        },
+        {
+          heading: "Il ruolo di Tern",
+          paragraphs: [
+            "Tern è progettato specificamente per i titolari di visto working holiday — non come una banca generica o una carta multi-valuta, ma come un compagno finanziario che comprende il ciclo di vita del WHV. Le differenze principali:",
+          ],
+          bullets: [
+            "Stipendio dal primo giorno: Tern ti fornisce il BSB e il numero di conto prima di arrivare, così il tuo datore di lavoro può pagarti fin dal primo turno",
+            "Promemoria TFN: Tern ti ricorda di richiedere il Tax File Number e verifica che il tuo datore di lavoro stia trattenendo all'aliquota corretta",
+            "Tracciamento della superannuation: Tern monitora i tuoi contributi previdenziali e ti aiuta a recuperare la super quando lasci l'Australia",
+            "Commissione fissa per il cambio valuta: nessuna commissione percentuale sulle transazioni in valuta estera — una tariffa fissa per ogni cambio, indipendentemente dall'importo",
+            "Uscita facile: quando il tuo WHV finisce, Tern è progettato per rendere la chiusura del conto e il rimpatrio del denaro semplici, senza intoppi burocratici",
+            "Pre-lancio / lista d'attesa: Tern non è ancora attivo — iscriviti alla lista d'attesa per essere tra i primi quando verrà lanciato",
+          ],
+        },
+        {
+          heading: "Come ti aiuta Tern",
+          paragraphs: [
+            "A differenza delle big-4, che ti trattano come un cliente retail standard, e dei fintech, che ti trattano come un utente multi-valuta, Tern è costruito attorno alla timeline del working holiday: arrivare, ricevere lo stipendio, gestire TFN e super, e partire in modo pulito. Se vuoi un conto bancario che capisca davvero cosa sei venuto a fare lì, iscriviti alla lista d'attesa di Tern.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "Qual è la banca migliore per il working holiday in Australia?",
+          a: "Dipende dalle tue priorità. Per l'accesso alle filiali e un'ampia rete di sportelli, CommBank e ANZ sono le opzioni big-4 più pratiche. Per zero commissioni sulle transazioni in valuta estera, Wise offre i veri tassi interbancari con un conto in AUD. Per un'esperienza pensata appositamente per il WHV — stipendio dal primo giorno, promemoria TFN e tracciamento della super — Tern (attualmente in pre-lancio) è stato progettato specificamente per te.",
+        },
+        {
+          q: "Posso aprire un conto bancario australiano prima di arrivare?",
+          a: "In parte. CommBank e ANZ ti permettono entrambe di iniziare la domanda online dall'estero, ma devi verificare la tua identità in filiale una volta atterrato — non puoi ricevere i dati del conto finché non completi questo passaggio. Tern (in pre-lancio) e alcune fintech come Wise consentono l'apertura del conto completamente digitale, il che significa che puoi ricevere BSB e numero di conto prima di salire sull'aereo.",
+        },
+        {
+          q: "Ho bisogno di un TFN per aprire un conto bancario in Australia?",
+          a: "No — puoi aprire un conto corrente senza TFN. Tuttavia, se percepisci interessi, la banca è tenuta a trattenere le imposte all'aliquota marginale massima in assenza del TFN. Per un conto stipendio con interessi minimi, questo è raramente un problema pratico. Detto questo, dovresti richiedere il TFN non appena arrivi, poiché il tuo datore di lavoro ne ha bisogno per la busta paga — senza di esso deve trattenere le imposte all'aliquota massima sul tuo salario.",
+        },
+      ],
+    },
   },
 };
