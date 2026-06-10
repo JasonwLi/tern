@@ -8,6 +8,11 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
-export default function DemoPage() {
-  return <AppDemo />;
+export default async function DemoPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  return <AppDemo locale={locale} />;
 }

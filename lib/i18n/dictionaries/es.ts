@@ -339,6 +339,8 @@ export const es: Dictionary = {
     foundingUnlocked: "🏆 Lugar de Miembro Fundador asegurado — estás entre los primeros 500.",
     metalNote: "Los primeros 1,000 reciben una tarjeta de metal personalizable gratis al lanzar — tu nombre, tu diseño.",
     metalUnlocked: "💳 Tarjeta de metal personalizada reservada — estás entre los primeros 1,000.",
+    metalCounter: "Quedan {left} de 1,000 tarjetas de metal personalizadas — tu nombre, tu diseño.",
+    designYours: "Diséñala en la demo →",
   },
 
   about: {

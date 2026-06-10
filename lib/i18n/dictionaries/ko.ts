@@ -331,6 +331,8 @@ export const ko: Dictionary = {
     foundingUnlocked: "🏆 파운딩 멤버 확정 — 선착순 500명 안에 들었어요.",
     metalNote: "선착순 1,000명에게는 출시 때 이름과 디자인을 커스텀할 수 있는 메탈 카드를 무료로 드려요.",
     metalUnlocked: "💳 커스텀 메탈 카드 예약 완료 — 선착순 1,000명 안에 들었어요.",
+    metalCounter: "커스텀 메탈 카드 1,000장 중 {left}장 남음 — 이름도 디자인도 내 마음대로.",
+    designYours: "데모에서 디자인해 보기 →",
   },
 
   about: {

@@ -56,6 +56,7 @@ export default async function LandingPage({
         <Hero locale={locale} t={dict.hero} signup={dict.signup} />
         <Features t={dict.features} />
         <FinalCTA
+          locale={locale}
           t={dict.finalCta}
           signup={dict.signup}
           waitlistSuffix={dict.hero.waitlistSuffix}

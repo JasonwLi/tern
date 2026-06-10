@@ -338,6 +338,8 @@ export const de: Dictionary = {
     foundingUnlocked: "🏆 Founding-Member-Platz gesichert — du bist unter den ersten 500.",
     metalNote: "Die ersten 1.000 bekommen zum Start eine gratis personalisierbare Metallkarte — dein Name, dein Design.",
     metalUnlocked: "💳 Personalisierte Metallkarte reserviert — du bist unter den ersten 1.000.",
+    metalCounter: "Nur noch {left} von 1.000 personalisierten Metallkarten — dein Name, dein Design.",
+    designYours: "Gestalte deine in der Demo →",
   },
 
   about: {

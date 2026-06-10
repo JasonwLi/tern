@@ -128,7 +128,7 @@ export default async function AboutPage({
           </div>
         </section>
 
-        <FinalCTA t={dict.finalCta} signup={dict.signup} waitlistSuffix={dict.hero.waitlistSuffix} waitlistEarly={dict.hero.waitlistEarly} />
+        <FinalCTA locale={locale} t={dict.finalCta} signup={dict.signup} waitlistSuffix={dict.hero.waitlistSuffix} waitlistEarly={dict.hero.waitlistEarly} />
       </main>
       <Footer locale={locale} t={dict.footer} />
     </>

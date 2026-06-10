@@ -329,6 +329,8 @@ export const ja: Dictionary = {
     foundingUnlocked: "🏆 ファウンディングメンバー確定 — 先着500名以内です。",
     metalNote: "先着1,000名には、名前とデザインをカスタムできるメタルカードをローンチ時に無料でお届け。",
     metalUnlocked: "💳 カスタムメタルカード確保 — 先着1,000名以内です。",
+    metalCounter: "カスタムメタルカードは残り{left}枚（全1,000枚）— 名前もデザインも自由に。",
+    designYours: "デモでデザインしてみる →",
   },
 
   about: {

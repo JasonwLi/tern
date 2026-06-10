@@ -3,10 +3,16 @@
 import { useEffect, useState } from "react";
 import { Logo } from "./Logo";
 
-type Tab = "home" | "swap" | "card";
+type Tab = "home" | "swap" | "card" | "design";
 
-export default function AppDemo() {
+export default function AppDemo({ locale = "en" }: { locale?: string }) {
   const [tab, setTab] = useState<Tab>("home");
+
+  // Deep-linkable tabs: /demo?tab=design opens the card customiser directly.
+  useEffect(() => {
+    const t = new URLSearchParams(window.location.search).get("tab");
+    if (t === "swap" || t === "card" || t === "design") setTab(t);
+  }, []);
   const [toast, setToast] = useState(false);
   const [swapped, setSwapped] = useState(false);
   const [frozen, setFrozen] = useState(false);
@@ -47,6 +53,7 @@ export default function AppDemo() {
           {tab === "home" && <Home toast={toast} />}
           {tab === "swap" && <Swap swapped={swapped} onSwap={() => setSwapped(true)} />}
           {tab === "card" && <Card frozen={frozen} setFrozen={setFrozen} />}
+          {tab === "design" && <Design locale={locale} />}
         </div>
 
         {/* bottom nav */}
@@ -55,6 +62,7 @@ export default function AppDemo() {
             ["home", "🏠", "Home"],
             ["swap", "🔄", "Swap"],
             ["card", "💳", "Card"],
+            ["design", "✨", "Design"],
           ] as [Tab, string, string][]).map(([key, icon, label]) => (
             <button
               key={key}
@@ -227,6 +235,100 @@ function Card({ frozen, setFrozen }: { frozen: boolean; setFrozen: (v: boolean) 
         <div className="rounded-2xl bg-white py-3 text-center text-sm font-semibold text-ink shadow-sm"> Apple Pay</div>
         <div className="rounded-2xl bg-white py-3 text-center text-sm font-semibold text-ink shadow-sm">G Pay</div>
       </div>
+    </div>
+  );
+}
+
+const FINISHES = [
+  {
+    key: "silver",
+    label: "Silver",
+    card: "from-zinc-100 via-zinc-300 to-zinc-500",
+    text: "text-zinc-700",
+    sub: "text-zinc-600",
+    swatch: "bg-gradient-to-br from-zinc-200 to-zinc-500",
+  },
+  {
+    key: "graphite",
+    label: "Graphite",
+    card: "from-zinc-600 via-zinc-800 to-zinc-950",
+    text: "text-zinc-200",
+    sub: "text-zinc-400",
+    swatch: "bg-gradient-to-br from-zinc-600 to-zinc-950",
+  },
+  {
+    key: "rose",
+    label: "Rose gold",
+    card: "from-[#f4cfc4] via-[#e8b4a4] to-[#d29985]",
+    text: "text-[#7a4a38]",
+    sub: "text-[#96604c]",
+    swatch: "bg-gradient-to-br from-[#f0c5b8] to-[#d29985]",
+  },
+] as const;
+
+function Design({ locale }: { locale: string }) {
+  const [name, setName] = useState("A. RILEY");
+  const [finish, setFinish] = useState<(typeof FINISHES)[number]>(FINISHES[0]);
+
+  return (
+    <div className="flex h-full flex-col px-5 pb-6 pt-5">
+      <p className="font-display text-2xl font-bold text-ink">Design your metal card</p>
+      <p className="text-sm text-ink-soft">Free for the first 1,000 on the waitlist</p>
+
+      {/* live preview */}
+      <div
+        className={`relative mx-auto mt-6 aspect-[8/5] w-full max-w-[300px] rounded-3xl bg-gradient-to-br ${finish.card} p-5 shadow-2xl shadow-black/30 ring-1 ring-white/40 transition-colors duration-300`}
+      >
+        <div className="pointer-events-none absolute inset-0 rounded-3xl bg-gradient-to-tr from-transparent via-white/30 to-transparent" />
+        <div className="flex items-center justify-between">
+          <Logo className="h-7 w-7" />
+          <span className={`text-[9px] font-bold tracking-[0.25em] ${finish.sub}`}>METAL</span>
+        </div>
+        <div className={`mt-9 font-display text-base tracking-[0.3em] ${finish.text}`}>
+          •••• 1000
+        </div>
+        <div className="mt-2 flex items-end justify-between">
+          <span className={`max-w-[60%] truncate text-[11px] font-bold uppercase tracking-[0.2em] ${finish.sub}`}>
+            {name.trim() || "YOUR NAME"}
+          </span>
+          <span className={`font-display text-lg font-bold italic ${finish.text}`}>VISA</span>
+        </div>
+      </div>
+
+      {/* finish swatches */}
+      <div className="mt-6 flex justify-center gap-4">
+        {FINISHES.map((f) => (
+          <button
+            key={f.key}
+            onClick={() => setFinish(f)}
+            aria-label={f.label}
+            className={`flex flex-col items-center gap-1.5 ${finish.key === f.key ? "" : "opacity-60"}`}
+          >
+            <span
+              className={`h-10 w-10 rounded-full ${f.swatch} ring-2 ${
+                finish.key === f.key ? "ring-grape-500" : "ring-transparent"
+              }`}
+            />
+            <span className="text-[10px] font-semibold text-ink-soft">{f.label}</span>
+          </button>
+        ))}
+      </div>
+
+      {/* name input */}
+      <input
+        value={name}
+        onChange={(e) => setName(e.target.value.toUpperCase().slice(0, 20))}
+        placeholder="YOUR NAME"
+        className="mt-5 w-full rounded-full border-2 border-ink/10 bg-white px-5 py-3 text-center font-display text-sm font-bold tracking-[0.2em] text-ink outline-none focus:border-grape-500"
+        aria-label="Name on card"
+      />
+
+      <a
+        href={`/${locale}#waitlist`}
+        className="mt-auto block w-full rounded-full bg-grape-500 py-4 text-center text-base font-bold text-white shadow-lg shadow-grape-500/30 transition active:scale-95"
+      >
+        Reserve it — join the waitlist
+      </a>
     </div>
   );
 }

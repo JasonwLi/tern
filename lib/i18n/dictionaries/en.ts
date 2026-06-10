@@ -338,6 +338,8 @@ export const en = {
     foundingUnlocked: "🏆 Founding Member spot secured — you're in the first 500.",
     metalNote: "The first 1,000 get a free customisable metal card at launch — your name, your design.",
     metalUnlocked: "💳 Custom metal card reserved — you're in the first 1,000.",
+    metalCounter: "Only {left} of 1,000 custom metal cards left — your name, your design.",
+    designYours: "Design yours in the demo →",
   },
 
   about: {

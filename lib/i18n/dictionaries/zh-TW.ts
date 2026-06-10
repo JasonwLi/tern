@@ -331,6 +331,8 @@ export const zhTW: Dictionary = {
     foundingUnlocked: "🏆 創始會員資格已鎖定 — 你在前 500 名內。",
     metalNote: "前 1,000 名可在上線時免費獲得客製化金屬卡 — 刻上你的名字、選你的設計。",
     metalUnlocked: "💳 客製金屬卡已保留 — 你在前 1,000 名內。",
+    metalCounter: "客製金屬卡 1,000 張僅剩 {left} 張 — 刻你的名字、選你的設計。",
+    designYours: "到 Demo 設計你的卡 →",
   },
 
   about: {

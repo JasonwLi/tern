@@ -1,6 +1,8 @@
 import SignupForm from "./SignupForm";
 import WaitlistCount from "./WaitlistCount";
+import MetalCounter from "./MetalCounter";
 import { Logo } from "./Logo";
+import type { Locale } from "@/lib/i18n/config";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
 
 // CSS-only render of the customisable metal card (launch perk for the
@@ -28,11 +30,13 @@ function MetalCard() {
 }
 
 export default function FinalCTA({
+  locale,
   t,
   signup,
   waitlistSuffix,
   waitlistEarly,
 }: {
+  locale: Locale;
   t: Dictionary["finalCta"];
   signup: Dictionary["signup"];
   waitlistSuffix: string;
@@ -56,7 +60,15 @@ export default function FinalCTA({
             <ul className="space-y-2 text-sm text-white/90">
               <li>{signup.kitTeaser}</li>
               <li>🏆 {signup.foundingNote}</li>
-              <li>💳 {signup.metalNote}</li>
+              <li>
+                💳 <MetalCounter counter={signup.metalCounter} fallback={signup.metalNote} />{" "}
+                <a
+                  href={`/${locale}/demo?tab=design`}
+                  className="font-bold text-lime-300 underline underline-offset-2 hover:text-lime-200"
+                >
+                  {signup.designYours}
+                </a>
+              </li>
             </ul>
           </div>
 
