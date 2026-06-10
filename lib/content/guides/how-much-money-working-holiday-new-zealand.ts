@@ -86,7 +86,7 @@ export const article: Article = {
       ],
     },
     es: {
-      title: "¿Cuánto dinero necesitas para la working holiday en Nueva Zelanda?",
+      title: "Working holiday Nueva Zelanda: ¿cuánto dinero necesitas?",
       description:
         "NZD 4,200 de fondos mínimos, rango de tasas de visa, desglose del primer mes y cuánto ahorrar antes de volar a Nueva Zelanda.",
       excerpt:

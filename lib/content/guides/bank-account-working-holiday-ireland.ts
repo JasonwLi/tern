@@ -95,7 +95,7 @@ export const article: Article = {
       ],
     },
     es: {
-      title: "Cómo abrir una cuenta bancaria en Irlanda con visa working holiday",
+      title: "Cuenta bancaria en Irlanda con visa working holiday",
       description:
         "Banca en Irlanda con WHV: número PPS, el dilema del domicilio, cuentas IBAN, 40% de impuesto de emergencia sin PPS y cómo cobrar el sueldo.",
       excerpt:

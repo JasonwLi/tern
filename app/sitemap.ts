@@ -6,6 +6,7 @@ import { SITE_URL } from "@/lib/site";
 function altsAll(path: string) {
   const languages: Record<string, string> = {};
   for (const l of locales) languages[l] = `${SITE_URL}/${l}${path}`;
+  languages["x-default"] = `${SITE_URL}/en${path}`;
   return languages;
 }
 
@@ -42,6 +43,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   for (const { a, base } of articles) {
     const langs: Record<string, string> = {};
     for (const l of availableLocales(a)) langs[l] = `${SITE_URL}/${l}${base}/${a.slug}`;
+    langs["x-default"] = `${SITE_URL}/en${base}/${a.slug}`;
     for (const locale of availableLocales(a)) {
       entries.push({
         url: `${SITE_URL}/${locale}${base}/${a.slug}`,

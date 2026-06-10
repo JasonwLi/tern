@@ -1,4 +1,5 @@
 import { Pool } from "pg";
+import { randomBytes } from "node:crypto";
 
 // Waitlist store. Uses Postgres when DATABASE_URL is set (production / Railway),
 // and falls back to an in-memory store for local dev without a database.
@@ -25,7 +26,9 @@ export type AddSignupResult = SignupRecord | { ok: false; error: string };
 const DATABASE_URL = process.env.DATABASE_URL;
 
 function newCode(): string {
-  return Math.random().toString(36).slice(2, 8);
+  // crypto-strength so codes can't be predicted/enumerated; hex matches the
+  // [a-z0-9] validation in addSignup.
+  return randomBytes(4).toString("hex");
 }
 
 // ---- In-memory fallback (no DATABASE_URL, e.g. local dev) ----
@@ -75,7 +78,7 @@ function getPool(): Pool {
       url.includes("127.0.0.1");
     pool = new Pool({
       connectionString: DATABASE_URL,
-      ssl: noSsl ? undefined : { rejectUnauthorized: false },
+      ssl: noSsl ? undefined : { rejectUnauthorized: true },
       max: 5,
     });
   }

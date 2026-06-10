@@ -59,6 +59,7 @@ export default function Spotlights({ t }: { t: Dictionary["spotlights"] }) {
                   height={900}
                   className="h-[26rem] w-full object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
+                  priority={i === 0}
                 />
               </div>
               <div className="absolute -bottom-5 left-1/2 w-[88%] -translate-x-1/2">

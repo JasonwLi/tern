@@ -8,6 +8,7 @@ export const article: Article = {
   emoji: "🪪",
   accent: "bg-lime-300",
   readMinutes: 4,
+  related: ["working-holiday-tax-refund-australia", "what-is-a-bsb-number"],
   sources: [
     {
       label: "Australian Taxation Office (ATO) — Apply for a TFN",

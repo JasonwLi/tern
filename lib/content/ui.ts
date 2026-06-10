@@ -26,6 +26,8 @@ export interface ContentUi {
   statusNotFound: string;
   statusPosition: string;
   statusReferrals: string;
+  guidesGroupEurope: string;
+  guidesGroupEssentials: string;
 }
 
 export const contentUi: Record<Locale, ContentUi> = {
@@ -55,6 +57,8 @@ export const contentUi: Record<Locale, ContentUi> = {
     statusNotFound: "We couldn't find that email on the waitlist — try joining first!",
     statusPosition: "Your position",
     statusReferrals: "Friends referred",
+    guidesGroupEurope: "UK & Europe",
+    guidesGroupEssentials: "Money essentials",
   },
   es: {
     guidesNav: "Guías",
@@ -82,6 +86,8 @@ export const contentUi: Record<Locale, ContentUi> = {
     statusNotFound: "No encontramos ese email en la lista — ¡únete primero!",
     statusPosition: "Tu posición",
     statusReferrals: "Amigos referidos",
+    guidesGroupEurope: "Reino Unido y Europa",
+    guidesGroupEssentials: "Conceptos básicos de dinero",
   },
   ja: {
     guidesNav: "ガイド",
@@ -109,6 +115,8 @@ export const contentUi: Record<Locale, ContentUi> = {
     statusNotFound: "このメールアドレスはウェイトリストに見つかりませんでした。まずは登録してください！",
     statusPosition: "あなたの順番",
     statusReferrals: "紹介した友達",
+    guidesGroupEurope: "イギリス・ヨーロッパ",
+    guidesGroupEssentials: "お金の基礎知識",
   },
   ko: {
     guidesNav: "가이드",
@@ -136,6 +144,8 @@ export const contentUi: Record<Locale, ContentUi> = {
     statusNotFound: "해당 이메일을 웨이팅리스트에서 찾을 수 없어요 — 먼저 등록해 주세요!",
     statusPosition: "내 순번",
     statusReferrals: "초대한 친구",
+    guidesGroupEurope: "영국 & 유럽",
+    guidesGroupEssentials: "머니 기초",
   },
   "zh-TW": {
     guidesNav: "指南",
@@ -163,5 +173,7 @@ export const contentUi: Record<Locale, ContentUi> = {
     statusNotFound: "在候補名單中找不到這個 email — 請先加入名單！",
     statusPosition: "你的順位",
     statusReferrals: "已邀請朋友",
+    guidesGroupEurope: "英國與歐洲",
+    guidesGroupEssentials: "理財基礎",
   },
 };

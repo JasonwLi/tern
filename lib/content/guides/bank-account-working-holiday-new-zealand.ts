@@ -94,7 +94,7 @@ export const article: Article = {
       ],
     },
     es: {
-      title: "Cómo abrir una cuenta bancaria en Nueva Zelanda con visa working holiday",
+      title: "Cuenta bancaria en Nueva Zelanda con working holiday",
       description:
         "Banca en Nueva Zelanda con WHV: número IRD, el problema sin dirección fija, qué bancos son más flexibles y cómo cobrar en NZD.",
       excerpt:

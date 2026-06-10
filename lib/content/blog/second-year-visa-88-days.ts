@@ -20,7 +20,7 @@ export const article: Article = {
   ],
   i18n: {
     en: {
-      title: "Second-year visa: how to track your 88 days of specified work",
+      title: "Second-year visa: track your 88 days of specified work",
       description:
         "Australia's second-year working holiday visa requires 88 days of specified regional work. What counts and how to keep payslip proof.",
       excerpt:
@@ -76,7 +76,7 @@ export const article: Article = {
       ],
     },
     es: {
-      title: "Segunda visa de vacaciones y trabajo: cómo registrar tus 88 días de trabajo especificado",
+      title: "Segunda visa working holiday: registra tus 88 días",
       description:
         "Segunda visa working holiday en Australia: 88 días de trabajo regional especificado. Qué cuenta y cómo guardar los recibos de sueldo.",
       excerpt:

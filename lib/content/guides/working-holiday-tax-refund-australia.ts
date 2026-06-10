@@ -7,6 +7,7 @@ export const article: Article = {
   emoji: "🧾",
   accent: "bg-coral-300",
   readMinutes: 7,
+  related: ["what-is-a-tfn", "superannuation-refund-dasp"],
   sources: [
     {
       label: "Australian Taxation Office (ATO) — Working holiday makers",
@@ -82,7 +83,7 @@ export const article: Article = {
       ],
     },
     es: {
-      title: "El impuesto del 45% para backpackers — y cómo recuperar tu dinero",
+      title: "El impuesto del 45% en Australia y cómo recuperar tu dinero",
       description:
         "Sin TFN en Australia, retienen hasta el 45%. Cómo funciona el impuesto backpacker, cómo obtener el TFN y reclamar la devolución (promedio ~$2,600).",
       excerpt:
@@ -90,7 +91,7 @@ export const article: Article = {
       sections: [
         {
           paragraphs: [
-            "Los impuestos son donde los trabajadores en visa working holiday pierden más plata en silencio — primero por retención excesiva, y luego por no reclamar la devolución. La buena noticia: la mayor parte se puede evitar, y mucho se puede recuperar.",
+            "Los impuestos son donde los trabajadores en visa working holiday pierden más plata en silencio — primero por retención excesiva, y luego por no reclamar la devolución. La buena noticia: la mayor parte se puede evitar, y mucho se puede recuperar. Si eres de Latinoamérica (Chile, Argentina, Perú, Uruguay, Ecuador…), tu visa es la Work and Holiday (subclase 462) — a efectos de impuestos y TFN funciona exactamente igual que la 417.",
           ],
         },
         {

@@ -8,6 +8,7 @@ export const article: Article = {
   emoji: "🧾",
   accent: "bg-coral-300",
   readMinutes: 4,
+  related: ["tax-refund-working-holiday-new-zealand", "bank-account-working-holiday-new-zealand"],
   sources: [
     {
       label: "Inland Revenue New Zealand — IRD numbers for individuals",
@@ -28,7 +29,7 @@ export const article: Article = {
   ],
   i18n: {
     en: {
-      title: "What is an IRD number? A guide for working holiday makers in NZ",
+      title: "What is an IRD number? Guide for working holiday makers",
       description:
         "An IRD number is New Zealand's tax ID. Without one, employers deduct 45% tax. What it is, why it matters, and how to apply when you arrive.",
       excerpt:
@@ -88,7 +89,7 @@ export const article: Article = {
       ],
     },
     es: {
-      title: "¿Qué es un número IRD? Guía para trabajadores de vacaciones y trabajo en NZ",
+      title: "¿Qué es un número IRD? Guía para working holiday en NZ",
       description:
         "El número IRD es el identificador fiscal de NZ. Sin él retienen el 45% de tu sueldo. Qué es, por qué importa y cómo solicitarlo al llegar.",
       excerpt:

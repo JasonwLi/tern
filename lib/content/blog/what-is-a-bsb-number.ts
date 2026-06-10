@@ -8,6 +8,7 @@ export const article: Article = {
   emoji: "🔢",
   accent: "bg-grape-300",
   readMinutes: 4,
+  related: ["bank-account-working-holiday-australia", "what-is-a-tfn"],
   sources: [
     {
       label: "Australian Payments Network (AusPayNet) — BSB System",

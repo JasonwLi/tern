@@ -109,7 +109,7 @@ export const article: Article = {
       ],
     },
     es: {
-      title: "Cómo abrir una cuenta bancaria en Japón con visa de working holiday",
+      title: "Cuenta bancaria en Japón con visa de working holiday",
       description:
         "Banca en Japón con visa working holiday — la regla de los 6 meses, Japan Post Bank, tarjeta de residencia, hanko y cobrar el sueldo.",
       excerpt:

@@ -42,9 +42,19 @@ export default function ArticleView({
   const indexHref = `/${locale}/${base}`;
   const url = `${SITE_URL}/${locale}/${base}/${article.slug}`;
 
-  const related = (isGuide ? guides : posts)
-    .filter((a) => a.slug !== article.slug && hasLocale(a, locale))
-    .slice(0, 2);
+  // Curated related slugs first (may cross guides/blog); fall back to
+  // same-kind neighbours.
+  const all = [...guides, ...posts];
+  const curated = (article.related ?? [])
+    .map((slug) => all.find((a) => a.slug === slug))
+    .filter((a): a is NonNullable<typeof a> => Boolean(a && hasLocale(a, locale)));
+  const related = (
+    curated.length > 0
+      ? curated
+      : (isGuide ? guides : posts).filter(
+          (a) => a.slug !== article.slug && hasLocale(a, locale)
+        )
+  ).slice(0, 2);
 
   const articleLd = {
     "@context": "https://schema.org",
@@ -107,7 +117,12 @@ export default function ArticleView({
         {c.sections.map((s, i) => (
           <section key={i}>
             {s.heading && (
-              <h2 className="mt-10 mb-3 font-display text-2xl font-bold text-ink">{s.heading}</h2>
+              <h2
+                id={anchorId(s.heading)}
+                className="mt-10 mb-3 scroll-mt-24 font-display text-2xl font-bold text-ink"
+              >
+                {s.heading}
+              </h2>
             )}
             {s.paragraphs?.map((p, j) => (
               <p key={j} className="mb-4 text-lg leading-relaxed text-ink-soft">{renderInline(p, locale)}</p>
@@ -192,7 +207,7 @@ export default function ArticleView({
               return (
                 <Link
                   key={r.slug}
-                  href={`/${locale}/${base}/${r.slug}`}
+                  href={`/${locale}/${r.kind === "guide" ? "guides" : "blog"}/${r.slug}`}
                   className="flex items-start gap-3 rounded-2xl border-2 border-ink/5 bg-white p-5 transition hover:border-grape-300"
                 >
                   <span className={`grid h-10 w-10 shrink-0 place-items-center rounded-xl ${r.accent} text-lg`} aria-hidden>
@@ -217,6 +232,16 @@ export default function ArticleView({
       {faqLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }} />}
     </article>
   );
+}
+
+// Unicode-aware anchor ids so CJK headings get usable fragments too.
+function anchorId(heading: string): string {
+  return heading
+    .toLowerCase()
+    .trim()
+    .replace(/\s+/g, "-")
+    .replace(/[^\p{L}\p{N}-]/gu, "")
+    .slice(0, 64);
 }
 
 function formatDate(iso: string, locale: Locale): string {

@@ -73,6 +73,10 @@ export async function generateMetadata({
       follow: true,
       googleBot: { index: true, follow: true, "max-image-preview": "large" },
     },
+    icons: {
+      icon: "/icon.svg",
+      apple: "/apple-touch-icon.png",
+    },
     category: "finance",
   };
 }
@@ -92,7 +96,7 @@ function jsonLd(locale: Locale, description: string) {
         "@id": `${SITE_URL}/#org`,
         name: "Tern",
         url: SITE_URL,
-        logo: { "@type": "ImageObject", url: `${SITE_URL}/icon.svg`, width: 512, height: 512 },
+        logo: { "@type": "ImageObject", url: `${SITE_URL}/logo-512.png`, width: 512, height: 512 },
         description:
           "Tern is a pre-launch neobank built for working holiday visa travellers.",
       },
@@ -136,6 +140,9 @@ export default async function LocaleLayout({
 
   return (
     <html lang={localeMeta[locale].htmlLang} className={`${inter.variable} ${spaceGrotesk.variable}`}>
+      <head>
+        <link rel="preconnect" href="https://images.unsplash.com" />
+      </head>
       <body>
         {children}
         <script

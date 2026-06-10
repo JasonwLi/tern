@@ -7,6 +7,7 @@ export const article: Article = {
   emoji: "💰",
   accent: "bg-sky-300",
   readMinutes: 6,
+  related: ["what-is-superannuation", "working-holiday-tax-refund-australia"],
   sources: [
     {
       label: "Australian Taxation Office (ATO) — Departing Australia Superannuation Payment (DASP)",
@@ -19,7 +20,7 @@ export const article: Article = {
   ],
   i18n: {
     en: {
-      title: "How to claim your superannuation when you leave Australia (DASP)",
+      title: "How to claim your superannuation when leaving Australia",
       description:
         "Working holiday makers can claim Australian superannuation back via the DASP. How it works, the tax rate, and how to avoid leaving thousands behind.",
       excerpt:
@@ -141,7 +142,7 @@ export const article: Article = {
       ],
     },
     ja: {
-      title: "オーストラリア出国時にスーパーアニュエーションを受け取る方法（DASP）",
+      title: "オーストラリア出国時のスーパー還付（DASP）",
       description:
         "ワーホリビザでオーストラリアで働いた方は、出国時にDASPを通じてスーパーアニュエーションを取り戻せます。仕組み、税率、受け取り忘れを防ぐ方法を解説します。",
       excerpt:

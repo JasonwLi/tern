@@ -88,7 +88,7 @@ export const article: Article = {
       ],
     },
     es: {
-      title: "Cómo evitar los cargos de ATM y tarjetas en la visa working holiday",
+      title: "Working holiday: cómo evitar cargos de ATM y tarjetas",
       description:
         "Cargos de cajero, DCC y márgenes de fin de semana merman tus ganancias del working holiday. Así una cuenta sin comisiones detiene el sangrado.",
       excerpt:

@@ -66,7 +66,7 @@ export default function StatusChecker({
     if (!link) return;
     try {
       if (navigator.share) {
-        await navigator.share({ url: link });
+        await navigator.share({ title: "Tern", text: signup.referralBody, url: link });
         return;
       }
       await navigator.clipboard.writeText(link);
@@ -75,6 +75,10 @@ export default function StatusChecker({
     } catch {
       // share sheet dismissed
     }
+  }
+
+  function whatsappHref(): string {
+    return `https://wa.me/?text=${encodeURIComponent(`${signup.referralBody} ${referralLink()}`)}`;
   }
 
   return (
@@ -145,6 +149,14 @@ export default function StatusChecker({
               >
                 {copied ? signup.referralCopied : signup.referralCopy}
               </button>
+              <a
+                href={whatsappHref()}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="shrink-0 rounded-full bg-[#25D366] px-5 py-2.5 text-center text-sm font-bold text-white transition hover:opacity-90"
+              >
+                WhatsApp
+              </a>
             </div>
           </div>
         </div>

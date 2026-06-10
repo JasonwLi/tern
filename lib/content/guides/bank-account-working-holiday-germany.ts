@@ -98,7 +98,7 @@ export const article: Article = {
       ],
     },
     es: {
-      title: "Cómo abrir una cuenta bancaria en Alemania con visa working holiday",
+      title: "Cuenta bancaria en Alemania con visa working holiday",
       description:
         "Cómo conseguir un Girokonto alemán con WHV — el dilema del Anmeldung, el IBAN, el Steuer-ID y apps bancarias vs Sparkasse.",
       excerpt:

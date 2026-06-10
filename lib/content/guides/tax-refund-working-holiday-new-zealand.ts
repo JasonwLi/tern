@@ -7,6 +7,7 @@ export const article: Article = {
   emoji: "🧮",
   accent: "bg-sky-300",
   readMinutes: 6,
+  related: ["what-is-an-ird-number", "bank-account-working-holiday-new-zealand"],
   sources: [
     {
       label: "Inland Revenue NZ (IRD) — I am coming to work or study in New Zealand",
@@ -112,7 +113,7 @@ export const article: Article = {
       ],
     },
     es: {
-      title: "Impuestos en Nueva Zelanda para working holiday: guía completa",
+      title: "Impuestos en working holiday Nueva Zelanda: guía completa",
       description:
         "Impuestos para working holiday en NZ: sin IRD te cobran el 45%. Cómo funcionan el PAYE, los códigos fiscales y las devoluciones IR3.",
       excerpt:

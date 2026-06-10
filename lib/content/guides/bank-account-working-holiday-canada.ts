@@ -95,7 +95,7 @@ export const article: Article = {
       ],
     },
     es: {
-      title: "Cómo hacer la banca en Canadá con la visa working holiday (IEC)",
+      title: "Cuenta bancaria en Canadá para working holiday (IEC)",
       description:
         "Guía bancaria para la visa IEC en Canadá — cómo obtener el SIN, abrir cuenta, los fondos mínimos (CAD 2,500) y cobrar en CAD.",
       excerpt:

@@ -1,16 +1,6 @@
 import type { Dictionary } from "@/lib/i18n/dictionaries";
 
 export default function FAQ({ t }: { t: Dictionary["faq"] }) {
-  const faqJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: t.items.map((f) => ({
-      "@type": "Question",
-      name: f.q,
-      acceptedAnswer: { "@type": "Answer", text: f.a },
-    })),
-  };
-
   return (
     <section id="faq" className="scroll-mt-20 mx-auto max-w-3xl px-5 py-20">
       <div className="text-center">
@@ -35,10 +25,6 @@ export default function FAQ({ t }: { t: Dictionary["faq"] }) {
         ))}
       </div>
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
-      />
     </section>
   );
 }

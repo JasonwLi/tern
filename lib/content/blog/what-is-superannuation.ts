@@ -8,6 +8,7 @@ export const article: Article = {
   emoji: "🐖",
   accent: "bg-sky-300",
   readMinutes: 5,
+  related: ["superannuation-refund-dasp", "working-holiday-tax-refund-australia"],
   sources: [
     {
       label: "Australian Taxation Office — Super guarantee",
@@ -90,7 +91,7 @@ export const article: Article = {
       ],
     },
     es: {
-      title: "¿Qué es la superannuation? Guía para trabajadores de vacaciones y trabajo",
+      title: "¿Qué es la superannuation? Guía para working holiday",
       description:
         "La superannuation es la jubilación de Australia — 12% adicional al sueldo. Lo que debes saber en tu working holiday y cómo reclamarla.",
       excerpt:

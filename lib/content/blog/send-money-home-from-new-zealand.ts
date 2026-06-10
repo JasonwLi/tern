@@ -91,7 +91,7 @@ export const article: Article = {
       ],
     },
     es: {
-      title: "La forma más barata de enviar ahorros a casa desde Nueva Zelanda",
+      title: "La forma más barata de enviar dinero desde Nueva Zelanda",
       description:
         "Los bancos de NZ se quedan con 2–4% en margen cambiario oculto. Así envías tus ahorros en NZD al tipo de cambio real y sin sorpresas.",
       excerpt:

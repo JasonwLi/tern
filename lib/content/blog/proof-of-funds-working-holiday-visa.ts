@@ -8,6 +8,7 @@ export const article: Article = {
   emoji: "🛂",
   accent: "bg-lime-300",
   readMinutes: 5,
+  related: ["how-much-money-working-holiday-australia", "how-much-money-working-holiday-new-zealand"],
   sources: [
     {
       label: "Department of Home Affairs — Working Holiday visa (subclass 417)",
@@ -24,7 +25,7 @@ export const article: Article = {
   ],
   i18n: {
     en: {
-      title: "Proof of funds for a working holiday visa: how much and how to show it",
+      title: "Proof of funds for a working holiday visa: how much to show",
       description:
         "Working holiday visas require proof of funds — AUD 5,000 for Australia. Here's how much you need, what counts, and how to show it at the border.",
       excerpt:
@@ -32,7 +33,7 @@ export const article: Article = {
       sections: [
         {
           paragraphs: [
-            "Most working holiday programmes ask you to prove you can support yourself when you arrive. Border officers can — and do — spot-check this. Turning up without acceptable proof is a genuinely stressful way to start a trip, and it's completely avoidable.",
+            "Most working holiday programmes ask you to prove you can support yourself when you arrive. Border officers can — and do — spot-check this. Turning up without acceptable proof is a genuinely stressful way to start a trip, and it's completely avoidable. If you're still working out [how much money you need for your first month in Australia](~/guides/how-much-money-working-holiday-australia), start there before worrying about the format of your statement.",
           ],
         },
         {
@@ -78,7 +79,7 @@ export const article: Article = {
       ],
     },
     es: {
-      title: "Prueba de fondos para una visa de vacaciones y trabajo: cuánto necesitas y cómo mostrarla",
+      title: "Prueba de fondos para visa working holiday: cuánto y cómo",
       description:
         "Las visas de working holiday exigen prueba de fondos — AUD 5,000 en Australia. Cuánto necesitas, qué documentos valen y cómo presentarlos.",
       excerpt:
@@ -86,7 +87,7 @@ export const article: Article = {
       sections: [
         {
           paragraphs: [
-            "La mayoría de los programas de vacaciones y trabajo te piden demostrar que puedes sostenerte económicamente al llegar. Los oficiales de frontera pueden — y lo hacen — revisarlo en el momento. Llegar sin la documentación adecuada es una forma innecesariamente estresante de empezar tu aventura, y se puede evitar fácilmente.",
+            "La mayoría de los programas de vacaciones y trabajo te piden demostrar que puedes sostenerte económicamente al llegar. Los oficiales de frontera pueden — y lo hacen — revisarlo en el momento. Llegar sin la documentación adecuada es una forma innecesariamente estresante de empezar tu aventura, y se puede evitar fácilmente. Si todavía estás calculando [cuánto dinero necesitas para el primer mes en Australia](~/guides/how-much-money-working-holiday-australia), empieza por ahí antes de preocuparte por el formato del extracto.",
           ],
         },
         {
@@ -140,7 +141,7 @@ export const article: Article = {
       sections: [
         {
           paragraphs: [
-            "ほとんどのワーホリプログラムでは、現地到着時に自分の生活費を賄えることを証明する必要があります。入国審査官は抜き打ちでこれを確認することがあります。適切な書類なしで入国しようとするのは、旅のスタートとして非常にストレスフルな状況を招くことになりますが、事前に準備すれば完全に防げます。",
+            "ほとんどのワーホリプログラムでは、現地到着時に自分の生活費を賄えることを証明する必要があります。入国審査官は抜き打ちでこれを確認することがあります。適切な書類なしで入国しようとするのは、旅のスタートとして非常にストレスフルな状況を招くことになりますが、事前に準備すれば完全に防げます。まだ[オーストラリアでの初月に必要なお金の目安](~/guides/how-much-money-working-holiday-australia)を把握していない方は、まずそちらを確認してから書類の形式を考えましょう。",
           ],
         },
         {
@@ -194,7 +195,7 @@ export const article: Article = {
       sections: [
         {
           paragraphs: [
-            "대부분의 워홀 프로그램에서는 도착 시 스스로 생활할 수 있는 자금이 있음을 증명해야 합니다. 입국 심사관은 실제로 이를 불시에 확인합니다. 적절한 서류 없이 입국을 시도하는 것은 여행을 시작하는 최악의 방법 중 하나지만, 미리 준비하면 충분히 막을 수 있습니다.",
+            "대부분의 워홀 프로그램에서는 도착 시 스스로 생활할 수 있는 자금이 있음을 증명해야 합니다. 입국 심사관은 실제로 이를 불시에 확인합니다. 적절한 서류 없이 입국을 시도하는 것은 여행을 시작하는 최악의 방법 중 하나지만, 미리 준비하면 충분히 막을 수 있습니다. 아직 [호주 첫 달에 필요한 예산](~/guides/how-much-money-working-holiday-australia)을 파악하지 못했다면, 서류 형식을 고민하기 전에 먼저 그것부터 확인하세요.",
           ],
         },
         {
@@ -248,7 +249,7 @@ export const article: Article = {
       sections: [
         {
           paragraphs: [
-            "大多數打工度假計畫都要求你在入境時證明自己有足夠的生活費。邊境人員可以——而且確實會——隨機抽查。沒有準備好合格文件就抵達，是一種完全不必要的壓力，而且完全可以事先避免。",
+            "大多數打工度假計畫都要求你在入境時證明自己有足夠的生活費。邊境人員可以——而且確實會——隨機抽查。沒有準備好合格文件就抵達，是一種完全不必要的壓力，而且完全可以事先避免。如果你還在評估[在澳洲第一個月需要多少錢](~/guides/how-much-money-working-holiday-australia)，建議先釐清這個數字，再來思考存款證明的格式問題。",
           ],
         },
         {

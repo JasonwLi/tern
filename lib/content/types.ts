@@ -29,6 +29,9 @@ export interface Article {
   readMinutes: number;
   // Authoritative sources, shown as a list at the foot of the article.
   sources?: ArticleSource[];
+  // Curated related-article slugs (may cross guides/blog); falls back to
+  // same-kind neighbours when absent.
+  related?: string[];
   // English is always present; other locales are filled in by translation.
   i18n: Partial<Record<Locale, ArticleLocale>> & { en: ArticleLocale };
 }

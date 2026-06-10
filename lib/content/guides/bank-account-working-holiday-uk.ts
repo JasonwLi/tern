@@ -19,7 +19,7 @@ export const article: Article = {
   ],
   i18n: {
     en: {
-      title: "Opening a bank account in the UK on a Youth Mobility Scheme visa",
+      title: "Opening a UK bank account on a Youth Mobility Scheme visa",
       description:
         "Banking in the UK on a YMS visa — sort codes, the proof-of-address catch-22, getting a NIN for work, and app banks vs high street banks.",
       excerpt:
@@ -95,7 +95,7 @@ export const article: Article = {
       ],
     },
     es: {
-      title: "Cómo abrir una cuenta bancaria en el Reino Unido con visa Youth Mobility Scheme",
+      title: "Cuenta bancaria en el Reino Unido con Youth Mobility Scheme",
       description:
         "Banca en el Reino Unido con visa YMS: sort codes, el dilema del domicilio, el NIN para trabajar, y bancos digitales vs. tradicionales.",
       excerpt:

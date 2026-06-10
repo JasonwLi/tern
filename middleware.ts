@@ -87,14 +87,14 @@ async function resolveLocale(req: NextRequest): Promise<Resolved> {
     const country = await countryFromIp(ip);
     if (COUNTRY_RE.test(country)) {
       const byIp = localeFromCountry(country);
-      if (byIp) return { locale: byIp, source: `ip:${ip}:${country}` };
+      if (byIp) return { locale: byIp, source: `ip:${country}` };
       // Valid country but no localized site for it → use browser language.
       const byLang = localeFromAcceptLanguage(req.headers.get("accept-language"));
-      return { locale: byLang ?? defaultLocale, source: `ip:${ip}:${country}->lang` };
+      return { locale: byLang ?? defaultLocale, source: `ip:${country}->lang` };
     }
     // Lookup failed — record why, then fall through to Accept-Language.
     const byLang = localeFromAcceptLanguage(req.headers.get("accept-language"));
-    return { locale: byLang ?? defaultLocale, source: `ip:${ip}:${country}` };
+    return { locale: byLang ?? defaultLocale, source: `ip:${country}` };
   }
 
   // 4. Browser language preference
@@ -141,6 +141,6 @@ export async function middleware(req: NextRequest) {
 
 export const config = {
   matcher: [
-    "/((?!api|_next/static|_next/image|og/|favicon.ico|icon.svg|og.svg|og.png|og-en.png|og-es.png|og-ja.png|og-ko.png|og-zh-TW.png|robots.txt|sitemap.xml).*)",
+    "/((?!api|_next/static|_next/image|og/|favicon.ico|icon.svg|apple-touch-icon.png|logo-512.png|feed.xml|og.svg|og.png|og-en.png|og-es.png|og-ja.png|og-ko.png|og-zh-TW.png|robots.txt|sitemap.xml).*)",
   ],
 };

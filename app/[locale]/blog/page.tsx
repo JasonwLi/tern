@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { isLocale, locales } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
@@ -45,6 +46,14 @@ export default async function BlogIndex({
     <>
       <Nav locale={locale} t={dict.nav} />
       <main className="mx-auto max-w-6xl px-5 py-16">
+        <nav
+          className="mb-8 flex flex-wrap items-center gap-2 text-sm text-ink-soft"
+          aria-label="Breadcrumb"
+        >
+          <Link href={`/${locale}`} className="hover:text-grape-500">{ui.home}</Link>
+          <span aria-hidden>/</span>
+          <span className="text-ink">{ui.blogNav}</span>
+        </nav>
         <div className="mx-auto max-w-2xl text-center">
           <p className="mb-3 font-semibold uppercase tracking-widest text-grape-500">{ui.blogNav}</p>
           <h1 className="text-balance font-display text-4xl font-bold text-ink sm:text-5xl">{ui.blogTitle}</h1>

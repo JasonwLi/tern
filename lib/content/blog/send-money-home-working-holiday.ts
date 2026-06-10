@@ -70,7 +70,7 @@ export const article: Article = {
       ],
     },
     es: {
-      title: "La forma más barata de enviar dinero a casa en un working holiday",
+      title: "La forma más barata de enviar dinero en working holiday",
       description:
         "Los bancos ocultan un margen de 2–4% en el tipo de cambio más comisiones. Así envías tus ahorros del working holiday al tipo de cambio real.",
       excerpt:

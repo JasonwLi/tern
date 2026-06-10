@@ -100,7 +100,7 @@ export default function SignupForm({
     if (!link) return;
     try {
       if (navigator.share) {
-        await navigator.share({ url: link });
+        await navigator.share({ title: "Tern", text: t.referralBody, url: link });
         return;
       }
       await navigator.clipboard.writeText(link);
@@ -109,6 +109,10 @@ export default function SignupForm({
     } catch {
       // user cancelled share sheet — nothing to do
     }
+  }
+
+  function whatsappHref(): string {
+    return `https://wa.me/?text=${encodeURIComponent(`${t.referralBody} ${referralLink()}`)}`;
   }
 
   const done = status === "success" || status === "already";
@@ -142,6 +146,14 @@ export default function SignupForm({
               >
                 {copied ? t.referralCopied : t.referralCopy}
               </button>
+              <a
+                href={whatsappHref()}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="shrink-0 rounded-full bg-[#25D366] px-5 py-2.5 text-center text-sm font-bold text-white transition hover:opacity-90"
+              >
+                WhatsApp
+              </a>
             </div>
             <a
               href={`/${currentLocale()}/status`}

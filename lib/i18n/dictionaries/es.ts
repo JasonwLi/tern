@@ -290,7 +290,7 @@ export const es: Dictionary = {
       },
       {
         q: "¿Mi dinero está seguro?",
-        a: "Tern se asocia con proveedores bancarios con licencia y regulados en cada mercado, y los fondos de los clientes están protegidos conforme a la normativa local. Puedes congelar tu tarjeta al instante desde la app, aprobar inicios de sesión y pagos con una verificación rápida por WhatsApp (sin SIM con itinerancia ni SMS), y contactar con soporte humano las 24/7 en todos los husos horarios.",
+        a: "Tern se asocia con proveedores bancarios con licencia y regulados en cada mercado — en Australia, eso significa fondos custodiados en instituciones reguladas por APRA — y los fondos de los clientes están protegidos conforme a la normativa local. Puedes congelar tu tarjeta al instante desde la app, aprobar inicios de sesión y pagos con una verificación rápida por WhatsApp (sin SIM con itinerancia ni SMS), y contactar con soporte humano las 24/7 en todos los husos horarios.",
       },
       {
         q: "¿Cuándo se lanza?",

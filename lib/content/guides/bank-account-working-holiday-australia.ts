@@ -7,6 +7,7 @@ export const article: Article = {
   emoji: "🏦",
   accent: "bg-lime-300",
   readMinutes: 6,
+  related: ["what-is-a-bsb-number", "best-bank-working-holiday-australia"],
   sources: [
     {
       label: "Australian Taxation Office (ATO) — Apply for a TFN",
@@ -23,7 +24,7 @@ export const article: Article = {
   ],
   i18n: {
     en: {
-      title: "How to open a bank account for your Australia working holiday",
+      title: "How to open a bank account for Australia working holiday",
       description:
         "Open an Australian bank account for your working holiday before you arrive — no fixed address needed. What to bring and how to get paid.",
       excerpt:
@@ -88,7 +89,7 @@ export const article: Article = {
       ],
     },
     es: {
-      title: "Cómo abrir una cuenta bancaria para tu working holiday en Australia",
+      title: "Cuenta bancaria australiana para tu working holiday",
       description:
         "Abre una cuenta bancaria australiana para tu working holiday antes de llegar, sin domicilio fijo. Qué necesitas y cómo cobrar desde el primer día.",
       excerpt:
@@ -96,7 +97,7 @@ export const article: Article = {
       sections: [
         {
           paragraphs: [
-            "Abrir una cuenta bancaria es el primer obstáculo real de cualquier working holiday en Australia — y es donde la mayoría de los backpackers pierden tiempo y dinero. Necesitas una cuenta local para que te paguen, pero los bancos grandes suelen pedir un domicilio local y una visita a la sucursal que no puedes hacer desde un hostel. Esta guía repasa tus opciones y el camino más rápido para tener una cuenta operativa.",
+            "Abrir una cuenta bancaria es el primer obstáculo real de cualquier working holiday en Australia — y es donde la mayoría de los backpackers pierden tiempo y dinero. Necesitas una cuenta local para que te paguen, pero los bancos grandes suelen pedir un domicilio local y una visita a la sucursal que no puedes hacer desde un hostel. Esta guía repasa tus opciones y el camino más rápido para tener una cuenta operativa. Si eres de Latinoamérica (Chile, Argentina, Perú, Uruguay, Ecuador…), tu visa es la Work and Holiday (subclase 462) — a efectos de cuenta bancaria y trámites financieros funciona exactamente igual que la 417.",
           ],
         },
         {

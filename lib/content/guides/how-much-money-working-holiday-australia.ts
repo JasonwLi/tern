@@ -7,6 +7,7 @@ export const article: Article = {
   emoji: "💵",
   accent: "bg-lime-300",
   readMinutes: 7,
+  related: ["proof-of-funds-working-holiday-visa", "first-week-money-checklist-australia"],
   sources: [
     {
       label: "Australian Government — Working Holiday visa (subclass 417)",
@@ -39,7 +40,7 @@ export const article: Article = {
         {
           heading: "Proof of funds: AUD 5,000 + onward ticket",
           paragraphs: [
-            "The Department of Home Affairs requires working holiday visa holders to have sufficient funds to support themselves throughout their stay. The widely-cited benchmark is AUD 5,000 in accessible savings, plus either a return or onward flight ticket — or the funds to buy one.",
+            "The Department of Home Affairs requires working holiday visa holders to have sufficient funds to support themselves throughout their stay. The widely-cited benchmark is AUD 5,000 in accessible savings, plus either a return or onward flight ticket — or the funds to buy one. For a full breakdown of what counts and how to show it, see our guide to [proof of funds for a working holiday visa](~/blog/proof-of-funds-working-holiday-visa).",
             "You are not typically asked to show a bank statement at the airport, but immigration officers can request it. More practically, the AUD 5,000 benchmark is what your bank account should show if you want to be ready for any scenario, including a landlord or employer who asks for proof of funds.",
           ],
           bullets: [
@@ -105,7 +106,7 @@ export const article: Article = {
       ],
     },
     es: {
-      title: "¿Cuánto dinero necesitas para la working holiday en Australia?",
+      title: "¿Cuánto dinero necesitas para working holiday en Australia?",
       description:
         "Cifras exactas para la tarifa de la visa 417, los AUD 5,000 de fondos requeridos, el presupuesto del primer mes y cuánto ahorrar antes de volar.",
       excerpt:
@@ -125,7 +126,7 @@ export const article: Article = {
         {
           heading: "Fondos mínimos: AUD 5,000 + vuelo de salida",
           paragraphs: [
-            "El Departamento de Asuntos Internos requiere que los titulares de visa working holiday tengan fondos suficientes para mantenerse durante su estadía. El estándar más citado es AUD 5,000 en ahorros accesibles, más un billete de regreso o vuelo de salida — o fondos para comprarlo.",
+            "El Departamento de Asuntos Internos requiere que los titulares de visa working holiday tengan fondos suficientes para mantenerse durante su estadía. El estándar más citado es AUD 5,000 en ahorros accesibles, más un billete de regreso o vuelo de salida — o fondos para comprarlo. Para saber exactamente qué documentos valen y cómo presentarlos, consulta nuestra guía sobre [comprobante de fondos para la visa working holiday](~/blog/proof-of-funds-working-holiday-visa).",
             "Generalmente no te piden un extracto bancario en el aeropuerto, pero los oficiales de inmigración pueden solicitarlo. En la práctica, los AUD 5,000 son lo que debería mostrar tu cuenta si quieres estar preparado para cualquier escenario, incluyendo un propietario o empleador que te pida comprobante de fondos.",
           ],
           bullets: [
@@ -211,7 +212,7 @@ export const article: Article = {
         {
           heading: "資金証明：AUD 5,000 + 帰国便",
           paragraphs: [
-            "移民・国境保護省は、ワーキングホリデービザ保有者が滞在中の生活費として十分な資金を持つことを求めています。広く参照される基準はAUD 5,000の流動資産に加え、帰国または出国便のチケット、またはその購入資金です。",
+            "移民・国境保護省は、ワーキングホリデービザ保有者が滞在中の生活費として十分な資金を持つことを求めています。広く参照される基準はAUD 5,000の流動資産に加え、帰国または出国便のチケット、またはその購入資金です。認められる書類や審査での提示方法については、[ワーホリビザの資金証明ガイド](~/blog/proof-of-funds-working-holiday-visa)をご覧ください。",
             "空港で銀行口座明細書を求められることは通常ありませんが、入国審査官が要求する場合があります。より実際的には、AUD 5,000の基準は、家主や雇用主が資金証明を求めるあらゆる状況に備えて、銀行口座に示すべき金額です。",
           ],
           bullets: [
@@ -297,7 +298,7 @@ export const article: Article = {
         {
           heading: "자금 증명: AUD 5,000 + 귀국편",
           paragraphs: [
-            "호주 이민부는 워킹홀리데이 비자 소지자가 체류 기간 동안 자신을 부양할 충분한 자금을 보유하도록 요구합니다. 널리 인용되는 기준은 AUD 5,000의 인출 가능한 저축금액과 귀국 또는 출국 항공권, 혹은 구매할 수 있는 자금입니다.",
+            "호주 이민부는 워킹홀리데이 비자 소지자가 체류 기간 동안 자신을 부양할 충분한 자금을 보유하도록 요구합니다. 널리 인용되는 기준은 AUD 5,000의 인출 가능한 저축금액과 귀국 또는 출국 항공권, 혹은 구매할 수 있는 자금입니다. 인정되는 서류와 제출 방법에 대한 자세한 내용은 [워홀 비자 자금 증명 가이드](~/blog/proof-of-funds-working-holiday-visa)를 참고하세요.",
             "공항에서 은행 명세서 제출을 요청받는 경우는 드물지만 입국 심사관이 요청할 수 있습니다. 더 현실적으로는, AUD 5,000 기준은 집주인이나 고용주가 자금 증명을 요구하는 상황을 포함해 어떤 시나리오에도 대비하기 위해 은행 계좌에 표시되어야 할 금액입니다.",
           ],
           bullets: [
@@ -383,7 +384,7 @@ export const article: Article = {
         {
           heading: "資金證明：AUD 5,000 + 離境機票",
           paragraphs: [
-            "澳洲移民部要求打工度假簽證持有者在整個居留期間具備充足的自給能力。普遍引用的基準是AUD 5,000的可動用儲蓄，加上回程或離境機票——或可用來購票的等額資金。",
+            "澳洲移民部要求打工度假簽證持有者在整個居留期間具備充足的自給能力。普遍引用的基準是AUD 5,000的可動用儲蓄，加上回程或離境機票——或可用來購票的等額資金。關於哪些文件符合要求及如何出示，請參閱[打工度假簽證資金證明指南](~/blog/proof-of-funds-working-holiday-visa)。",
             "通常不會在機場被要求出示銀行對帳單，但入境官員有權要求查驗。更實際的情況是，當房東或雇主要求出示資金證明時，你的帳戶必須能顯示AUD 5,000。",
           ],
           bullets: [

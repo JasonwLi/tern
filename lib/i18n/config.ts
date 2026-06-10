@@ -6,7 +6,7 @@ export const defaultLocale: Locale = "en";
 // Native names + a representative flag for the language switcher.
 export const localeMeta: Record<Locale, { label: string; flag: string; htmlLang: string }> = {
   en: { label: "English", flag: "🇬🇧", htmlLang: "en" },
-  es: { label: "Español", flag: "🇪🇸", htmlLang: "es" },
+  es: { label: "Español", flag: "🌎", htmlLang: "es" },
   ja: { label: "日本語", flag: "🇯🇵", htmlLang: "ja" },
   ko: { label: "한국어", flag: "🇰🇷", htmlLang: "ko" },
   "zh-TW": { label: "繁體中文", flag: "🇹🇼", htmlLang: "zh-Hant-TW" },

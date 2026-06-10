@@ -289,7 +289,7 @@ export const en = {
       },
       {
         q: "Is my money safe?",
-        a: "Tern partners with licensed, regulated banking providers in each market, and customer funds are safeguarded in line with local regulation. You can freeze your card instantly in-app, approve logins and payments with a quick WhatsApp verification (no roaming SIM or SMS needed), and reach human support 24/7 across timezones.",
+        a: "Tern partners with licensed, regulated banking providers in each market — in Australia that means customer funds held with APRA-regulated institutions — and funds are safeguarded in line with local regulation. You can freeze your card instantly in-app, approve logins and payments with a quick WhatsApp verification (no roaming SIM or SMS needed), and reach human support 24/7 across timezones.",
       },
       {
         q: "When does it launch?",

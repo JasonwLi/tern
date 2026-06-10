@@ -7,6 +7,7 @@ export const article: Article = {
   emoji: "🏆",
   accent: "bg-lime-300",
   readMinutes: 7,
+  related: ["bank-account-working-holiday-australia", "how-much-money-working-holiday-australia"],
   sources: [
     {
       label: "Australian Government MoneySmart — Transaction accounts and debit cards",
@@ -111,7 +112,7 @@ export const article: Article = {
       sections: [
         {
           paragraphs: [
-            "\"El mejor banco para la working holiday en Australia\" es una de las preguntas más buscadas por quienes llegan con WHV — y la respuesta honesta es que ningún banco es perfecto para todos. La elección correcta depende de tus prioridades: ¿necesitas abrir la cuenta antes de llegar? ¿Necesitas multi-moneda? ¿Te quedas seis meses o dos años? Esta guía desglosa lo que realmente importa, evalúa las principales opciones con honestidad y explica en qué se diferencia Tern.",
+            "\"El mejor banco para la working holiday en Australia\" es una de las preguntas más buscadas por quienes llegan con WHV — y la respuesta honesta es que ningún banco es perfecto para todos. La elección correcta depende de tus prioridades: ¿necesitas abrir la cuenta antes de llegar? ¿Necesitas multi-moneda? ¿Te quedas seis meses o dos años? Esta guía desglosa lo que realmente importa, evalúa las principales opciones con honestidad y explica en qué se diferencia Tern. Si eres de Latinoamérica (Chile, Argentina, Perú, Uruguay, Ecuador…), tu visa es la Work and Holiday (subclase 462) — a efectos de bancos e impuestos funciona igual que la 417, así que toda la información de esta guía aplica para ti.",
           ],
         },
         {

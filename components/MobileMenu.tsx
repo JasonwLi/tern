@@ -22,6 +22,7 @@ export default function MobileMenu({
       <button
         onClick={() => setOpen(!open)}
         aria-expanded={open}
+        aria-controls="mobile-menu"
         aria-label="Menu"
         className="grid h-10 w-10 place-items-center rounded-full border-2 border-ink/10 bg-white text-ink"
       >
@@ -45,7 +46,7 @@ export default function MobileMenu({
       </button>
 
       {open && (
-        <div className="absolute inset-x-0 top-full border-b border-ink/10 bg-cream px-5 pb-5 pt-2 shadow-xl">
+        <div id="mobile-menu" className="absolute inset-x-0 top-full border-b border-ink/10 bg-cream px-5 pb-5 pt-2 shadow-xl">
           <ul className="space-y-1">
             {links.map((l) => (
               <li key={l.href}>

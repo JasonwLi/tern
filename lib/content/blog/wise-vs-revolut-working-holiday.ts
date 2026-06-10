@@ -115,7 +115,7 @@ export const article: Article = {
       ],
     },
     es: {
-      title: "Wise vs Revolut para una visa de trabajo y vacaciones — y lo que ambos no cubren",
+      title: "Wise vs Revolut working holiday: cuál elegir y sus límites",
       description:
         "Wise vs Revolut para working holiday: comparación honesta y la brecha específica de WHV que ninguna de las dos cubre todavía.",
       excerpt:
@@ -198,7 +198,7 @@ export const article: Article = {
       ],
     },
     ja: {
-      title: "WiseとRevolut、ワーホリにはどちらが向いている？そして両者が見落としているもの",
+      title: "Wise vs Revolut ワーホリ比較：見落とし点も解説",
       description:
         "WiseとRevolutはどちらも優れた旅行向け金融アプリです。ワーホリ向けに正直に比較し、どちらも対応していないWHV特有のニーズも解説します。",
       excerpt:
@@ -281,7 +281,7 @@ export const article: Article = {
       ],
     },
     ko: {
-      title: "워홀에 Wise vs Revolut — 그리고 둘 다 놓치고 있는 것",
+      title: "Wise vs Revolut 워홀 비교: 두 앱의 한계",
       description:
         "워홀러를 위한 Wise vs Revolut 솔직 비교 — 그리고 두 앱 모두 아직 채우지 못한 WHV 특유의 공백.",
       excerpt:
@@ -364,7 +364,7 @@ export const article: Article = {
       ],
     },
     "zh-TW": {
-      title: "Wise vs Revolut 打工度假比較——以及兩者都忽略的事",
+      title: "Wise vs Revolut 打工度假比較及盲點",
       description:
         "Wise 和 Revolut 都是出色的旅行理財 App。我們為打工度假者誠實比較兩者，並說明兩者都尚未填補的 WHV 特定需求缺口。",
       excerpt:
