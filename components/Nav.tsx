@@ -67,6 +67,14 @@ export default function Nav({
           />
         </div>
       </nav>
+
+      {/* Persistent signup CTA on phones — the nav button is hidden below sm. */}
+      <a
+        href={`${home}#waitlist`}
+        className="fixed inset-x-4 bottom-4 z-40 rounded-full bg-grape-500 py-3.5 text-center text-base font-bold text-white shadow-xl shadow-grape-500/40 sm:hidden"
+      >
+        {t.joinWaitlist}
+      </a>
     </header>
   );
 }

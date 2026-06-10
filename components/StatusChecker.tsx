@@ -23,6 +23,7 @@ export default function StatusChecker({
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
   const [notFound, setNotFound] = useState(false);
+  const [errored, setErrored] = useState(false);
   const [result, setResult] = useState<StatusResult | null>(null);
   const [copied, setCopied] = useState(false);
 
@@ -31,6 +32,7 @@ export default function StatusChecker({
     if (loading) return;
     setLoading(true);
     setNotFound(false);
+    setErrored(false);
     setResult(null);
     try {
       const res = await fetch("/api/status", {
@@ -41,11 +43,14 @@ export default function StatusChecker({
       const data = await res.json();
       if (res.ok && data.found) {
         setResult(data);
-      } else {
+      } else if (res.ok) {
         setNotFound(true);
+      } else {
+        // rate-limited or server error — not the same as "not on the list"
+        setErrored(true);
       }
     } catch {
-      setNotFound(true);
+      setErrored(true);
     } finally {
       setLoading(false);
     }
@@ -97,6 +102,11 @@ export default function StatusChecker({
       {notFound && (
         <p className="mt-4 rounded-2xl bg-coral-300/30 p-4 text-sm font-medium text-ink" role="alert">
           {ui.statusNotFound}
+        </p>
+      )}
+      {errored && (
+        <p className="mt-4 rounded-2xl bg-coral-300/30 p-4 text-sm font-medium text-ink" role="alert">
+          {signup.networkError}
         </p>
       )}
 

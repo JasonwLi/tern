@@ -18,7 +18,7 @@ export const article: Article = {
     en: {
       title: "What is a BSB number? Australian banking explained",
       description:
-        "A BSB number is the 6-digit bank routing code every Australian employer needs before they can pay you. Here's what it means, where to find yours, and common mistakes to avoid.",
+        "A BSB number is the 6-digit routing code Australian employers need to pay you. Here's what it means, where to find yours, and mistakes to avoid.",
       excerpt:
         "Before your first Australian paycheque can land, your employer needs a BSB number. Here's what it is, where to find it, and why giving your SWIFT code by mistake delays your pay.",
       sections: [
@@ -86,7 +86,7 @@ export const article: Article = {
     es: {
       title: "¿Qué es un número BSB? La guía para cobrar en Australia",
       description:
-        "El BSB es el código de 6 dígitos que tu empleador australiano necesita antes de poder pagarte. Acá te explicamos qué significa, dónde encontrarlo y los errores más comunes.",
+        "El BSB es el código de 6 dígitos que tu empleador australiano necesita para pagarte. Qué significa, dónde encontrarlo y errores frecuentes a evitar.",
       excerpt:
         "Antes de recibir tu primer sueldo en Australia, tu empleador necesita un número BSB. Esto es lo que es, dónde encontrarlo y por qué dar tu código SWIFT por error demora el pago.",
       sections: [
@@ -105,19 +105,19 @@ export const article: Article = {
         {
           heading: "BSB + número de cuenta = cómo te pagan",
           paragraphs: [
-            "Para recibir un depósito directo de un empleador australiano, necesitás darle dos datos: tu número BSB y tu número de cuenta. Juntos, le indican al sistema de pagos exactamente en qué cuenta acreditar el dinero. Ninguno de los dos por separado es suficiente.",
+            "Para recibir un depósito directo de un empleador australiano, necesitas darle dos datos: tu número BSB y tu número de cuenta. Juntos, le indican al sistema de pagos exactamente en qué cuenta acreditar el dinero. Ninguno de los dos por separado es suficiente.",
             "Tu número de cuenta suele tener entre 6 y 9 dígitos y es específico de tu persona. Tu BSB es compartido por todos los que tienen cuenta en la misma sucursal de la misma institución. Ambos son obligatorios en los formularios de nómina y las declaraciones impositivas.",
           ],
           bullets: [
             "BSB: 6 dígitos, identifica tu banco y sucursal",
             "Número de cuenta: 6–9 dígitos, identifica tu cuenta personal",
-            "Ambos son necesarios — si solo proporcionás uno, el pago se demorará o fallará",
+            "Ambos son necesarios — si solo proporcionas uno, el pago se demorará o fallará",
           ],
         },
         {
           heading: "Dónde encontrar tu número BSB",
           bullets: [
-            "En la app móvil de tu banco — buscá 'Detalles de la cuenta' o información de 'Transferencia a cualquiera'",
+            "En la app móvil de tu banco — busca 'Detalles de la cuenta' o información de 'Transferencia a cualquiera'",
             "En el correo electrónico o la carta de bienvenida que te envió el banco al abrir la cuenta",
             "En tu extracto bancario (PDF o en papel)",
             "Llamando a la línea de atención al cliente de tu banco o visitando una sucursal",
@@ -128,15 +128,15 @@ export const article: Article = {
           heading: "Errores comunes de los trabajadores en visa working holiday",
           bullets: [
             "Dar el código SWIFT/BIC en lugar del BSB: los códigos SWIFT son para transferencias internacionales, no para las nóminas domésticas australianas — el sistema de tu empleador rechazará o retrasará el pago",
-            "Transponer dígitos: un solo dígito incorrecto puede enviar tu sueldo a la cuenta de otra persona o generar un rechazo; siempre verificá leyendo el BSB dígito a dígito",
+            "Transponer dígitos: un solo dígito incorrecto puede enviar tu sueldo a la cuenta de otra persona o generar un rechazo; siempre verifica leyendo el BSB dígito a dígito",
             "Confundir el BSB con el número de cuenta: el BSB siempre tiene exactamente 6 dígitos; si estás citando más de 6 dígitos para el BSB, incluiste parte de tu número de cuenta",
-            "Usar un BSB de sucursal cerrada o fusionada: los bancos a veces dan de baja los BSB viejos cuando cierran sucursales; si tenés dudas, verificá tu BSB en el buscador de AusPayNet antes de dárselo a un empleador",
+            "Usar un BSB de sucursal cerrada o fusionada: los bancos a veces dan de baja los BSB viejos cuando cierran sucursales; si tienes dudas, verifica tu BSB en el buscador de AusPayNet antes de dárselo a un empleador",
           ],
         },
         {
           heading: "Cómo te ayuda Tern",
           paragraphs: [
-            "Cuando abrís una cuenta Tern en Australia, tu BSB y número de cuenta se muestran claramente en la app — con el formato exacto que esperan los sistemas de nómina australianos. Podés compartir tus datos de pago con un empleador con un solo toque, para que tu primer sueldo llegue a la cuenta correcta el día correcto.",
+            "Cuando abres una cuenta Tern en Australia, tu BSB y número de cuenta se muestran claramente en la app — con el formato exacto que esperan los sistemas de nómina australianos. Puedes compartir tus datos de pago con un empleador con un solo toque, para que tu primer sueldo llegue a la cuenta correcta el día correcto.",
           ],
         },
       ],
@@ -147,7 +147,7 @@ export const article: Article = {
         },
         {
           q: "¿Puedo usar el mismo BSB para todas mis cuentas en el mismo banco?",
-          a: "No necesariamente. Los números BSB identifican una sucursal bancaria, no un banco en su totalidad. Si tenés cuentas en distintas sucursales, o si tu banco cambió su estructura de sucursales, tu BSB puede ser diferente entre cuentas. Siempre verificá el BSB específico que aparece para cada cuenta en lugar de asumir que son iguales.",
+          a: "No necesariamente. Los números BSB identifican una sucursal bancaria, no un banco en su totalidad. Si tienes cuentas en distintas sucursales, o si tu banco cambió su estructura de sucursales, tu BSB puede ser diferente entre cuentas. Siempre verifica el BSB específico que aparece para cada cuenta en lugar de asumir que son iguales.",
         },
       ],
     },

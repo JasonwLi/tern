@@ -3,6 +3,7 @@ import type { Article } from "../types";
 export const article: Article = {
   slug: "working-holiday-tax-refund-australia",
   kind: "guide",
+  date: "2026-05-19",
   emoji: "🧾",
   accent: "bg-coral-300",
   readMinutes: 7,
@@ -20,7 +21,7 @@ export const article: Article = {
     en: {
       title: "The 45% backpacker tax — and how to claim your refund",
       description:
-        "Working holiday makers in Australia get taxed up to 45% without a TFN. Here's how the backpacker tax works, how to get a tax file number, and how to claim your tax refund (average ~$2,600).",
+        "No TFN means 45% withholding in Australia. How the backpacker tax works, how to get your TFN, and how to claim your tax refund (avg ~$2,600).",
       excerpt:
         "No tax file number means your boss withholds a brutal 45%. Here's how to avoid it — and claim back the average ~$2,600 refund when you leave.",
       sections: [
@@ -32,7 +33,7 @@ export const article: Article = {
         {
           heading: "Why you might be taxed 45%",
           paragraphs: [
-            "If you start work without giving your employer a tax file number (TFN), they're legally required to withhold tax at the top marginal rate — 45% — on everything you earn. Apply for your TFN as soon as you arrive (it's free) and give it to your employer to be taxed correctly.",
+            "If you start work without giving your employer a [tax file number (TFN)](~/blog/what-is-a-tfn), they're legally required to withhold tax at the top marginal rate — 45% — on everything you earn. Apply for your TFN as soon as you arrive (it's free) and give it to your employer to be taxed correctly.",
             "With a TFN, working holiday makers are taxed at 15% on the first $45,000 of earnings, which is far lower than 45%.",
           ],
         },
@@ -83,7 +84,7 @@ export const article: Article = {
     es: {
       title: "El impuesto del 45% para backpackers — y cómo recuperar tu dinero",
       description:
-        "Los trabajadores en visa de vacaciones y trabajo en Australia pueden pagar hasta 45% de impuestos sin un TFN. Acá te explicamos cómo funciona el impuesto backpacker, cómo obtener tu número de archivo fiscal y cómo reclamar tu devolución de impuestos (promedio ~$2,600).",
+        "Sin TFN en Australia, retienen hasta el 45%. Cómo funciona el impuesto backpacker, cómo obtener el TFN y reclamar la devolución (promedio ~$2,600).",
       excerpt:
         "Sin número de archivo fiscal, tu empleador te retiene un brutal 45%. Acá te contamos cómo evitarlo — y cómo recuperar el promedio de ~$2,600 cuando te vayas.",
       sections: [
@@ -95,14 +96,14 @@ export const article: Article = {
         {
           heading: "Por qué te pueden cobrar el 45%",
           paragraphs: [
-            "Si empezás a trabajar sin darle a tu empleador un número de archivo fiscal (TFN), la ley lo obliga a retener impuestos a la tasa máxima del 45% sobre todo lo que ganás. Solicitá tu TFN apenas llegues (es gratis) y dáselo a tu empleador para que te cobren la tasa correcta.",
+            "Si empiezas a trabajar sin darle a tu empleador un [número de archivo fiscal (TFN)](~/blog/what-is-a-tfn), la ley lo obliga a retener impuestos a la tasa máxima del 45% sobre todo lo que ganas. Solicita tu TFN apenas llegues (es gratis) y dáselo a tu empleador para que te cobren la tasa correcta.",
             "Con un TFN, los trabajadores en visa working holiday pagan 15% sobre los primeros $45,000 de ganancias, que es muchísimo menos que el 45%.",
           ],
         },
         {
           heading: "Cómo obtener un número de archivo fiscal (TFN)",
           bullets: [
-            "Solicitalo gratis en línea a través de la Oficina de Impuestos de Australia (ATO) una vez que estés en el país",
+            "Solicítalo gratis en línea a través de la Oficina de Impuestos de Australia (ATO) una vez que estés en el país",
             "Vas a necesitar tu pasaporte y los datos de tu visa",
             "Generalmente llega en unas dos semanas",
             "Dáselo a cada empleador para que te cobren la tasa working holiday y no el 45%",
@@ -111,27 +112,27 @@ export const article: Article = {
         {
           heading: "Cómo reclamar la devolución de impuestos al irte",
           paragraphs: [
-            "Al final del año fiscal (o cuando salís definitivamente de Australia), presentás una declaración de impuestos. Si te retuvieron de más — algo muy común si empezaste a trabajar antes de que llegara tu TFN — te devuelven la diferencia. El reembolso promedio para backpackers es de alrededor de $2,600.",
-            "Guardá todos tus recibos de sueldo y tu declaración de ingresos. Los vas a necesitar para presentar la declaración con precisión y probar cuánto ganaste y cuánto te retuvieron.",
+            "Al final del año fiscal (o cuando sales definitivamente de Australia), presentas una declaración de impuestos. Si te retuvieron de más — algo muy común si empezaste a trabajar antes de que llegara tu TFN — te devuelven la diferencia. El reembolso promedio para backpackers es de alrededor de $2,600.",
+            "Guarda todos tus recibos de sueldo y tu declaración de ingresos. Los vas a necesitar para presentar la declaración con precisión y probar cuánto ganaste y cuánto te retuvieron.",
           ],
         },
         {
           heading: "No confundas impuestos con superannuation",
           paragraphs: [
-            "Tu devolución de impuestos y tu superannuation (los ahorros para el retiro que tu empleador paga además del sueldo) son dos fondos separados. Reclamás el super por separado cuando te vayas — mirá nuestra guía sobre DASP.",
+            "Tu devolución de impuestos y tu superannuation (los ahorros para el retiro que tu empleador paga además del sueldo) son dos fondos separados. Reclamas el super por separado cuando te vayas — mira nuestra guía sobre DASP.",
           ],
         },
         {
           heading: "Cómo te ayuda Tern",
           paragraphs: [
-            "Tern te recuerda solicitar el TFN al registrarte, guarda tus recibos de sueldo en un solo lugar para que presentar la declaración sea fácil, y te avisa si tu empleador está reteniendo la tasa incorrecta — para que te quedes con más de lo que ganás y recuperes lo que es tuyo.",
+            "Tern te recuerda solicitar el TFN al registrarte, guarda tus recibos de sueldo en un solo lugar para que presentar la declaración sea fácil, y te avisa si tu empleador está reteniendo la tasa incorrecta — para que te quedes con más de lo que ganas y recuperes lo que es tuyo.",
           ],
         },
       ],
       faq: [
         {
           q: "¿Por qué me cobran el 45% en mi visa working holiday?",
-          a: "Porque no le diste a tu empleador un número de archivo fiscal. Sin un TFN, la ley exige retención a la tasa máxima del 45%. Solicitá un TFN y entregáselo para bajar a la tasa working holiday del 15%.",
+          a: "Porque no le diste a tu empleador un número de archivo fiscal. Sin un TFN, la ley exige retención a la tasa máxima del 45%. Solicita un TFN y entrégeselo para bajar a la tasa working holiday del 15%.",
         },
         {
           q: "¿Cuánto es el reembolso promedio de impuestos en la visa working holiday?",
@@ -139,14 +140,14 @@ export const article: Article = {
         },
         {
           q: "¿Cuándo puedo reclamar la devolución de impuestos?",
-          a: "Después de que termine el año fiscal (30 June) o cuando salgas de Australia definitivamente. Presentás una declaración de impuestos ante la ATO usando tu declaración de ingresos y tus recibos de sueldo.",
+          a: "Después de que termine el año fiscal (30 June) o cuando salgas de Australia definitivamente. Presentas una declaración de impuestos ante la ATO usando tu declaración de ingresos y tus recibos de sueldo.",
         },
       ],
     },
     ja: {
       title: "バックパッカー税45%の仕組みと、税金を取り戻す方法",
       description:
-        "オーストラリアでワーキングホリデー（ワーホリ）中にTFNを持っていないと、最大45%の税金が引かれます。バックパッカー税の仕組み、TFNの取得方法、そして平均約$2,600の税金還付を請求する方法を解説します。",
+        "TFNなしだと最大45%が源泉徴収されます。バックパッカー税の仕組み・TFN取得・平均約$2,600の還付申請方法を解説。",
       excerpt:
         "TFNがないと雇用主に45%もの税金を天引きされます。その回避方法と、帰国前に平均約$2,600を取り戻す方法をわかりやすく説明します。",
       sections: [
@@ -158,7 +159,7 @@ export const article: Article = {
         {
           heading: "なぜ45%も課税されるのか",
           paragraphs: [
-            "雇用主にTFN（税務番号）を伝えずに働き始めると、法律により最高税率である45%が全収入から天引きされます。オーストラリア到着後すぐにTFNを申請し（無料）、雇用主に伝えることで正しい税率が適用されます。",
+            "雇用主に[TFN（税務番号）](~/blog/what-is-a-tfn)を伝えずに働き始めると、法律により最高税率である45%が全収入から天引きされます。オーストラリア到着後すぐにTFNを申請し（無料）、雇用主に伝えることで正しい税率が適用されます。",
             "TFNを持つワーホリメーカーは、最初の$45,000の収入に対して15%の税率が適用されます。45%と比べると、大きな差です。",
           ],
         },
@@ -209,7 +210,7 @@ export const article: Article = {
     ko: {
       title: "워홀 세금 45% — 환급받는 방법 완벽 가이드",
       description:
-        "호주에서 워킹홀리데이 중 TFN이 없으면 최대 45%의 세금이 공제됩니다. 백패커 세금 제도, TFN 발급 방법, 그리고 평균 약 $2,600의 세금 환급 신청 방법을 알아보세요.",
+        "호주 워홀에서 TFN 없으면 최대 45% 공제. 백패커 세금 제도, TFN 발급, 평균 $2,600 환급 신청법 정리.",
       excerpt:
         "TFN이 없으면 고용주가 무려 45%를 공제합니다. 이를 피하는 방법과, 출국 전에 평균 약 $2,600을 돌려받는 방법을 알려드립니다.",
       sections: [
@@ -221,7 +222,7 @@ export const article: Article = {
         {
           heading: "왜 45%나 세금을 내야 하나요?",
           paragraphs: [
-            "TFN(세금 파일 번호)을 고용주에게 제출하지 않고 일을 시작하면, 법에 따라 모든 수입의 최고 세율인 45%가 원천징수됩니다. 호주 도착 즉시 TFN을 신청하고(무료) 고용주에게 제출해 올바른 세율을 적용받으세요.",
+            "[TFN(세금 파일 번호)](~/blog/what-is-a-tfn)을 고용주에게 제출하지 않고 일을 시작하면, 법에 따라 모든 수입의 최고 세율인 45%가 원천징수됩니다. 호주 도착 즉시 TFN을 신청하고(무료) 고용주에게 제출해 올바른 세율을 적용받으세요.",
             "TFN이 있는 워킹홀리데이 비자 소지자는 첫 $45,000 수입에 대해 15%의 세율이 적용됩니다. 45%에 비해 훨씬 낮은 비율입니다.",
           ],
         },
@@ -284,7 +285,7 @@ export const article: Article = {
         {
           heading: "為什麼你可能被課45%的稅",
           paragraphs: [
-            "如果你在沒有提供雇主TFN（稅號）的情況下開始工作，法律要求雇主以最高邊際稅率45%扣繳你所有收入的稅款。抵達澳洲後請盡快申請TFN（免費），並提交給雇主，才能適用正確的稅率。",
+            "如果你在沒有提供雇主[TFN（稅號）](~/blog/what-is-a-tfn)的情況下開始工作，法律要求雇主以最高邊際稅率45%扣繳你所有收入的稅款。抵達澳洲後請盡快申請TFN（免費），並提交給雇主，才能適用正確的稅率。",
             "持有TFN的打工度假者，前$45,000收入適用15%的稅率，遠低於45%。",
           ],
         },

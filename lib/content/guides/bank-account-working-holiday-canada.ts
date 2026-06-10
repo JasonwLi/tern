@@ -3,6 +3,7 @@ import type { Article } from "../types";
 export const article: Article = {
   slug: "bank-account-working-holiday-canada",
   kind: "guide",
+  date: "2026-05-22",
   emoji: "🍁",
   accent: "bg-coral-300",
   readMinutes: 6,
@@ -20,7 +21,7 @@ export const article: Article = {
     en: {
       title: "Banking in Canada on a working holiday (IEC)",
       description:
-        "Everything International Experience Canada (IEC) working holiday makers need to know about banking — getting a SIN, opening a Canadian bank account, proof of funds (CAD 2,500), and getting paid in CAD.",
+        "IEC working holiday banking guide — getting your SIN, opening a Canadian bank account, the CAD 2,500 proof-of-funds requirement, and getting paid.",
       excerpt:
         "You can't legally work in Canada without a SIN. Here's the fastest path to a SIN, a bank account, and your first CAD paycheck — in the right order.",
       sections: [
@@ -96,83 +97,83 @@ export const article: Article = {
     es: {
       title: "Cómo hacer la banca en Canadá con la visa working holiday (IEC)",
       description:
-        "Todo lo que necesitás saber sobre el sistema bancario en Canadá con la visa IEC — obtener el SIN, abrir una cuenta bancaria canadiense, los fondos mínimos (CAD 2,500) y cómo cobrar en CAD.",
+        "Guía bancaria para la visa IEC en Canadá — cómo obtener el SIN, abrir cuenta, los fondos mínimos (CAD 2,500) y cobrar en CAD.",
       excerpt:
-        "No podés trabajar legalmente en Canadá sin un SIN. Acá te explicamos el camino más rápido para obtener el SIN, abrir una cuenta y recibir tu primer sueldo en CAD — en el orden correcto.",
+        "No puedes trabajar legalmente en Canadá sin un SIN. Acá te explicamos el camino más rápido para obtener el SIN, abrir una cuenta y recibir tu primer sueldo en CAD — en el orden correcto.",
       sections: [
         {
           paragraphs: [
-            "La visa IEC te abre las puertas de Canadá — pero antes de ganar un solo dólar necesitás dos cosas en el orden correcto: un Número de Seguro Social (SIN) y una cuenta bancaria canadiense. Si los hacés mal o fuera de secuencia, tu primer período de pago se convierte en un dolor de cabeza.",
+            "La visa IEC te abre las puertas de Canadá — pero antes de ganar un solo dólar necesitas dos cosas en el orden correcto: un Número de Seguro Social (SIN) y una cuenta bancaria canadiense. Si los haces mal o fuera de secuencia, tu primer período de pago se convierte en un dolor de cabeza.",
           ],
         },
         {
-          heading: "Fondos mínimos: los CAD 2,500 que debés mostrar en la frontera",
+          heading: "Fondos mínimos: los CAD 2,500 que debes mostrar en la frontera",
           paragraphs: [
-            "Cuando llegás a un puerto de entrada canadiense, un oficial de servicios fronterizos puede pedirte que demuestres que tenés dinero suficiente para mantenerte durante los primeros tres meses. El requisito estándar son CAD 2,500 en fondos accesibles.",
-            "Tenés que mostrar un extracto bancario emitido no más de una semana antes de tu partida. El extracto debe mostrar claramente tu nombre y la fecha de emisión. Las tarjetas de crédito no se aceptan — solo fondos líquidos como efectivo, cuentas de ahorro, giros bancarios, cheques certificados o cheques de viajero. Si llegás con CAD 10,000 o más en cualquier forma, estás legalmente obligado a declararlo al oficial de frontera.",
+            "Cuando llegas a un puerto de entrada canadiense, un oficial de servicios fronterizos puede pedirte que demuestres que tienes dinero suficiente para mantenerte durante los primeros tres meses. El requisito estándar son CAD 2,500 en fondos accesibles.",
+            "Tienes que mostrar un extracto bancario emitido no más de una semana antes de tu partida. El extracto debe mostrar claramente tu nombre y la fecha de emisión. Las tarjetas de crédito no se aceptan — solo fondos líquidos como efectivo, cuentas de ahorro, giros bancarios, cheques certificados o cheques de viajero. Si llegas con CAD 10,000 o más en cualquier forma, estás legalmente obligado a declararlo al oficial de frontera.",
           ],
         },
         {
-          heading: "Obtener tu SIN — hacé esto primero",
+          heading: "Obtener tu SIN — haz esto primero",
           paragraphs: [
             "El Número de Seguro Social (SIN) es un número de 9 dígitos necesario para trabajar legalmente en Canadá y acceder a programas gubernamentales. Como titular de la visa working holiday IEC, recibirás un SIN temporal que empieza con el dígito '9' y tiene una fecha de vencimiento que coincide con tu permiso de trabajo.",
-            "Podés solicitar el SIN online a través de Service Canada — es el método más rápido. Vas a necesitar tu permiso de trabajo IEC (el documento que dice que podés aceptar empleo en Canadá). No hay costo para solicitarlo.",
+            "Puedes solicitar el SIN online a través de Service Canada — es el método más rápido. Vas a necesitar tu permiso de trabajo IEC (el documento que dice que puedes aceptar empleo en Canadá). No hay costo para solicitarlo.",
           ],
           bullets: [
-            "Solicitalo online en canada.ca o en persona en una oficina de Service Canada",
-            "Llevá tu permiso de trabajo IEC y pasaporte",
+            "Solicítalo online en canada.ca o en persona en una oficina de Service Canada",
+            "Lleva tu permiso de trabajo IEC y pasaporte",
             "Las solicitudes online se procesan rápidamente — las visitas en persona pueden requerir espera",
-            "Una vez emitido, proporcioná tu SIN a tu empleador antes o dentro de los 3 días de iniciar el trabajo",
-            "Tu SIN temporal (que empieza con '9') es válido hasta que venza tu permiso de trabajo — renovalo para mantener el SIN vigente",
+            "Una vez emitido, proporciona tu SIN a tu empleador antes o dentro de los 3 días de iniciar el trabajo",
+            "Tu SIN temporal (que empieza con '9') es válido hasta que venza tu permiso de trabajo — renuévalo para mantener el SIN vigente",
           ],
         },
         {
           heading: "Cómo abrir una cuenta bancaria canadiense",
           paragraphs: [
             "La mayoría de los grandes bancos canadienses — TD, RBC, Scotiabank, BMO y CIBC — permiten que los residentes temporales con un permiso de trabajo válido abran una cuenta corriente. Muchos te permiten iniciar la solicitud online antes de llegar y finalizarla en la sucursal con tus documentos.",
-            "Generalmente necesitás: pasaporte, permiso de trabajo IEC, SIN (algunos bancos te dejan abrirla sin él y agregarlo después) y una dirección en Canadá. Para la dirección, muchos bancos aceptan un hostel, Airbnb o la dirección de un amigo como dirección temporal mientras buscás alojamiento permanente.",
+            "Generalmente necesitas: pasaporte, permiso de trabajo IEC, SIN (algunos bancos te dejan abrirla sin él y agregarlo después) y una dirección en Canadá. Para la dirección, muchos bancos aceptan un hostel, Airbnb o la dirección de un amigo como dirección temporal mientras buscas alojamiento permanente.",
           ],
           bullets: [
             "TD y RBC ofrecen apertura de cuenta online antes de llegar para recién llegados",
-            "Llevá tu pasaporte, permiso de trabajo y SIN a la cita de activación en sucursal",
+            "Lleva tu pasaporte, permiso de trabajo y SIN a la cita de activación en sucursal",
             "Generalmente se acepta una dirección temporal (hostel, alquiler a corto plazo) — confirmalo con tu banco",
             "La mayoría de las cuentas incluyen una tarjeta de débito y banca online desde el primer día",
-            "Preguntá por las cuentas 'para recién llegados' o 'sin cuota mensual' — varios bancos exoneran las comisiones durante el primer año",
+            "Pregunta por las cuentas 'para recién llegados' o 'sin cuota mensual' — varios bancos exoneran las comisiones durante el primer año",
           ],
         },
         {
           heading: "Cómo cobrar en CAD — qué necesita tu empleador",
           paragraphs: [
-            "Para recibir depósito directo de un empleador canadiense, necesitás proporcionar el número de tránsito de tu banco (5 dígitos), el número de institución (3 dígitos) y el número de cuenta (7–12 dígitos). Estos datos están impresos en el fondo de un cheque, o podés encontrarlos en la app de tu banco en 'información de depósito directo'.",
-            "Tu empleador también necesitará tu SIN para los fines de nómina y retención de impuestos. El impuesto federal sobre la renta, las primas del Seguro de Empleo (EI) y las contribuciones al Plan de Pensiones de Canadá (CPP) se retienen de tu sueldo. Al final del año presentás una declaración T1 para cuadrar cuentas — y potencialmente obtener una devolución.",
+            "Para recibir depósito directo de un empleador canadiense, necesitas proporcionar el número de tránsito de tu banco (5 dígitos), el número de institución (3 dígitos) y el número de cuenta (7–12 dígitos). Estos datos están impresos en el fondo de un cheque, o puedes encontrarlos en la app de tu banco en 'información de depósito directo'.",
+            "Tu empleador también necesitará tu SIN para los fines de nómina y retención de impuestos. El impuesto federal sobre la renta, las primas del Seguro de Empleo (EI) y las contribuciones al Plan de Pensiones de Canadá (CPP) se retienen de tu sueldo. Al final del año presentas una declaración T1 para cuadrar cuentas — y potencialmente obtener una devolución.",
           ],
         },
         {
           heading: "Cómo te ayuda Tern",
           paragraphs: [
-            "Tern te guía a través de los pasos del SIN y la cuenta bancaria en el orden correcto al llegar, guarda de forma segura tus datos bancarios canadienses y hace un seguimiento de tus retenciones a lo largo de tu estadía. Cuando llega la temporada de impuestos, Tern tiene listo tu historial de ingresos y deducciones para que presentar tu declaración T1 sea sencillo — y no dejés ningún reembolso sin reclamar.",
+            "Tern te guía a través de los pasos del SIN y la cuenta bancaria en el orden correcto al llegar, guarda de forma segura tus datos bancarios canadienses y hace un seguimiento de tus retenciones a lo largo de tu estadía. Cuando llega la temporada de impuestos, Tern tiene listo tu historial de ingresos y deducciones para que presentar tu declaración T1 sea sencillo — y no dejes ningún reembolso sin reclamar.",
           ],
         },
       ],
       faq: [
         {
           q: "¿Puedo empezar a trabajar en Canadá antes de tener un SIN?",
-          a: "Debés solicitar el SIN dentro de los 3 días de iniciar el empleo. Podés comenzar a trabajar antes de recibir el número, pero debés solicitarlo de inmediato y proporcionárselo a tu empleador dentro de los 3 días de recibirlo. Trabajar sin solicitar nunca el SIN es ilegal.",
+          a: "Debes solicitar el SIN dentro de los 3 días de iniciar el empleo. Puedes comenzar a trabajar antes de recibir el número, pero debes solicitarlo de inmediato y proporcionárselo a tu empleador dentro de los 3 días de recibirlo. Trabajar sin solicitar nunca el SIN es ilegal.",
         },
         {
           q: "¿Qué pasa si no puedo mostrar CAD 2,500 en la frontera?",
-          a: "Los oficiales de servicios fronterizos tienen discrecionalidad. Si no podés demostrar fondos suficientes, pueden hacerte más preguntas o, en el peor caso, negarte la entrada. Asegurate de que tu extracto tenga menos de 7 días desde tu viaje, muestre claramente tu nombre y refleje efectivo accesible — no solo un límite de crédito.",
+          a: "Los oficiales de servicios fronterizos tienen discrecionalidad. Si no puedes demostrar fondos suficientes, pueden hacerte más preguntas o, en el peor caso, negarte la entrada. Asegúrate de que tu extracto tenga menos de 7 días desde tu viaje, muestre claramente tu nombre y refleje efectivo accesible — no solo un límite de crédito.",
         },
         {
           q: "¿Puedo recuperar el impuesto sobre la renta canadiense cuando me vaya?",
-          a: "Es posible, sí. Si durante el año se retuvo más impuesto del necesario — lo que es común si trabajaste solo parte del año — podés presentar una declaración T1 y recibir un reembolso. Podés presentarla incluso después de salir de Canadá. Guardá todos tus recibos T4 de los empleadores.",
+          a: "Es posible, sí. Si durante el año se retuvo más impuesto del necesario — lo que es común si trabajaste solo parte del año — puedes presentar una declaración T1 y recibir un reembolso. Puedes presentarla incluso después de salir de Canadá. Guarda todos tus recibos T4 de los empleadores.",
         },
       ],
     },
     ja: {
       title: "カナダのワーキングホリデー（IEC）で銀行口座を開設する方法",
       description:
-        "IECワーキングホリデービザでカナダの銀行を使うために知っておくべきこと — SINの取得、カナダの銀行口座の開設、必要資金（CAD 2,500）、そしてCADで給料を受け取るまでを解説します。",
+        "IECワーホリのカナダ銀行ガイド — SIN取得・口座開設・CAD 2,500の資金証明・CADで給料受け取りまで解説。",
       excerpt:
         "SINなしではカナダで合法的に働けません。SIN取得、口座開設、最初のCAD給与を受け取るための最速ルートを正しい順番で説明します。",
       sections: [
@@ -248,7 +249,7 @@ export const article: Article = {
     ko: {
       title: "캐나다 워킹홀리데이(IEC)로 은행 계좌 개설하는 방법",
       description:
-        "IEC 워킹홀리데이 비자로 캐나다 은행을 이용하기 위해 알아야 할 모든 것 — SIN 발급, 캐나다 은행 계좌 개설, 증명 자금(CAD 2,500), CAD로 급여 받기까지 설명합니다.",
+        "IEC 워홀 캐나다 은행 가이드 — SIN 발급, 계좌 개설, CAD 2,500 증명 자금, CAD 급여 수령까지 정리.",
       excerpt:
         "SIN 없이는 캐나다에서 합법적으로 일할 수 없습니다. SIN 발급, 계좌 개설, 첫 CAD 급여를 받기까지의 가장 빠른 경로를 올바른 순서로 알려드립니다.",
       sections: [

@@ -22,7 +22,7 @@ export const article: Article = {
     en: {
       title: "Second-year visa: how to track your 88 days of specified work",
       description:
-        "Want a second-year working holiday visa in Australia? You need 88 days of specified regional work — properly documented. Here's what counts and how to keep payslip proof.",
+        "Australia's second-year working holiday visa requires 88 days of specified regional work. What counts and how to keep payslip proof.",
       excerpt:
         "A second year in Australia means 88 days of specified work — and the paperwork to prove it. Cash-in-hand days don't count. Here's how not to lose your extension.",
       sections: [
@@ -78,9 +78,9 @@ export const article: Article = {
     es: {
       title: "Segunda visa de vacaciones y trabajo: cómo registrar tus 88 días de trabajo especificado",
       description:
-        "¿Querés una segunda visa de vacaciones y trabajo en Australia? Necesitás 88 días de trabajo regional especificado — bien documentados. Aquí te explicamos qué cuenta y cómo guardar tus recibos de sueldo.",
+        "Segunda visa working holiday en Australia: 88 días de trabajo regional especificado. Qué cuenta y cómo guardar los recibos de sueldo.",
       excerpt:
-        "Un segundo año en Australia requiere 88 días de trabajo especificado y los papeles que lo demuestren. Los días pagados en efectivo sin registro no cuentan. Así evitás perder tu extensión.",
+        "Un segundo año en Australia requiere 88 días de trabajo especificado y los papeles que lo demuestren. Los días pagados en efectivo sin registro no cuentan. Así evitas perder tu extensión.",
       sections: [
         {
           paragraphs: [
@@ -93,24 +93,24 @@ export const article: Article = {
             "Cultivo de plantas y animales (trabajo en granjas, cosecha de frutas, pesca, silvicultura)",
             "Construcción y algunos trabajos mineros",
             "Trabajo en códigos postales regionales habilitados — la ubicación importa tanto como el tipo de empleo",
-            "Revisá la lista oficial vigente de industrias y códigos postales habilitados antes de aceptar un trabajo",
+            "Revisa la lista oficial vigente de industrias y códigos postales habilitados antes de aceptar un trabajo",
           ],
         },
         {
           heading: "La regla de los 88 días",
           paragraphs: [
-            "Necesitás 88 días de trabajo habilitado. Pueden contar días de trabajo a tiempo completo, parcial o a destajo, pero las reglas sobre qué constituye un 'día' son específicas — y el trabajo pagado en efectivo que no esté debidamente registrado generalmente no suma al total.",
+            "Necesitas 88 días de trabajo habilitado. Pueden contar días de trabajo a tiempo completo, parcial o a destajo, pero las reglas sobre qué constituye un 'día' son específicas — y el trabajo pagado en efectivo que no esté debidamente registrado generalmente no suma al total.",
           ],
         },
         {
           heading: "Por qué la documentación lo define todo",
           paragraphs: [
-            "Al momento de solicitar la visa, necesitás evidencia: recibos de sueldo, el ABN de tu empleador, fechas y lugar de trabajo. Los recibos perdidos, los registros vagos o cobrar en negro son las razones más comunes por las que se rechaza una solicitud de segunda visa.",
+            "Al momento de solicitar la visa, necesitas evidencia: recibos de sueldo, el ABN de tu empleador, fechas y lugar de trabajo. Los recibos perdidos, los registros vagos o cobrar en negro son las razones más comunes por las que se rechaza una solicitud de segunda visa.",
           ],
           bullets: [
-            "Guardá cada recibo de sueldo con el ABN del empleador",
-            "Anotá las fechas y la ubicación exacta de cada período de trabajo",
-            "Asegurate de que te paguen correctamente y de manera formal — eso protege tanto tu salario como tu visa",
+            "Guarda cada recibo de sueldo con el ABN del empleador",
+            "Anota las fechas y la ubicación exacta de cada período de trabajo",
+            "Asegúrate de que te paguen correctamente y de manera formal — eso protege tanto tu salario como tu visa",
           ],
         },
         {
@@ -123,7 +123,7 @@ export const article: Article = {
       faq: [
         {
           q: "¿Cuántos días necesito para obtener una segunda visa de vacaciones y trabajo?",
-          a: "88 días de trabajo especificado en una industria habilitada y ubicación regional. La lista exacta de trabajos y códigos postales habilitados la establece el Department of Home Affairs y debés verificarla antes de empezar un empleo.",
+          a: "88 días de trabajo especificado en una industria habilitada y ubicación regional. La lista exacta de trabajos y códigos postales habilitados la establece el Department of Home Affairs y debes verificarla antes de empezar un empleo.",
         },
         {
           q: "¿El trabajo pagado en efectivo cuenta para mis 88 días?",
@@ -134,7 +134,7 @@ export const article: Article = {
     ja: {
       title: "セカンドビザ取得のために：88日間の指定労働を正しく記録する方法",
       description:
-        "オーストラリアのセカンドビザを目指しているなら、指定された地方労働を88日間こなし、きちんと証明する必要があります。何が対象になるか、給与明細の保管方法をわかりやすく解説します。",
+        "セカンドビザには指定労働88日と証明書類が必要。対象となる仕事と給与明細の保管方法を解説します。",
       excerpt:
         "オーストラリアでの2年目には、指定労働88日分とそれを証明する書類が必要です。現金払いの日数はカウントされません。ビザ延長を逃さないために知っておくべきことを紹介します。",
       sections: [
@@ -190,7 +190,7 @@ export const article: Article = {
     ko: {
       title: "세컨비자 신청을 위한 88일 지정 노동 기록 방법",
       description:
-        "호주 세컨비자를 받고 싶다면 지정된 지역 노동 88일을 제대로 증명해야 합니다. 어떤 일이 해당되는지, 급여 명세서는 어떻게 보관해야 하는지 알아보세요.",
+        "호주 세컨비자는 지정 지역 노동 88일이 필요합니다. 해당 업종과 급여 명세서 보관법을 알아보세요.",
       excerpt:
         "호주에서의 두 번째 해를 위해서는 지정 노동 88일과 그것을 증명하는 서류가 필요합니다. 현금으로 받은 날은 인정되지 않습니다. 비자 연장 기회를 놓치지 않는 방법을 소개합니다.",
       sections: [

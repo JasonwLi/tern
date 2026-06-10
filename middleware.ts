@@ -112,21 +112,29 @@ export async function middleware(req: NextRequest) {
     (l) => pathname === `/${l}` || pathname.startsWith(`/${l}/`)
   );
 
-  // Already on a localized path — just keep the cookie in sync.
+  // Already on a localized path — keep the cookie in sync and cap CDN caching
+  // (Next's default year-long s-maxage would freeze pages once a CDN sits in front).
   if (pathLocale) {
     const res = NextResponse.next();
     if (req.cookies.get(COOKIE)?.value !== pathLocale) {
       res.cookies.set(COOKIE, pathLocale, { path: "/", maxAge: ONE_YEAR });
     }
+    res.headers.set(
+      "Cache-Control",
+      "public, max-age=60, s-maxage=300, stale-while-revalidate=86400"
+    );
     return res;
   }
 
   // No locale in the path — auto-detect and redirect.
+  // 308 (permanent) so crawlers consolidate on the locale URLs; no-store so no
+  // CDN/browser ever caches one visitor's locale redirect for everyone else.
   const { locale, source } = await resolveLocale(req);
   const url = req.nextUrl.clone();
   url.pathname = `/${locale}${pathname === "/" ? "" : pathname}`;
-  const res = NextResponse.redirect(url);
+  const res = NextResponse.redirect(url, 308);
   res.cookies.set(COOKIE, locale, { path: "/", maxAge: ONE_YEAR });
+  res.headers.set("Cache-Control", "no-store");
   res.headers.set("x-tern-geo", source); // diagnostic: how the locale was chosen
   return res;
 }

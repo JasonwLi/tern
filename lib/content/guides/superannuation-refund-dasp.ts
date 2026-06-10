@@ -3,6 +3,7 @@ import type { Article } from "../types";
 export const article: Article = {
   slug: "superannuation-refund-dasp",
   kind: "guide",
+  date: "2026-05-20",
   emoji: "💰",
   accent: "bg-sky-300",
   readMinutes: 6,
@@ -20,13 +21,13 @@ export const article: Article = {
     en: {
       title: "How to claim your superannuation when you leave Australia (DASP)",
       description:
-        "Working holiday makers can claim their Australian superannuation back when they leave, via the DASP. Here's how it works, what it's taxed at, and how to avoid leaving thousands behind.",
+        "Working holiday makers can claim Australian superannuation back via the DASP. How it works, the tax rate, and how to avoid leaving thousands behind.",
       excerpt:
         "Your employer paid super on top of your wages — and you can claim it back when you leave. Billions sit unclaimed. Here's how to get yours via the DASP.",
       sections: [
         {
           paragraphs: [
-            "Superannuation (\"super\") is retirement money your employer pays on top of your wages — currently 12% of your earnings. As a temporary visa holder you can claim it back when you leave Australia for good, through the Departing Australia Superannuation Payment (DASP). Billions of dollars in super sit unclaimed, much of it belonging to backpackers who didn't know to ask.",
+            "[Superannuation (\"super\")](~/blog/what-is-superannuation) is retirement money your employer pays on top of your wages — currently 12% of your earnings. As a temporary visa holder you can claim it back when you leave Australia for good, through the Departing Australia Superannuation Payment (DASP). Billions of dollars in super sit unclaimed, much of it belonging to backpackers who didn't know to ask.",
           ],
         },
         {
@@ -81,13 +82,13 @@ export const article: Article = {
     es: {
       title: "Cómo reclamar tu superannuation al salir de Australia (DASP)",
       description:
-        "Si trabajaste en Australia con visa de vacaciones y trabajo, puedes recuperar tu superannuation a través del DASP. Te explicamos cómo funciona, cuánto te retienen y cómo no dejar plata abandonada.",
+        "Recupera tu superannuation de Australia mediante el DASP al salir. Cómo funciona, cuánto retienen y cómo no dejar miles detrás.",
       excerpt:
         "Tu empleador depositó super además de tu sueldo — y puedes recuperarlo al irte. Miles de millones siguen sin reclamarse. Así consigues el tuyo con el DASP.",
       sections: [
         {
           paragraphs: [
-            "El superannuation (\"super\") es dinero para el retiro que tu empleador paga además de tu sueldo — actualmente el 12% de tus ganancias. Como titular de una visa temporal, puedes reclamarlo cuando dejes Australia definitivamente a través del Departing Australia Superannuation Payment (DASP). Miles de millones de dólares en super siguen sin reclamarse, gran parte de ellos de backpackers que no sabían que podían pedirlo.",
+            "[El superannuation (\"super\")](~/blog/what-is-superannuation) es dinero para el retiro que tu empleador paga además de tu sueldo — actualmente el 12% de tus ganancias. Como titular de una visa temporal, puedes reclamarlo cuando dejes Australia definitivamente a través del Departing Australia Superannuation Payment (DASP). Miles de millones de dólares en super siguen sin reclamarse, gran parte de ellos de backpackers que no sabían que podían pedirlo.",
           ],
         },
         {
@@ -99,16 +100,16 @@ export const article: Article = {
         {
           heading: "Cómo reclamar tu DASP paso a paso",
           bullets: [
-            "Asegurate de que tu visa esté vencida o cancelada y de haber salido de Australia (el DASP se paga después de que te vayas)",
-            "Buscá todas tus cuentas de super — los servicios online del ATO te ayudan a encontrar el super perdido",
-            "Enviá una solicitud de DASP online a cada fondo (o a través del ATO)",
-            "Proporcioná tu TFN, pasaporte y datos de visa para verificar tu identidad",
+            "Asegúrate de que tu visa esté vencida o cancelada y de haber salido de Australia (el DASP se paga después de que te vayas)",
+            "Busca todas tus cuentas de super — los servicios online del ATO te ayudan a encontrar el super perdido",
+            "Envía una solicitud de DASP online a cada fondo (o a través del ATO)",
+            "Proporciona tu TFN, pasaporte y datos de visa para verificar tu identidad",
           ],
         },
         {
           heading: "Cómo se tributa el DASP",
           paragraphs: [
-            "El DASP para titulares de visa de vacaciones y trabajo (subclass 417/462) se grava con un 65%. Suena alto, pero recibir el 35% de tu super es mucho mejor que el 0% — que es lo que obtenés si nunca lo reclamás. Sobre varios miles de dólares, sigue siendo plata real para tu próximo viaje.",
+            "El DASP para titulares de visa de vacaciones y trabajo (subclass 417/462) se grava con un 65%. Suena alto, pero recibir el 35% de tu super es mucho mejor que el 0% — que es lo que obtienes si nunca lo reclamas. Sobre varios miles de dólares, sigue siendo plata real para tu próximo viaje.",
           ],
         },
         {
@@ -131,11 +132,11 @@ export const article: Article = {
         },
         {
           q: "¿Cuánto impuesto descuentan de la devolución del DASP?",
-          a: "Para los titulares de visa de vacaciones y trabajo (subclass 417/462), el DASP se grava con un 65%. Recibís el 35% restante — que sigue siendo mucho mejor que no reclamar nada.",
+          a: "Para los titulares de visa de vacaciones y trabajo (subclass 417/462), el DASP se grava con un 65%. Recibes el 35% restante — que sigue siendo mucho mejor que no reclamar nada.",
         },
         {
           q: "¿Cuándo puedo reclamar mi super?",
-          a: "Después de haber salido de Australia y de que tu visa haya vencido o sido cancelada. Presentás la solicitud a cada fondo de super (o a través del ATO) con tu pasaporte, visa y TFN.",
+          a: "Después de haber salido de Australia y de que tu visa haya vencido o sido cancelada. Presentas la solicitud a cada fondo de super (o a través del ATO) con tu pasaporte, visa y TFN.",
         },
       ],
     },
@@ -148,7 +149,7 @@ export const article: Article = {
       sections: [
         {
           paragraphs: [
-            "スーパーアニュエーション（「スーパー」）とは、雇用主が給与に上乗せして支払う退職積立金で、現在の割合は給与の12%です。一時ビザ保有者は、Departing Australia Superannuation Payment（DASP）を通じて、永久出国時にこの積立金を取り戻すことができます。何十億ドルものスーパーが未請求のままになっており、その多くは請求方法を知らなかったワーホリの方々のものです。",
+            "[スーパーアニュエーション（「スーパー」）](~/blog/what-is-superannuation)とは、雇用主が給与に上乗せして支払う退職積立金で、現在の割合は給与の12%です。一時ビザ保有者は、Departing Australia Superannuation Payment（DASP）を通じて、永久出国時にこの積立金を取り戻すことができます。何十億ドルものスーパーが未請求のままになっており、その多くは請求方法を知らなかったワーホリの方々のものです。",
           ],
         },
         {
@@ -203,13 +204,13 @@ export const article: Article = {
     ko: {
       title: "호주 출국 시 슈퍼애뉴에이션 환급받는 방법 (DASP)",
       description:
-        "워홀 비자로 호주에서 일했다면 DASP를 통해 슈퍼애뉴에이션을 돌려받을 수 있어요. 신청 방법, 세율, 그리고 수천 달러를 그냥 두고 오지 않는 법을 알아보세요.",
+        "호주 워홀 후 DASP로 슈퍼애뉴에이션 환급받기 — 신청 방법, 세율, 수천 달러 놓치지 않는 법.",
       excerpt:
         "고용주는 임금 외에 슈퍼를 추가로 납부해 왔어요 — 출국할 때 되찾을 수 있습니다. 수십억 달러가 청구되지 않은 채 쌓여 있어요. DASP로 내 돈을 찾아가세요.",
       sections: [
         {
           paragraphs: [
-            "슈퍼애뉴에이션(\"슈퍼\")은 고용주가 임금 외에 추가로 납부하는 퇴직 적립금으로, 현재 수입의 12%입니다. 임시 비자 소지자는 호주를 완전히 떠날 때 Departing Australia Superannuation Payment(DASP)를 통해 이를 돌려받을 수 있습니다. 수십억 달러의 슈퍼가 청구되지 않은 채 남아 있으며, 상당 부분이 신청 방법을 몰랐던 워홀러들의 것입니다.",
+            "[슈퍼애뉴에이션(\"슈퍼\")](~/blog/what-is-superannuation)은 고용주가 임금 외에 추가로 납부하는 퇴직 적립금으로, 현재 수입의 12%입니다. 임시 비자 소지자는 호주를 완전히 떠날 때 Departing Australia Superannuation Payment(DASP)를 통해 이를 돌려받을 수 있습니다. 수십억 달러의 슈퍼가 청구되지 않은 채 남아 있으며, 상당 부분이 신청 방법을 몰랐던 워홀러들의 것입니다.",
           ],
         },
         {
@@ -270,7 +271,7 @@ export const article: Article = {
       sections: [
         {
           paragraphs: [
-            "退休金（\"super\"）是雇主在薪資以外額外提撥的退休儲蓄，目前費率為薪資的12%。持臨時簽證者在永久離開澳洲時，可透過「離境澳洲退休金給付」（Departing Australia Superannuation Payment，DASP）申請取回這筆金額。目前有數十億澳幣的退休金尚未被領回，其中大部分屬於不知道可以申請的打工度假者。",
+            "[退休金（\"super\"）](~/blog/what-is-superannuation)是雇主在薪資以外額外提撥的退休儲蓄，目前費率為薪資的12%。持臨時簽證者在永久離開澳洲時，可透過「離境澳洲退休金給付」（Departing Australia Superannuation Payment，DASP）申請取回這筆金額。目前有數十億澳幣的退休金尚未被領回，其中大部分屬於不知道可以申請的打工度假者。",
           ],
         },
         {

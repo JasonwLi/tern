@@ -3,6 +3,7 @@ import type { Article } from "../types";
 export const article: Article = {
   slug: "how-much-money-working-holiday-new-zealand",
   kind: "guide",
+  date: "2026-05-30",
   emoji: "🌿",
   accent: "bg-sky-300",
   readMinutes: 6,
@@ -85,28 +86,28 @@ export const article: Article = {
       ],
     },
     es: {
-      title: "¿Cuánto dinero necesitás para la working holiday en Nueva Zelanda?",
+      title: "¿Cuánto dinero necesitas para la working holiday en Nueva Zelanda?",
       description:
         "NZD 4,200 de fondos mínimos, rango de tasas de visa, desglose del primer mes y cuánto ahorrar antes de volar a Nueva Zelanda.",
       excerpt:
-        "Necesitás NZD 4,200 en fondos accesibles más un vuelo de salida. La tarifa de la visa varía según el país. Esto es lo que realmente cuesta tu primer mes en Nueva Zelanda — y cómo llegar con suficiente colchón.",
+        "Necesitas NZD 4,200 en fondos accesibles más un vuelo de salida. La tarifa de la visa varía según el país. Esto es lo que realmente cuesta tu primer mes en Nueva Zelanda — y cómo llegar con suficiente colchón.",
       sections: [
         {
           paragraphs: [
-            "Nueva Zelanda es uno de los destinos de working holiday más gratificantes del mundo — pero antes de reservar tu vuelo a Auckland, tenés que saber exactamente cuánto dinero tener en el banco. Entre la tarifa de la visa, el requisito de fondos mínimos del gobierno y el costo real del primer mes en el terreno, el total es más alto de lo que la mayoría espera.",
+            "Nueva Zelanda es uno de los destinos de working holiday más gratificantes del mundo — pero antes de reservar tu vuelo a Auckland, tienes que saber exactamente cuánto dinero tener en el banco. Entre la tarifa de la visa, el requisito de fondos mínimos del gobierno y el costo real del primer mes en el terreno, el total es más alto de lo que la mayoría espera.",
           ],
         },
         {
           heading: "Qué exige inmigración",
           paragraphs: [
             "Immigration New Zealand exige que los titulares de visa working holiday tengan un mínimo de NZD 4,200 disponibles para su estadía, más un vuelo de regreso o salida confirmado — o fondos suficientes para comprarlo. Los oficiales de frontera pueden y verifican esto a la llegada, así que es un mínimo absoluto, no una guía.",
-            "La tarifa de solicitud de la visa en sí varía según la nacionalidad y el esquema de working holiday en que participa tu país — generalmente entre NZD 455 y NZD 770. Como el monto exacto depende de tu pasaporte, verificá siempre la página oficial de Immigration New Zealand para tu país antes de solicitar.",
+            "La tarifa de solicitud de la visa en sí varía según la nacionalidad y el esquema de working holiday en que participa tu país — generalmente entre NZD 455 y NZD 770. Como el monto exacto depende de tu pasaporte, verifica siempre la página oficial de Immigration New Zealand para tu país antes de solicitar.",
           ],
           bullets: [
             "NZD 4,200 mínimo en ahorros accesibles — solo fondos líquidos; el límite de la tarjeta de crédito no cuenta",
             "Reserva de vuelo de regreso o salida confirmada, o fondos equivalentes para comprarlo",
             "Extracto bancario con tu nombre y saldo, idealmente de los últimos 3 meses",
-            "Tarifa de visa de aproximadamente NZD 455–770 según tu nacionalidad y esquema — verificá en el sitio web de Immigration NZ",
+            "Tarifa de visa de aproximadamente NZD 455–770 según tu nacionalidad y esquema — verifica en el sitio web de Immigration NZ",
           ],
         },
         {
@@ -115,43 +116,43 @@ export const article: Article = {
             "El mínimo de NZD 4,200 del gobierno cubre tu estadía en teoría — en la práctica, solo el primer mes se llevará una gran parte. Antes de encontrar un departamento, empezar a trabajar y establecer una rutina, los gastos se acumulan rápido. Este es un desglose realista para alguien que llega a una ciudad como Auckland o Wellington.",
           ],
           bullets: [
-            "Dormitorio de hostel: NZD 35–55 por noche, o tarifas semanales más bajas si reservás por semana",
+            "Dormitorio de hostel: NZD 35–55 por noche, o tarifas semanales más bajas si reservas por semana",
             "Comida: NZD 80–120 por semana cocinando en supermercados como Countdown o Pak'nSave",
             "SIM o eSIM: NZD 20–40 para un plan prepago y conectarte el primer día",
-            "Transporte local: tarjeta Bee (Auckland) o pases de bus para el día a día; presupuestá buses interurbanos entre ciudades si planeás explorar primero",
+            "Transporte local: tarjeta Bee (Auckland) o pases de bus para el día a día; presupuesta buses interurbanos entre ciudades si planeas explorar primero",
             "Gastos de alquiler: depósito más alquiler adelantado suele ser 2–4 semanas de renta pagadas por adelantado antes de recibir la llave",
-            "Número IRD: gratuito para solicitar, pero tené en cuenta el tiempo — lo necesitás antes de que un empleador pueda descontarte impuestos correctamente, y puede tardar algunos días en llegar",
+            "Número IRD: gratuito para solicitar, pero ten en cuenta el tiempo — lo necesitas antes de que un empleador pueda descontarte impuestos correctamente, y puede tardar algunos días en llegar",
           ],
         },
         {
           heading: "La brecha hasta el primer pago",
           paragraphs: [
-            "La mayoría de los empleadores en Nueva Zelanda pagan semanal o quincenalmente. Si empezás a trabajar en la primera semana, podrías recibir un pago en 7 a 14 días — pero entre el procesamiento de nómina, tramitar tu número IRD y el tiempo que lleva encontrar trabajo, una brecha de dos a cuatro semanas sin ingresos es realista para la mayoría de los recién llegados.",
-            "Sumá tres o cuatro semanas de los costos anteriores y estás mirando NZD 1,500–2,500 en gastos de vida antes de ganar un solo dólar. Por eso NZD 4,200 es el mínimo para mostrar al oficial de frontera — no un presupuesto de llegada cómodo. La mayoría de los viajeros que llegan sin estrés presupuestan NZD 5,000–7,000 en total, incluyendo los fondos mínimos requeridos.",
+            "La mayoría de los empleadores en Nueva Zelanda pagan semanal o quincenalmente. Si empiezas a trabajar en la primera semana, podrías recibir un pago en 7 a 14 días — pero entre el procesamiento de nómina, tramitar tu número IRD y el tiempo que lleva encontrar trabajo, una brecha de dos a cuatro semanas sin ingresos es realista para la mayoría de los recién llegados.",
+            "Suma tres o cuatro semanas de los costos anteriores y estás mirando NZD 1,500–2,500 en gastos de vida antes de ganar un solo dólar. Por eso NZD 4,200 es el mínimo para mostrar al oficial de frontera — no un presupuesto de llegada cómodo. La mayoría de los viajeros que llegan sin estrés presupuestan NZD 5,000–7,000 en total, incluyendo los fondos mínimos requeridos.",
           ],
         },
         {
           heading: "Dónde se escapa el dinero en silencio",
           paragraphs: [
-            "Más allá de los costos obvios, tres gastos les sacan de sorpresa a los que llegan por primera vez. Los mostradores de cambio de moneda del aeropuerto cobran spreads del 5 al 8% o más justo el día que llegás — el peor momento posible para cambiar una suma grande. Las comisiones del cajero de los bancos extranjeros agregan otros NZD 3–8 por retiro, encima de las comisiones de transacción internacional de tu banco de origen. Y los boletos de bus interurbano o ferry (Wellington a la Isla Sur, por ejemplo) están pensados para compradores de último momento si no los reservás con anticipación.",
+            "Más allá de los costos obvios, tres gastos les sacan de sorpresa a los que llegan por primera vez. Los mostradores de cambio de moneda del aeropuerto cobran spreads del 5 al 8% o más justo el día que llegas — el peor momento posible para cambiar una suma grande. Las comisiones del cajero de los bancos extranjeros agregan otros NZD 3–8 por retiro, encima de las comisiones de transacción internacional de tu banco de origen. Y los boletos de bus interurbano o ferry (Wellington a la Isla Sur, por ejemplo) están pensados para compradores de último momento si no los reservas con anticipación.",
             "La solución más simple para el problema de cambio y cajero es llegar con una tarjeta que use el tipo de cambio real y no cobre comisiones en cajeros — para que cada dólar que traés siga siendo un dólar.",
           ],
         },
         {
           heading: "Cómo te ayuda Tern",
           paragraphs: [
-            "El comprobante de fondos de Tern te permite exportar un resumen limpio y con fecha de tu saldo para mostrárselo a los oficiales de Immigration New Zealand, propietarios o empleadores — sin buscar apurada el formato correcto de extracto bancario. Podés fondear tu cuenta Tern desde tu país al tipo de cambio real antes de volar, así llegás con NZD ya en el bolsillo sin recargo. Una vez que empezás a trabajar, tu sueldo llega el día de pago sin demoras y Tern no cobra comisiones de cajero — cada dólar que retirás es tuyo.",
+            "El comprobante de fondos de Tern te permite exportar un resumen limpio y con fecha de tu saldo para mostrárselo a los oficiales de Immigration New Zealand, propietarios o empleadores — sin buscar apurada el formato correcto de extracto bancario. Puedes fondear tu cuenta Tern desde tu país al tipo de cambio real antes de volar, así llegas con NZD ya en el bolsillo sin recargo. Una vez que empiezas a trabajar, tu sueldo llega el día de pago sin demoras y Tern no cobra comisiones de cajero — cada dólar que retiras es tuyo.",
           ],
         },
       ],
       faq: [
         {
           q: "¿Cuánto dinero necesito para una working holiday en Nueva Zelanda?",
-          a: "Immigration New Zealand fija el mínimo en NZD 4,200 en fondos accesibles más un vuelo de salida o regreso. Además, presupuestá la tarifa de la visa (aproximadamente NZD 455–770 según tu nacionalidad) y de manera realista NZD 1,500–2,500 para tu primer mes de gastos de vida antes del primer pago. Un presupuesto de llegada cómodo de NZD 5,000–7,000 es lo que la mayoría de los viajeros experimentados recomiendan.",
+          a: "Immigration New Zealand fija el mínimo en NZD 4,200 en fondos accesibles más un vuelo de salida o regreso. Además, presupuesta la tarifa de la visa (aproximadamente NZD 455–770 según tu nacionalidad) y de manera realista NZD 1,500–2,500 para tu primer mes de gastos de vida antes del primer pago. Un presupuesto de llegada cómodo de NZD 5,000–7,000 es lo que la mayoría de los viajeros experimentados recomiendan.",
         },
         {
           q: "¿Realmente verifican los fondos en la frontera de Nueva Zelanda?",
-          a: "Sí — los oficiales de frontera de Immigration New Zealand pueden y solicitan comprobante de fondos a la llegada. A diferencia de algunos países donde rara vez se aplica, Nueva Zelanda toma en serio el requisito de NZD 4,200. Tené listo un extracto bancario o un resumen de fondos claro en tu teléfono o impreso antes de aterrizar.",
+          a: "Sí — los oficiales de frontera de Immigration New Zealand pueden y solicitan comprobante de fondos a la llegada. A diferencia de algunos países donde rara vez se aplica, Nueva Zelanda toma en serio el requisito de NZD 4,200. Ten listo un extracto bancario o un resumen de fondos claro en tu teléfono o impreso antes de aterrizar.",
         },
       ],
     },

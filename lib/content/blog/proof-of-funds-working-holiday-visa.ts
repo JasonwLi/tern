@@ -26,7 +26,7 @@ export const article: Article = {
     en: {
       title: "Proof of funds for a working holiday visa: how much and how to show it",
       description:
-        "Most working holiday visas require proof of funds — around AUD 5,000 for Australia. Here's how much you need, what counts, and how to show a balance statement at the border.",
+        "Working holiday visas require proof of funds — AUD 5,000 for Australia. Here's how much you need, what counts, and how to show it at the border.",
       excerpt:
         "Australia wants to see ~AUD 5,000. New Zealand NZD 4,200. Here's how much each country expects — and how to produce a proof-of-funds statement border agents will accept.",
       sections: [
@@ -80,7 +80,7 @@ export const article: Article = {
     es: {
       title: "Prueba de fondos para una visa de vacaciones y trabajo: cuánto necesitas y cómo mostrarla",
       description:
-        "La mayoría de las visas de vacaciones y trabajo exigen un comprobante de fondos — alrededor de AUD 5,000 para Australia. Descubre cuánto necesitas, qué documentos sirven y cómo presentar un estado de cuenta en la frontera.",
+        "Las visas de working holiday exigen prueba de fondos — AUD 5,000 en Australia. Cuánto necesitas, qué documentos valen y cómo presentarlos.",
       excerpt:
         "Australia pide ~AUD 5,000. Nueva Zelanda, NZD 4,200. Te contamos cuánto exige cada país y cómo preparar una prueba de fondos que los agentes de frontera acepten.",
       sections: [
@@ -134,7 +134,7 @@ export const article: Article = {
     ja: {
       title: "ワーホリビザの残高証明書：必要な金額と提示方法を徹底解説",
       description:
-        "ほとんどのワーキングホリデービザでは資金証明が必要です。オーストラリアの場合は約AUD 5,000が目安。必要な金額、認められる書類、そして入国審査で通る残高証明書の作り方を解説します。",
+        "ワーホリビザの資金証明：豪州は約AUD 5,000。必要金額・認められる書類・審査に通る残高証明書の作り方を解説。",
       excerpt:
         "オーストラリアは約AUD 5,000、ニュージーランドはNZD 4,200が目安。各国の要件と、入国審査員に受け入れてもらえる資金証明書の準備方法をまとめました。",
       sections: [
@@ -188,7 +188,7 @@ export const article: Article = {
     ko: {
       title: "워홀 비자 잔고증명서: 필요한 금액과 제출 방법 완벽 정리",
       description:
-        "대부분의 워킹홀리데이 비자는 재정증명을 요구합니다. 호주 기준 약 AUD 5,000이 필요합니다. 각 국가별 요구 금액, 인정되는 서류 종류, 그리고 입국 심사에서 통과되는 잔고증명서 준비 방법을 알아보세요.",
+        "워홀 비자 재정증명, 호주 기준 AUD 5,000. 필요 금액·인정 서류·입국 심사용 잔고증명서 준비법을 정리했습니다.",
       excerpt:
         "호주는 약 AUD 5,000, 뉴질랜드는 NZD 4,200이 기준. 각 나라의 요건과 입국 심사관이 수락하는 재정증명서 만드는 법을 정리했습니다.",
       sections: [

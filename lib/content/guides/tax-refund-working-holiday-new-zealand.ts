@@ -3,6 +3,7 @@ import type { Article } from "../types";
 export const article: Article = {
   slug: "tax-refund-working-holiday-new-zealand",
   kind: "guide",
+  date: "2026-06-02",
   emoji: "🧮",
   accent: "bg-sky-300",
   readMinutes: 6,
@@ -32,7 +33,7 @@ export const article: Article = {
     en: {
       title: "NZ tax for working holiday makers: the full guide",
       description:
-        "Working holiday in New Zealand? Without an IRD number you're taxed at 45%. Here's how IRD numbers, PAYE, tax codes, automatic assessments and IR3 refunds work for WHV holders.",
+        "NZ working holiday tax guide — without an IRD number you're taxed at 45%. How IRD numbers, PAYE, tax codes, and IR3 refunds work.",
       excerpt:
         "No IRD number means your employer must withhold tax at the brutal 45% no-notification rate. Here's how to get one, pick the right tax code, and claim your refund.",
       sections: [
@@ -44,7 +45,7 @@ export const article: Article = {
         {
           heading: "Why you need an IRD number before you start work",
           paragraphs: [
-            "An IRD number is New Zealand's equivalent of a tax file number. If you don't give your employer one, they are legally required to deduct tax at the 'no-notification' rate of 45% — the highest rate in the system. The application is free and takes around 10 working days to arrive.",
+            "An [IRD number](~/blog/what-is-an-ird-number) is New Zealand's equivalent of a tax file number. If you don't give your employer one, they are legally required to deduct tax at the 'no-notification' rate of 45% — the highest rate in the system. The application is free and takes around 10 working days to arrive.",
             "Apply online through the IRD website as soon as you arrive. If you hold a working holiday visa, you'll likely apply through the 'new arrival' process, which allows the IRD to verify your identity with Immigration New Zealand — no separate documents required.",
           ],
           bullets: [
@@ -113,24 +114,24 @@ export const article: Article = {
     es: {
       title: "Impuestos en Nueva Zelanda para working holiday: guía completa",
       description:
-        "¿Tenés working holiday en Nueva Zelanda? Sin número IRD te cobran el 45%. Acá te explicamos cómo funcionan el IRD, PAYE, los códigos fiscales, la liquidación automática y las devoluciones IR3.",
+        "Impuestos para working holiday en NZ: sin IRD te cobran el 45%. Cómo funcionan el PAYE, los códigos fiscales y las devoluciones IR3.",
       excerpt:
-        "Sin número IRD, tu empleador debe retenerte el brutal 45% de no-notificación. Así conseguís el número, elegís el código fiscal correcto y reclamás tu devolución.",
+        "Sin número IRD, tu empleador debe retenerte el brutal 45% de no-notificación. Así consigues el número, eliges el código fiscal correcto y reclamas tu devolución.",
       sections: [
         {
           paragraphs: [
-            "Nueva Zelanda hace los impuestos relativamente sencillos para la mayoría de los trabajadores en visa working holiday — si configurás todo correctamente. Lo que más daño causa es empezar a trabajar sin número IRD y usar el código fiscal equivocado. Ambos se resuelven en menos de una hora.",
+            "Nueva Zelanda hace los impuestos relativamente sencillos para la mayoría de los trabajadores en visa working holiday — si configuras todo correctamente. Lo que más daño causa es empezar a trabajar sin número IRD y usar el código fiscal equivocado. Ambos se resuelven en menos de una hora.",
           ],
         },
         {
-          heading: "Por qué necesitás un número IRD antes de empezar a trabajar",
+          heading: "Por qué necesitas un número IRD antes de empezar a trabajar",
           paragraphs: [
-            "El número IRD es el equivalente neozelandés de un número de archivo fiscal. Si no le das uno a tu empleador, la ley lo obliga a descontar impuestos a la tasa de 'no-notificación' del 45% — la más alta del sistema. La solicitud es gratuita y tarda unos 10 días hábiles en llegar.",
-            "Solicitalo en línea a través del sitio web del IRD en cuanto llegues. Si tenés visa working holiday, probablemente lo tramites por el proceso de 'nueva llegada', que permite al IRD verificar tu identidad con Inmigración Nueva Zelanda — sin documentos adicionales.",
+            "El [número IRD](~/blog/what-is-an-ird-number) es el equivalente neozelandés de un número de archivo fiscal. Si no le das uno a tu empleador, la ley lo obliga a descontar impuestos a la tasa de 'no-notificación' del 45% — la más alta del sistema. La solicitud es gratuita y tarda unos 10 días hábiles en llegar.",
+            "Solicítalo en línea a través del sitio web del IRD en cuanto llegues. Si tienes visa working holiday, probablemente lo tramites por el proceso de 'nueva llegada', que permite al IRD verificar tu identidad con Inmigración Nueva Zelanda — sin documentos adicionales.",
           ],
           bullets: [
-            "Solicitalo gratis en ird.govt.nz una vez que estés en Nueva Zelanda",
-            "Tené a mano tu pasaporte, datos de la visa y una dirección en Nueva Zelanda",
+            "Solicítalo gratis en ird.govt.nz una vez que estés en Nueva Zelanda",
+            "Ten a mano tu pasaporte, datos de la visa y una dirección en Nueva Zelanda",
             "Tu número IRD llegará en unos 10 días hábiles desde la solicitud",
             "Dáselo a tu empleador de inmediato — no esperes al primer cheque de pago",
           ],
@@ -138,34 +139,34 @@ export const article: Article = {
         {
           heading: "PAYE y códigos fiscales explicados",
           paragraphs: [
-            "Nueva Zelanda grava los ingresos laborales según el sistema PAYE (pay-as-you-earn, pago al momento de ganar). Tu empleador descuenta impuestos en cada pago según el código fiscal que declarás en el formulario IR330.",
-            "Para la mayoría de los trabajadores en visa working holiday con un solo trabajo, el código fiscal correcto es 'M' (ingreso principal, sin préstamo estudiantil). Si tenés un segundo trabajo, usá 'S' (ingreso secundario) para ese empleador. Usar el código equivocado — especialmente 'M' para un segundo trabajo — puede dejarte con una deuda fiscal al final del año.",
+            "Nueva Zelanda grava los ingresos laborales según el sistema PAYE (pay-as-you-earn, pago al momento de ganar). Tu empleador descuenta impuestos en cada pago según el código fiscal que declaras en el formulario IR330.",
+            "Para la mayoría de los trabajadores en visa working holiday con un solo trabajo, el código fiscal correcto es 'M' (ingreso principal, sin préstamo estudiantil). Si tienes un segundo trabajo, usa 'S' (ingreso secundario) para ese empleador. Usar el código equivocado — especialmente 'M' para un segundo trabajo — puede dejarte con una deuda fiscal al final del año.",
           ],
           bullets: [
-            "Completá un formulario de declaración de código fiscal IR330 para cada empleador",
-            "Trabajo principal, sin préstamo estudiantil: usá el código fiscal M",
-            "Segundo trabajo o ingreso secundario: usá el código fiscal S",
+            "Completa un formulario de declaración de código fiscal IR330 para cada empleador",
+            "Trabajo principal, sin préstamo estudiantil: usa el código fiscal M",
+            "Segundo trabajo o ingreso secundario: usa el código fiscal S",
             "No empieces a trabajar sin entregarle al empleador el IR330 completo",
           ],
         },
         {
           heading: "Liquidación automática de fin de año",
           paragraphs: [
-            "Si todos tus ingresos del año fueron gravados a través de PAYE — lo habitual para trabajadores asalariados —, el IRD calculará automáticamente tu liquidación fiscal de fin de año. No necesitás hacer nada.",
-            "El año fiscal de Nueva Zelanda va del 1 de abril al 31 de marzo. El IRD generalmente emite las liquidaciones automáticas entre fines de mayo y finales de julio, después de que cierra el año fiscal. Si pagaste de más durante el año, la devolución se deposita directamente en la cuenta bancaria que tenés registrada en myIR.",
-            "Mantené tu cuenta bancaria neozelandesa abierta el tiempo suficiente para recibir el reembolso, o actualizá tus datos bancarios en myIR a una cuenta en el extranjero antes de irte.",
+            "Si todos tus ingresos del año fueron gravados a través de PAYE — lo habitual para trabajadores asalariados —, el IRD calculará automáticamente tu liquidación fiscal de fin de año. No necesitas hacer nada.",
+            "El año fiscal de Nueva Zelanda va del 1 de abril al 31 de marzo. El IRD generalmente emite las liquidaciones automáticas entre fines de mayo y finales de julio, después de que cierra el año fiscal. Si pagaste de más durante el año, la devolución se deposita directamente en la cuenta bancaria que tienes registrada en myIR.",
+            "Mantén tu cuenta bancaria neozelandesa abierta el tiempo suficiente para recibir el reembolso, o actualiza tus datos bancarios en myIR a una cuenta en el extranjero antes de irte.",
           ],
         },
         {
-          heading: "Cuándo tenés que presentar un IR3",
+          heading: "Cuándo tienes que presentar un IR3",
           paragraphs: [
-            "Si te vas de Nueva Zelanda antes del fin del año fiscal (31 de marzo) y querés tu devolución antes, podés presentar una declaración de renta individual IR3 por el período trabajado. El IR3 también es obligatorio si tuviste ingresos que no fueron completamente gravados en origen — por ejemplo, ingresos de trabajo independiente, alquiler o ingresos superiores a NZD 200 sobre los que el IRD no fue notificado.",
-            "Guardá todos los recibos de sueldo. El IR3 requiere el total de ingresos y el total de impuestos descontados durante el período. Los recibos faltantes son la principal causa de demoras.",
+            "Si te vas de Nueva Zelanda antes del fin del año fiscal (31 de marzo) y quieres tu devolución antes, puedes presentar una declaración de renta individual IR3 por el período trabajado. El IR3 también es obligatorio si tuviste ingresos que no fueron completamente gravados en origen — por ejemplo, ingresos de trabajo independiente, alquiler o ingresos superiores a NZD 200 sobre los que el IRD no fue notificado.",
+            "Guarda todos los recibos de sueldo. El IR3 requiere el total de ingresos y el total de impuestos descontados durante el período. Los recibos faltantes son la principal causa de demoras.",
           ],
           bullets: [
-            "¿Te vas antes de tiempo? Presentá un IR3 para recibir tu devolución sin esperar la liquidación automática",
-            "¿Tuviste ingresos en efectivo o de trabajo independiente? Debés declararlos en el IR3",
-            "Guardá todos los recibos de sueldo — los vas a necesitar todos",
+            "¿Te vas antes de tiempo? Presenta un IR3 para recibir tu devolución sin esperar la liquidación automática",
+            "¿Tuviste ingresos en efectivo o de trabajo independiente? Debes declararlos en el IR3",
+            "Guarda todos los recibos de sueldo — los vas a necesitar todos",
             "Las declaraciones IR3 se pueden presentar en línea a través de myIR",
           ],
         },
@@ -179,15 +180,15 @@ export const article: Article = {
       faq: [
         {
           q: "¿Qué pasa si trabajo sin número IRD en Nueva Zelanda?",
-          a: "Tu empleador debe descontar impuestos a la tasa de no-notificación del 45% sobre todo lo que ganás. Solicitá tu número IRD en cuanto llegues — es gratis y tarda unos 10 días hábiles.",
+          a: "Tu empleador debe descontar impuestos a la tasa de no-notificación del 45% sobre todo lo que ganas. Solicita tu número IRD en cuanto llegues — es gratis y tarda unos 10 días hábiles.",
         },
         {
           q: "¿Tengo que presentar una declaración de impuestos al irme de Nueva Zelanda?",
-          a: "Si todos tus ingresos fueron gravados mediante PAYE y no tuviste otros ingresos, el IRD evaluará tu situación fiscal automáticamente y te devolverá el exceso sin que tengas que presentar nada. Si querés la devolución antes de la liquidación automática (finales de mayo a julio), o tuviste ingresos fuera del PAYE, presentás una declaración IR3.",
+          a: "Si todos tus ingresos fueron gravados mediante PAYE y no tuviste otros ingresos, el IRD evaluará tu situación fiscal automáticamente y te devolverá el exceso sin que tengas que presentar nada. Si quieres la devolución antes de la liquidación automática (finales de mayo a julio), o tuviste ingresos fuera del PAYE, presentas una declaración IR3.",
         },
         {
           q: "¿Qué código fiscal debo usar con visa working holiday en Nueva Zelanda?",
-          a: "Para tu trabajo principal (o único) sin préstamo estudiantil, usá el código fiscal M en el formulario IR330. Para un segundo trabajo, usá el código fiscal S. Usar el código incorrecto puede significar deber impuestos al final del año.",
+          a: "Para tu trabajo principal (o único) sin préstamo estudiantil, usa el código fiscal M en el formulario IR330. Para un segundo trabajo, usa el código fiscal S. Usar el código incorrecto puede significar deber impuestos al final del año.",
         },
       ],
     },
@@ -206,7 +207,7 @@ export const article: Article = {
         {
           heading: "就労前にIRD番号が必要な理由",
           paragraphs: [
-            "IRD番号はニュージーランドの税務番号にあたるものです。雇用主に番号を提出しないと、法律により「無届け税率」である45%で全収入から税金が天引きされます。申請は無料で、届くまで約10営業日かかります。",
+            "[IRD番号](~/blog/what-is-an-ird-number)はニュージーランドの税務番号にあたるものです。雇用主に番号を提出しないと、法律により「無届け税率」である45%で全収入から税金が天引きされます。申請は無料で、届くまで約10営業日かかります。",
             "入国後すぐにIRDのウェブサイトからオンライン申請しましょう。ワーキングホリデービザを持っている場合は「新規入国者」プロセスで申請でき、IRDが移民局に直接本人確認を行うため、別途書類を用意する必要がありません。",
           ],
           bullets: [
@@ -275,7 +276,7 @@ export const article: Article = {
     ko: {
       title: "뉴질랜드 워홀 세금 완벽 가이드 — IRD번호부터 환급까지",
       description:
-        "뉴질랜드 워킹홀리데이에서 IRD번호가 없으면 45%가 공제됩니다. IRD번호, PAYE, 세금 코드, 자동 산정, IR3 환급이 어떻게 작동하는지 알아보세요.",
+        "뉴질랜드 워홀 세금 가이드 — IRD번호 없으면 45% 공제. PAYE, 세금 코드, IR3 환급 작동 방식 정리.",
       excerpt:
         "IRD번호가 없으면 고용주가 45%의 미신고 세율로 공제해야 합니다. 번호 취득 방법, 올바른 세금 코드 선택, 환급 신청 방법을 알려드립니다.",
       sections: [
@@ -287,7 +288,7 @@ export const article: Article = {
         {
           heading: "일을 시작하기 전에 IRD번호가 필요한 이유",
           paragraphs: [
-            "IRD번호는 뉴질랜드의 세금 파일 번호에 해당합니다. 고용주에게 번호를 제출하지 않으면, 법에 따라 모든 수입에서 시스템 내 최고 세율인 '미신고' 세율 45%로 세금을 공제해야 합니다. 신청은 무료이며 약 10영업일이 걸립니다.",
+            "[IRD번호](~/blog/what-is-an-ird-number)는 뉴질랜드의 세금 파일 번호에 해당합니다. 고용주에게 번호를 제출하지 않으면, 법에 따라 모든 수입에서 시스템 내 최고 세율인 '미신고' 세율 45%로 세금을 공제해야 합니다. 신청은 무료이며 약 10영업일이 걸립니다.",
             "입국하자마자 IRD 웹사이트에서 온라인으로 신청하세요. 워킹홀리데이 비자를 소지한 경우, '신규 입국자' 절차를 통해 신청하면 IRD가 이민부에 직접 신원 확인을 요청하므로 별도 서류가 필요 없습니다.",
           ],
           bullets: [
@@ -368,7 +369,7 @@ export const article: Article = {
         {
           heading: "為什麼要在開始工作前取得IRD號碼",
           paragraphs: [
-            "IRD號碼相當於紐西蘭的稅號。如果你沒有提供給雇主，法律規定雇主必須以系統最高稅率45%的「未通知」稅率扣繳你全部收入的稅款。申請免費，約需10個工作天。",
+            "[IRD號碼](~/blog/what-is-an-ird-number)相當於紐西蘭的稅號。如果你沒有提供給雇主，法律規定雇主必須以系統最高稅率45%的「未通知」稅率扣繳你全部收入的稅款。申請免費，約需10個工作天。",
             "一抵達紐西蘭就透過IRD官網在線上申請。如果你持打工度假簽證，通常可以走「新抵達者」申請流程，由IRD直接向移民局核實你的身份——不需要另外準備文件。",
           ],
           bullets: [

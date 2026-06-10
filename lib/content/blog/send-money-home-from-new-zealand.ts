@@ -26,7 +26,7 @@ export const article: Article = {
     en: {
       title: "Cheapest ways to send savings home from New Zealand",
       description:
-        "Finishing your working holiday in New Zealand? Bank transfers eat 2–4% in hidden FX margin. Here's how to send NZD savings home cheaply using the real mid-market rate.",
+        "NZ bank transfers hide a 2–4% FX margin. Here's how to send your NZD working holiday savings home cheaply at the real mid-market rate.",
       excerpt:
         "Your NZ bank's transfer looks straightforward — until you spot the exchange rate. Here's where the money goes and how to keep more of your hard-earned savings on the way home.",
       sections: [
@@ -93,13 +93,13 @@ export const article: Article = {
     es: {
       title: "La forma más barata de enviar ahorros a casa desde Nueva Zelanda",
       description:
-        "¿Terminando tu working holiday en Nueva Zelanda? Las transferencias bancarias se comen entre 2 y 4% en margen cambiario oculto. Así podés enviar tus ahorros en NZD al tipo de cambio real.",
+        "Los bancos de NZ se quedan con 2–4% en margen cambiario oculto. Así envías tus ahorros en NZD al tipo de cambio real y sin sorpresas.",
       excerpt:
         "La transferencia de tu banco neozelandés parece simple... hasta que ves el tipo de cambio. Acá te explicamos dónde va tu plata y cómo llevarte más de tus ahorros al volver a casa.",
       sections: [
         {
           paragraphs: [
-            "Después de meses de jornadas largas y presupuesto ajustado en Nueva Zelanda, lo último que querés es perder parte de tus ahorros en comisiones ocultas cuando los mandás a casa. Pero eso es exactamente lo que hacen las transferencias internacionales de los bancos — en silencio, a través del tipo de cambio.",
+            "Después de meses de jornadas largas y presupuesto ajustado en Nueva Zelanda, lo último que quieres es perder parte de tus ahorros en comisiones ocultas cuando los mandas a casa. Pero eso es exactamente lo que hacen las transferencias internacionales de los bancos — en silencio, a través del tipo de cambio.",
           ],
         },
         {
@@ -117,43 +117,43 @@ export const article: Article = {
           heading: "Comparar por el tipo real, no por el titular",
           paragraphs: [
             "Consumer NZ comparó los cinco bancos más grandes de Nueva Zelanda (ANZ, ASB, BNZ, Kiwibank, Westpac) con proveedores especializados y encontró que usar Wise en lugar de Westpac para enviar NZD 10.000 a Australia puede suponer un ahorro equivalente a unos NZD 200. Los ahorros son similares para otros destinos.",
-            "La regla de oro: antes de transferir, siempre buscá el tipo de cambio interbancario real en Google o XE y compáralo con lo que te ofrece tu proveedor. La diferencia entre esos dos números es lo que estás pagando.",
+            "La regla de oro: antes de transferir, siempre busca el tipo de cambio interbancario real en Google o XE y compáralo con lo que te ofrece tu proveedor. La diferencia entre esos dos números es lo que estás pagando.",
           ],
           bullets: [
-            "Primero, consultá el tipo interbancario real (Google, XE.com)",
+            "Primero, consulta el tipo interbancario real (Google, XE.com)",
             "Los proveedores no bancarios (Wise, XE, OFX, Remitly) superan consistentemente las tasas de los bancos",
-            "Hacé transferencias más grandes y menos frecuentes para minimizar las comisiones fijas",
-            "Evitá los kioscos del aeropuerto y las casas de cambio de hoteles — los márgenes pueden llegar al 10%",
+            "Haz transferencias más grandes y menos frecuentes para minimizar las comisiones fijas",
+            "Evita los kioscos del aeropuerto y las casas de cambio de hoteles — los márgenes pueden llegar al 10%",
           ],
         },
         {
           heading: "Cuándo transferir y cómo cerrar tu cuenta neozelandesa",
           paragraphs: [
-            "No conviertas tus ahorros en NZD en el aeropuerto — los mostradores de cambio ahí cobran algunos de los peores tipos disponibles. Hacé la conversión online uno o dos días antes de volar, una vez que confirmaste el saldo final de tu cuenta.",
-            "Sobre cerrar tu cuenta neozelandesa: no es obligatorio antes de irte. Muchos bancos te permiten mantener una cuenta neozelandesa como no residente, y vale la pena mantenerla activa hasta que llegue tu devolución de impuestos del IRD. El IRD deposita el reembolso directamente en tu cuenta bancaria neozelandesa registrada, así que cerrarla antes significa un retraso mientras actualizás tus datos en myIR.",
+            "No conviertas tus ahorros en NZD en el aeropuerto — los mostradores de cambio ahí cobran algunos de los peores tipos disponibles. Haz la conversión online uno o dos días antes de volar, una vez que confirmaste el saldo final de tu cuenta.",
+            "Sobre cerrar tu cuenta neozelandesa: no es obligatorio antes de irte. Muchos bancos te permiten mantener una cuenta neozelandesa como no residente, y vale la pena mantenerla activa hasta que llegue tu devolución de impuestos del IRD. El IRD deposita el reembolso directamente en tu cuenta bancaria neozelandesa registrada, así que cerrarla antes significa un retraso mientras actualizas tus datos en myIR.",
           ],
           bullets: [
-            "Transferí online antes de salir — nunca en el mostrador del aeropuerto",
-            "Mantenés tu cuenta neozelandesa abierta hasta que llegue tu reembolso del IRD, o actualizá los datos bancarios en myIR",
-            "Confirmá los saldos finales de tu KiwiSaver o PAYE antes de cerrar cuentas",
-            "Capturá o descargá el historial de transacciones para los registros fiscales",
+            "Transfiere online antes de salir — nunca en el mostrador del aeropuerto",
+            "Mantén tu cuenta neozelandesa abierta hasta que llegue tu reembolso del IRD, o actualiza los datos bancarios en myIR",
+            "Confirma los saldos finales de tu KiwiSaver o PAYE antes de cerrar cuentas",
+            "Captura o descarga el historial de transacciones para los registros fiscales",
           ],
         },
         {
-          heading: "Otra opción: intercambiá, no transferás",
+          heading: "Otra opción: intercambia, no transfieras",
           paragraphs: [
-            "Si alguien está llegando a tu país justo cuando vos salís de Nueva Zelanda, cada uno tiene la divisa que el otro necesita. Tern conecta a viajeros que salen con los que llegan para intercambiar NZD directamente al tipo interbancario real con una única comisión fija — sin margen cambiario, sin intermediarios SWIFT, sin sorpresas.",
+            "Si alguien está llegando a tu país justo cuando tú sales de Nueva Zelanda, cada uno tiene la divisa que el otro necesita. Tern conecta a viajeros que salen con los que llegan para intercambiar NZD directamente al tipo interbancario real con una única comisión fija — sin margen cambiario, sin intermediarios SWIFT, sin sorpresas.",
           ],
         },
       ],
       faq: [
         {
           q: "¿Cuál es la forma más barata de enviar dinero a casa desde Nueva Zelanda?",
-          a: "Usá un proveedor especializado (Wise, XE, OFX) que convierta al tipo de cambio interbancario real con una comisión fija transparente, en lugar de tu banco neozelandés. Enviá menos transferencias pero de montos mayores para diluir las comisiones fijas, y nunca conviertas en el aeropuerto. Consumer NZ encontró que los proveedores especializados pueden ahorrar más de NZD 200 en una transferencia de NZD 10.000 en comparación con los grandes bancos.",
+          a: "Usa un proveedor especializado (Wise, XE, OFX) que convierta al tipo de cambio interbancario real con una comisión fija transparente, en lugar de tu banco neozelandés. Envía menos transferencias pero de montos mayores para diluir las comisiones fijas, y nunca conviertas en el aeropuerto. Consumer NZ encontró que los proveedores especializados pueden ahorrar más de NZD 200 en una transferencia de NZD 10.000 en comparación con los grandes bancos.",
         },
         {
           q: "¿Debo cerrar mi cuenta bancaria neozelandesa antes de volar a casa?",
-          a: "No necesariamente. Si esperás una devolución de impuestos del IRD, mantené la cuenta abierta hasta que llegue — el IRD deposita el reembolso en la cuenta bancaria registrada. También podés actualizar tus datos bancarios en myIR a una cuenta en el extranjero antes de irte. Cerrar la cuenta prematuramente retrasa el reembolso.",
+          a: "No necesariamente. Si esperas una devolución de impuestos del IRD, mantén la cuenta abierta hasta que llegue — el IRD deposita el reembolso en la cuenta bancaria registrada. También puedes actualizar tus datos bancarios en myIR a una cuenta en el extranjero antes de irte. Cerrar la cuenta prematuramente retrasa el reembolso.",
         },
       ],
     },
@@ -227,7 +227,7 @@ export const article: Article = {
     ko: {
       title: "뉴질랜드에서 한국으로 저렴하게 돈 보내는 방법",
       description:
-        "뉴질랜드 워홀을 마치고 있나요? 은행 송금에는 2~4%의 숨겨진 FX 마진이 붙습니다. 실제 시장 환율로 NZD 저축을 저렴하게 본국으로 보내는 방법을 알아보세요.",
+        "뉴질랜드 은행 송금에는 2~4% 숨겨진 FX 마진이 붙습니다. 실제 시장 환율로 NZD 저축을 저렴하게 본국으로 보내는 법.",
       excerpt:
         "뉴질랜드 은행 송금은 간단해 보이지만, 환율을 보기 전까지는 방심 금물. 돈이 어디로 사라지는지, 그리고 귀국 시 열심히 번 저축을 더 많이 가져가는 방법을 알려드립니다.",
       sections: [

@@ -62,6 +62,7 @@ export const zhTW: Dictionary = {
       "Tern 是專為打工度假簽證旅人設計的純網銀。第一天上班就能收到薪水、從台灣儲值零手續費、住青旅賺現金回饋、與其他旅人固定費用換匯——全部在一支 App 搞定。",
     waitlistSuffix: "位背包客已加入候補名單",
     waitlistEarly: "世界各地的背包客正陸續加入候補名單",
+    tryDemo: "體驗互動 Demo",
   },
 
   marquee: {

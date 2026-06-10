@@ -3,6 +3,7 @@ import type { Article } from "../types";
 export const article: Article = {
   slug: "bank-account-working-holiday-uk",
   kind: "guide",
+  date: "2026-06-02",
   emoji: "🇬🇧",
   accent: "bg-sky-300",
   readMinutes: 6,
@@ -20,7 +21,7 @@ export const article: Article = {
     en: {
       title: "Opening a bank account in the UK on a Youth Mobility Scheme visa",
       description:
-        "Everything WHV holders need to know about banking in the UK on a YMS visa — sort codes, the proof-of-address catch-22, getting a NIN for work, app banks vs high street, and getting paid by UK employers.",
+        "Banking in the UK on a YMS visa — sort codes, the proof-of-address catch-22, getting a NIN for work, and app banks vs high street banks.",
       excerpt:
         "No UK bank account means no pay — and the proof-of-address loop catches almost every new arrival. Here's how to break it fast.",
       sections: [
@@ -96,19 +97,19 @@ export const article: Article = {
     es: {
       title: "Cómo abrir una cuenta bancaria en el Reino Unido con visa Youth Mobility Scheme",
       description:
-        "Todo lo que necesitás saber sobre el sistema bancario en el Reino Unido con visa YMS: sort codes, el problema del domicilio, el NIN para trabajar, bancos digitales vs. bancos tradicionales, y cómo cobrar tu sueldo.",
+        "Banca en el Reino Unido con visa YMS: sort codes, el dilema del domicilio, el NIN para trabajar, y bancos digitales vs. tradicionales.",
       excerpt:
-        "Sin cuenta bancaria en el Reino Unido no te pueden pagar — y el bucle de la dirección te atrapa casi al instante. Así lo solucionás rápido.",
+        "Sin cuenta bancaria en el Reino Unido no te pueden pagar — y el bucle de la dirección te atrapa casi al instante. Así lo solucionas rápido.",
       sections: [
         {
           paragraphs: [
-            "El sistema bancario del Reino Unido es uno de los primeros obstáculos en el Youth Mobility Scheme. Necesitás una cuenta para cobrar, pero cada banco te pide un comprobante de domicilio en el Reino Unido — que todavía no tenés porque acabás de llegar. Además, para trabajar legalmente necesitás un número de Seguro Nacional (NIN). Ordenar bien los tres pasos (cuenta, domicilio, NIN) marca la diferencia entre las dos primeras semanas.",
+            "El sistema bancario del Reino Unido es uno de los primeros obstáculos en el Youth Mobility Scheme. Necesitas una cuenta para cobrar, pero cada banco te pide un comprobante de domicilio en el Reino Unido — que todavía no tienes porque acabas de llegar. Además, para trabajar legalmente necesitas un número de Seguro Nacional (NIN). Ordenar bien los tres pasos (cuenta, domicilio, NIN) marca la diferencia entre las dos primeras semanas.",
           ],
         },
         {
           heading: "Sort codes, números de cuenta y cómo funciona la banca en el Reino Unido",
           paragraphs: [
-            "Las cuentas bancarias del Reino Unido usan dos datos: un sort code de seis dígitos (formato XX-XX-XX) que identifica el banco y la sucursal, y un número de cuenta de ocho dígitos. Ambos son necesarios juntos cada vez que le das tus datos de pago a un empleador o hacés una transferencia. A diferencia del BSB australiano, el sort code y el número de cuenta siempre se usan en par.",
+            "Las cuentas bancarias del Reino Unido usan dos datos: un sort code de seis dígitos (formato XX-XX-XX) que identifica el banco y la sucursal, y un número de cuenta de ocho dígitos. Ambos son necesarios juntos cada vez que le das tus datos de pago a un empleador o haces una transferencia. A diferencia del BSB australiano, el sort code y el número de cuenta siempre se usan en par.",
             "La mayoría de los empleadores del Reino Unido pagan por BACS (sistema automatizado de compensación bancaria), que procesa de un día para el otro. Tu primer pago puede demorarse si no entregás tus datos bancarios antes del cierre de nómina — que suele ser una semana antes del día de pago — así que abrir la cuenta lo antes posible es importante.",
           ],
           bullets: [
@@ -122,42 +123,42 @@ export const article: Article = {
         {
           heading: "Cómo salir del bucle de la prueba de domicilio",
           paragraphs: [
-            "Los bancos tradicionales (Barclays, HSBC, Lloyds, NatWest) suelen exigir un comprobante de domicilio en el Reino Unido — una factura de servicios o carta del ayuntamiento a tu nombre con menos de 3 meses de antigüedad. Si acabás de llegar y estás en un hostel o piso de alquiler temporario, casi seguro que no lo tenés, y por eso la mayoría de los titulares de YMS son rechazados en la primera visita.",
+            "Los bancos tradicionales (Barclays, HSBC, Lloyds, NatWest) suelen exigir un comprobante de domicilio en el Reino Unido — una factura de servicios o carta del ayuntamiento a tu nombre con menos de 3 meses de antigüedad. Si acabas de llegar y estás en un hostel o piso de alquiler temporario, casi seguro que no lo tienes, y por eso la mayoría de los titulares de YMS son rechazados en la primera visita.",
             "Los bancos digitales resuelven este problema por completo. Monzo, Revolut y Starling abren cuentas solo con tu pasaporte y una selfie — sin necesidad de comprobante de domicilio en el Reino Unido. Además, se abren completamente online en 10 o 15 minutos y emiten datos de tarjeta virtual al instante. Para la mayoría de los que están en working holiday, uno de estos es la mejor primera cuenta bancaria en el Reino Unido.",
           ],
           bullets: [
             "Monzo — se abre con pasaporte y selfie, tarjeta física en 3 a 5 días, sort code y número de cuenta del Reino Unido completos",
             "Starling — similar a Monzo, con protección FSCS y excelentes notificaciones de gastos",
-            "Revolut — el más rápido de abrir, pero técnicamente es una cuenta de dinero electrónico y no un banco completo; algunos empleadores no lo aceptan para nómina — confirmá antes de depender de él",
-            "Barclays — tiene un proceso específico para extranjeros, pero sigue requiriendo domicilio en el Reino Unido; vale la pena cuando ya tenés uno",
-            "Llevá tu pasaporte y el sello de la visa YMS o tu tarjeta BRP a cualquier turno en sucursal para bancos tradicionales",
+            "Revolut — el más rápido de abrir, pero técnicamente es una cuenta de dinero electrónico y no un banco completo; algunos empleadores no lo aceptan para nómina — confirma antes de depender de él",
+            "Barclays — tiene un proceso específico para extranjeros, pero sigue requiriendo domicilio en el Reino Unido; vale la pena cuando ya tienes uno",
+            "Lleva tu pasaporte y el sello de la visa YMS o tu tarjeta BRP a cualquier turno en sucursal para bancos tradicionales",
           ],
         },
         {
           heading: "Cómo obtener tu número de Seguro Nacional (NIN)",
           paragraphs: [
-            "El número de Seguro Nacional (NIN) es una referencia única (formato: AB 12 34 56 C) que HMRC usa para registrar tus contribuciones de impuestos y Seguro Nacional. Podés empezar a trabajar legalmente antes de tenerlo — simplemente le decís a tu empleador que ya solicitaste el número. Sin embargo, sin el NIN cargado, el empleador no puede asignar tus contribuciones correctamente y puede que al principio te cobren impuestos de emergencia.",
-            "Solicitás el NIN online a través del servicio 'Solicitar un número de Seguro Nacional' de GOV.UK. Vas a necesitar tu pasaporte, tu derecho a trabajar en el Reino Unido (tu visa YMS) y una dirección en el Reino Unido — aunque sea temporal — para recibir correspondencia. El trámite suele tardar varias semanas y HMRC te manda una carta con tu NIN a esa dirección.",
+            "El número de Seguro Nacional (NIN) es una referencia única (formato: AB 12 34 56 C) que HMRC usa para registrar tus contribuciones de impuestos y Seguro Nacional. Puedes empezar a trabajar legalmente antes de tenerlo — simplemente le dices a tu empleador que ya solicitaste el número. Sin embargo, sin el NIN cargado, el empleador no puede asignar tus contribuciones correctamente y puede que al principio te cobren impuestos de emergencia.",
+            "Solicitas el NIN online a través del servicio 'Solicitar un número de Seguro Nacional' de GOV.UK. Vas a necesitar tu pasaporte, tu derecho a trabajar en el Reino Unido (tu visa YMS) y una dirección en el Reino Unido — aunque sea temporal — para recibir correspondencia. El trámite suele tardar varias semanas y HMRC te manda una carta con tu NIN a esa dirección.",
           ],
           bullets: [
-            "Podés trabajar legalmente mientras tu solicitud de NIN está en trámite — avisale a tu empleador que ya aplicaste",
-            "Solicitalo en gov.uk/apply-national-insurance-number apenas tengas una dirección en el Reino Unido para recibir la carta",
-            "Tu NIN nunca cambia — guardalo para cualquier trabajo futuro en el Reino Unido",
-            "Una vez que lo tengas, dáselo a tu empleador y pedile que lo aplique desde tu próxima liquidación",
-            "El NIN es diferente del UTR (número único de contribuyente) — solo lo necesitás si trabajás como autónomo",
+            "Puedes trabajar legalmente mientras tu solicitud de NIN está en trámite — avísale a tu empleador que ya aplicaste",
+            "Solicítalo en gov.uk/apply-national-insurance-number apenas tengas una dirección en el Reino Unido para recibir la carta",
+            "Tu NIN nunca cambia — guárdalo para cualquier trabajo futuro en el Reino Unido",
+            "Una vez que lo tengas, dáselo a tu empleador y pídele que lo aplique desde tu próxima liquidación",
+            "El NIN es diferente del UTR (número único de contribuyente) — solo lo necesitas si trabajas como autónomo",
           ],
         },
         {
           heading: "Cómo te ayuda Tern",
           paragraphs: [
-            "Tern te permite abrir una cuenta local en el Reino Unido antes de subir al avión — solo necesitás tu pasaporte y la aprobación de la visa YMS. Cuando llegás, tu sort code y número de cuenta están listos para dárselos a tu empleador el primer día. Recargás desde tu moneda local al tipo de cambio real, cambiás divisas con una tarifa fija y usás tu tarjeta en cajeros automáticos del Reino Unido sin comisiones de extracción. Tern también te recuerda solicitar el NIN en cuanto tenés una dirección en el Reino Unido para que nada se te escape.",
+            "Tern te permite abrir una cuenta local en el Reino Unido antes de subir al avión — solo necesitas tu pasaporte y la aprobación de la visa YMS. Cuando llegas, tu sort code y número de cuenta están listos para dárselos a tu empleador el primer día. Recargas desde tu moneda local al tipo de cambio real, cambias divisas con una tarifa fija y usas tu tarjeta en cajeros automáticos del Reino Unido sin comisiones de extracción. Tern también te recuerda solicitar el NIN en cuanto tienes una dirección en el Reino Unido para que nada se te escape.",
           ],
         },
       ],
       faq: [
         {
           q: "¿Puedo empezar a trabajar en el Reino Unido antes de tener el número de Seguro Nacional?",
-          a: "Sí. Podés empezar a trabajar legalmente antes de que llegue el NIN. Avisale a tu empleador que ya aplicaste y dále la fecha de tu solicitud. No debería negarse a contratarte ni retener el pago solo porque todavía no tenés el número. Cuando llegue, proporcionáselo y pedile que actualice tu registro en nómina.",
+          a: "Sí. Puedes empezar a trabajar legalmente antes de que llegue el NIN. Avísale a tu empleador que ya aplicaste y dale la fecha de tu solicitud. No debería negarse a contratarte ni retener el pago solo porque todavía no tienes el número. Cuando llegue, proporciónaselo y pídele que actualice tu registro en nómina.",
         },
         {
           q: "¿Los bancos tradicionales del Reino Unido abren una cuenta a los titulares de visa YMS?",
@@ -165,14 +166,14 @@ export const article: Article = {
         },
         {
           q: "¿Qué diferencia hay entre un sort code y un número BSB?",
-          a: "Cumplen la misma función — identificar el banco y la sucursal — pero son sistemas distintos. Los sort codes del Reino Unido son 6 dígitos (XX-XX-XX); los BSB australianos también son 6 dígitos pero con un formato diferente. Si mandás dinero desde Australia a una cuenta en el Reino Unido, necesitás el sort code del Reino Unido y el número de cuenta de 8 dígitos, no un BSB.",
+          a: "Cumplen la misma función — identificar el banco y la sucursal — pero son sistemas distintos. Los sort codes del Reino Unido son 6 dígitos (XX-XX-XX); los BSB australianos también son 6 dígitos pero con un formato diferente. Si mandas dinero desde Australia a una cuenta en el Reino Unido, necesitas el sort code del Reino Unido y el número de cuenta de 8 dígitos, no un BSB.",
         },
       ],
     },
     ja: {
       title: "ユースモビリティビザでイギリスの銀行口座を開設する方法",
       description:
-        "YMSビザ保有者のためのイギリス銀行口座完全ガイド — ソートコード、住所証明の悪循環、仕事のためのNIN取得、ネット銀行と大手銀行の比較、給与の受け取り方まで解説。",
+        "YMSビザでイギリスの銀行口座開設 — ソートコード・住所証明の悪循環・NIN取得・ネット銀行vs大手銀行を解説。",
       excerpt:
         "イギリスの銀行口座がなければ給与を受け取れません。住所証明のループを素早く突破する方法を解説します。",
       sections: [
@@ -248,7 +249,7 @@ export const article: Article = {
     ko: {
       title: "유스 모빌리티 스킴 비자로 영국 은행 계좌 개설하는 방법",
       description:
-        "YMS 비자 소지자를 위한 영국 은행 완벽 가이드 — 소트 코드, 주소 증명의 악순환, NIN 발급, 앱 은행 vs 일반 은행, 영국 고용주에게 급여 받는 방법까지.",
+        "YMS 비자로 영국 은행 개설 — 소트 코드, 주소 증명 악순환, NIN 발급, 앱 은행 vs 일반 은행 비교 정리.",
       excerpt:
         "영국 은행 계좌가 없으면 급여를 받을 수 없습니다. 주소 증명 루프를 빠르게 해결하는 방법을 알아보세요.",
       sections: [

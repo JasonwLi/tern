@@ -3,6 +3,7 @@ import type { Article } from "../types";
 export const article: Article = {
   slug: "best-bank-working-holiday-australia",
   kind: "guide",
+  date: "2026-05-26",
   emoji: "🏆",
   accent: "bg-lime-300",
   readMinutes: 7,
@@ -16,7 +17,7 @@ export const article: Article = {
     en: {
       title: "Best bank for a working holiday in Australia",
       description:
-        "Honest comparison of Australian banks, travel cards, and fintechs for WHV holders — what criteria actually matter, and where Tern fits as a WHV-first option.",
+        "Honest comparison of Australian banks, travel cards, and fintechs for WHV holders — what criteria matter and where Tern fits.",
       excerpt:
         "Big-4 banks, Wise, Revolut, or Tern — which is actually best for working holiday Australia? Here's what to compare before you land.",
       sections: [
@@ -31,7 +32,7 @@ export const article: Article = {
             "Most bank comparisons focus on interest rates or bonus features that are irrelevant to travellers. For a WHV holder, the factors that move the needle are:",
           ],
           bullets: [
-            "Open before arrival — can you get your BSB and account number before you land, so your employer can pay you from day one?",
+            "[Open before arrival](~/guides/bank-account-working-holiday-australia) — can you get your BSB and account number before you land, so your employer can pay you from day one?",
             "No monthly account-keeping fee — or an easy waiver condition like one deposit per month",
             "No (or low) international ATM and foreign transaction fees — you may be withdrawing from machines outside your bank's network regularly",
             "Instant BSB and account number — so you can hand it to an employer the same day you arrive",
@@ -104,13 +105,13 @@ export const article: Article = {
     es: {
       title: "El mejor banco para una working holiday en Australia",
       description:
-        "Comparación honesta de bancos australianos, tarjetas de viaje y fintechs para titulares de WHV — los criterios que realmente importan y qué hace diferente a Tern.",
+        "Comparación honesta de bancos, tarjetas de viaje y fintechs para WHV en Australia — criterios que importan y cómo encaja Tern.",
       excerpt:
-        "Big-4 australianos, Wise, Revolut o Tern: ¿cuál es realmente el mejor banco para la working holiday en Australia? Esto es lo que tenés que comparar antes de llegar.",
+        "Big-4 australianos, Wise, Revolut o Tern: ¿cuál es realmente el mejor banco para la working holiday en Australia? Esto es lo que tienes que comparar antes de llegar.",
       sections: [
         {
           paragraphs: [
-            "\"El mejor banco para la working holiday en Australia\" es una de las preguntas más buscadas por quienes llegan con WHV — y la respuesta honesta es que ningún banco es perfecto para todos. La elección correcta depende de tus prioridades: ¿necesitás abrir la cuenta antes de llegar? ¿Necesitás multi-moneda? ¿Te quedás seis meses o dos años? Esta guía desglosa lo que realmente importa, evalúa las principales opciones con honestidad y explica en qué se diferencia Tern.",
+            "\"El mejor banco para la working holiday en Australia\" es una de las preguntas más buscadas por quienes llegan con WHV — y la respuesta honesta es que ningún banco es perfecto para todos. La elección correcta depende de tus prioridades: ¿necesitas abrir la cuenta antes de llegar? ¿Necesitas multi-moneda? ¿Te quedas seis meses o dos años? Esta guía desglosa lo que realmente importa, evalúa las principales opciones con honestidad y explica en qué se diferencia Tern.",
           ],
         },
         {
@@ -119,12 +120,12 @@ export const article: Article = {
             "La mayoría de las comparaciones de bancos se centran en tasas de interés o características irrelevantes para los viajeros. Para un titular de WHV, los factores que hacen la diferencia son:",
           ],
           bullets: [
-            "Abrir antes de llegar — ¿podés obtener tu BSB y número de cuenta antes de aterrizar, para que tu empleador pueda pagarte desde el primer día?",
+            "[Abrir antes de llegar](~/guides/bank-account-working-holiday-australia) — ¿puedes obtener tu BSB y número de cuenta antes de aterrizar, para que tu empleador pueda pagarte desde el primer día?",
             "Sin cuota mensual de mantenimiento — o una condición de exención fácil como un depósito al mes",
             "Sin (o bajas) comisiones por cajero automático internacional y por transacciones en moneda extranjera",
-            "BSB y número de cuenta instantáneos — para dárselos a un empleador el mismo día que llegás",
-            "Fácil de cerrar y retirar fondos — cuando vence tu visa necesitás poder mover tu dinero sin demoras burocráticas",
-            "Multi-moneda o buenos tipos de cambio — si enviás dinero a casa o viajás a otros países durante tu WHV",
+            "BSB y número de cuenta instantáneos — para dárselos a un empleador el mismo día que llegas",
+            "Fácil de cerrar y retirar fondos — cuando vence tu visa necesitas poder mover tu dinero sin demoras burocráticas",
+            "Multi-moneda o buenos tipos de cambio — si envías dinero a casa o viajas a otros países durante tu WHV",
           ],
         },
         {
@@ -133,9 +134,9 @@ export const article: Article = {
             "Commonwealth Bank (CommBank), ANZ, Westpac y NAB son los cuatro bancos más grandes de Australia. Ofrecen amplia red de cajeros automáticos, sucursales en todos los estados y aceptación universal.",
           ],
           bullets: [
-            "Cuotas mensuales: la mayoría de las cuentas cotidianas de los big-4 cobran una cuota mensual (típicamente AUD 4–6) que se exime si depositás un mínimo mensual — para un trabajador con WHV que cobra regularmente, esto suele ser fácil de cumplir",
-            "Verificación presencial: todos los big-4 requieren verificación de identidad en sucursal con tu pasaporte — no podés completar el proceso totalmente online como nuevo llegado del exterior",
-            "Solicitudes previas a la llegada: CommBank y ANZ permiten solicitar online antes de llegar; completás la verificación de identidad en sucursal cuando aterrizás",
+            "Cuotas mensuales: la mayoría de las cuentas cotidianas de los big-4 cobran una cuota mensual (típicamente AUD 4–6) que se exime si depositas un mínimo mensual — para un trabajador con WHV que cobra regularmente, esto suele ser fácil de cumplir",
+            "Verificación presencial: todos los big-4 requieren verificación de identidad en sucursal con tu pasaporte — no puedes completar el proceso totalmente online como nuevo llegado del exterior",
+            "Solicitudes previas a la llegada: CommBank y ANZ permiten solicitar online antes de llegar; completas la verificación de identidad en sucursal cuando aterrizas",
             "Comisiones por cajeros externos: los big-4 suelen cobrar AUD 2–5 por retiro en cajeros externos y 2–3% en transacciones en moneda extranjera",
             "Gestión del TFN: todos los big-4 te solicitan agregar tu Tax File Number en la banca online; sin él, los intereses se retienen a la tasa máxima",
           ],
@@ -146,9 +147,9 @@ export const article: Article = {
             "Wise y Revolut son populares entre los titulares de WHV para cambio de divisas, transferencias internacionales y gastos en múltiples monedas. Son genuinamente excelentes para esos casos de uso, pero están diseñadas como productos fintech multi-moneda, no como cuentas australianas de cobro de sueldo.",
           ],
           bullets: [
-            "Wise: ofrece cuenta bancaria australiana con BSB y número de cuenta — podés recibir sueldo en AUD directamente; tipos de cambio al precio de mercado real; sin cuota mensual",
+            "Wise: ofrece cuenta bancaria australiana con BSB y número de cuenta — puedes recibir sueldo en AUD directamente; tipos de cambio al precio de mercado real; sin cuota mensual",
             "Revolut: cuenta en AUD disponible; grandes funciones multi-moneda y retiros en cajero sin comisión hasta un límite mensual; los planes premium desbloquean más beneficios",
-            "Superannuation: ninguna de las dos plataformas tiene seguimiento del super ni funciones de TFN — tenés que gestionarlo por separado",
+            "Superannuation: ninguna de las dos plataformas tiene seguimiento del super ni funciones de TFN — tienes que gestionarlo por separado",
             "Funciones específicas de AU: ninguna tiene herramientas integradas para recordatorios de TFN, selección de fondo de super o resúmenes del año fiscal australiano",
             "Ambas son buenas opciones para FX y gastos; ninguna reemplaza una herramienta específica para WHV en cuanto al seguimiento de sueldo y cumplimiento",
           ],
@@ -164,28 +165,28 @@ export const article: Article = {
             "Seguimiento del superannuation: Tern sigue tus aportes al super y te ayuda a reclamarlo cuando te vas de Australia",
             "Cambios de moneda con tarifa fija: sin comisiones porcentuales por transacciones en moneda extranjera — una tarifa fija por operación sin importar el monto",
             "Salida fácil: cuando termina tu WHV, Tern está diseñado para que cerrar tu cuenta y repatriar tu dinero sea simple",
-            "Pre-lanzamiento / lista de espera: Tern todavía no está activo — anotate en la lista de espera para ser de los primeros cuando se lance",
+            "Pre-lanzamiento / lista de espera: Tern todavía no está activo — anótate en la lista de espera para ser de los primeros cuando se lance",
           ],
         },
         {
           heading: "Cómo te ayuda Tern",
           paragraphs: [
-            "A diferencia de los bancos big-4 que te tratan como un cliente minorista estándar, y de los fintechs que te tratan como usuario multi-moneda, Tern está diseñado en torno al ciclo de la working holiday: llegar, cobrar, gestionar el TFN y el super, y irse sin complicaciones. Si querés una cuenta que entienda para qué estás realmente ahí, anotate en la lista de espera de Tern.",
+            "A diferencia de los bancos big-4 que te tratan como un cliente minorista estándar, y de los fintechs que te tratan como usuario multi-moneda, Tern está diseñado en torno al ciclo de la working holiday: llegar, cobrar, gestionar el TFN y el super, y irse sin complicaciones. Si quieres una cuenta que entienda para qué estás realmente ahí, anótate en la lista de espera de Tern.",
           ],
         },
       ],
       faq: [
         {
           q: "¿Qué banco es mejor para una working holiday en Australia?",
-          a: "Depende de tus prioridades. Para acceso a sucursales y amplia red de cajeros, CommBank y ANZ son las opciones big-4 más prácticas. Para cero comisiones por transacciones en moneda extranjera, Wise ofrece tipos de cambio al precio real de mercado con cuenta en AUD. Para una experiencia diseñada específicamente para WHV con sueldo desde el primer día, recordatorios de TFN y seguimiento del super, Tern (actualmente en pre-lanzamiento) está diseñado especialmente para vos.",
+          a: "Depende de tus prioridades. Para acceso a sucursales y amplia red de cajeros, CommBank y ANZ son las opciones big-4 más prácticas. Para cero comisiones por transacciones en moneda extranjera, Wise ofrece tipos de cambio al precio real de mercado con cuenta en AUD. Para una experiencia diseñada específicamente para WHV con sueldo desde el primer día, recordatorios de TFN y seguimiento del super, Tern (actualmente en pre-lanzamiento) está diseñado especialmente para ti.",
         },
         {
           q: "¿Puedo abrir una cuenta bancaria australiana antes de llegar?",
-          a: "Parcialmente. CommBank y ANZ permiten iniciar la solicitud online desde el exterior, pero debés verificar tu identidad en sucursal cuando llegás. Tern (en pre-lanzamiento) y algunos fintechs como Wise permiten la apertura de cuenta totalmente digital, lo que significa que podés recibir tu BSB y número de cuenta antes de subir al avión.",
+          a: "Parcialmente. CommBank y ANZ permiten iniciar la solicitud online desde el exterior, pero debes verificar tu identidad en sucursal cuando llegas. Tern (en pre-lanzamiento) y algunos fintechs como Wise permiten la apertura de cuenta totalmente digital, lo que significa que puedes recibir tu BSB y número de cuenta antes de subir al avión.",
         },
         {
           q: "¿Necesito un TFN para abrir una cuenta bancaria en Australia?",
-          a: "No — podés abrir una cuenta de transacciones sin TFN. Sin embargo, si generás intereses, el banco está obligado a retener impuestos a la tasa marginal máxima sin tu TFN. Para una cuenta de sueldos donde los intereses son mínimos, esto rara vez es un problema práctico. Dicho esto, deberías solicitar tu TFN en cuanto llegués, ya que tu empleador lo necesita para la nómina — sin él, debe retener impuestos a la tasa máxima sobre tus salarios.",
+          a: "No — puedes abrir una cuenta de transacciones sin TFN. Sin embargo, si generas intereses, el banco está obligado a retener impuestos a la tasa marginal máxima sin tu TFN. Para una cuenta de sueldos donde los intereses son mínimos, esto rara vez es un problema práctico. Dicho esto, deberías solicitar tu TFN en cuanto llegues, ya que tu empleador lo necesita para la nómina — sin él, debe retener impuestos a la tasa máxima sobre tus salarios.",
         },
       ],
     },
@@ -207,7 +208,7 @@ export const article: Article = {
             "ほとんどの銀行比較は、旅行者には無関係な金利や付帯機能に焦点を当てています。WHVホルダーにとって本当に重要な要素は次の通りです：",
           ],
           bullets: [
-            "渡航前に開設できるか — 着陸前にBSBと口座番号を取得できるか。初日から雇用主が給与を支払えるか？",
+            "[渡航前に開設できるか](~/guides/bank-account-working-holiday-australia) — 着陸前にBSBと口座番号を取得できるか。初日から雇用主が給与を支払えるか？",
             "月額手数料なし — または月1回の入金など簡単な免除条件があるか",
             "国際ATM手数料・外貨取引手数料なし（または低い） — 銀行ネットワーク外のATMを定期的に使う可能性がある",
             "即日BSBと口座番号の取得 — 到着当日に雇用主に渡せるか",
@@ -295,7 +296,7 @@ export const article: Article = {
             "대부분의 은행 비교는 여행자에게는 무관한 이자율이나 부가 기능에 초점을 맞춥니다. WHV 소지자에게 실질적인 차이를 만드는 요소는 다음과 같습니다:",
           ],
           bullets: [
-            "도착 전 개설 — 착륙 전에 BSB와 계좌번호를 받을 수 있나요? 첫날부터 고용주가 급여를 지급할 수 있나요?",
+            "[도착 전 개설](~/guides/bank-account-working-holiday-australia) — 착륙 전에 BSB와 계좌번호를 받을 수 있나요? 첫날부터 고용주가 급여를 지급할 수 있나요?",
             "월 계좌 유지비 없음 — 또는 월 1회 입금 같은 쉬운 면제 조건",
             "해외 ATM 및 외화 거래 수수료 없음(또는 낮음) — 은행 네트워크 외 ATM을 정기적으로 사용할 수 있습니다",
             "즉시 BSB 및 계좌번호 발급 — 도착 당일 고용주에게 전달할 수 있도록",
@@ -383,7 +384,7 @@ export const article: Article = {
             "大多數銀行比較都聚焦在對旅人無關緊要的利率或附加功能。對WHV持有者而言，真正影響選擇的因素是：",
           ],
           bullets: [
-            "抵達前可開戶 — 登機前就能取得BSB和帳號，讓雇主從第一天起就能匯薪嗎？",
+            "[抵達前可開戶](~/guides/bank-account-working-holiday-australia) — 登機前就能取得BSB和帳號，讓雇主從第一天起就能匯薪嗎？",
             "無月費 — 或條件簡單易達的免除方案，例如每月存款一次",
             "無（或低）國際ATM手續費與外幣交易費 — 你可能需要頻繁使用非自家銀行的ATM",
             "即時取得BSB和帳號 — 抵達當天就能交給雇主",

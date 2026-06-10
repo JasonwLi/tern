@@ -26,7 +26,7 @@ export const article: Article = {
     en: {
       title: "What is superannuation? A guide for working holiday makers",
       description:
-        "Superannuation is Australia's employer-paid retirement system — 12% on top of your wages, paid into a super fund. Here's what WHV holders need to know, including how to claim it back.",
+        "Superannuation is Australia's employer-paid retirement system — 12% on top of your wages. What WHV holders need to know and how to claim it back.",
       excerpt:
         "Your Australian employer must pay 12% of your wages into a super fund — on top of your salary. You can claim most of it back when you leave via DASP. Here's how it works.",
       sections: [
@@ -56,7 +56,7 @@ export const article: Article = {
         {
           heading: "Claiming super back: the DASP",
           paragraphs: [
-            "Once your working holiday visa expires and you have left (or are about to leave) Australia permanently, you can claim your superannuation through the Departing Australia Superannuation Payment (DASP). For working holiday maker visa holders (subclass 417 and 462), the DASP withholding tax rate is 65% of the taxable component. That is a high tax hit — but the remaining 35% is still real money, and many travellers leave thousands of dollars unclaimed simply because they did not know about DASP.",
+            "Once your working holiday visa expires and you have left (or are about to leave) Australia permanently, you can claim your superannuation through the [Departing Australia Superannuation Payment (DASP)](~/guides/superannuation-refund-dasp). For working holiday maker visa holders (subclass 417 and 462), the DASP withholding tax rate is 65% of the taxable component. That is a high tax hit — but the remaining 35% is still real money, and many travellers leave thousands of dollars unclaimed simply because they did not know about DASP.",
           ],
           bullets: [
             "Apply via the ATO's online DASP application system after your visa has ceased",
@@ -92,7 +92,7 @@ export const article: Article = {
     es: {
       title: "¿Qué es la superannuation? Guía para trabajadores de vacaciones y trabajo",
       description:
-        "La superannuation es el sistema de jubilación de Australia pagado por el empleador — 12% adicional a tu sueldo, depositado en un fondo. Esto es lo que debes saber si tienes una visa de trabajo y vacaciones.",
+        "La superannuation es la jubilación de Australia — 12% adicional al sueldo. Lo que debes saber en tu working holiday y cómo reclamarla.",
       excerpt:
         "Tu empleador australiano debe pagar un 12% adicional de tu sueldo a un fondo de jubilación. Al salir del país, puedes reclamar gran parte de ese dinero mediante el DASP. Así funciona todo.",
       sections: [
@@ -122,7 +122,7 @@ export const article: Article = {
         {
           heading: "Cómo recuperar tu super: el DASP",
           paragraphs: [
-            "Una vez que tu visa de vacaciones y trabajo vence y has salido (o estás por salir) de Australia de forma permanente, puedes reclamar tu superannuation mediante el Departing Australia Superannuation Payment (DASP). Para titulares de visa de trabajadores en vacaciones (subclass 417 y 462), la tasa de retención del DASP es del 65% del componente imponible. Es un impuesto alto, pero el 35% restante sigue siendo dinero real, y muchos viajeros dejan miles de dólares sin reclamar porque simplemente no saben que existe el DASP.",
+            "Una vez que tu visa de vacaciones y trabajo vence y has salido (o estás por salir) de Australia de forma permanente, puedes reclamar tu superannuation mediante el [Departing Australia Superannuation Payment (DASP)](~/guides/superannuation-refund-dasp). Para titulares de visa de trabajadores en vacaciones (subclass 417 y 462), la tasa de retención del DASP es del 65% del componente imponible. Es un impuesto alto, pero el 35% restante sigue siendo dinero real, y muchos viajeros dejan miles de dólares sin reclamar porque simplemente no saben que existe el DASP.",
           ],
           bullets: [
             "Solicítalo a través del sistema DASP en línea de la ATO después de que tu visa haya vencido",
@@ -188,7 +188,7 @@ export const article: Article = {
         {
           heading: "スーパーを取り戻す方法：DASP",
           paragraphs: [
-            "ワーホリビザが失効し、オーストラリアを永久に出国した（または出国する予定の）後、DASP（Departing Australia Superannuation Payment）を通じてスーパーを請求できます。ワーキングホリデービザ（subclass 417・462）保持者の場合、DASPの源泉徴収税率は課税対象部分の65%です。税負担は高いですが、残りの35%は実際のお金であり、DASPの存在を知らないだけで何千ドルもの受取を逃している旅行者が多くいます。",
+            "ワーホリビザが失効し、オーストラリアを永久に出国した（または出国する予定の）後、[DASP（Departing Australia Superannuation Payment）](~/guides/superannuation-refund-dasp)を通じてスーパーを請求できます。ワーキングホリデービザ（subclass 417・462）保持者の場合、DASPの源泉徴収税率は課税対象部分の65%です。税負担は高いですが、残りの35%は実際のお金であり、DASPの存在を知らないだけで何千ドルもの受取を逃している旅行者が多くいます。",
           ],
           bullets: [
             "ビザ失効後にATOのオンラインDASPシステムから申請する",
@@ -224,7 +224,7 @@ export const article: Article = {
     ko: {
       title: "슈퍼애뉴에이션이란? 워홀러를 위한 완벽 가이드",
       description:
-        "슈퍼애뉴에이션은 호주의 고용주 부담 퇴직연금 제도로, 급여 외에 12%가 별도로 적립됩니다. 워홀 비자 소지자가 알아야 할 모든 것, DASP 환급 방법까지 정리했습니다.",
+        "슈퍼애뉴에이션은 호주의 고용주 부담 퇴직연금으로, 급여 외 12% 적립됩니다. 워홀러가 알아야 할 것과 DASP 환급 방법.",
       excerpt:
         "호주 고용주는 급여와 별도로 임금의 12%를 슈퍼 펀드에 적립해야 합니다. 출국 시 DASP로 일부를 돌려받을 수 있습니다. 작동 방식을 알아보세요.",
       sections: [
@@ -254,7 +254,7 @@ export const article: Article = {
         {
           heading: "슈퍼 환급 방법: DASP",
           paragraphs: [
-            "워홀 비자가 만료되고 호주를 영구적으로 출국한 후(또는 출국 예정 시), DASP(Departing Australia Superannuation Payment)를 통해 슈퍼를 청구할 수 있습니다. 워킹홀리데이 비자(subclass 417 및 462) 소지자의 경우 DASP 원천징수 세율은 과세 대상 금액의 65%입니다. 세금 부담은 높지만 나머지 35%는 실제 돈이며, DASP 존재 자체를 몰라서 수천 달러를 찾아가지 않는 여행자들이 많습니다.",
+            "워홀 비자가 만료되고 호주를 영구적으로 출국한 후(또는 출국 예정 시), [DASP(Departing Australia Superannuation Payment)](~/guides/superannuation-refund-dasp)를 통해 슈퍼를 청구할 수 있습니다. 워킹홀리데이 비자(subclass 417 및 462) 소지자의 경우 DASP 원천징수 세율은 과세 대상 금액의 65%입니다. 세금 부담은 높지만 나머지 35%는 실제 돈이며, DASP 존재 자체를 몰라서 수천 달러를 찾아가지 않는 여행자들이 많습니다.",
           ],
           bullets: [
             "비자 만료 후 ATO 온라인 DASP 시스템을 통해 신청한다",
@@ -320,7 +320,7 @@ export const article: Article = {
         {
           heading: "如何取回超級年金：DASP",
           paragraphs: [
-            "當你的打工度假簽證到期並永久離開澳洲後，你可以透過 DASP（Departing Australia Superannuation Payment，離澳超級年金給付）申請取回你的超級年金。對於持有打工度假簽證（subclass 417 及 462）的申請人，DASP 扣繳稅率為應課稅金額的 65%。稅率雖高，但剩餘的 35% 仍是實際金額，許多旅行者僅因不知道 DASP 的存在，就讓數千澳幣無人認領。",
+            "當你的打工度假簽證到期並永久離開澳洲後，你可以透過 [DASP（Departing Australia Superannuation Payment，離澳超級年金給付）](~/guides/superannuation-refund-dasp)申請取回你的超級年金。對於持有打工度假簽證（subclass 417 及 462）的申請人，DASP 扣繳稅率為應課稅金額的 65%。稅率雖高，但剩餘的 35% 仍是實際金額，許多旅行者僅因不知道 DASP 的存在，就讓數千澳幣無人認領。",
           ],
           bullets: [
             "簽證失效後，透過 ATO 的線上 DASP 系統提出申請",

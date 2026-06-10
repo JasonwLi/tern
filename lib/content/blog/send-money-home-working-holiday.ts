@@ -18,7 +18,7 @@ export const article: Article = {
     en: {
       title: "The cheapest way to send money home on a working holiday",
       description:
-        "Sending your working holiday savings home? Banks hide a 2–4% markup in the exchange rate plus transfer fees. Here's how to send money home cheaply at the real rate.",
+        "Banks hide a 2–4% markup in the exchange rate on top of transfer fees. How to send working holiday savings home at the real mid-market rate.",
       excerpt:
         "Your bank's transfer looks free — until you see the exchange rate. Here's how the markup works and how to keep more of your hard-earned savings when you send money home.",
       sections: [
@@ -72,7 +72,7 @@ export const article: Article = {
     es: {
       title: "La forma más barata de enviar dinero a casa en un working holiday",
       description:
-        "¿Quieres enviar tus ahorros del working holiday a tu país? Los bancos esconden un margen de 2–4% en el tipo de cambio más comisiones. Así puedes enviar dinero a casa al tipo de cambio real.",
+        "Los bancos ocultan un margen de 2–4% en el tipo de cambio más comisiones. Así envías tus ahorros del working holiday al tipo de cambio real.",
       excerpt:
         "La transferencia de tu banco parece gratuita... hasta que ves el tipo de cambio. Así funciona el margen oculto y cómo conservar más de tus ahorros cuando envías dinero a casa.",
       sections: [
@@ -180,7 +180,7 @@ export const article: Article = {
     ko: {
       title: "워홀 중 한국으로 해외 송금하는 가장 저렴한 방법",
       description:
-        "워홀 저축을 한국으로 송금하고 싶으신가요? 은행은 환율에 2–4%의 마진을 숨기고 송금 수수료도 따로 받습니다. 실제 환율로 저렴하게 송금하는 방법을 알아보세요.",
+        "은행은 환율에 2–4% 마진을 숨기고 송금 수수료도 따로 받습니다. 워홀 저축을 실제 환율로 저렴하게 송금하는 방법.",
       excerpt:
         "은행 송금은 무료처럼 보이지만, 환율을 확인해보면 이야기가 달라집니다. 숨겨진 마진이 어떻게 작동하는지, 그리고 열심히 번 저축을 더 많이 가져가는 방법을 알려드립니다.",
       sections: [

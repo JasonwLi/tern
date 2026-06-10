@@ -70,6 +70,7 @@ export const es: Dictionary = {
       "Tern es el neobanco para viajeros con visa working holiday. Cobra desde el primer día, recibe fondos de casa sin comisiones abusivas, gana cashback en hostels e intercambia divisas con otros viajeros por una tarifa fija — todo desde una sola app.",
     waitlistSuffix: "mochileros ya en la lista de espera",
     waitlistEarly: "Mochileros de todo el mundo se están uniendo a la lista de espera",
+    tryDemo: "Prueba la demo interactiva",
   },
 
   marquee: {
@@ -189,7 +190,7 @@ export const es: Dictionary = {
       },
       {
         title: "Verificador de robo salarial",
-        body: "Cruzamos los salarios que llegan a tu cuenta con el mínimo legal para tu puesto. Si tu jefe de la granja o del hostelería te paga de menos, lo sabrás — con un informe a Fair Work con un solo toque.",
+        body: "Cruzamos los salarios que llegan a tu cuenta con el mínimo legal para tu puesto. Si tu jefe de la granja o de la hostelería te paga de menos, lo sabrás — con un informe a Fair Work con un solo toque.",
         pain: "\"1 de cada 3 mochileros cobra menos de la mitad del salario mínimo.\"",
       },
       {
@@ -284,8 +285,8 @@ export const es: Dictionary = {
         a: "Sí — ese es precisamente el objetivo. Verificas tu identidad con tu pasaporte y visa desde casa, sin necesitar factura de servicios local ni domicilio fijo. Recibes una tarjeta virtual al instante y un número de cuenta local para darle a tu empleador, con la tarjeta física enviada a tu primer hostel o piso compartido.",
       },
       {
-        q: "¿Cómo ganáis dinero si no hay comisiones en cajeros ni cuota mensual?",
-        a: "Como otros neobrancos: intercambio interbancario por uso de tarjeta, suscripciones premium opcionales, la tarifa fija en intercambios entre particulares, márgenes de cashback con socios y FX en transferencias que superen los generosos límites gratuitos — todo de forma transparente, sin cargos sorpresa enterrados en tu extracto.",
+        q: "¿Cómo ganan dinero si no hay comisiones en cajeros ni cuota mensual?",
+        a: "Como otros neobancos: intercambio interbancario por uso de tarjeta, suscripciones premium opcionales, la tarifa fija en intercambios entre particulares, márgenes de cashback con socios y FX en transferencias que superen los generosos límites gratuitos — todo de forma transparente, sin cargos sorpresa enterrados en tu extracto.",
       },
       {
         q: "¿Mi dinero está seguro?",

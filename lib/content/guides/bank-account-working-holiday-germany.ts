@@ -3,6 +3,7 @@ import type { Article } from "../types";
 export const article: Article = {
   slug: "bank-account-working-holiday-germany",
   kind: "guide",
+  date: "2026-06-03",
   emoji: "🇩🇪",
   accent: "bg-grape-300",
   readMinutes: 6,
@@ -20,7 +21,7 @@ export const article: Article = {
     en: {
       title: "Opening a bank account in Germany on a working holiday",
       description:
-        "How to get a German Girokonto as a WHV holder — the Anmeldung catch-22, IBAN explained, why cash still matters, your Steuer-ID timeline, and app banks vs Sparkasse.",
+        "Get a German Girokonto on a working holiday visa — breaking the Anmeldung catch-22, IBAN basics, Steuer-ID, and app banks vs Sparkasse.",
       excerpt:
         "You need an address to open a bank account, but you need a bank account to rent a flat. Here's how to break the Anmeldung loop and get paid in euros.",
       sections: [
@@ -99,26 +100,26 @@ export const article: Article = {
     es: {
       title: "Cómo abrir una cuenta bancaria en Alemania con visa working holiday",
       description:
-        "Cómo obtener un Girokonto alemán como titular de WHV — el dilema del Anmeldung, el IBAN, por qué el efectivo sigue importando, cuándo llega tu Steuer-ID y apps bancarias vs Sparkasse.",
+        "Cómo conseguir un Girokonto alemán con WHV — el dilema del Anmeldung, el IBAN, el Steuer-ID y apps bancarias vs Sparkasse.",
       excerpt:
-        "Necesitás una dirección para abrir una cuenta, pero necesitás una cuenta para alquilar un piso. Acá te explicamos cómo salir del círculo del Anmeldung y empezar a cobrar en euros.",
+        "Necesitas una dirección para abrir una cuenta, pero necesitas una cuenta para alquilar un piso. Acá te explicamos cómo salir del círculo del Anmeldung y empezar a cobrar en euros.",
       sections: [
         {
           paragraphs: [
-            "Alemania tiene un sólido sistema bancario, pero con más burocracia que Australia o Nueva Zelanda. Como titular de una visa working holiday, tu primera tarea es resolver el clásico círculo vicioso: la mayoría de los bancos te piden el Anmeldung (certificado de registro de domicilio) para abrir una cuenta, pero necesitás una dirección para hacer el Anmeldung, y los propietarios suelen pedirte una cuenta bancaria alemana antes de darte las llaves. Resolver esto cuanto antes es la diferencia entre un primer mes tranquilo y semanas de estrés.",
+            "Alemania tiene un sólido sistema bancario, pero con más burocracia que Australia o Nueva Zelanda. Como titular de una visa working holiday, tu primera tarea es resolver el clásico círculo vicioso: la mayoría de los bancos te piden el Anmeldung (certificado de registro de domicilio) para abrir una cuenta, pero necesitas una dirección para hacer el Anmeldung, y los propietarios suelen pedirte una cuenta bancaria alemana antes de darte las llaves. Resolver esto cuanto antes es la diferencia entre un primer mes tranquilo y semanas de estrés.",
           ],
         },
         {
           heading: "El dilema del Anmeldung — y cómo escapar de él",
           paragraphs: [
-            "El Anmeldung es el registro de domicilio obligatorio en Alemania. Dentro de las dos semanas de mudarte a una vivienda permanente, debés registrarte en la oficina local (Einwohnermeldeamt) y obtener el Anmeldebestätigung (certificado de registro). La mayoría de los bancos tradicionales — Sparkasse, Volksbank, Deutsche Bank — no abren un Girokonto sin este certificado.",
+            "El Anmeldung es el registro de domicilio obligatorio en Alemania. Dentro de las dos semanas de mudarte a una vivienda permanente, debes registrarte en la oficina local (Einwohnermeldeamt) y obtener el Anmeldebestätigung (certificado de registro). La mayoría de los bancos tradicionales — Sparkasse, Volksbank, Deutsche Bank — no abren un Girokonto sin este certificado.",
             "Las salidas prácticas son:",
           ],
           bullets: [
-            "Usá la dirección de un hostel o sublet para tu primer Anmeldung — es legal y está ampliamente aceptado; los hostels que alojan huéspedes a largo plazo suelen facilitar la carta del propietario (Wohnungsgeberbestätigung)",
-            "Abrí primero con un banco app: N26 y DKB pueden abrir cuentas solo con tu pasaporte y una selfie — no requieren Anmeldebestätigung al registrarte",
-            "Una vez que tenés un IBAN alemán de un banco app, podés usarlo con propietarios mientras buscás alojamiento definitivo",
-            "Después de asegurar una dirección fija y completar el Anmeldung, podés agregar una cuenta de Sparkasse o banco con sucursales si lo necesitás para pagar el alquiler por débito SEPA",
+            "Usa la dirección de un hostel o sublet para tu primer Anmeldung — es legal y está ampliamente aceptado; los hostels que alojan huéspedes a largo plazo suelen facilitar la carta del propietario (Wohnungsgeberbestätigung)",
+            "Abre primero con un banco app: N26 y DKB pueden abrir cuentas solo con tu pasaporte y una selfie — no requieren Anmeldebestätigung al registrarte",
+            "Una vez que tienes un IBAN alemán de un banco app, puedes usarlo con propietarios mientras buscas alojamiento definitivo",
+            "Después de asegurar una dirección fija y completar el Anmeldung, puedes agregar una cuenta de Sparkasse o banco con sucursales si lo necesitas para pagar el alquiler por débito SEPA",
           ],
         },
         {
@@ -134,23 +135,23 @@ export const article: Article = {
             "Alemania sigue siendo una de las economías con mayor uso de efectivo de Europa Occidental. Muchos restaurantes, panaderías, mercados y comercios pequeños son Nur Barzahlung (solo efectivo) o tienen un gasto mínimo para pagar con tarjeta. Calculá unos €50–100 en efectivo para la primera semana.",
           ],
           bullets: [
-            "Retirá efectivo en los cajeros de tu propio banco para evitar comisiones por transacciones extranjeras",
-            "Evitá las casas de cambio en aeropuertos — los tipos son malos; usá un cajero automático o los retiros sin comisión de tu banco app",
-            "La EC-Karte (Girocard) es el estándar alemán de débito — no todos los terminales aceptan débito Visa/Mastercard, así que verificá el tipo de tu tarjeta",
+            "Retira efectivo en los cajeros de tu propio banco para evitar comisiones por transacciones extranjeras",
+            "Evita las casas de cambio en aeropuertos — los tipos son malos; usa un cajero automático o los retiros sin comisión de tu banco app",
+            "La EC-Karte (Girocard) es el estándar alemán de débito — no todos los terminales aceptan débito Visa/Mastercard, así que verifica el tipo de tu tarjeta",
             "Los bancos app como N26 emiten Mastercard o Visa — ampliamente aceptadas pero no universales en locales pequeños",
           ],
         },
         {
           heading: "Tu Steuer-ID llega después del Anmeldung",
           paragraphs: [
-            "El Steuer-ID (Steueridentifikationsnummer) es tu número de identificación fiscal alemán de 11 dígitos. No hay que solicitarlo — se genera automáticamente y se envía por correo a tu domicilio registrado en un plazo de dos a cuatro semanas después de completar el Anmeldung. No podés cobrar un sueldo en Alemania sin él.",
-            "Pasale tu Steuer-ID a tu empleador en cuanto llegue. Sin él, tu empleador tiene que retener el impuesto laboral en la categoría más alta (Steuerklasse VI), que puede superar el 40% de tu sueldo bruto. Una vez que lo entregues, aplicarán la clase fiscal correcta — normalmente Steuerklasse I para empleados solteros sin hijos.",
+            "El Steuer-ID (Steueridentifikationsnummer) es tu número de identificación fiscal alemán de 11 dígitos. No hay que solicitarlo — se genera automáticamente y se envía por correo a tu domicilio registrado en un plazo de dos a cuatro semanas después de completar el Anmeldung. No puedes cobrar un sueldo en Alemania sin él.",
+            "Pásale tu Steuer-ID a tu empleador en cuanto llegue. Sin él, tu empleador tiene que retener el impuesto laboral en la categoría más alta (Steuerklasse VI), que puede superar el 40% de tu sueldo bruto. Una vez que lo entregues, aplicarán la clase fiscal correcta — normalmente Steuerklasse I para empleados solteros sin hijos.",
           ],
           bullets: [
-            "Completá el Anmeldung en el Einwohnermeldeamt dentro de las dos semanas de llegar — llevá tu pasaporte y el Wohnungsgeberbestätigung de tu propietario",
+            "Completa el Anmeldung en el Einwohnermeldeamt dentro de las dos semanas de llegar — lleva tu pasaporte y el Wohnungsgeberbestätigung de tu propietario",
             "La carta del Steuer-ID llega por correo en 2–4 semanas — no la pierdas",
-            "Si cambiás de domicilio, el Steuer-ID sigue siendo el mismo de por vida; solo actualizá tu registro de domicilio",
-            "Si necesitás el Steuer-ID urgentemente antes de que llegue la carta, podés solicitarlo al Bundeszentralamt für Steuern (Oficina Federal Central de Impuestos) online",
+            "Si cambias de domicilio, el Steuer-ID sigue siendo el mismo de por vida; solo actualiza tu registro de domicilio",
+            "Si necesitas el Steuer-ID urgentemente antes de que llegue la carta, puedes solicitarlo al Bundeszentralamt für Steuern (Oficina Federal Central de Impuestos) online",
           ],
         },
         {
@@ -163,22 +164,22 @@ export const article: Article = {
       faq: [
         {
           q: "¿Puedo abrir una cuenta bancaria alemana antes de llegar?",
-          a: "Con bancos app como N26 podés iniciar el proceso antes de llegar, aunque la verificación de identidad suele requerir una videollamada o un PostIdent en una sucursal de Deutsche Post. Los bancos tradicionales (Sparkasse, Deutsche Bank) requieren el Anmeldebestätigung, que solo podés obtener después de llegar y registrar una dirección.",
+          a: "Con bancos app como N26 puedes iniciar el proceso antes de llegar, aunque la verificación de identidad suele requerir una videollamada o un PostIdent en una sucursal de Deutsche Post. Los bancos tradicionales (Sparkasse, Deutsche Bank) requieren el Anmeldebestätigung, que solo puedes obtener después de llegar y registrar una dirección.",
         },
         {
-          q: "¿Qué pasa si después de un mes todavía no recibí el Steuer-ID?",
-          a: "Podés solicitarlo al Bundeszentralamt für Steuern online en bzst.de. El procesamiento lleva varias semanas. Mientras tanto, informá a tu empleador por escrito que ya lo solicitaste — algunos empleadores usarán un arreglo provisional en lugar de aplicar Steuerklasse VI, aunque queda a su criterio.",
+          q: "¿Qué pasa si después de un mes todavía no recibiste el Steuer-ID?",
+          a: "Puedes solicitarlo al Bundeszentralamt für Steuern online en bzst.de. El procesamiento lleva varias semanas. Mientras tanto, informa a tu empleador por escrito que ya lo solicitaste — algunos empleadores usarán un arreglo provisional en lugar de aplicar Steuerklasse VI, aunque queda a su criterio.",
         },
         {
           q: "¿Qué banco es mejor para un working holiday en Alemania?",
-          a: "N26 y DKB son los más prácticos para los titulares de WHV: ambos abren cuentas sin Anmeldebestätigung y ofrecen recepción gratuita de sueldos vía IBAN. Las sucursales de Sparkasse son útiles para asistencia presencial y retiros gratuitos en su red, pero el proceso de solicitud es más lento. Usá un banco app para empezar y luego agregá una cuenta de Sparkasse cuando estés instalado.",
+          a: "N26 y DKB son los más prácticos para los titulares de WHV: ambos abren cuentas sin Anmeldebestätigung y ofrecen recepción gratuita de sueldos vía IBAN. Las sucursales de Sparkasse son útiles para asistencia presencial y retiros gratuitos en su red, pero el proceso de solicitud es más lento. Usa un banco app para empezar y luego agrega una cuenta de Sparkasse cuando estés instalado.",
         },
       ],
     },
     ja: {
       title: "ワーキングホリデーでドイツの銀行口座を開設する方法",
       description:
-        "WHVホルダー向けドイツのGirokonto取得ガイド — Anmeldungのジレンマ、IBANの仕組み、現金が重要な理由、Steuer-IDの取得時期、アプリ銀行とSparkasseの比較。",
+        "ワーホリでドイツのGirokonto取得 — Anmeldungのジレンマ・IBAN・Steuer-ID・アプリ銀行vsSparkasseを解説。",
       excerpt:
         "口座を開くには住所が必要で、住所を登録するには口座が必要。Anmeldungの悪循環を断ち切り、ユーロで給料を受け取る方法を解説します。",
       sections: [
@@ -257,7 +258,7 @@ export const article: Article = {
     ko: {
       title: "독일 워킹홀리데이 비자로 은행 계좌 개설하는 방법",
       description:
-        "WHV 소지자를 위한 독일 Girokonto 취득 가이드 — Anmeldung의 딜레마, IBAN 이해, 현금이 중요한 이유, Steuer-ID 수령 시기, 앱 은행 vs Sparkasse 비교.",
+        "워홀로 독일 Girokonto 개설 — Anmeldung 딜레마, IBAN, Steuer-ID, 앱 은행 vs Sparkasse.",
       excerpt:
         "계좌를 열려면 주소가 필요하고, 주소 등록에는 계좌가 필요합니다. Anmeldung의 악순환을 끊고 유로로 급여를 받는 방법을 알아보세요.",
       sections: [
@@ -336,7 +337,7 @@ export const article: Article = {
     "zh-TW": {
       title: "打工度假德國如何開設銀行帳戶",
       description:
-        "WHV簽證持有者取得德國Girokonto完整指南 — Anmeldung兩難困境、IBAN說明、現金為何依然重要、Steuer-ID的取得時程，以及App銀行與Sparkasse的比較。",
+        "打工度假取得德國Girokonto — Anmeldung困境、IBAN說明、Steuer-ID時程，以及App銀行與Sparkasse的比較。",
       excerpt:
         "開戶需要地址，登記地址又需要帳戶。教你如何打破Anmeldung的惡性循環，開始以歐元領薪。",
       sections: [

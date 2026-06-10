@@ -3,6 +3,7 @@ import type { Article } from "../types";
 export const article: Article = {
   slug: "no-atm-fees-working-holiday",
   kind: "guide",
+  date: "2026-05-23",
   emoji: "🏧",
   accent: "bg-lime-300",
   readMinutes: 6,
@@ -20,7 +21,7 @@ export const article: Article = {
     en: {
       title: "How to avoid ATM and card fees on a working holiday",
       description:
-        "Foreign ATM operator fees, foreign transaction fees, dynamic currency conversion (DCC) markups, and weekend FX markups quietly drain working holiday earnings. Here's how a fee-free travel account stops the bleed.",
+        "ATM fees, foreign transaction fees, DCC, and weekend FX markups silently drain working holiday earnings. How a fee-free travel account stops it.",
       excerpt:
         "Every ATM withdrawal and card swipe abroad can trigger multiple hidden fees. Here's exactly what they are — and how to eliminate them with the right account.",
       sections: [
@@ -89,7 +90,7 @@ export const article: Article = {
     es: {
       title: "Cómo evitar los cargos de ATM y tarjetas en la visa working holiday",
       description:
-        "Los cargos de los cajeros automáticos, las comisiones por transacciones en el extranjero, el recargo por conversión dinámica de moneda (DCC) y el margen de tipo de cambio de los fines de semana consumen silenciosamente tus ganancias en la visa working holiday. Así es como una cuenta sin comisiones lo soluciona.",
+        "Cargos de cajero, DCC y márgenes de fin de semana merman tus ganancias del working holiday. Así una cuenta sin comisiones detiene el sangrado.",
       excerpt:
         "Cada retiro de cajero y pago con tarjeta en el extranjero puede generar múltiples cargos ocultos. Acá te explicamos exactamente cuáles son — y cómo eliminarlos con la cuenta correcta.",
       sections: [
@@ -101,7 +102,7 @@ export const article: Article = {
         {
           heading: "Cargos del operador del cajero automático",
           paragraphs: [
-            "Cuando retirás efectivo de un cajero que pertenece a un banco diferente al tuyo — que es prácticamente todo cajero en el exterior — el operador de ese cajero generalmente cobra un cargo fijo por retiro. Este cargo lo define el dueño del cajero, no tu banco, y puede ir de USD 2 a USD 5 (o su equivalente en moneda local) por transacción.",
+            "Cuando retiras efectivo de un cajero que pertenece a un banco diferente al tuyo — que es prácticamente todo cajero en el exterior — el operador de ese cajero generalmente cobra un cargo fijo por retiro. Este cargo lo define el dueño del cajero, no tu banco, y puede ir de USD 2 a USD 5 (o su equivalente en moneda local) por transacción.",
             "Este cargo se suma a lo que cobra tu propio banco. Esto significa que un solo retiro de efectivo puede generar dos cargos separados antes de que siquiera entremos a hablar del tipo de cambio.",
           ],
         },
@@ -115,8 +116,8 @@ export const article: Article = {
         {
           heading: "Conversión dinámica de moneda (DCC) — el cargo más engañoso",
           paragraphs: [
-            "La conversión dinámica de moneda (DCC) es la opción que ofrece un cajero o terminal de pago para convertir tu transacción a tu moneda de origen en el momento, en lugar de dejar que tu banco haga la conversión. Parece útil — podés ver el cargo en tu propia moneda — pero el tipo de cambio que usa el proveedor de DCC casi siempre es significativamente peor que la tasa interbancaria que usaría tu banco.",
-            "Estudios sobre transacciones DCC reales encontraron márgenes promedio de 7–8% por encima de las tasas interbancarias, con algunos llegando al 12% o más. En casi todos los casos, elegir DCC te cuesta más dinero. Cuando un cajero o terminal te pregunta si querés pagar en moneda local o en tu moneda de origen, siempre elegí la moneda local — y dejá que tu banco haga la conversión.",
+            "La conversión dinámica de moneda (DCC) es la opción que ofrece un cajero o terminal de pago para convertir tu transacción a tu moneda de origen en el momento, en lugar de dejar que tu banco haga la conversión. Parece útil — puedes ver el cargo en tu propia moneda — pero el tipo de cambio que usa el proveedor de DCC casi siempre es significativamente peor que la tasa interbancaria que usaría tu banco.",
+            "Estudios sobre transacciones DCC reales encontraron márgenes promedio de 7–8% por encima de las tasas interbancarias, con algunos llegando al 12% o más. En casi todos los casos, elegir DCC te cuesta más dinero. Cuando un cajero o terminal te pregunta si quieres pagar en moneda local o en tu moneda de origen, siempre elige la moneda local — y deja que tu banco haga la conversión.",
           ],
         },
         {
@@ -129,36 +130,36 @@ export const article: Article = {
         {
           heading: "Cómo una cuenta sin comisiones lo resuelve",
           paragraphs: [
-            "Una buena tarjeta de viaje sin comisiones elimina todo lo anterior. Buscá una cuenta que no cobre comisiones por transacciones en el extranjero, no cobre cargos fijos en cajeros automáticos (o los reembolse), convierta al tipo de cambio real del mercado interbancario sin margen adicional, y no aplique margen de fin de semana.",
-            "Con este tipo de cuenta podés retirar efectivo en cualquier cajero del mundo y pagar con tarjeta cualquier cosa sin ninguno de los costos ocultos descritos. A lo largo de una visa working holiday de 12 meses, esto generalmente te ahorra cientos de dólares en comparación con usar una cuenta bancaria de tu país de origen en el exterior.",
+            "Una buena tarjeta de viaje sin comisiones elimina todo lo anterior. Busca una cuenta que no cobre comisiones por transacciones en el extranjero, no cobre cargos fijos en cajeros automáticos (o los reembolse), convierta al tipo de cambio real del mercado interbancario sin margen adicional, y no aplique margen de fin de semana.",
+            "Con este tipo de cuenta puedes retirar efectivo en cualquier cajero del mundo y pagar con tarjeta cualquier cosa sin ninguno de los costos ocultos descritos. A lo largo de una visa working holiday de 12 meses, esto generalmente te ahorra cientos de dólares en comparación con usar una cuenta bancaria de tu país de origen en el exterior.",
           ],
         },
         {
           heading: "Cómo te ayuda Tern",
           paragraphs: [
-            "Tern está diseñada para personas en visa working holiday que ganan en una moneda y gastan en otra. La cuenta Tern no tiene comisiones por transacciones en el extranjero, convierte al tipo de cambio real del mercado interbancario y te avisa ante intentos de DCC antes de que los aceptés por accidente. Lo que ganás se queda en tus manos — sin que se erosione con cargos que no sabías que existían.",
+            "Tern está diseñada para personas en visa working holiday que ganan en una moneda y gastan en otra. La cuenta Tern no tiene comisiones por transacciones en el extranjero, convierte al tipo de cambio real del mercado interbancario y te avisa ante intentos de DCC antes de que los aceptes por accidente. Lo que ganas se queda en tus manos — sin que se erosione con cargos que no sabías que existían.",
           ],
         },
       ],
       faq: [
         {
           q: "¿Qué es la conversión dinámica de moneda (DCC) y debería aceptarla?",
-          a: "El DCC es cuando un cajero o terminal de pago ofrece convertir tu transacción a tu moneda de origen en el punto de venta, en lugar de dejar la conversión a tu banco. En casi todos los casos, deberías rechazarlo. Los proveedores de DCC usan tipos de cambio con márgenes que suelen estar entre el 3% y el 12% por encima de la tasa interbancaria. Elegí siempre la moneda local.",
+          a: "El DCC es cuando un cajero o terminal de pago ofrece convertir tu transacción a tu moneda de origen en el punto de venta, en lugar de dejar la conversión a tu banco. En casi todos los casos, deberías rechazarlo. Los proveedores de DCC usan tipos de cambio con márgenes que suelen estar entre el 3% y el 12% por encima de la tasa interbancaria. Elige siempre la moneda local.",
         },
         {
           q: "¿Las comisiones por transacciones en el extranjero son lo mismo que los cargos de cajero?",
-          a: "No — son cargos separados. El cargo del cajero es un monto fijo que cobra el operador del cajero por usar su máquina. La comisión por transacción en el extranjero es un porcentaje que cobra el emisor de tu tarjeta en cualquier operación en moneda extranjera, tanto retiros de cajero como pagos con tarjeta. Podés enfrentar ambos en un solo retiro.",
+          a: "No — son cargos separados. El cargo del cajero es un monto fijo que cobra el operador del cajero por usar su máquina. La comisión por transacción en el extranjero es un porcentaje que cobra el emisor de tu tarjeta en cualquier operación en moneda extranjera, tanto retiros de cajero como pagos con tarjeta. Puedes enfrentar ambos en un solo retiro.",
         },
         {
           q: "¿Cuánto puedo ahorrar pasando a una tarjeta de viaje sin comisiones?",
-          a: "Depende de tus gastos, pero si gastás el equivalente a USD 1,000 al mes en el exterior con una tarjeta que tiene 3% de comisión por transacción en el extranjero y USD 3 por uso de cajero (dos veces por semana), estarías pagando aproximadamente USD 55–60 solo en comisiones al mes — unos USD 650 al año. Una cuenta sin comisiones reduce eso casi a cero.",
+          a: "Depende de tus gastos, pero si gastas el equivalente a USD 1,000 al mes en el exterior con una tarjeta que tiene 3% de comisión por transacción en el extranjero y USD 3 por uso de cajero (dos veces por semana), estarías pagando aproximadamente USD 55–60 solo en comisiones al mes — unos USD 650 al año. Una cuenta sin comisiones reduce eso casi a cero.",
         },
       ],
     },
     ja: {
       title: "ワーキングホリデーでATMとカード手数料を回避する方法",
       description:
-        "海外ATM利用手数料、外貨取引手数料、動的通貨換算（DCC）のマークアップ、週末の為替マークアップがワーホリの収入を静かに蝕みます。手数料なしのトラベルカードがこれを解決する方法を解説します。",
+        "ATM手数料・外貨取引手数料・DCC・週末為替マークアップがワーホリ収入を蝕みます。手数料ゼロのカードで解決する方法を解説。",
       excerpt:
         "海外でのATM引き出しやカード支払いのたびに、複数の隠れた手数料がかかることがあります。その手数料の実態と、正しい口座で完全になくす方法を説明します。",
       sections: [
@@ -227,7 +228,7 @@ export const article: Article = {
     ko: {
       title: "워킹홀리데이 중 ATM 및 카드 수수료 피하는 방법",
       description:
-        "해외 ATM 운영사 수수료, 해외 거래 수수료, 동적 통화 환산(DCC) 마크업, 주말 환율 마크업이 워킹홀리데이 수입을 조용히 갉아먹습니다. 수수료 없는 트래블 카드로 이를 해결하는 방법을 알려드립니다.",
+        "ATM 수수료, 해외 거래 수수료, DCC, 주말 환율 마크업이 워홀 수입을 갉아먹습니다. 수수료 없는 트래블 카드로 해결하는 방법.",
       excerpt:
         "해외에서 ATM 인출이나 카드 결제를 할 때마다 여러 숨겨진 수수료가 발생할 수 있습니다. 정확히 무엇인지, 올바른 계좌로 어떻게 없앨 수 있는지 알아보세요.",
       sections: [

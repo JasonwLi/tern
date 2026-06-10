@@ -1,12 +1,16 @@
+import Link from "next/link";
 import SignupForm from "./SignupForm";
 import WaitlistCount from "./WaitlistCount";
 import PhoneMockup from "./PhoneMockup";
+import type { Locale } from "@/lib/i18n/config";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
 
 export default function Hero({
+  locale,
   t,
   signup,
 }: {
+  locale: Locale;
   t: Dictionary["hero"];
   signup: Dictionary["signup"];
 }) {
@@ -46,6 +50,14 @@ export default function Hero({
 
         <div className="relative">
           <PhoneMockup />
+          <div className="mt-12 text-center">
+            <Link
+              href={`/${locale}/demo`}
+              className="inline-flex items-center gap-2 rounded-full border-2 border-grape-500/30 bg-white px-6 py-3 text-sm font-bold text-grape-600 shadow-sm transition hover:-translate-y-0.5 hover:border-grape-500 hover:shadow-lg"
+            >
+              <span aria-hidden>▶</span> {t.tryDemo}
+            </Link>
+          </div>
         </div>
       </div>
     </section>

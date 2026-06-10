@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { addSignup, countSignups } from "@/lib/db";
-import { sendSignupNotification } from "@/lib/notify";
+import { sendSignupNotification, sendWelcomeEmail } from "@/lib/notify";
+import { rateLimit, clientIp } from "@/lib/ratelimit";
 
 export const runtime = "nodejs";
 
@@ -18,6 +19,11 @@ export async function GET() {
 }
 
 export async function POST(req: NextRequest) {
+  // Abuse guard: cap signups per IP (bots, referral farming, Telegram spam).
+  if (!rateLimit(`signup:${clientIp(req.headers)}`, 5, 10 * 60 * 1000)) {
+    return NextResponse.json({ error: "Too many requests." }, { status: 429 });
+  }
+
   let body: Record<string, unknown>;
   try {
     body = await req.json();
@@ -74,6 +80,12 @@ export async function POST(req: NextRequest) {
       locale,
       referredBy,
     }).catch((e) => console.error("[notify] failed", e));
+    void sendWelcomeEmail({
+      to: email,
+      position,
+      referralCode: result.referralCode,
+      locale,
+    }).catch((e) => console.error("[notify] welcome failed", e));
   }
 
   return NextResponse.json({

@@ -3,6 +3,7 @@ import type { Article } from "../types";
 export const article: Article = {
   slug: "first-week-money-checklist-australia",
   kind: "guide",
+  date: "2026-06-01",
   emoji: "✅",
   accent: "bg-lime-300",
   readMinutes: 6,
@@ -20,7 +21,7 @@ export const article: Article = {
     en: {
       title: "Your first week in Australia: the money checklist",
       description:
-        "Day-by-day money checklist for working holiday makers in Australia — set up your bank account, TFN, super, PayID and avoid the most common first-week money mistakes.",
+        "First-week money checklist for working holiday Australia — set up your bank account, TFN, super, and PayID, and avoid common mistakes.",
       excerpt:
         "Get the financial foundations right in your first week and every paycheck after that will land cleanly. Here's exactly what to do — day by day.",
       sections: [
@@ -85,47 +86,47 @@ export const article: Article = {
     es: {
       title: "Tu primera semana en Australia: el checklist de dinero",
       description:
-        "Checklist de finanzas día a día para trabajadores en visa working holiday en Australia — cuenta bancaria, TFN, super, PayID y los errores más comunes de la primera semana.",
+        "Checklist financiero para tu primera semana de working holiday en Australia — cuenta bancaria, TFN, super, PayID y errores típicos a evitar.",
       excerpt:
-        "Si organizás bien tus finanzas en la primera semana, cada pago después llegará sin problemas. Esto es exactamente lo que tenés que hacer — día a día.",
+        "Si organizas bien tus finanzas en la primera semana, cada pago después llegará sin problemas. Esto es exactamente lo que tienes que hacer — día a día.",
       sections: [
         {
           paragraphs: [
-            "Tu primera semana en Australia define cómo vas a cobrar cada sueldo después. Si te saltás un paso, meses más tarde vas a estar intentando recuperar impuestos retenidos de más, una cuenta de super bloqueada o un empleador que todavía te debe plata. Seguí esta lista en orden.",
+            "Tu primera semana en Australia define cómo vas a cobrar cada sueldo después. Si te saltas un paso, meses más tarde vas a estar intentando recuperar impuestos retenidos de más, una cuenta de super bloqueada o un empleador que todavía te debe plata. Sigue esta lista en orden.",
           ],
         },
         {
           heading: "Antes de volar",
           bullets: [
-            "Abrí una cuenta bancaria australiana online antes de llegar — la mayoría de los bancos te lo permiten desde el exterior para tener tu BSB y número de cuenta listos desde el día uno",
-            "Guardá una captura de pantalla o impresión de tus datos bancarios (BSB + número de cuenta) para dárselos a tu empleador de inmediato",
-            "Juntá comprobantes de fondos — muchos hostels, casas compartidas y empleadores te van a pedir ver que tenés dinero para las primeras semanas",
-            "Llamá a tu banco y a tu tarjeta de crédito en tu país para avisarles que vas a viajar; desbloquea las transacciones internacionales para que no te congelen la tarjeta",
-            "Activá los retiros en cajeros automáticos internacionales en tu tarjeta como respaldo",
-            "Descargá la app de tu banco y verificá que funcione antes de embarcar — la vas a necesitar en el aeropuerto",
+            "Abre una cuenta bancaria australiana online antes de llegar — la mayoría de los bancos te lo permiten desde el exterior para tener tu BSB y número de cuenta listos desde el día uno",
+            "Guarda una captura de pantalla o impresión de tus datos bancarios (BSB + número de cuenta) para dárselos a tu empleador de inmediato",
+            "Junta comprobantes de fondos — muchos hostels, casas compartidas y empleadores te van a pedir ver que tienes dinero para las primeras semanas",
+            "Llama a tu banco y a tu tarjeta de crédito en tu país para avisarles que vas a viajar; desbloquea las transacciones internacionales para que no te congelen la tarjeta",
+            "Activa los retiros en cajeros automáticos internacionales en tu tarjeta como respaldo",
+            "Descarga la app de tu banco y verifica que funcione antes de embarcar — la vas a necesitar en el aeropuerto",
           ],
         },
         {
           heading: "Días 1–2: lo esencial primero",
           bullets: [
-            "Comprá un chip local (Telstra, Optus o Woolworths Mobile) — necesitás un número australiano para los códigos de verificación del banco y los contactos de trabajo",
-            "Conseguí una tarjeta de transporte para tu ciudad: Opal (Sydney), Myki (Melbourne), go card (Brisbane), Metrocard (Adelaide) — cargarla después te hace perder tiempo",
-            "Verificá tu cuenta bancaria australiana en persona en una sucursal si es necesario y activá el homebanking",
+            "Compra un chip local (Telstra, Optus o Woolworths Mobile) — necesitas un número australiano para los códigos de verificación del banco y los contactos de trabajo",
+            "Consigue una tarjeta de transporte para tu ciudad: Opal (Sydney), Myki (Melbourne), go card (Brisbane), Metrocard (Adelaide) — cargarla después te hace perder tiempo",
+            "Verifica tu cuenta bancaria australiana en persona en una sucursal si es necesario y activa el homebanking",
             "Dale a tu empleador tu BSB y número de cuenta para que te den de alta en la nómina de inmediato — perderte el plazo puede retrasar tu primer sueldo dos semanas",
-            "Pedile a tu empleador tu correo de recibos de sueldo — los vas a necesitar para tu declaración de impuestos",
+            "Pídele a tu empleador tu correo de recibos de sueldo — los vas a necesitar para tu declaración de impuestos",
           ],
         },
         {
           heading: "Semana 1: impuestos y super",
           bullets: [
-            "Solicitá tu TFN (Tax File Number) gratis en línea a través de la ATO — tenés que estar físicamente en Australia cuando lo pedís",
-            "Tené a mano tu pasaporte, la subclase de visa y tu dirección residencial en Australia para la solicitud del TFN",
-            "El TFN generalmente llega en dos semanas; sin él tu empleador debe retenerte el 45% del sueldo — así que solicitalo el primer día",
-            "Entregá tu TFN al empleador en cuanto llegue; no esperes hasta el próximo día de pago",
-            "Elegí un fondo de superannuation — podés elegir cualquier fondo MySuper, o tu empleador asignará uno por defecto; Hostplus y Australian Retirement Trust son populares entre los trabajadores WHV",
-            "Completá el formulario de elección de super y dáselo a tu empleador dentro del plazo de incorporación",
-            "Configurá PayID en tu cuenta bancaria australiana (generalmente tu número de celular o correo electrónico) para que otros australianos puedan pagarte al instante",
-            "Activá las notificaciones de transacciones en tu app bancaria — querés saber en el momento en que llega tu primer pago",
+            "Solicita tu TFN (Tax File Number) gratis en línea a través de la ATO — tienes que estar físicamente en Australia cuando lo pides",
+            "Ten a mano tu pasaporte, la subclase de visa y tu dirección residencial en Australia para la solicitud del TFN",
+            "El TFN generalmente llega en dos semanas; sin él tu empleador debe retenerte el 45% del sueldo — así que solicítalo el primer día",
+            "Entrega tu TFN al empleador en cuanto llegue; no esperes hasta el próximo día de pago",
+            "Elige un fondo de superannuation — puedes elegir cualquier fondo MySuper, o tu empleador asignará uno por defecto; Hostplus y Australian Retirement Trust son populares entre los trabajadores WHV",
+            "Completa el formulario de elección de super y dáselo a tu empleador dentro del plazo de incorporación",
+            "Configura PayID en tu cuenta bancaria australiana (generalmente tu número de celular o correo electrónico) para que otros australianos puedan pagarte al instante",
+            "Activa las notificaciones de transacciones en tu app bancaria — quieres saber en el momento en que llega tu primer pago",
           ],
         },
         {
@@ -133,9 +134,9 @@ export const article: Article = {
           bullets: [
             "Empezar a trabajar sin TFN — vas a perder el 45% de tu primer sueldo por retención excesiva",
             "No darle tu BSB al empleador el primer día — una nómina tardía significa esperar quince días más",
-            "Retirar efectivo en el aeropuerto — el tipo de cambio puede ser hasta un 10% peor que el del mercado real; usá tu tarjeta o un cajero en la ciudad",
+            "Retirar efectivo en el aeropuerto — el tipo de cambio puede ser hasta un 10% peor que el del mercado real; usa tu tarjeta o un cajero en la ciudad",
             "Olvidarte de avisarle a tu banco que estás viajando — pueden congelarte la tarjeta como medida antifraude en el peor momento",
-            "Saltarse la configuración del super — el super no reclamado de tu primer trabajo puede quedar en una cuenta perdida; nombrá tu fondo y verificá que esté activo",
+            "Saltarse la configuración del super — el super no reclamado de tu primer trabajo puede quedar en una cuenta perdida; nombra tu fondo y verifica que esté activo",
             "Perder los recibos de sueldo — los vas a necesitar todos para presentar la declaración de impuestos y reclamar la devolución al irte",
           ],
         },
@@ -215,7 +216,7 @@ export const article: Article = {
     ko: {
       title: "호주 첫 주: 돈 관리 체크리스트",
       description:
-        "호주 워킹홀리데이 첫 주에 해야 할 재정 관련 일을 날짜별로 정리한 체크리스트. 은행 계좌, TFN, 슈퍼, PayID 설정과 흔한 실수를 예방하는 방법을 알아보세요.",
+        "호주 워홀 첫 주 재정 체크리스트 — 은행 계좌, TFN, 슈퍼, PayID 설정과 흔한 실수 예방법.",
       excerpt:
         "첫 주에 재정 기반을 제대로 잡으면 이후 모든 월급날이 순탄해집니다. 날짜별로 정확히 해야 할 일을 정리했습니다.",
       sections: [

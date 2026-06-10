@@ -3,6 +3,7 @@ import type { Article } from "../types";
 export const article: Article = {
   slug: "how-much-money-working-holiday-australia",
   kind: "guide",
+  date: "2026-05-29",
   emoji: "💵",
   accent: "bg-lime-300",
   readMinutes: 7,
@@ -104,55 +105,55 @@ export const article: Article = {
       ],
     },
     es: {
-      title: "¿Cuánto dinero necesitás para la working holiday en Australia?",
+      title: "¿Cuánto dinero necesitas para la working holiday en Australia?",
       description:
         "Cifras exactas para la tarifa de la visa 417, los AUD 5,000 de fondos requeridos, el presupuesto del primer mes y cuánto ahorrar antes de volar.",
       excerpt:
-        "La visa cuesta aproximadamente AUD 670. Necesitás AUD 5,000 en el banco más un vuelo de salida. Esto es lo que realmente cuesta tu primer mes en Australia — y cómo llegar con suficiente colchón.",
+        "La visa cuesta aproximadamente AUD 670. Necesitas AUD 5,000 en el banco más un vuelo de salida. Esto es lo que realmente cuesta tu primer mes en Australia — y cómo llegar con suficiente colchón.",
       sections: [
         {
           paragraphs: [
-            "La visa working holiday de Australia (subclase 417) es uno de los programas más populares del mundo — pero antes de reservar vuelos, tenés que saber exactamente cuánto dinero tener en el banco. Entre la tarifa de la visa, el requisito de fondos mínimos y el costo real del primer mes, el número es más alto de lo que la mayoría espera.",
+            "La visa working holiday de Australia (subclase 417) es uno de los programas más populares del mundo — pero antes de reservar vuelos, tienes que saber exactamente cuánto dinero tener en el banco. Entre la tarifa de la visa, el requisito de fondos mínimos y el costo real del primer mes, el número es más alto de lo que la mayoría espera.",
           ],
         },
         {
           heading: "Tarifa de la solicitud de visa",
           paragraphs: [
-            "La tarifa actual de solicitud para la visa Working Holiday subclase 417 es de aproximadamente AUD 670 (a mediados de 2026 — verificá siempre el monto actual en el sitio web del Departamento de Asuntos Internos antes de solicitar, ya que las tarifas se revisan anualmente). La tarifa no es reembolsable y debe pagarse online al presentar la solicitud a través de ImmiAccount. Para la mayoría de las nacionalidades que solicitan una primera visa 417 no hay tasas adicionales de biometría ni examen médico.",
+            "La tarifa actual de solicitud para la visa Working Holiday subclase 417 es de aproximadamente AUD 670 (a mediados de 2026 — verifica siempre el monto actual en el sitio web del Departamento de Asuntos Internos antes de solicitar, ya que las tarifas se revisan anualmente). La tarifa no es reembolsable y debe pagarse online al presentar la solicitud a través de ImmiAccount. Para la mayoría de las nacionalidades que solicitan una primera visa 417 no hay tasas adicionales de biometría ni examen médico.",
           ],
         },
         {
           heading: "Fondos mínimos: AUD 5,000 + vuelo de salida",
           paragraphs: [
             "El Departamento de Asuntos Internos requiere que los titulares de visa working holiday tengan fondos suficientes para mantenerse durante su estadía. El estándar más citado es AUD 5,000 en ahorros accesibles, más un billete de regreso o vuelo de salida — o fondos para comprarlo.",
-            "Generalmente no te piden un extracto bancario en el aeropuerto, pero los oficiales de inmigración pueden solicitarlo. En la práctica, los AUD 5,000 son lo que debería mostrar tu cuenta si querés estar preparado para cualquier escenario, incluyendo un propietario o empleador que te pida comprobante de fondos.",
+            "Generalmente no te piden un extracto bancario en el aeropuerto, pero los oficiales de inmigración pueden solicitarlo. En la práctica, los AUD 5,000 son lo que debería mostrar tu cuenta si quieres estar preparado para cualquier escenario, incluyendo un propietario o empleador que te pida comprobante de fondos.",
           ],
           bullets: [
             "AUD 5,000 en una cuenta de ahorro o cuenta corriente — solo fondos líquidos; el límite de la tarjeta de crédito no cuenta",
             "Reserva de vuelo de regreso o de salida, o fondos equivalentes para comprarlo",
             "Extracto bancario de los últimos 3 meses con tu nombre y saldo",
-            "Si portás o transferís AUD 10,000 o más, debés declararlo en tu tarjeta de pasajero entrante",
+            "Si portas o transfieres AUD 10,000 o más, debes declararlo en tu tarjeta de pasajero entrante",
           ],
         },
         {
           heading: "Desglose del presupuesto del primer mes",
           paragraphs: [
-            "Tu primer mes en Australia suele ser el más caro — pagás alojamiento antes de encontrar una casa compartida, comés fuera antes de tener cocina y comprás cosas que no trajiste. Acá hay un desglose realista semanal y mensual para alguien en una ciudad grande como Sídney o Melbourne.",
+            "Tu primer mes en Australia suele ser el más caro — pagas alojamiento antes de encontrar una casa compartida, comes fuera antes de tener cocina y compras cosas que no trajiste. Acá hay un desglose realista semanal y mensual para alguien en una ciudad grande como Sídney o Melbourne.",
           ],
           bullets: [
             "Cama en dormitorio de hostel: AUD 180–320 por semana (varía según ciudad y temporada)",
             "Comida y víveres: AUD 80–150 por semana (cocinar en la cocina del hostel reduce costos notablemente)",
             "SIM local: AUD 30–50 para el primer mes (planes prepagos de Telstra, Optus o Vodafone)",
-            "Transporte público: AUD 50–100 por semana según cuánto te movás",
-            "Depósito de alquiler: AUD 1,000–2,000 si te mudás a una casa compartida (generalmente 4 semanas de alquiler adelantado más depósito)",
+            "Transporte público: AUD 50–100 por semana según cuánto te muevas",
+            "Depósito de alquiler: AUD 1,000–2,000 si te mudas a una casa compartida (generalmente 4 semanas de alquiler adelantado más depósito)",
             "Gastos varios (higiene, ropa, entretenimiento): AUD 100–200 por mes",
           ],
         },
         {
           heading: "Colchón hasta el primer pago",
           paragraphs: [
-            "La mayoría de los empleadores australianos pagan semanal o quincenalmente. Si empezás a trabajar en la primera semana, podés recibir tu primer pago en 7 a 14 días — pero los retrasos en la nómina y el tiempo necesario para abrir una cuenta bancaria y obtener un Tax File Number (TFN) hacen que dos a cuatro semanas sin ingresos sea una expectativa realista.",
-            "Sumá cuatro semanas de los costos anteriores y estás mirando AUD 1,800–3,000 en gastos de vida antes de ganar nada. Por eso AUD 5,000 es el mínimo — no un colchón cómodo.",
+            "La mayoría de los empleadores australianos pagan semanal o quincenalmente. Si empiezas a trabajar en la primera semana, puedes recibir tu primer pago en 7 a 14 días — pero los retrasos en la nómina y el tiempo necesario para abrir una cuenta bancaria y obtener un Tax File Number (TFN) hacen que dos a cuatro semanas sin ingresos sea una expectativa realista.",
+            "Suma cuatro semanas de los costos anteriores y estás mirando AUD 1,800–3,000 en gastos de vida antes de ganar nada. Por eso AUD 5,000 es el mínimo — no un colchón cómodo.",
           ],
         },
         {
@@ -163,29 +164,29 @@ export const article: Article = {
           bullets: [
             "Mínimo indispensable (presupuesto ajustado, hostel compartido, empezar a trabajar rápido): AUD 5,000 + vuelo de regreso",
             "Colchón cómodo (primer mes cubierto, pequeño fondo de emergencia): AUD 7,000–8,000",
-            "Recomendado si querés viajar primero o tomarte tu tiempo para encontrar trabajo: AUD 10,000+",
+            "Recomendado si quieres viajar primero o tomarte tu tiempo para encontrar trabajo: AUD 10,000+",
             "Recordá: estos son ahorros al llegar — sin contar la tarifa de visa que pagarás antes de salir de tu país",
           ],
         },
         {
           heading: "Cómo te ayuda Tern",
           paragraphs: [
-            "El generador de comprobantes de fondos de Tern te permite exportar un resumen limpio y con fecha de tu saldo para mostrárselo a oficiales de inmigración, propietarios o empleadores — sin más búsquedas del formato correcto de extracto bancario. Podés fondear tu cuenta Tern desde tu país al tipo de cambio real antes de volar, así llegás con AUD ya en el bolsillo sin recargo. Una vez que empezás a trabajar, tu sueldo llega el día de pago sin demoras y Tern no cobra comisiones de cajero — cada dólar que retirás es tuyo.",
+            "El generador de comprobantes de fondos de Tern te permite exportar un resumen limpio y con fecha de tu saldo para mostrárselo a oficiales de inmigración, propietarios o empleadores — sin más búsquedas del formato correcto de extracto bancario. Puedes fondear tu cuenta Tern desde tu país al tipo de cambio real antes de volar, así llegas con AUD ya en el bolsillo sin recargo. Una vez que empiezas a trabajar, tu sueldo llega el día de pago sin demoras y Tern no cobra comisiones de cajero — cada dólar que retiras es tuyo.",
           ],
         },
       ],
       faq: [
         {
           q: "¿Cuánto dinero necesito para una working holiday en Australia?",
-          a: "El Departamento de Asuntos Internos fija el estándar en AUD 5,000 en fondos accesibles más un vuelo de salida o regreso. Además de eso, presupuestá la tarifa de solicitud de visa de aproximadamente AUD 670 (que pagás antes de viajar) y de manera realista AUD 1,800–3,000 para tu primer mes de gastos de vida antes de recibir tu primer pago. Un objetivo de ahorro total antes de partir de AUD 7,000–8,000 te da un colchón cómodo.",
+          a: "El Departamento de Asuntos Internos fija el estándar en AUD 5,000 en fondos accesibles más un vuelo de salida o regreso. Además de eso, presupuesta la tarifa de solicitud de visa de aproximadamente AUD 670 (que pagas antes de viajar) y de manera realista AUD 1,800–3,000 para tu primer mes de gastos de vida antes de recibir tu primer pago. Un objetivo de ahorro total antes de partir de AUD 7,000–8,000 te da un colchón cómodo.",
         },
         {
           q: "¿Los oficiales de inmigración realmente verifican los fondos en Australia?",
-          a: "Los oficiales de frontera australianos pueden verificar, y el Departamento de Asuntos Internos puede solicitar comprobante al momento de la solicitud o al llegar. Más frecuentemente, propietarios, anuncios de casas compartidas y algunos empleadores te pedirán un extracto bancario. El estándar práctico que debés cumplir es tener AUD 5,000 visibles en una cuenta bancaria (no un límite de crédito).",
+          a: "Los oficiales de frontera australianos pueden verificar, y el Departamento de Asuntos Internos puede solicitar comprobante al momento de la solicitud o al llegar. Más frecuentemente, propietarios, anuncios de casas compartidas y algunos empleadores te pedirán un extracto bancario. El estándar práctico que debes cumplir es tener AUD 5,000 visibles en una cuenta bancaria (no un límite de crédito).",
         },
         {
           q: "¿Puedo usar mi cuenta bancaria del país de origen para mostrar fondos?",
-          a: "Sí — un extracto bancario de tu cuenta en el extranjero que muestre el equivalente a AUD 5,000 es aceptable para la visa y el control fronterizo. Sin embargo, una vez en Australia necesitarás una cuenta bancaria australiana (con BSB y número de cuenta) para que los empleadores te hagan depósito directo. Abrí una en cuanto llegues y solicitá tu Tax File Number al mismo tiempo.",
+          a: "Sí — un extracto bancario de tu cuenta en el extranjero que muestre el equivalente a AUD 5,000 es aceptable para la visa y el control fronterizo. Sin embargo, una vez en Australia necesitarás una cuenta bancaria australiana (con BSB y número de cuenta) para que los empleadores te hagan depósito directo. Abre una en cuanto llegues y solicita tu Tax File Number al mismo tiempo.",
         },
       ],
     },

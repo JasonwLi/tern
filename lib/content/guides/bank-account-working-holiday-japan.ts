@@ -3,6 +3,7 @@ import type { Article } from "../types";
 export const article: Article = {
   slug: "bank-account-working-holiday-japan",
   kind: "guide",
+  date: "2026-06-03",
   emoji: "🇯🇵",
   accent: "bg-coral-300",
   readMinutes: 7,
@@ -20,7 +21,7 @@ export const article: Article = {
     en: {
       title: "Opening a bank account in Japan on a working holiday visa",
       description:
-        "Everything WHV holders need to know about banking in Japan — the 6-month rule, Japan Post Bank, residence cards, address registration, hanko, and getting your salary paid by bank transfer.",
+        "Banking in Japan on a working holiday — the 6-month rule, Japan Post Bank, residence cards, address registration, hanko, and getting paid.",
       excerpt:
         "No Japanese bank account means no salary — and most banks won't talk to you for the first six months. Here's how to get sorted from day one.",
       sections: [
@@ -110,66 +111,66 @@ export const article: Article = {
     es: {
       title: "Cómo abrir una cuenta bancaria en Japón con visa de working holiday",
       description:
-        "Todo lo que necesitás saber sobre el sistema bancario en Japón con visa ワーホリ — la regla de los 6 meses, Japan Post Bank, tarjeta de residencia, registro domiciliario, hanko y cómo cobrar el sueldo.",
+        "Banca en Japón con visa working holiday — la regla de los 6 meses, Japan Post Bank, tarjeta de residencia, hanko y cobrar el sueldo.",
       excerpt:
-        "Sin cuenta bancaria en Japón no podés cobrar — y la mayoría de los bancos no te atienden los primeros seis meses. Así te organizás desde el primer día.",
+        "Sin cuenta bancaria en Japón no puedes cobrar — y la mayoría de los bancos no te atienden los primeros seis meses. Así te organizas desde el primer día.",
       sections: [
         {
           paragraphs: [
-            "Abrir una cuenta bancaria es uno de los mayores desafíos prácticos al llegar a Japón con una visa de working holiday. Casi todos los empleadores pagan los sueldos por transferencia bancaria, así que sin una cuenta directamente no podés cobrar. El problema: la mayoría de los bancos japoneses exigen al menos 6 meses de residencia antes de abrirte una cuenta. Sumate los formularios casi siempre en japonés y, en algunos casos, la exigencia del sello personal, y es fácil sentirse perdido. Conocer el orden correcto de los pasos — y el banco que tiene más flexibilidad para los recién llegados — cambia todo.",
+            "Abrir una cuenta bancaria es uno de los mayores desafíos prácticos al llegar a Japón con una visa de working holiday. Casi todos los empleadores pagan los sueldos por transferencia bancaria, así que sin una cuenta directamente no puedes cobrar. El problema: la mayoría de los bancos japoneses exigen al menos 6 meses de residencia antes de abrirte una cuenta. Súmate los formularios casi siempre en japonés y, en algunos casos, la exigencia del sello personal, y es fácil sentirse perdido. Conocer el orden correcto de los pasos — y el banco que tiene más flexibilidad para los recién llegados — cambia todo.",
           ],
         },
         {
-          heading: "Lo que necesitás antes de hablar con cualquier banco",
+          heading: "Lo que necesitas antes de hablar con cualquier banco",
           paragraphs: [
-            "Dos documentos son indispensables sin importar a qué banco vayas. Primero, tu tarjeta de residencia (在留カード, zairyū kādo), que te entregan en el control migratorio del aeropuerto cuando entrás a Japón con visa de larga estadía. Segundo, un domicilio registrado: tenés que ir a la oficina municipal o de barrio (市区町村役所) y completar el jūmin-tōroku (住民登録), el trámite de empadronamiento. Los bancos no aceptan hoteles u hostels; necesitás una dirección residencial registrada en el municipio.",
-            "El trámite de empadronamiento es gratuito y suele tardar menos de una hora. Llevá tu pasaporte y la tarjeta de residencia. Una vez registrado, recibís un certificado de residencia (住民票, jūminhyō) — algunos bancos lo piden como comprobante adicional de domicilio. Hacer este trámite durante la primera semana de llegada es clave; sin él, ningún banco puede abrirte una cuenta.",
+            "Dos documentos son indispensables sin importar a qué banco vayas. Primero, tu tarjeta de residencia (在留カード, zairyū kādo), que te entregan en el control migratorio del aeropuerto cuando entras a Japón con visa de larga estadía. Segundo, un domicilio registrado: tienes que ir a la oficina municipal o de barrio (市区町村役所) y completar el jūmin-tōroku (住民登録), el trámite de empadronamiento. Los bancos no aceptan hoteles u hostels; necesitas una dirección residencial registrada en el municipio.",
+            "El trámite de empadronamiento es gratuito y suele tardar menos de una hora. Lleva tu pasaporte y la tarjeta de residencia. Una vez registrado, recibes un certificado de residencia (住民票, jūminhyō) — algunos bancos lo piden como comprobante adicional de domicilio. Hacer este trámite durante la primera semana de llegada es clave; sin él, ningún banco puede abrirte una cuenta.",
           ],
           bullets: [
-            "Tarjeta de residencia (在留カード) — la entrega migración en el aeropuerto; llevala siempre con vos",
-            "Domicilio registrado (住民登録) — registrate en la oficina municipal dentro de los 14 días de mudarte",
-            "Certificado de residencia (住民票) — sacá una copia para llevar al banco",
+            "Tarjeta de residencia (在留カード) — la entrega migración en el aeropuerto; llévala siempre contigo",
+            "Domicilio registrado (住民登録) — regístrate en la oficina municipal dentro de los 14 días de mudarte",
+            "Certificado de residencia (住民票) — saca una copia para llevar al banco",
             "Pasaporte — lo exigen todos los bancos junto con la tarjeta de residencia",
-            "Número de teléfono — una SIM japonesa o un número de contacto; lo necesitás para abrir la cuenta",
+            "Número de teléfono — una SIM japonesa o un número de contacto; lo necesitas para abrir la cuenta",
           ],
         },
         {
           heading: "Japan Post Bank: la primera cuenta realista",
           paragraphs: [
             "Japan Post Bank (ゆうちょ銀行, Yūcho Ginkō) es la recomendación estándar para los titulares de visa de working holiday porque acepta solicitantes con menos tiempo de residencia y tiene materiales de apoyo en inglés en su sitio web. Hay sucursales de correos en incluso en pueblos chicos, y la red de cajeros automáticos es una de las más extensas del país.",
-            "Para abrir una cuenta en Yūcho, visitá cualquier correo con servicios bancarios (郵便局), llevá tu tarjeta de residencia, pasaporte y datos de tu domicilio registrado, y completá los formularios de solicitud. El personal de los correos más grandes en ciudades a veces tiene conocimientos básicos de inglés, pero se recomienda llevar una copia impresa de tu dirección en japonés. La cuenta generalmente se abre el mismo día o en el plazo de una semana, y recibís una tarjeta de cajero (キャッシュカード) y una libreta bancaria (通帳).",
+            "Para abrir una cuenta en Yūcho, visita cualquier correo con servicios bancarios (郵便局), lleva tu tarjeta de residencia, pasaporte y datos de tu domicilio registrado, y completa los formularios de solicitud. El personal de los correos más grandes en ciudades a veces tiene conocimientos básicos de inglés, pero se recomienda llevar una copia impresa de tu dirección en japonés. La cuenta generalmente se abre el mismo día o en el plazo de una semana, y recibes una tarjeta de cajero (キャッシュカード) y una libreta bancaria (通帳).",
           ],
           bullets: [
             "Japan Post Bank (ゆうちょ銀行) — el banco más flexible para titulares de visa de working holiday",
-            "Llevá tarjeta de residencia, pasaporte y datos del domicilio registrado",
-            "Los formularios están en japonés — preparate con tu dirección escrita en japonés",
+            "Lleva tarjeta de residencia, pasaporte y datos del domicilio registrado",
+            "Los formularios están en japonés — prepárate con tu dirección escrita en japonés",
             "Las sucursales grandes en ciudades tienen más experiencia con solicitantes extranjeros",
-            "Recibís tarjeta de cajero y libreta; el banco en línea se configura por separado",
+            "Recibes tarjeta de cajero y libreta; el banco en línea se configura por separado",
           ],
         },
         {
           heading: "La regla de los 6 meses y la barrera del idioma",
           paragraphs: [
             "La mayoría de los grandes bancos japoneses — entre ellos Mitsubishi UFJ (MUFG), Sumitomo Mitsui (SMBC) y Mizuho — aplican de manera informal un requisito de al menos 6 meses de residencia en Japón antes de abrir una cuenta a un residente no permanente. No siempre está escrito en la política oficial, pero se aplica ampliamente en la práctica. Si te rechazan, casi siempre es por esta razón y no por el tipo de visa.",
-            "La barrera del idioma es el otro gran obstáculo. Los formularios en casi todos los bancos japoneses están únicamente en japonés. Algunas sucursales en grandes ciudades tienen personal multilingüe, pero no está garantizado. El hanko (判子 o 印鑑), el sello personal usado en lugar de la firma en Japón, lo exigen algunos bancos, aunque muchos ya aceptan una firma manuscrita. Si planeás quedarte un tiempo, hacerte un hanko simple (se consigue barato en tiendas de 100 yenes) puede simplificar muchos trámites más allá del banco.",
+            "La barrera del idioma es el otro gran obstáculo. Los formularios en casi todos los bancos japoneses están únicamente en japonés. Algunas sucursales en grandes ciudades tienen personal multilingüe, pero no está garantizado. El hanko (判子 o 印鑑), el sello personal usado en lugar de la firma en Japón, lo exigen algunos bancos, aunque muchos ya aceptan una firma manuscrita. Si planeas quedarte un tiempo, hacerte un hanko simple (se consigue barato en tiendas de 100 yenes) puede simplificar muchos trámites más allá del banco.",
           ],
           bullets: [
             "Regla de los 6 meses — la aplican la mayoría de los grandes bancos; Japan Post Bank es la principal excepción",
-            "Formularios casi totalmente en japonés — usá una app de traducción o pedile ayuda a alguien que hable japonés",
+            "Formularios casi totalmente en japonés — usa una app de traducción o pídele ayuda a alguien que hable japonés",
             "Hanko (判子) — algunos bancos todavía lo exigen; la firma manuscrita se acepta cada vez más",
             "Un hanko simple se hace en tiendas de 100 yenes (百円ショップ) por unos pocos cientos de yenes",
-            "Si te rechazan, probá una sucursal diferente o esperá a tener 3 a 6 meses de residencia documentada",
+            "Si te rechazan, prueba una sucursal diferente o espera a tener 3 a 6 meses de residencia documentada",
           ],
         },
         {
           heading: "Cómo cobrar tu sueldo",
           paragraphs: [
-            "En Japón, prácticamente todos los empleadores pagan los sueldos por transferencia bancaria (振込, furikomi) directamente a tu cuenta. El pago en efectivo es raro y se limita a situaciones muy informales o de trabajo por día. Esto significa que sin una cuenta bancaria japonesa no podés cobrar — no es una cuestión de comodidad, sino un requisito práctico antes de empezar la mayoría de los trabajos.",
-            "Cuando le das tus datos bancarios al empleador, generalmente tenés que proporcionar el nombre del banco, el nombre de la sucursal, el tipo de cuenta (普通預金, futsu yokin — cuenta de ahorro ordinaria), el número de cuenta y el nombre en la cuenta exactamente como aparece en el banco. Asegurate de que el nombre coincida exactamente con tu tarjeta de residencia para evitar errores en las transferencias. Las tarjetas de crédito generalmente no están disponibles para los titulares de visa de working holiday, así que tu cuenta bancaria y tarjeta de cajero serán tus principales herramientas financieras.",
+            "En Japón, prácticamente todos los empleadores pagan los sueldos por transferencia bancaria (振込, furikomi) directamente a tu cuenta. El pago en efectivo es raro y se limita a situaciones muy informales o de trabajo por día. Esto significa que sin una cuenta bancaria japonesa no puedes cobrar — no es una cuestión de comodidad, sino un requisito práctico antes de empezar la mayoría de los trabajos.",
+            "Cuando le das tus datos bancarios al empleador, generalmente tienes que proporcionar el nombre del banco, el nombre de la sucursal, el tipo de cuenta (普通預金, futsu yokin — cuenta de ahorro ordinaria), el número de cuenta y el nombre en la cuenta exactamente como aparece en el banco. Asegúrate de que el nombre coincida exactamente con tu tarjeta de residencia para evitar errores en las transferencias. Las tarjetas de crédito generalmente no están disponibles para los titulares de visa de working holiday, así que tu cuenta bancaria y tarjeta de cajero serán tus principales herramientas financieras.",
           ],
           bullets: [
             "El sueldo casi siempre se paga por transferencia (振込) — la cuenta japonesa es obligatoria, no opcional",
-            "Proporcioná al empleador: nombre del banco, nombre de la sucursal, tipo de cuenta (普通預金), número de cuenta y nombre del titular",
+            "Proporciona al empleador: nombre del banco, nombre de la sucursal, tipo de cuenta (普通預金), número de cuenta y nombre del titular",
             "El nombre en la cuenta debe coincidir exactamente con tu tarjeta de residencia",
             "Las tarjetas de crédito generalmente no están disponibles para titulares de visa de working holiday",
             "Configurá el banco en línea cuanto antes para controlar tus transferencias y gestionar la cuenta online",
@@ -178,22 +179,22 @@ export const article: Article = {
         {
           heading: "Cómo te ayuda Tern",
           paragraphs: [
-            "Tern te permite abrir una cuenta antes de subir al avión rumbo a Japón — solo necesitás tu pasaporte y la aprobación de la visa de working holiday. Cuando llegás y vas al correo o a la oficina municipal, los datos de tu cuenta Tern ya están en tu bolsillo, listos para dárselos al empleador desde el primer día. Recargás desde tu moneda local al tipo de cambio real, cambiás divisas con una tarifa fija y usás tu tarjeta en cajeros automáticos en Japón sin comisiones de extracción. Sin esperar seis meses, sin formularios en japonés, sin hanko.",
+            "Tern te permite abrir una cuenta antes de subir al avión rumbo a Japón — solo necesitas tu pasaporte y la aprobación de la visa de working holiday. Cuando llegas y vas al correo o a la oficina municipal, los datos de tu cuenta Tern ya están en tu bolsillo, listos para dárselos al empleador desde el primer día. Recargas desde tu moneda local al tipo de cambio real, cambias divisas con una tarifa fija y usas tu tarjeta en cajeros automáticos en Japón sin comisiones de extracción. Sin esperar seis meses, sin formularios en japonés, sin hanko.",
           ],
         },
       ],
       faq: [
         {
           q: "¿Los extranjeros pueden abrir una cuenta bancaria en Japón con visa de working holiday?",
-          a: "Sí, pero las opciones son limitadas los primeros meses. La mayoría de los grandes bancos japoneses aplican un requisito informal de 6 meses de residencia, lo que toma por sorpresa a la mayoría de los titulares de visa de working holiday. Japan Post Bank (ゆうちょ銀行) es la primera opción estándar porque acepta solicitantes con menos tiempo de residencia. De todas formas, necesitás tarjeta de residencia y domicilio registrado antes de que cualquier banco procese tu solicitud.",
+          a: "Sí, pero las opciones son limitadas los primeros meses. La mayoría de los grandes bancos japoneses aplican un requisito informal de 6 meses de residencia, lo que toma por sorpresa a la mayoría de los titulares de visa de working holiday. Japan Post Bank (ゆうちょ銀行) es la primera opción estándar porque acepta solicitantes con menos tiempo de residencia. De todas formas, necesitas tarjeta de residencia y domicilio registrado antes de que cualquier banco procese tu solicitud.",
         },
         {
           q: "¿Necesito un hanko para abrir una cuenta bancaria en Japón?",
-          a: "No siempre. Muchos bancos, incluido Japan Post Bank, ya aceptan una firma manuscrita en lugar del sello personal. Sin embargo, algunas sucursales — especialmente fuera de las grandes ciudades — pueden seguir pidiéndolo. Si vas a estar varios meses en Japón, hacerte un hanko simple es barato (unos pocos cientos de yenes en una tienda de 100 yenes) y útil para varios trámites más allá del banco. Consultá con la sucursal específica antes de ir.",
+          a: "No siempre. Muchos bancos, incluido Japan Post Bank, ya aceptan una firma manuscrita en lugar del sello personal. Sin embargo, algunas sucursales — especialmente fuera de las grandes ciudades — pueden seguir pidiéndolo. Si vas a estar varios meses en Japón, hacerte un hanko simple es barato (unos pocos cientos de yenes en una tienda de 100 yenes) y útil para varios trámites más allá del banco. Consulta con la sucursal específica antes de ir.",
         },
         {
           q: "¿Qué hago si no puedo abrir una cuenta bancaria japonesa de inmediato?",
-          a: "Si los grandes bancos te rechazan por la regla de los 6 meses, Japan Post Bank sigue siendo tu mejor opción. Mientras tanto, una cuenta multimoneda como Tern te permite recibir dinero, hacer pagos y gestionar tus finanzas sin necesidad de una cuenta bancaria japonesa. Una vez que tenés entre 3 y 6 meses de residencia documentada, podés volver a MUFG, SMBC o Mizuho y abrir una cuenta con una gama más completa de servicios.",
+          a: "Si los grandes bancos te rechazan por la regla de los 6 meses, Japan Post Bank sigue siendo tu mejor opción. Mientras tanto, una cuenta multimoneda como Tern te permite recibir dinero, hacer pagos y gestionar tus finanzas sin necesidad de una cuenta bancaria japonesa. Una vez que tienes entre 3 y 6 meses de residencia documentada, puedes volver a MUFG, SMBC o Mizuho y abrir una cuenta con una gama más completa de servicios.",
         },
       ],
     },
@@ -290,7 +291,7 @@ export const article: Article = {
     ko: {
       title: "워홀 비자로 일본 은행 계좌 개설하는 방법",
       description:
-        "워홀 비자 소지자를 위한 일본 은행 완벽 가이드 — 6개월 규칙, Japan Post Bank, 재류카드, 주소 등록, 도장(한코), 급여 이체 받는 방법까지.",
+        "워홀 비자로 일본 은행 개설 — 6개월 규칙, Japan Post Bank, 재류카드, 주소 등록, 한코, 급여 이체 방법.",
       excerpt:
         "일본 은행 계좌가 없으면 급여를 받을 수 없습니다. 대부분의 은행은 처음 6개월간 계좌 개설을 거부합니다. 첫날부터 준비하는 방법을 알아보세요.",
       sections: [

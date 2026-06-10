@@ -5,6 +5,29 @@ import { content, guides, posts, hasLocale } from "@/lib/content";
 import { contentUi } from "@/lib/content/ui";
 import { SITE_URL } from "@/lib/site";
 
+// Minimal inline-markdown links in article copy: [anchor](href).
+// "~/" hrefs are locale-relative — "~/blog/what-is-a-tfn" → "/ja/blog/what-is-a-tfn".
+function renderInline(text: string, locale: Locale): React.ReactNode {
+  const parts = text.split(/(\[[^\]]+\]\([^)\s]+\))/g);
+  if (parts.length === 1) return text;
+  return parts.map((part, i) => {
+    const m = part.match(/^\[([^\]]+)\]\(([^)\s]+)\)$/);
+    if (!m) return part;
+    const href = m[2].startsWith("~/") ? `/${locale}/${m[2].slice(2)}` : m[2];
+    const external = href.startsWith("http");
+    return (
+      <Link
+        key={i}
+        href={href}
+        className="font-semibold text-grape-600 underline underline-offset-2 hover:text-grape-700"
+        {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+      >
+        {m[1]}
+      </Link>
+    );
+  });
+}
+
 export default function ArticleView({
   article,
   locale,
@@ -87,14 +110,14 @@ export default function ArticleView({
               <h2 className="mt-10 mb-3 font-display text-2xl font-bold text-ink">{s.heading}</h2>
             )}
             {s.paragraphs?.map((p, j) => (
-              <p key={j} className="mb-4 text-lg leading-relaxed text-ink-soft">{p}</p>
+              <p key={j} className="mb-4 text-lg leading-relaxed text-ink-soft">{renderInline(p, locale)}</p>
             ))}
             {s.bullets && (
               <ul className="mb-4 space-y-2">
                 {s.bullets.map((b, j) => (
                   <li key={j} className="flex gap-3 text-lg leading-relaxed text-ink-soft">
                     <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-grape-500" aria-hidden />
-                    <span>{b}</span>
+                    <span>{renderInline(b, locale)}</span>
                   </li>
                 ))}
               </ul>
@@ -199,7 +222,14 @@ export default function ArticleView({
 function formatDate(iso: string, locale: Locale): string {
   const tag = localeMeta[locale].htmlLang;
   try {
-    return new Date(iso).toLocaleDateString(tag, { year: "numeric", month: "long", day: "numeric" });
+    // timeZone UTC: ISO dates parse as UTC midnight; without this the date
+    // renders off-by-one in timezones west of UTC.
+    return new Date(iso).toLocaleDateString(tag, {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+      timeZone: "UTC",
+    });
   } catch {
     return iso;
   }

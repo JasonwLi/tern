@@ -69,6 +69,7 @@ export const en = {
       "Tern is the neobank for working holiday visa travellers. Get paid by your employer day one, top up from home with no rip-off fees, earn cashback on hostels, and swap currency with fellow travellers at a flat fee — all from one app.",
     waitlistSuffix: "backpackers already on the waitlist",
     waitlistEarly: "Backpackers from all over the world are joining the waitlist",
+    tryDemo: "Try the interactive demo",
   },
 
   marquee: {

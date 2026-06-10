@@ -3,6 +3,7 @@ import type { Article } from "../types";
 export const article: Article = {
   slug: "best-bank-working-holiday-canada",
   kind: "guide",
+  date: "2026-05-28",
   emoji: "🍁",
   accent: "bg-coral-300",
   readMinutes: 6,
@@ -20,7 +21,7 @@ export const article: Article = {
     en: {
       title: "Best bank for working holiday Canada (IEC)",
       description:
-        "How to choose the right Canadian bank as an IEC working holiday maker — newcomer packages, fee waivers, Interac e-Transfer, credit building, and where Tern fits in.",
+        "Choosing the right Canadian bank for an IEC working holiday — newcomer packages, fee waivers, Interac e-Transfer, credit building, and Tern.",
       excerpt:
         "Not every Canadian bank account is built for WHV travellers. Here's what to look for — and which options work best from day one.",
       sections: [
@@ -95,40 +96,40 @@ export const article: Article = {
     es: {
       title: "El mejor banco para working holiday en Canadá (IEC)",
       description:
-        "Cómo elegir el banco canadiense ideal como viajero IEC — paquetes para recién llegados, exención de comisiones, Interac e-Transfer, historial crediticio y dónde encaja Tern.",
+        "El mejor banco en Canadá para visa IEC — paquetes para recién llegados, sin comisiones, Interac e-Transfer, historial crediticio y Tern.",
       excerpt:
         "No todas las cuentas bancarias canadienses están pensadas para viajeros de WHV. Esto es lo que hay que buscar — y qué opciones funcionan mejor desde el primer día.",
       sections: [
         {
           paragraphs: [
-            "Elegir el banco correcto antes de llegar a Canadá te ahorra dinero de verdad. Los titulares de la visa IEC working holiday están en una situación particular: no son residentes permanentes, puede que no tengan historial crediticio en Canadá y su estadía tiene fecha de vencimiento — pero igual necesitan una cuenta completa desde el momento en que empiezan a trabajar. Esto es lo que tenés que tener en cuenta.",
+            "Elegir el banco correcto antes de llegar a Canadá te ahorra dinero de verdad. Los titulares de la visa IEC working holiday están en una situación particular: no son residentes permanentes, puede que no tengan historial crediticio en Canadá y su estadía tiene fecha de vencimiento — pero igual necesitan una cuenta completa desde el momento en que empiezan a trabajar. Esto es lo que tienes que tener en cuenta.",
           ],
         },
         {
-          heading: "Qué necesitás realmente de un banco como viajero IEC",
+          heading: "Qué necesitas realmente de un banco como viajero IEC",
           paragraphs: [
-            "Antes de comparar logos, verificá que cualquier cuenta que abras cumpla las necesidades prácticas de una estadía working holiday IEC.",
+            "Antes de comparar logos, verifica que cualquier cuenta que abras cumpla las necesidades prácticas de una estadía working holiday IEC.",
           ],
           bullets: [
             "Interac e-Transfer — el sistema canadiense estándar para enviar y recibir dinero entre personas; esencial para pagar el alquiler, dividir gastos y cobrar reembolsos",
-            "Depósito directo en CAD — le vas a dar a tu empleador el número de tránsito, de institución y de cuenta; confirmá que la cuenta acepta depósitos de nómina",
+            "Depósito directo en CAD — le vas a dar a tu empleador el número de tránsito, de institución y de cuenta; confirma que la cuenta acepta depósitos de nómina",
             "Sin cuota mensual o con exención — varios bancos exoneran las comisiones durante 12 meses en sus paquetes para recién llegados; eso son CAD 150–200 de vuelta en tu bolsillo",
             "Tarjeta de débito desde el primer día — necesaria para supermercado, transporte y compras antes de tener tarjeta de crédito",
-            "Banca online y móvil accesible — probablemente abrís la cuenta en sucursal pero la manejás todo desde el celular",
-            "No siempre es obligatorio tener el SIN al abrir — algunos bancos te dejan abrir la cuenta primero y agregarlo después; útil si llegás en fin de semana o feriado",
+            "Banca online y móvil accesible — probablemente abres la cuenta en sucursal pero la manejas todo desde el celular",
+            "No siempre es obligatorio tener el SIN al abrir — algunos bancos te dejan abrir la cuenta primero y agregarlo después; útil si llegas en fin de semana o feriado",
           ],
         },
         {
           heading: "Ofertas de los cinco grandes bancos (qué preguntar)",
           paragraphs: [
-            "Los cinco bancos más grandes de Canadá — TD, RBC, Scotiabank, BMO y CIBC — tienen programas para recién llegados dirigidos a residentes temporales y permanentes. Las ofertas específicas cambian cada año, así que tomá lo siguiente como una guía de qué preguntar, no como una comparación definitiva.",
+            "Los cinco bancos más grandes de Canadá — TD, RBC, Scotiabank, BMO y CIBC — tienen programas para recién llegados dirigidos a residentes temporales y permanentes. Las ofertas específicas cambian cada año, así que toma lo siguiente como una guía de qué preguntar, no como una comparación definitiva.",
           ],
           bullets: [
-            "Exención de cuota mensual: la mayoría de los programas exoneran las comisiones durante 6 a 12 meses; confirmá el plazo exacto y qué activa el cobro",
+            "Exención de cuota mensual: la mayoría de los programas exoneran las comisiones durante 6 a 12 meses; confirma el plazo exacto y qué activa el cobro",
             "No se requiere historial crediticio para abrir una cuenta corriente — todos los grandes bancos aceptan titulares del permiso de trabajo IEC",
             "Interac e-Transfer gratuito incluido en casi todos los niveles de cuenta corriente para recién llegados",
             "Tarjeta de crédito asegurada o para recién llegados: algunos bancos ofrecen una tarjeta junto a la cuenta corriente para que empieces a construir historial crediticio en Canadá",
-            "Solicitud online antes de llegar: TD y RBC te permiten iniciar el trámite desde tu país y activarlo en la sucursal al llegar — preguntá si tu banco lo ofrece",
+            "Solicitud online antes de llegar: TD y RBC te permiten iniciar el trámite desde tu país y activarlo en la sucursal al llegar — pregunta si tu banco lo ofrece",
             "El SIN se puede agregar después de abrir la cuenta en los cinco grandes — confirmalo en la sucursal para poder empezar a trabajar antes de recibirlo por correo",
           ],
         },
@@ -136,30 +137,30 @@ export const article: Article = {
           heading: "Opciones de fintechs y bancos digitales",
           paragraphs: [
             "Los bancos digitales como EQ Bank, Koho y Tangerine apuntan a clientes que quieren ahorrar en comisiones y obtener tipos de cambio competitivos para transferencias internacionales. Pueden ser un buen complemento — por ejemplo, la Visa prepaga de Koho también sirve para construir historial crediticio.",
-            "La contra: los bancos digitales pueden requerir una dirección completa en Canadá y a veces el SIN antes de completar el alta, lo que puede retrasarte justo cuando más necesitás una cuenta. Una cuenta de recién llegados en uno de los grandes bancos sigue siendo la opción más confiable para la primera semana.",
+            "La contra: los bancos digitales pueden requerir una dirección completa en Canadá y a veces el SIN antes de completar el alta, lo que puede retrasarte justo cuando más necesitas una cuenta. Una cuenta de recién llegados en uno de los grandes bancos sigue siendo la opción más confiable para la primera semana.",
           ],
         },
         {
           heading: "Construir historial crediticio mientras estás en Canadá",
           paragraphs: [
-            "Para obtener una tarjeta de crédito en Canadá necesitás el SIN — y de todas formas no podés trabajar legalmente sin él, así que pedilo primero. Una vez que lo tenés, preguntale a tu banco por una tarjeta de crédito asegurada o para recién llegados. Con solo seis meses de pagos puntuales ya construís un expediente significativo en Equifax o TransUnion que puede ayudarte a alquilar un departamento, conseguir un plan de teléfono o calificar para un préstamo de auto más adelante.",
+            "Para obtener una tarjeta de crédito en Canadá necesitas el SIN — y de todas formas no puedes trabajar legalmente sin él, así que pídelo primero. Una vez que lo tienes, pregúntale a tu banco por una tarjeta de crédito asegurada o para recién llegados. Con solo seis meses de pagos puntuales ya construyes un expediente significativo en Equifax o TransUnion que puede ayudarte a alquilar un departamento, conseguir un plan de teléfono o calificar para un préstamo de auto más adelante.",
           ],
         },
         {
           heading: "Cómo te ayuda Tern",
           paragraphs: [
-            "Tern está construido específicamente para viajeros con visa working holiday — y Canadá es uno de nuestros mercados de lanzamiento. Antes de llegar, el generador de comprobantes de fondos de Tern te ayuda a preparar la documentación de los CAD 2,500 que los oficiales de frontera pueden pedirte. Una vez que aterrizás, podés fondear tu cuenta Tern desde tu país al tipo de cambio real sin recargo. El día de pago, tu sueldo en CAD llega el mismo día sin demoras, y Tern nunca cobra comisiones de cajero — así cada peso que ganás se queda con vos.",
+            "Tern está construido específicamente para viajeros con visa working holiday — y Canadá es uno de nuestros mercados de lanzamiento. Antes de llegar, el generador de comprobantes de fondos de Tern te ayuda a preparar la documentación de los CAD 2,500 que los oficiales de frontera pueden pedirte. Una vez que aterrizas, puedes fondear tu cuenta Tern desde tu país al tipo de cambio real sin recargo. El día de pago, tu sueldo en CAD llega el mismo día sin demoras, y Tern nunca cobra comisiones de cajero — así cada peso que ganas se queda contigo.",
           ],
         },
       ],
       faq: [
         {
           q: "¿Necesito el SIN para abrir una cuenta bancaria en Canadá?",
-          a: "No — todos los grandes bancos canadienses abren una cuenta corriente a titulares de la visa IEC con solo el pasaporte válido y el permiso de trabajo. Podés agregar el SIN a la cuenta cuando lo recibís. Sin embargo, sí necesitás el SIN antes de poder trabajar legalmente y antes de que un empleador canadiense pueda incluirte en la nómina.",
+          a: "No — todos los grandes bancos canadienses abren una cuenta corriente a titulares de la visa IEC con solo el pasaporte válido y el permiso de trabajo. Puedes agregar el SIN a la cuenta cuando lo recibes. Sin embargo, sí necesitas el SIN antes de poder trabajar legalmente y antes de que un empleador canadiense pueda incluirte en la nómina.",
         },
         {
           q: "¿Qué es el Interac e-Transfer y por qué importa?",
-          a: "Es el sistema estándar de transferencias bancarias en Canadá, que usan prácticamente todos para pagar el alquiler, dividir cuentas o mandarse plata. Está vinculado al email o número de teléfono de tu cuenta bancaria y se acredita en minutos. Sin él vas a tener problemas con las transacciones cotidianas — confirmá que cualquier cuenta que abras lo incluya.",
+          a: "Es el sistema estándar de transferencias bancarias en Canadá, que usan prácticamente todos para pagar el alquiler, dividir cuentas o mandarse plata. Está vinculado al email o número de teléfono de tu cuenta bancaria y se acredita en minutos. Sin él vas a tener problemas con las transacciones cotidianas — confirma que cualquier cuenta que abras lo incluya.",
         },
         {
           q: "¿Puedo usar una cuenta bancaria extranjera en lugar de una canadiense?",
@@ -170,7 +171,7 @@ export const article: Article = {
     ja: {
       title: "カナダのワーキングホリデー（IEC）に最適な銀行",
       description:
-        "IECワーキングホリデービザ保有者向けのカナダ銀行選び — 新規移住者パッケージ、手数料免除、Interac e-Transfer、信用履歴の構築、そしてTernの役割を解説。",
+        "IECワーホリ向けカナダ銀行の選び方 — 新規移住者向けプラン・手数料免除・Interac e-Transfer・信用履歴構築を解説。",
       excerpt:
         "すべてのカナダの銀行口座がワーホリ旅行者向けに設計されているわけではありません。何を探すべきか、初日から使える選択肢はどれかを解説します。",
       sections: [
@@ -245,7 +246,7 @@ export const article: Article = {
     ko: {
       title: "캐나다 워킹홀리데이(IEC)에 가장 좋은 은행",
       description:
-        "IEC 워킹홀리데이 비자 소지자를 위한 캐나다 은행 선택 가이드 — 신규 이민자 패키지, 수수료 면제, Interac e-Transfer, 신용 점수 구축, Tern의 역할까지.",
+        "IEC 워홀을 위한 캐나다 은행 선택 — 신규 이민자 패키지, 수수료 면제, Interac e-Transfer, 신용 점수 구축 정리.",
       excerpt:
         "모든 캐나다 은행 계좌가 워홀 여행자를 위해 설계된 것은 아닙니다. 무엇을 찾아야 하는지, 첫날부터 쓸 수 있는 옵션은 어떤 것인지 알아보세요.",
       sections: [

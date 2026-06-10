@@ -3,6 +3,7 @@ import type { Article } from "../types";
 export const article: Article = {
   slug: "how-much-money-working-holiday-canada",
   kind: "guide",
+  date: "2026-05-31",
   emoji: "🏔️",
   accent: "bg-coral-300",
   readMinutes: 6,
@@ -24,7 +25,7 @@ export const article: Article = {
     en: {
       title: "How much money do you need for IEC Canada?",
       description:
-        "Planning an IEC working holiday to Canada? Here are the fees, the CAD 2,500 proof-of-funds requirement, mandatory health insurance costs, and a realistic first-month budget.",
+        "IEC Canada working holiday costs — application fees, CAD 2,500 proof-of-funds, mandatory health insurance, and a realistic first-month budget.",
       excerpt:
         "IEC fees total around CAD 370 before you even land. Add CAD 2,500 proof of funds and health insurance for your whole stay. Here's exactly what to budget.",
       sections: [
@@ -100,11 +101,11 @@ export const article: Article = {
       ],
     },
     es: {
-      title: "¿Cuánto dinero necesitás para el IEC en Canadá?",
+      title: "¿Cuánto dinero necesitas para el IEC en Canadá?",
       description:
-        "¿Planeás una visa working holiday IEC en Canadá? Acá encontrás los costos de solicitud, el requisito de CAD 2,500 en fondos, el seguro médico obligatorio y un presupuesto realista para el primer mes.",
+        "Costos de la visa IEC en Canadá — solicitud, CAD 2,500 en fondos, seguro médico obligatorio y presupuesto realista del primer mes.",
       excerpt:
-        "Las tarifas del IEC suman unos CAD 370 antes de llegar. Sumá CAD 2,500 de fondos demostrables y el seguro médico por toda la estadía. Esto es lo que tenés que presupuestar.",
+        "Las tarifas del IEC suman unos CAD 370 antes de llegar. Suma CAD 2,500 de fondos demostrables y el seguro médico por toda la estadía. Esto es lo que tienes que presupuestar.",
       sections: [
         {
           paragraphs: [
@@ -121,42 +122,42 @@ export const article: Article = {
             "Tarifa de titular de permiso de trabajo abierto: CAD 100 (solo Working Holiday; los solicitantes de Young Professionals y Co-op no la pagan)",
             "Tarifa de biométricos: CAD 85 (primera solicitud; se exonera si ya diste biométricos a Canadá en los últimos diez años)",
             "Total para la mayoría de los solicitantes de Working Holiday: aproximadamente CAD 370",
-            "Las tarifas se pagan online a través de tu cuenta IRCC — consultá la página oficial de tarifas del IRCC para los valores actualizados, ya que cambian periódicamente",
+            "Las tarifas se pagan online a través de tu cuenta IRCC — consulta la página oficial de tarifas del IRCC para los valores actualizados, ya que cambian periódicamente",
           ],
         },
         {
           heading: "Fondos mínimos: CAD 2,500 en la frontera",
           paragraphs: [
-            "Un oficial de servicios fronterizos puede pedirte que demuestres que podés sostenerte económicamente durante los primeros tres meses en Canadá. El monto estándar es CAD 2,500 en fondos líquidos accesibles — efectivo, cuentas de ahorro, giros bancarios, cheques certificados o cheques de viajero. Las tarjetas de crédito no cuentan.",
-            "Tu extracto bancario debe tener fecha de no más de una semana antes de tu salida. Asegurate de que tu nombre y el saldo disponible sean claramente visibles. Si ingresás con CAD 10,000 o más en cualquier forma, estás obligado a declararlo en la frontera.",
+            "Un oficial de servicios fronterizos puede pedirte que demuestres que puedes sostenerte económicamente durante los primeros tres meses en Canadá. El monto estándar es CAD 2,500 en fondos líquidos accesibles — efectivo, cuentas de ahorro, giros bancarios, cheques certificados o cheques de viajero. Las tarjetas de crédito no cuentan.",
+            "Tu extracto bancario debe tener fecha de no más de una semana antes de tu salida. Asegúrate de que tu nombre y el saldo disponible sean claramente visibles. Si ingresas con CAD 10,000 o más en cualquier forma, estás obligado a declararlo en la frontera.",
           ],
         },
         {
           heading: "Seguro médico: obligatorio por toda la estadía",
           paragraphs: [
-            "Este es el requisito que muchos principiantes pasan por alto: debés tener un seguro médico válido que cubra toda tu estadía en Canadá. Una tarjeta de salud provincial no es suficiente. Los oficiales de frontera pueden — y de hecho lo hacen — pedir comprobante del seguro al llegar, y no poder mostrarlo puede resultar en que te denieguen la entrada.",
-            "Presupuestá de forma realista. Una póliza de doce meses de una aseguradora de viajes reconocida suele costar entre CAD 600 y CAD 1,200 según tu edad y nivel de cobertura. Comprala antes de viajar y llevá los documentos de la póliza (en formato físico o digital) en tu equipaje de mano.",
+            "Este es el requisito que muchos principiantes pasan por alto: debes tener un seguro médico válido que cubra toda tu estadía en Canadá. Una tarjeta de salud provincial no es suficiente. Los oficiales de frontera pueden — y de hecho lo hacen — pedir comprobante del seguro al llegar, y no poder mostrarlo puede resultar en que te denieguen la entrada.",
+            "Presupuesta de forma realista. Una póliza de doce meses de una aseguradora de viajes reconocida suele costar entre CAD 600 y CAD 1,200 según tu edad y nivel de cobertura. Cómprala antes de viajar y lleva los documentos de la póliza (en formato físico o digital) en tu equipaje de mano.",
           ],
         },
         {
           heading: "Presupuesto para el primer mes",
           paragraphs: [
-            "Tus primeras semanas en Canadá son las más costosas. Presupuestá estos gastos antes de recibir tu primer sueldo:",
+            "Tus primeras semanas en Canadá son las más costosas. Presupuesta estos gastos antes de recibir tu primer sueldo:",
           ],
           bullets: [
             "Alojamiento: las habitaciones compartidas en las principales ciudades suelen rondar los CAD 800–1,400 por mes; los hostels son más baratos a corto plazo",
             "Comida y supermercado: CAD 300–500 por mes con una alimentación casera moderada",
             "Transporte local (abono de transporte público, bici compartida): CAD 100–150 por mes en la mayoría de las ciudades",
             "SIM y plan de datos: CAD 30–60 por mes para un plan básico",
-            "Gastos de instalación (ropa de cama, toallas, utensilios de cocina básicos si alquilás una habitación): CAD 100–200 de costo único",
+            "Gastos de instalación (ropa de cama, toallas, utensilios de cocina básicos si alquilas una habitación): CAD 100–200 de costo único",
             "Reserva recomendada hasta el primer sueldo: CAD 1,500–2,500 adicionales al monto de fondos mínimos exigido en la frontera",
           ],
         },
         {
           heading: "Reserva hasta el primer pago",
           paragraphs: [
-            "La mayoría de los empleadores canadienses pagan cada dos semanas. Si empezás a trabajar en tu primera semana, esperá entre tres y cuatro semanas antes de que el dinero llegue a tu cuenta. También necesitás un Número de Seguro Social (SIN) y una cuenta bancaria canadiense antes de que tu empleador pueda procesar la nómina, y ambos tardan unos días en gestionarse después de llegar.",
-            "Una regla práctica: mantené al menos CAD 2,000–3,000 líquidos más allá de tu monto de fondos mínimos para cubrir los gastos de vida desde el primer día hasta que llegue tu primer pago.",
+            "La mayoría de los empleadores canadienses pagan cada dos semanas. Si empiezas a trabajar en tu primera semana, espera entre tres y cuatro semanas antes de que el dinero llegue a tu cuenta. También necesitas un Número de Seguro Social (SIN) y una cuenta bancaria canadiense antes de que tu empleador pueda procesar la nómina, y ambos tardan unos días en gestionarse después de llegar.",
+            "Una regla práctica: mantén al menos CAD 2,000–3,000 líquidos más allá de tu monto de fondos mínimos para cubrir los gastos de vida desde el primer día hasta que llegue tu primer pago.",
           ],
         },
         {
@@ -169,11 +170,11 @@ export const article: Article = {
       faq: [
         {
           q: "¿Cuánto cuesta en total el permiso de trabajo de la visa working holiday IEC?",
-          a: "La mayoría de los solicitantes de Working Holiday pagan aproximadamente CAD 370: CAD 184.75 de tarifa de participación, CAD 100 de tarifa de titular de permiso de trabajo abierto y CAD 85 de biométricos. Los biométricos pueden eximirse si ya los diste a Canadá en los últimos diez años. Consultá siempre la página oficial de tarifas del IRCC antes de postularte, ya que los valores se actualizan periódicamente.",
+          a: "La mayoría de los solicitantes de Working Holiday pagan aproximadamente CAD 370: CAD 184.75 de tarifa de participación, CAD 100 de tarifa de titular de permiso de trabajo abierto y CAD 85 de biométricos. Los biométricos pueden eximirse si ya los diste a Canadá en los últimos diez años. Consulta siempre la página oficial de tarifas del IRCC antes de postularte, ya que los valores se actualizan periódicamente.",
         },
         {
           q: "¿El seguro médico realmente se controla en la frontera canadiense?",
-          a: "Sí. Los oficiales de servicios fronterizos pueden pedir un comprobante del seguro médico válido por toda tu estadía. Si no podés mostrarlo, te pueden negar la entrada. Comprá la póliza antes de viajar y llevá los documentos con vos — una tarjeta de salud provincial no es un sustituto válido.",
+          a: "Sí. Los oficiales de servicios fronterizos pueden pedir un comprobante del seguro médico válido por toda tu estadía. Si no puedes mostrarlo, te pueden negar la entrada. Compra la póliza antes de viajar y lleva los documentos contigo — una tarjeta de salud provincial no es un sustituto válido.",
         },
       ],
     },
@@ -258,7 +259,7 @@ export const article: Article = {
     ko: {
       title: "캐나다 IEC 워킹홀리데이에 필요한 돈은 얼마?",
       description:
-        "캐나다 IEC 워킹홀리데이를 계획 중인가요? 신청 비용, CAD 2,500 재정증명 요건, 필수 의료보험 비용, 현실적인 첫 달 예산까지 모두 정리했습니다.",
+        "캐나다 IEC 워홀 비용 — 신청비, CAD 2,500 재정증명, 필수 의료보험, 첫 달 현실 예산 총정리.",
       excerpt:
         "IEC 수수료는 입국 전에 약 CAD 370. 여기에 CAD 2,500 재정증명과 전체 체류 기간 의료보험이 필요합니다. 예산 계획에 필요한 내용을 정리했습니다.",
       sections: [

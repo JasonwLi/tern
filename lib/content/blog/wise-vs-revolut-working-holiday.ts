@@ -34,7 +34,7 @@ export const article: Article = {
     en: {
       title: "Wise vs Revolut for a working holiday — and what both miss",
       description:
-        "Wise and Revolut are both solid travel-money apps. We compare them honestly for working holiday makers — and explain the WHV-specific gap neither fills yet.",
+        "Wise vs Revolut for working holiday makers — an honest comparison and the WHV-specific gap neither app fills yet.",
       excerpt:
         "Both Wise and Revolut are great travel-money apps with multi-currency accounts. Here's an honest comparison for working holiday makers — plus the WHV-specific features neither of them offers.",
       sections: [
@@ -117,7 +117,7 @@ export const article: Article = {
     es: {
       title: "Wise vs Revolut para una visa de trabajo y vacaciones — y lo que ambos no cubren",
       description:
-        "Wise y Revolut son apps de dinero para viajeros muy sólidas. Comparamos ambas de forma honesta para titulares de visa de trabajo y vacaciones — y explicamos lo que ninguna cubre aún.",
+        "Wise vs Revolut para working holiday: comparación honesta y la brecha específica de WHV que ninguna de las dos cubre todavía.",
       excerpt:
         "Wise y Revolut son excelentes apps de múltiples monedas para viajeros. Acá encontrarás una comparación honesta para quienes tienen visa de trabajo y vacaciones, más las funciones específicas de WHV que ninguna ofrece.",
       sections: [
@@ -129,12 +129,12 @@ export const article: Article = {
         {
           heading: "Los puntos fuertes de Wise",
           paragraphs: [
-            "La fortaleza principal de Wise son las transferencias internacionales transparentes y de bajo costo, junto con los datos de cuentas locales. Podés mantener más de 40 monedas en una sola cuenta Wise y recibir dinero como un local en monedas principales como AUD, NZD, GBP, EUR y USD, con tus propios datos bancarios locales según la moneda. Las conversiones utilizan el tipo de cambio del mercado interbancario con una comisión pequeña y claramente informada.",
+            "La fortaleza principal de Wise son las transferencias internacionales transparentes y de bajo costo, junto con los datos de cuentas locales. Puedes mantener más de 40 monedas en una sola cuenta Wise y recibir dinero como un local en monedas principales como AUD, NZD, GBP, EUR y USD, con tus propios datos bancarios locales según la moneda. Las conversiones utilizan el tipo de cambio del mercado interbancario con una comisión pequeña y claramente informada.",
           ],
           bullets: [
-            "Datos de cuenta local para AUD y NZD — recibí tu sueldo australiano o neozelandés directamente en Wise",
+            "Datos de cuenta local para AUD y NZD — recibe tu sueldo australiano o neozelandés directamente en Wise",
             "Transferencias al tipo de cambio interbancario con comisiones transparentes mostradas de antemano",
-            "Sin suscripción requerida para el uso básico — solo pagás por transacción",
+            "Sin suscripción requerida para el uso básico — solo pagas por transacción",
             "Reconocida por su fiabilidad y atención al cliente en la comunidad viajera",
           ],
         },
@@ -172,7 +172,7 @@ export const article: Article = {
         {
           heading: "Conclusión",
           paragraphs: [
-            "Usá Wise si tu prioridad son las transferencias internacionales transparentes y de bajo costo, y recibir tu sueldo en AUD o NZD en una cuenta que funcione como local. Usá Revolut si querés una app con muchas funciones y te sentís cómodo con el modelo de precios por niveles, prestando atención al horario de cambio de divisas en fin de semana si usás el plan gratuito. Ambas son herramientas genuinamente buenas. Ninguna fue construida para la experiencia de trabajo y vacaciones de principio a fin.",
+            "Usa Wise si tu prioridad son las transferencias internacionales transparentes y de bajo costo, y recibir tu sueldo en AUD o NZD en una cuenta que funcione como local. Usa Revolut si quieres una app con muchas funciones y te sientes cómodo con el modelo de precios por niveles, prestando atención al horario de cambio de divisas en fin de semana si usas el plan gratuito. Ambas son herramientas genuinamente buenas. Ninguna fue construida para la experiencia de trabajo y vacaciones de principio a fin.",
           ],
         },
         {
@@ -185,7 +185,7 @@ export const article: Article = {
       faq: [
         {
           q: "¿Es mejor Wise o Revolut para una visa de trabajo y vacaciones en Australia?",
-          a: "Las dos funcionan bien. Wise es la mejor opción si querés recibir tu sueldo en Australia (AUD) directamente en una cuenta con datos BSB locales y enviar dinero a casa con comisiones transparentes y bajas. Revolut es fuerte si querés una app financiera con muchas funciones y tenés un plan de pago. Para necesidades específicas del trabajo y vacaciones, como el seguimiento de la super y la documentación de 88 días, ninguna las cubre — esa es la brecha que Tern está construyendo para llenar.",
+          a: "Las dos funcionan bien. Wise es la mejor opción si quieres recibir tu sueldo en Australia (AUD) directamente en una cuenta con datos BSB locales y enviar dinero a casa con comisiones transparentes y bajas. Revolut es fuerte si quieres una app financiera con muchas funciones y tienes un plan de pago. Para necesidades específicas del trabajo y vacaciones, como el seguimiento de la super y la documentación de 88 días, ninguna las cubre — esa es la brecha que Tern está construyendo para llenar.",
         },
         {
           q: "¿Puedo usar Wise o Revolut como cuenta bancaria principal en un trabajo y vacaciones?",
@@ -193,7 +193,7 @@ export const article: Article = {
         },
         {
           q: "¿Revolut cobra comisiones los fines de semana por el cambio de divisas?",
-          a: "En el plan Standard (gratuito) de Revolut, los cambios realizados fuera del horario del mercado cambiario (viernes a las 5 p.m. al domingo a las 6 p.m., hora del Este, según la documentación oficial de ayuda de Revolut) tienen un recargo adicional del 1%. Los titulares de los planes Premium y superiores no pagan este recargo. Si tenés el plan gratuito, programar tus conversiones de divisas en días hábiles puede ayudarte a evitar esta comisión.",
+          a: "En el plan Standard (gratuito) de Revolut, los cambios realizados fuera del horario del mercado cambiario (viernes a las 5 p.m. al domingo a las 6 p.m., hora del Este, según la documentación oficial de ayuda de Revolut) tienen un recargo adicional del 1%. Los titulares de los planes Premium y superiores no pagan este recargo. Si tienes el plan gratuito, programar tus conversiones de divisas en días hábiles puede ayudarte a evitar esta comisión.",
         },
       ],
     },
@@ -283,7 +283,7 @@ export const article: Article = {
     ko: {
       title: "워홀에 Wise vs Revolut — 그리고 둘 다 놓치고 있는 것",
       description:
-        "Wise와 Revolut은 모두 훌륭한 여행용 금융 앱입니다. 워킹홀리데이 비자 소지자를 위해 솔직하게 비교하고, 어느 쪽도 아직 채우지 못한 WHV 특유의 공백을 설명합니다.",
+        "워홀러를 위한 Wise vs Revolut 솔직 비교 — 그리고 두 앱 모두 아직 채우지 못한 WHV 특유의 공백.",
       excerpt:
         "Wise와 Revolut은 모두 훌륭한 다중 통화 앱입니다. 워홀러를 위한 솔직한 비교와, 어느 쪽도 제공하지 않는 WHV 전용 기능을 소개합니다.",
       sections: [

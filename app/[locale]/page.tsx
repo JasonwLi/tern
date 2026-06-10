@@ -28,7 +28,7 @@ export default async function Home({
     <>
       <Nav locale={locale} t={dict.nav} />
       <main>
-        <Hero t={dict.hero} signup={dict.signup} />
+        <Hero locale={locale} t={dict.hero} signup={dict.signup} />
         <TrustMarquee t={dict.marquee} />
         <ProblemSection t={dict.problem} />
         <Features t={dict.features} />

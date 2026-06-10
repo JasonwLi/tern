@@ -30,7 +30,7 @@ export const article: Article = {
     en: {
       title: "What is an IRD number? A guide for working holiday makers in NZ",
       description:
-        "An IRD number is New Zealand's tax identifier. Without one, your employer must deduct 45% tax. Here's what it is, why it matters, and how to apply on arrival.",
+        "An IRD number is New Zealand's tax ID. Without one, employers deduct 45% tax. What it is, why it matters, and how to apply when you arrive.",
       excerpt:
         "No IRD number in New Zealand means your employer must withhold tax at the non-declaration rate of 45%. Here's what an IRD number is, the catch-22 around getting one, and how to apply.",
       sections: [
@@ -90,7 +90,7 @@ export const article: Article = {
     es: {
       title: "¿Qué es un número IRD? Guía para trabajadores de vacaciones y trabajo en NZ",
       description:
-        "El número IRD es el identificador fiscal de Nueva Zelanda. Sin él, tu empleador debe retener el 45% de tu sueldo como impuesto. Qué es, por qué importa y cómo solicitarlo al llegar.",
+        "El número IRD es el identificador fiscal de NZ. Sin él retienen el 45% de tu sueldo. Qué es, por qué importa y cómo solicitarlo al llegar.",
       excerpt:
         "Sin un número IRD en Nueva Zelanda, tu empleador debe retener el 45% de tu sueldo. Te explicamos qué es, el dilema para obtenerlo y cómo hacer la solicitud.",
       sections: [
@@ -100,9 +100,9 @@ export const article: Article = {
           ],
         },
         {
-          heading: "Por qué lo necesitás urgente",
+          heading: "Por qué lo necesitas urgente",
           paragraphs: [
-            "Si empezás a trabajar en Nueva Zelanda sin proporcionar un número IRD ni completar la Declaración de Código Fiscal (formulario IR330), tu empleador está legalmente obligado a deducir impuestos a la tasa de no-notificación del 45%, más el gravamen ACC. Eso significa que casi la mitad de tu salario bruto es retenido hasta que lo resuelvas. Conseguir un número IRD rápidamente es una de las gestiones más importantes cuando llegás.",
+            "Si empiezas a trabajar en Nueva Zelanda sin proporcionar un número IRD ni completar la Declaración de Código Fiscal (formulario IR330), tu empleador está legalmente obligado a deducir impuestos a la tasa de no-notificación del 45%, más el gravamen ACC. Eso significa que casi la mitad de tu salario bruto es retenido hasta que lo resuelvas. Conseguir un número IRD rápidamente es una de las gestiones más importantes cuando llegas.",
           ],
         },
         {
@@ -117,16 +117,16 @@ export const article: Article = {
             "Los recién llegados a Nueva Zelanda pueden solicitar el número IRD en línea a través del portal myIR o completando el formulario en papel IR595. Necesitarás tu pasaporte, datos de la visa y una dirección en Nueva Zelanda. Inland Revenue generalmente emite el número dentro de los 8 a 10 días hábiles posteriores a la recepción de la solicitud completa.",
           ],
           bullets: [
-            "Solicitalo lo antes posible después de llegar — idealmente antes de tu primer turno de trabajo",
-            "Necesitás tu pasaporte, datos de la visa y una dirección en NZ para la solicitud",
+            "Solicítalo lo antes posible después de llegar — idealmente antes de tu primer turno de trabajo",
+            "Necesitas tu pasaporte, datos de la visa y una dirección en NZ para la solicitud",
             "El procesamiento generalmente toma entre 8 y 10 días hábiles",
-            "Una vez que tenés tu número, dáselo a tu empleador junto con el formulario IR330 completo",
+            "Una vez que tienes tu número, dáselo a tu empleador junto con el formulario IR330 completo",
           ],
         },
         {
           heading: "Qué código fiscal usar",
           paragraphs: [
-            "Junto con tu número IRD, debés indicarle a tu empleador qué código fiscal usar en el formulario IR330. Para la mayoría de los que tienen visa de trabajo y vacaciones en su primer empleo en Nueva Zelanda, el código estándar es 'M'. Si tenés más de un trabajo, usá 'M' para el principal y 'SB', 'S' o 'SH' para los empleos secundarios según el ingreso esperado.",
+            "Junto con tu número IRD, debes indicarle a tu empleador qué código fiscal usar en el formulario IR330. Para la mayoría de los que tienen visa de trabajo y vacaciones en su primer empleo en Nueva Zelanda, el código estándar es 'M'. Si tienes más de un trabajo, usa 'M' para el principal y 'SB', 'S' o 'SH' para los empleos secundarios según el ingreso esperado.",
           ],
         },
         {
@@ -143,7 +143,7 @@ export const article: Article = {
         },
         {
           q: "¿Cuánto tarda en obtenerse un número IRD en Nueva Zelanda?",
-          a: "Inland Revenue generalmente procesa las solicitudes en 8 a 10 días hábiles una vez que recibe la solicitud completa y los documentos de respaldo. Solicitalo tan pronto como llegues, idealmente antes de empezar tu primer trabajo.",
+          a: "Inland Revenue generalmente procesa las solicitudes en 8 a 10 días hábiles una vez que recibe la solicitud completa y los documentos de respaldo. Solicítalo tan pronto como llegues, idealmente antes de empezar tu primer trabajo.",
         },
       ],
     },
@@ -210,7 +210,7 @@ export const article: Article = {
     ko: {
       title: "IRD 번호란? 뉴질랜드 워홀러를 위한 완벽 가이드",
       description:
-        "IRD 번호는 뉴질랜드의 납세자 식별 번호입니다. 없으면 고용주가 45%의 세율로 원천징수해야 합니다. IRD 번호가 무엇인지, 왜 중요한지, 신청 방법을 알아보세요.",
+        "IRD 번호는 뉴질랜드의 납세자 번호. 없으면 45% 원천징수됩니다. 뜻·중요성·도착 후 신청 방법을 알아보세요.",
       excerpt:
         "뉴질랜드에서 IRD 번호가 없으면 고용주는 45%의 미신고 세율로 원천징수해야 합니다. IRD 번호가 무엇인지, 취득의 딜레마, 신청 방법을 설명합니다.",
       sections: [

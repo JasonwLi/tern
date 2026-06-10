@@ -3,6 +3,7 @@ import type { Article } from "../types";
 export const article: Article = {
   slug: "bank-account-working-holiday-ireland",
   kind: "guide",
+  date: "2026-06-03",
   emoji: "🇮🇪",
   accent: "bg-lime-300",
   readMinutes: 6,
@@ -20,7 +21,7 @@ export const article: Article = {
     en: {
       title: "Opening a bank account in Ireland on a working holiday",
       description:
-        "Everything WHV holders need to know about banking in Ireland — PPS numbers, the address catch-22, IBAN accounts, emergency tax at 40% without a PPS number, and getting paid by Irish employers.",
+        "Banking in Ireland on a working holiday — PPS numbers, the address catch-22, IBAN accounts, 40% emergency tax without a PPS, and getting paid.",
       excerpt:
         "No PPS number means your employer taxes you at 40% emergency rate. Here's how to get banked, grab your PPS, and dodge the emergency tax trap.",
       sections: [
@@ -96,72 +97,72 @@ export const article: Article = {
     es: {
       title: "Cómo abrir una cuenta bancaria en Irlanda con visa working holiday",
       description:
-        "Todo lo que necesitás saber sobre el sistema bancario en Irlanda con WHV: número PPS, el problema del domicilio, cuentas IBAN, impuesto de emergencia del 40% sin PPS y cómo cobrar tu sueldo.",
+        "Banca en Irlanda con WHV: número PPS, el dilema del domicilio, cuentas IBAN, 40% de impuesto de emergencia sin PPS y cómo cobrar el sueldo.",
       excerpt:
-        "Sin número PPS, tu empleador te aplica una tasa impositiva de emergencia del 40%. Así es como abrís tu cuenta, conseguís el PPS y evitás esa trampa.",
+        "Sin número PPS, tu empleador te aplica una tasa impositiva de emergencia del 40%. Así es como abres tu cuenta, consigues el PPS y evitas esa trampa.",
       sections: [
         {
           paragraphs: [
-            "Organizar las finanzas en Irlanda con una visa working holiday implica la misma frustración circular que escuchás en todos los países de habla inglesa: necesitás una cuenta bancaria para cobrar, necesitás un número PPS para registrarte ante el fisco, y necesitás una dirección irlandesa para los dos. Acá las consecuencias son particularmente serias — sin número PPS, tu empleador está obligado a aplicarte el impuesto de emergencia, que en Irlanda es del 40% sin ningún crédito fiscal. Ordenar todo en la primera semana vale dinero real.",
+            "Organizar las finanzas en Irlanda con una visa working holiday implica la misma frustración circular que escuchas en todos los países de habla inglesa: necesitas una cuenta bancaria para cobrar, necesitas un número PPS para registrarte ante el fisco, y necesitas una dirección irlandesa para los dos. Acá las consecuencias son particularmente serias — sin número PPS, tu empleador está obligado a aplicarte el impuesto de emergencia, que en Irlanda es del 40% sin ningún crédito fiscal. Ordenar todo en la primera semana vale dinero real.",
           ],
         },
         {
-          heading: "Qué es el número PPS y por qué lo necesitás urgente",
+          heading: "Qué es el número PPS y por qué lo necesitas urgente",
           paragraphs: [
             "El número de Servicio Público Personal (PPS) es un identificador único de siete caracteres (formato: 1234567A o 1234567AB) que emite el Departamento de Protección Social. Es tu clave para registrarte ante Revenue (la agencia tributaria irlandesa) para el PAYE, acceder a prestaciones sociales y a la mayoría de los servicios públicos.",
-            "Si empezás a trabajar sin número PPS, tu empleador no puede registrar tu empleo ante Revenue. La consecuencia es el impuesto de emergencia: Revenue aplica la tasa impositiva más alta (40%) sin créditos ni deducciones hasta que el número PPS esté registrado. El impuesto de emergencia aplica desde el primer euro ganado, así que hasta unas pocas semanas de demora pueden sumar una cantidad importante — y aunque podés reclamar el exceso retenido a fin de año, eso puede estar a meses de distancia.",
+            "Si empiezas a trabajar sin número PPS, tu empleador no puede registrar tu empleo ante Revenue. La consecuencia es el impuesto de emergencia: Revenue aplica la tasa impositiva más alta (40%) sin créditos ni deducciones hasta que el número PPS esté registrado. El impuesto de emergencia aplica desde el primer euro ganado, así que hasta unas pocas semanas de demora pueden sumar una cantidad importante — y aunque puedes reclamar el exceso retenido a fin de año, eso puede estar a meses de distancia.",
           ],
           bullets: [
             "Formato del número PPS: 7 dígitos seguidos de 1 o 2 letras, por ejemplo 1234567A",
-            "Sin número PPS: tasa del 40%, sin créditos ni deducciones — sobre cada euro que ganás",
+            "Sin número PPS: tasa del 40%, sin créditos ni deducciones — sobre cada euro que ganas",
             "Con número PPS y registro en Revenue: tasa estándar del 20% hasta el tramo, luego 40% por encima",
             "Las retenciones en exceso por impuesto de emergencia se pueden reclamar, pero hay que esperar a fin de año o a que Revenue emita un certificado fiscal revisado",
-            "Necesitás el número PPS para registrar tu empleo en el portal myAccount de Revenue",
+            "Necesitas el número PPS para registrar tu empleo en el portal myAccount de Revenue",
           ],
         },
         {
           heading: "Cómo abrir una cuenta bancaria y resolver el problema del domicilio",
           paragraphs: [
-            "Los bancos irlandeses exigen comprobante de domicilio en Irlanda para abrir una cuenta. Las opciones principales son AIB, Bank of Ireland, Permanent TSB y An Post Money (la cuenta corriente del servicio postal). An Post Money suele ser la más accesible para los recién llegados porque se solicita en la oficina de correos y los requisitos de domicilio pueden ser más flexibles — aunque llevá toda la documentación que tengas.",
-            "Si estás en un hostel o alojamiento temporal, pedile al encargado una carta firmada que confirme tu estadía. Muchos bancos irlandeses la aceptan para titulares de WHV, aunque las políticas varían. Las opciones digitales como Revolut y N26 están disponibles en Irlanda bajo las regulaciones europeas de dinero electrónico y se abren solo con el pasaporte, lo que las hace útiles como solución provisional para tener tarjeta de inmediato mientras configurás una cuenta IBAN completa.",
+            "Los bancos irlandeses exigen comprobante de domicilio en Irlanda para abrir una cuenta. Las opciones principales son AIB, Bank of Ireland, Permanent TSB y An Post Money (la cuenta corriente del servicio postal). An Post Money suele ser la más accesible para los recién llegados porque se solicita en la oficina de correos y los requisitos de domicilio pueden ser más flexibles — aunque lleva toda la documentación que tengas.",
+            "Si estás en un hostel o alojamiento temporal, pídele al encargado una carta firmada que confirme tu estadía. Muchos bancos irlandeses la aceptan para titulares de WHV, aunque las políticas varían. Las opciones digitales como Revolut y N26 están disponibles en Irlanda bajo las regulaciones europeas de dinero electrónico y se abren solo con el pasaporte, lo que las hace útiles como solución provisional para tener tarjeta de inmediato mientras configuras una cuenta IBAN completa.",
           ],
           bullets: [
             "An Post Money — se abre en el mostrador de la oficina de correos, la política de domicilio más flexible para recién llegados",
-            "Bank of Ireland y AIB — cuentas IBAN estándar; llamá antes para confirmar la política actual con WHV",
+            "Bank of Ireland y AIB — cuentas IBAN estándar; llama antes para confirmar la política actual con WHV",
             "Revolut / N26 — apertura solo con pasaporte, IBAN en euros completo, tarjeta virtual al instante; la mayoría de los empleadores las aceptan para nómina",
             "Una carta del hostel confirmando la dirección es aceptada en muchos bancos — pedila firmada y fechada en papel membretado del hostel",
-            "Llevá tu pasaporte, documentación de la visa WHV y cualquier comprobante de domicilio (la confirmación de reserva por email sirve)",
+            "Lleva tu pasaporte, documentación de la visa WHV y cualquier comprobante de domicilio (la confirmación de reserva por email sirve)",
           ],
         },
         {
           heading: "Cómo obtener tu número PPS",
           paragraphs: [
-            "Para solicitar un número PPS tenés que estar presente en Irlanda y tener un motivo para solicitarlo — empezar a trabajar es suficiente. Solicitalo online a través de la plataforma MyWelfare del Departamento de Protección Social (mywelfare.ie), donde vas a necesitar una cuenta básica de MyGovID. Podés crear una cuenta de MyGovID solo con tu dirección de email al principio; la verificación completa viene después.",
-            "Vas a tener que presentar documentos de identidad (pasaporte), comprobante de domicilio en Irlanda y el motivo de la solicitud (empleo). La solicitud la procesa tu Centro Intreo o Welfare local. Si los documentos están en orden, el número PPS generalmente se emite por correo en unos pocos días. Algunos centros ofrecen turnos presenciales para casos urgentes — explicá que acabás de empezar a trabajar y te están aplicando impuesto de emergencia.",
+            "Para solicitar un número PPS tienes que estar presente en Irlanda y tener un motivo para solicitarlo — empezar a trabajar es suficiente. Solicítalo online a través de la plataforma MyWelfare del Departamento de Protección Social (mywelfare.ie), donde vas a necesitar una cuenta básica de MyGovID. Puedes crear una cuenta de MyGovID solo con tu dirección de email al principio; la verificación completa viene después.",
+            "Vas a tener que presentar documentos de identidad (pasaporte), comprobante de domicilio en Irlanda y el motivo de la solicitud (empleo). La solicitud la procesa tu Centro Intreo o Welfare local. Si los documentos están en orden, el número PPS generalmente se emite por correo en unos pocos días. Algunos centros ofrecen turnos presenciales para casos urgentes — explica que acabas de empezar a trabajar y te están aplicando impuesto de emergencia.",
           ],
           bullets: [
-            "Solicitalo en mywelfare.ie — necesitás una cuenta de MyGovID para iniciar la solicitud online",
-            "Documentos necesarios: pasaporte, comprobante de domicilio en Irlanda, evidencia de por qué necesitás el número (una carta de oferta de trabajo sirve)",
+            "Solicítalo en mywelfare.ie — necesitas una cuenta de MyGovID para iniciar la solicitud online",
+            "Documentos necesarios: pasaporte, comprobante de domicilio en Irlanda, evidencia de por qué necesitas el número (una carta de oferta de trabajo sirve)",
             "Tiempo de procesamiento: generalmente unos pocos días por correo una vez verificados los documentos",
-            "Casos urgentes: contactá al Centro Intreo más cercano y explicá que te están aplicando impuesto de emergencia",
-            "Cuando recibás el número PPS, registrate en myAccount de Revenue (revenue.ie) y agregá tu nuevo trabajo en 'Jobs and Pensions'",
+            "Casos urgentes: contacta al Centro Intreo más cercano y explica que te están aplicando impuesto de emergencia",
+            "Cuando recibas el número PPS, regístrate en myAccount de Revenue (revenue.ie) y agrega tu nuevo trabajo en 'Jobs and Pensions'",
           ],
         },
         {
           heading: "Cómo te ayuda Tern",
           paragraphs: [
-            "Tern te permite abrir una cuenta en euros con IBAN antes de volar, solo con tu pasaporte y la aprobación de la visa WHV — así tenés un IBAN irlandés listo para tu primer empleador el primer día. Recargás desde tu moneda local al tipo de cambio real, cambiás divisas con una tarifa fija y retirás en cajeros automáticos irlandeses sin comisiones. Tern también te guía por los pasos del número PPS en orden cuando llegás, y te recuerda registrar tu empleo en Revenue — para que nunca estés más tiempo del necesario pagando impuesto de emergencia.",
+            "Tern te permite abrir una cuenta en euros con IBAN antes de volar, solo con tu pasaporte y la aprobación de la visa WHV — así tienes un IBAN irlandés listo para tu primer empleador el primer día. Recargas desde tu moneda local al tipo de cambio real, cambias divisas con una tarifa fija y retiras en cajeros automáticos irlandeses sin comisiones. Tern también te guía por los pasos del número PPS en orden cuando llegas, y te recuerda registrar tu empleo en Revenue — para que nunca estés más tiempo del necesario pagando impuesto de emergencia.",
           ],
         },
       ],
       faq: [
         {
           q: "¿Mi empleador puede empezar a pagarme antes de que yo tenga el número PPS?",
-          a: "Sí, pero está obligado a aplicarte el impuesto de emergencia — 40% sin créditos — hasta que el número PPS esté registrado en Revenue. Podés recuperar el exceso retenido, pero solo a fin de año o cuando Revenue emita un certificado fiscal revisado. Conseguí tu número PPS y registrate en myAccount lo más rápido posible para minimizar la retención a tasa de emergencia.",
+          a: "Sí, pero está obligado a aplicarte el impuesto de emergencia — 40% sin créditos — hasta que el número PPS esté registrado en Revenue. Puedes recuperar el exceso retenido, pero solo a fin de año o cuando Revenue emita un certificado fiscal revisado. Consigue tu número PPS y regístrate en myAccount lo más rápido posible para minimizar la retención a tasa de emergencia.",
         },
         {
           q: "¿Irlanda acepta visas working holiday de mi país?",
-          a: "Irlanda tiene programas de working holiday con un número limitado de países, incluyendo Australia, Canadá, EE.UU. (visa J-1), Nueva Zelanda, Argentina y otros. La elegibilidad, los límites de edad y los cupos varían según el país. Consultá el sitio web del Servicio Irlandés de Naturalización e Inmigración (INIS) para ver la lista actualizada de países participantes y cómo solicitar.",
+          a: "Irlanda tiene programas de working holiday con un número limitado de países, incluyendo Australia, Canadá, EE.UU. (visa J-1), Nueva Zelanda, Argentina y otros. La elegibilidad, los límites de edad y los cupos varían según el país. Consulta el sitio web del Servicio Irlandés de Naturalización e Inmigración (INIS) para ver la lista actualizada de países participantes y cómo solicitar.",
         },
         {
           q: "¿Qué es un IBAN y lo necesito para trabajar en Irlanda?",
@@ -172,7 +173,7 @@ export const article: Article = {
     ja: {
       title: "ワーキングホリデーでアイルランドの銀行口座を開設する方法",
       description:
-        "WHVホルダーのためのアイルランド銀行口座完全ガイド — PPS番号、住所証明の悪循環、IBANロ座、PPS番号なしで40%の緊急税率、アイルランドの雇用主から給与を受け取る方法まで解説。",
+        "ワーホリでアイルランドの銀行口座 — PPS番号・住所の悪循環・IBANロ座・PPS未取得で40%緊急税率を解説。",
       excerpt:
         "PPS番号がないと、雇用主に40%の緊急税率が適用されます。口座を開設し、PPSを取得して緊急課税の罠を回避する方法を解説します。",
       sections: [
@@ -248,7 +249,7 @@ export const article: Article = {
     ko: {
       title: "아일랜드 워킹홀리데이 비자로 은행 계좌 개설하는 방법",
       description:
-        "WHV 소지자를 위한 아일랜드 은행 완벽 가이드 — PPS 번호, 주소 증명의 악순환, IBAN 계좌, PPS 없이 40% 긴급 세율 적용, 아일랜드 고용주에게 급여 받는 방법까지.",
+        "워홀 비자로 아일랜드 은행 개설 — PPS 번호, 주소 악순환, IBAN, PPS 없이 40% 긴급 세율, 급여 수령 방법.",
       excerpt:
         "PPS 번호가 없으면 고용주가 40% 긴급 세율을 적용합니다. 계좌를 개설하고, PPS를 받고, 긴급 과세 함정을 피하는 방법을 알아보세요.",
       sections: [

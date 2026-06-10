@@ -3,6 +3,7 @@ import type { Article } from "../types";
 export const article: Article = {
   slug: "bank-account-working-holiday-new-zealand",
   kind: "guide",
+  date: "2026-05-21",
   emoji: "🥝",
   accent: "bg-sky-300",
   readMinutes: 6,
@@ -20,7 +21,7 @@ export const article: Article = {
     en: {
       title: "Opening a bank account in New Zealand on a working holiday",
       description:
-        "Everything WHV holders need to know about banking in New Zealand — IRD numbers, the no-fixed-address hurdle, which banks to try first, getting paid in NZD, and in-branch activation.",
+        "Banking in New Zealand on a working holiday — IRD numbers, the no-fixed-address hurdle, which banks to try first, and getting paid in NZD.",
       excerpt:
         "No IRD number means your employer withholds tax at 45%. Here's how to get banked quickly, grab your IRD number, and start receiving pay in NZD.",
       sections: [
@@ -95,20 +96,20 @@ export const article: Article = {
     es: {
       title: "Cómo abrir una cuenta bancaria en Nueva Zelanda con visa working holiday",
       description:
-        "Todo lo que necesitás saber sobre el sistema bancario en Nueva Zelanda con WHV: número IRD, el problema de no tener dirección fija, qué bancos son más flexibles, cómo cobrar en NZD y la activación en sucursal.",
+        "Banca en Nueva Zelanda con WHV: número IRD, el problema sin dirección fija, qué bancos son más flexibles y cómo cobrar en NZD.",
       excerpt:
         "Sin número IRD, tu empleador te retiene el 45% de impuestos. Acá te explicamos cómo abrir tu cuenta rápido, obtener el IRD y empezar a cobrar en NZD.",
       sections: [
         {
           paragraphs: [
-            "Abrir una cuenta bancaria en Nueva Zelanda es uno de los primeros obstáculos prácticos de la visa working holiday — y es un círculo vicioso. Necesitás una cuenta para obtener el número IRD, y necesitás el número IRD para evitar que te retengan el 45% de impuestos. Resolver ambas cosas en tu primera semana te ahorra plata de verdad.",
+            "Abrir una cuenta bancaria en Nueva Zelanda es uno de los primeros obstáculos prácticos de la visa working holiday — y es un círculo vicioso. Necesitas una cuenta para obtener el número IRD, y necesitas el número IRD para evitar que te retengan el 45% de impuestos. Resolver ambas cosas en tu primera semana te ahorra plata de verdad.",
           ],
         },
         {
           heading: "Por qué el número IRD no es opcional",
           paragraphs: [
-            "Si empezás a trabajar sin haberle dado a tu empleador un número IRD y el formulario de declaración de código fiscal (IR330), la ley neozelandesa lo obliga a retener impuestos a la tasa de no declaración — el 45% — sobre todo lo que ganás. Esta tasa rige desde abril de 2020 y aplica sin importar cuánto ganés.",
-            "Con un número IRD y el código fiscal correcto, la mayoría de los trabajadores en visa working holiday tributan entre el 10,5% y el 33%, según su tramo de ingresos. Por eso, entregarle tu número IRD a cada empleador es una de las acciones más rentables que podés hacer al llegar.",
+            "Si empiezas a trabajar sin haberle dado a tu empleador un número IRD y el formulario de declaración de código fiscal (IR330), la ley neozelandesa lo obliga a retener impuestos a la tasa de no declaración — el 45% — sobre todo lo que ganas. Esta tasa rige desde abril de 2020 y aplica sin importar cuánto ganes.",
+            "Con un número IRD y el código fiscal correcto, la mayoría de los trabajadores en visa working holiday tributan entre el 10,5% y el 33%, según su tramo de ingresos. Por eso, entregarle tu número IRD a cada empleador es una de las acciones más rentables que puedes hacer al llegar.",
           ],
         },
         {
@@ -117,23 +118,23 @@ export const article: Article = {
             "El mayor problema para los recién llegados con WHV es el requisito de dirección. Los bancos necesitan una dirección en Nueva Zelanda para abrir la cuenta, pero puede que estés viviendo en un hostel o que todavía no hayas firmado un contrato de alquiler.",
           ],
           bullets: [
-            "ANZ y BNZ te permiten solicitar la cuenta online desde el exterior hasta 90 días antes de llegar — la activás en sucursal cuando aterrizás",
-            "Muchos bancos aceptan la dirección del hostel como dirección temporal si explicás que tenés visa working holiday",
+            "ANZ y BNZ te permiten solicitar la cuenta online desde el exterior hasta 90 días antes de llegar — la activas en sucursal cuando aterrizas",
+            "Muchos bancos aceptan la dirección del hostel como dirección temporal si explicas que tienes visa working holiday",
             "ASB es el más estricto — generalmente requiere domicilio real, no hostel, así que dejalo como opción de respaldo",
-            "Llevá tu pasaporte, confirmación de la visa working holiday y tu dirección en el extranjero (un extracto bancario o factura de los últimos 12 meses sirve)",
-            "Kiwibank y Westpac también permiten a los titulares de WHV abrir cuentas; revisá sus webs para opciones previas a la llegada",
+            "Lleva tu pasaporte, confirmación de la visa working holiday y tu dirección en el extranjero (un extracto bancario o factura de los últimos 12 meses sirve)",
+            "Kiwibank y Westpac también permiten a los titulares de WHV abrir cuentas; revisa sus webs para opciones previas a la llegada",
           ],
         },
         {
           heading: "Cómo obtener tu número IRD",
           paragraphs: [
-            "Una vez que tenés la cuenta bancaria, solicitá tu número IRD online a través del sitio web de Inland Revenue. La solicitud pide los datos de tu pasaporte, tu número de solicitud de Immigration New Zealand (que viene con tu visa) y tu número de identificación fiscal extranjero si tenés uno.",
-            "Si solicitás online, Inland Revenue te manda el número IRD por mensaje de texto o email en unos 2 días. Una solicitud postal puede tardar hasta 10 días. Solicitalo online — querés tener este número antes de tu primer turno.",
+            "Una vez que tienes la cuenta bancaria, solicita tu número IRD online a través del sitio web de Inland Revenue. La solicitud pide los datos de tu pasaporte, tu número de solicitud de Immigration New Zealand (que viene con tu visa) y tu número de identificación fiscal extranjero si tienes uno.",
+            "Si solicitas online, Inland Revenue te manda el número IRD por mensaje de texto o email en unos 2 días. Una solicitud postal puede tardar hasta 10 días. Solicítalo online — quieres tener este número antes de tu primer turno.",
           ],
           bullets: [
-            "Entrá a ird.govt.nz y seleccioná 'Solicitar un número IRD'",
-            "Elegí la opción 'Recién llegado' e ingresá los datos de tu visa",
-            "Ingresá el número de tu cuenta bancaria en NZ (por eso necesitás la cuenta primero)",
+            "Entra a ird.govt.nz y selecciona 'Solicitar un número IRD'",
+            "Elige la opción 'Recién llegado' e ingresa los datos de tu visa",
+            "Ingresa el número de tu cuenta bancaria en NZ (por eso necesitas la cuenta primero)",
             "Tu número IRD llega por mensaje/email en aproximadamente 2 días",
             "Dáselo a tu empleador junto con el formulario de declaración de código fiscal IR330 completo",
           ],
@@ -142,13 +143,13 @@ export const article: Article = {
           heading: "Cómo cobrar en NZD — qué necesita tu empleador",
           paragraphs: [
             "Las cuentas bancarias en Nueva Zelanda usan un número de 15 dígitos con el formato: banco–sucursal–cuenta–sufijo (por ejemplo, 12-3456-7890123-00). Este número completo es el que le das a tu empleador para que te pague — no hay un código tipo BSB separado como en Australia.",
-            "La mayoría de los bancos te muestran este número en su app apenas activás la cuenta. Sacale una captura de pantalla y guardala en algún lugar accesible — te lo van a pedir el primer día de trabajo.",
+            "La mayoría de los bancos te muestran este número en su app apenas activas la cuenta. Sácale una captura de pantalla y guárdala en algún lugar accesible — te lo van a pedir el primer día de trabajo.",
           ],
         },
         {
           heading: "Cómo te ayuda Tern",
           paragraphs: [
-            "Tern te guía a través de los pasos de la cuenta bancaria y el número IRD en orden apenas llegás, guarda los datos de tu cuenta en NZ de forma segura, y te recuerda presentar el número IRD a cada nuevo empleador. Si tu empleador alguna vez retiene a la tasa de no declaración del 45%, Tern te avisa de inmediato para que puedas corregirlo antes de que la retención excesiva se acumule.",
+            "Tern te guía a través de los pasos de la cuenta bancaria y el número IRD en orden apenas llegas, guarda los datos de tu cuenta en NZ de forma segura, y te recuerda presentar el número IRD a cada nuevo empleador. Si tu empleador alguna vez retiene a la tasa de no declaración del 45%, Tern te avisa de inmediato para que puedas corregirlo antes de que la retención excesiva se acumule.",
           ],
         },
       ],
@@ -159,18 +160,18 @@ export const article: Article = {
         },
         {
           q: "¿Qué pasa si le doy mi número IRD a mi empleador tarde?",
-          a: "Tu empleador está legalmente obligado a retener el 45% hasta que le entregués el número IRD y el formulario IR330 completo. Una vez que lo hacés, debería aplicar la tasa correcta desde tu próximo pago. El exceso retenido se puede recuperar cuando presentás la declaración anual.",
+          a: "Tu empleador está legalmente obligado a retener el 45% hasta que le entregues el número IRD y el formulario IR330 completo. Una vez que lo haces, debería aplicar la tasa correcta desde tu próximo pago. El exceso retenido se puede recuperar cuando presentas la declaración anual.",
         },
         {
           q: "¿Qué banco de NZ es mejor para una visa working holiday?",
-          a: "ANZ y BNZ son generalmente los más amigables con los titulares de WHV porque ofrecen solicitudes online previas a la llegada y son flexibles con las direcciones temporales. ASB es el más restrictivo. Kiwibank y Westpac están en el medio. Revisá las condiciones actuales con cada banco antes de llegar.",
+          a: "ANZ y BNZ son generalmente los más amigables con los titulares de WHV porque ofrecen solicitudes online previas a la llegada y son flexibles con las direcciones temporales. ASB es el más restrictivo. Kiwibank y Westpac están en el medio. Revisa las condiciones actuales con cada banco antes de llegar.",
         },
       ],
     },
     ja: {
       title: "ワーキングホリデーでニュージーランドの銀行口座を開設する方法",
       description:
-        "WHVホルダーのためのNZ銀行口座完全ガイド — IRD番号、住所なしの課題、どの銀行がおすすめか、NZDで給料を受け取る方法、そして店頭での口座有効化まで解説します。",
+        "ワーホリでNZの銀行口座開設 — IRD番号・住所なしの課題・おすすめ銀行・NZDでの給料受け取りを解説。",
       excerpt:
         "IRD番号がないと、雇用主に45%の税金を天引きされます。素早く口座を開設し、IRD番号を取得して、NZDで給料を受け取る方法を説明します。",
       sections: [
@@ -245,7 +246,7 @@ export const article: Article = {
     ko: {
       title: "뉴질랜드 워킹홀리데이 비자로 은행 계좌 개설하는 방법",
       description:
-        "WHV 소지자를 위한 뉴질랜드 은행 완벽 가이드 — IRD 번호, 고정 주소 없는 문제, 어떤 은행이 좋은지, NZD로 급여 받는 방법, 지점 방문 계좌 활성화까지 설명합니다.",
+        "워홀 비자로 뉴질랜드 은행 개설 — IRD 번호, 주소 없는 문제, 추천 은행, NZD 급여 수령 방법 정리.",
       excerpt:
         "IRD 번호가 없으면 고용주가 45% 세금을 원천징수합니다. 빠르게 계좌를 만들고, IRD 번호를 받고, NZD로 급여를 받는 방법을 알아보세요.",
       sections: [

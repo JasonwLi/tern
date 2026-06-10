@@ -3,6 +3,7 @@ import type { Article } from "../types";
 export const article: Article = {
   slug: "bank-account-working-holiday-australia",
   kind: "guide",
+  date: "2026-05-18",
   emoji: "🏦",
   accent: "bg-lime-300",
   readMinutes: 6,
@@ -24,7 +25,7 @@ export const article: Article = {
     en: {
       title: "How to open a bank account for your Australia working holiday",
       description:
-        "Open an Australian bank account for your working holiday visa — before you arrive, with no fixed address. What you need, how long it takes, and how to get your salary from day one.",
+        "Open an Australian bank account for your working holiday before you arrive — no fixed address needed. What to bring and how to get paid.",
       excerpt:
         "No utility bill, no fixed address, no two-week wait. Here's how working holiday makers actually get an Australian account set up — and get paid on payday one.",
       sections: [
@@ -53,7 +54,7 @@ export const article: Article = {
         {
           heading: "Get your BSB and account number before you land",
           paragraphs: [
-            "An Australian account number comes in two parts: a 6-digit BSB (which identifies the bank and branch) and your account number. Your employer needs both to run payroll. With a digital account you get these instantly on signup, plus a virtual card for spending before your physical card arrives.",
+            "An Australian account number comes in two parts: a 6-digit [BSB](~/blog/what-is-a-bsb-number) (which identifies the bank and branch) and your account number. Your employer needs both to run payroll. With a digital account you get these instantly on signup, plus a virtual card for spending before your physical card arrives.",
           ],
         },
         {
@@ -89,7 +90,7 @@ export const article: Article = {
     es: {
       title: "Cómo abrir una cuenta bancaria para tu working holiday en Australia",
       description:
-        "Abre una cuenta bancaria australiana para tu visa working holiday — antes de llegar, sin domicilio fijo. Qué necesitas, cuánto tarda y cómo cobrar tu sueldo desde el primer día.",
+        "Abre una cuenta bancaria australiana para tu working holiday antes de llegar, sin domicilio fijo. Qué necesitas y cómo cobrar desde el primer día.",
       excerpt:
         "Sin factura de servicios, sin domicilio fijo, sin esperar dos semanas. Así es como los backpackers abren de verdad una cuenta australiana — y cobran el primer día de pago.",
       sections: [
@@ -111,20 +112,20 @@ export const article: Article = {
         {
           heading: "El problema de 'no tener domicilio fijo'",
           paragraphs: [
-            "Los bancos tradicionales suelen pedir comprobante de domicilio local — un círculo vicioso cuando vivís en hostels o una campervan. Los bancos digitales (neobancos) te verifican con tu pasaporte y visa, así que podés abrir la cuenta desde tu casa antes de volar.",
+            "Los bancos tradicionales suelen pedir comprobante de domicilio local — un círculo vicioso cuando vives en hostels o una campervan. Los bancos digitales (neobancos) te verifican con tu pasaporte y visa, así que puedes abrir la cuenta desde tu casa antes de volar.",
             "Eso importa porque tu empleador no puede pagarte hasta que le des un número de cuenta local. Configúrala antes y tu primer día de pago no llega con tres semanas de retraso.",
           ],
         },
         {
-          heading: "Conseguí tu BSB y número de cuenta antes de aterrizar",
+          heading: "Consigue tu BSB y número de cuenta antes de aterrizar",
           paragraphs: [
-            "Una cuenta australiana tiene dos partes: un BSB de 6 dígitos (que identifica el banco y la sucursal) y tu número de cuenta. Tu empleador necesita ambos para procesar la nómina. Con una cuenta digital los obtenés al instante al registrarte, más una tarjeta virtual para gastar antes de que llegue la física.",
+            "Una cuenta australiana tiene dos partes: un [BSB](~/blog/what-is-a-bsb-number) de 6 dígitos (que identifica el banco y la sucursal) y tu número de cuenta. Tu empleador necesita ambos para procesar la nómina. Con una cuenta digital los obtienes al instante al registrarte, más una tarjeta virtual para gastar antes de que llegue la física.",
           ],
         },
         {
-          heading: "Evitá las comisiones que se acumulan sin que te des cuenta",
+          heading: "Evita las comisiones que se acumulan sin que te des cuenta",
           bullets: [
-            "Comisiones por cajero y tarjeta extranjera mientras esperás tu tarjeta local",
+            "Comisiones por cajero y tarjeta extranjera mientras esperas tu tarjeta local",
             "Comisiones mensuales de mantenimiento en algunas cuentas tradicionales",
             "Tipos de cambio malos cuando tu familia te transfiere dinero desde casa",
           ],
@@ -132,18 +133,18 @@ export const article: Article = {
         {
           heading: "Cómo te ayuda Tern",
           paragraphs: [
-            "Tern está hecha para los working holiday makers: abrí una cuenta desde el extranjero solo con tu pasaporte y visa, obtené un BSB y número de cuenta real al instante para dárselo a tu empleador, recargá desde casa al tipo de cambio real, y pagá sin comisiones en cajeros. Tu tarjeta física llega a tu primer hostel o casa compartida.",
+            "Tern está hecha para los working holiday makers: abre una cuenta desde el extranjero solo con tu pasaporte y visa, obtén un BSB y número de cuenta real al instante para dárselo a tu empleador, recarga desde casa al tipo de cambio real, y paga sin comisiones en cajeros. Tu tarjeta física llega a tu primer hostel o casa compartida.",
           ],
         },
       ],
       faq: [
         {
           q: "¿Puedo abrir una cuenta bancaria australiana antes de llegar?",
-          a: "Sí. Un neobalco como Tern te verifica con tu pasaporte y visa working holiday, así que podés abrir la cuenta desde tu país y llegar a Australia con el número de cuenta listo para tu empleador.",
+          a: "Sí. Un neobanco como Tern te verifica con tu pasaporte y visa working holiday, así que puedes abrir la cuenta desde tu país y llegar a Australia con el número de cuenta listo para tu empleador.",
         },
         {
           q: "¿Necesito un TFN para abrir la cuenta?",
-          a: "No — podés abrir la cuenta primero. Pero solicitá tu número de archivo tributario rápido, porque sin él tu empleador debe retener impuestos a la tasa más alta hasta que lo agregues.",
+          a: "No — puedes abrir la cuenta primero. Pero solicita tu número de archivo tributario rápido, porque sin él tu empleador debe retener impuestos a la tasa más alta hasta que lo agregues.",
         },
         {
           q: "¿Cómo cobro en un working holiday?",
@@ -154,7 +155,7 @@ export const article: Article = {
     ja: {
       title: "オーストラリアのワーホリ向け銀行口座の開設方法",
       description:
-        "ワーキングホリデービザ（ワーホリ）でオーストラリアの銀行口座を開設する方法 — 渡航前でも住所なしでもOK。必要なもの、所要時間、初給料日から受け取るコツを解説。",
+        "ワーホリでオーストラリアの銀行口座を開設する方法 — 渡航前・住所なしでもOK。必要書類と初給料日から受け取るコツを解説。",
       excerpt:
         "公共料金の明細も固定住所も2週間待ちも不要。ワーホリ参加者が実際にオーストラリアの口座を開設して、最初の給料日にちゃんと受け取る方法をまとめました。",
       sections: [
@@ -183,7 +184,7 @@ export const article: Article = {
         {
           heading: "渡航前にBSBと口座番号を取得する",
           paragraphs: [
-            "オーストラリアの口座番号は2つの要素で構成されます：銀行と支店を識別する6桁のBSBと、口座番号です。給与計算にはどちらも必要です。デジタル口座なら登録直後に取得でき、物理カードが届く前に使えるバーチャルカードも即時発行されます。",
+            "オーストラリアの口座番号は2つの要素で構成されます：銀行と支店を識別する6桁の[BSB](~/blog/what-is-a-bsb-number)と、口座番号です。給与計算にはどちらも必要です。デジタル口座なら登録直後に取得でき、物理カードが届く前に使えるバーチャルカードも即時発行されます。",
           ],
         },
         {
@@ -219,7 +220,7 @@ export const article: Article = {
     ko: {
       title: "호주 워홀 은행 계좌 개설 방법 완벽 가이드",
       description:
-        "워킹홀리데이 비자로 호주 은행 계좌 개설하기 — 입국 전에도, 고정 주소 없이도 가능. 필요한 서류, 소요 시간, 첫 월급날부터 받는 방법까지 총정리.",
+        "워홀 비자로 호주 은행 계좌 개설 — 입국 전, 고정 주소 없이도 가능. 필요 서류와 첫 월급 수령 방법 총정리.",
       excerpt:
         "공과금 고지서도, 고정 주소도, 2주 대기도 필요 없어요. 워홀러들이 실제로 호주 계좌를 만들고 첫 월급을 받는 방법을 정리했습니다.",
       sections: [
@@ -248,7 +249,7 @@ export const article: Article = {
         {
           heading: "입국 전에 BSB와 계좌 번호 받기",
           paragraphs: [
-            "호주 계좌 번호는 두 부분으로 구성됩니다: 은행과 지점을 식별하는 6자리 BSB와 계좌 번호예요. 고용주가 급여를 처리하려면 두 가지 모두 필요합니다. 디지털 계좌는 가입 즉시 발급되며, 실물 카드가 도착하기 전에 사용할 수 있는 가상 카드도 바로 받을 수 있어요.",
+            "호주 계좌 번호는 두 부분으로 구성됩니다: 은행과 지점을 식별하는 6자리 [BSB](~/blog/what-is-a-bsb-number)와 계좌 번호예요. 고용주가 급여를 처리하려면 두 가지 모두 필요합니다. 디지털 계좌는 가입 즉시 발급되며, 실물 카드가 도착하기 전에 사용할 수 있는 가상 카드도 바로 받을 수 있어요.",
           ],
         },
         {
@@ -313,7 +314,7 @@ export const article: Article = {
         {
           heading: "在抵達前取得BSB與帳號",
           paragraphs: [
-            "澳洲帳號由兩個部分組成：識別銀行和分行的6位數BSB，以及帳戶號碼。雇主兩者都需要才能處理薪資。數位帳戶在註冊後即可立即取得這些資訊，還會同步發行虛擬卡，讓你在實體卡寄達前就能消費。",
+            "澳洲帳號由兩個部分組成：識別銀行和分行的6位數[BSB](~/blog/what-is-a-bsb-number)，以及帳戶號碼。雇主兩者都需要才能處理薪資。數位帳戶在註冊後即可立即取得這些資訊，還會同步發行虛擬卡，讓你在實體卡寄達前就能消費。",
           ],
         },
         {
