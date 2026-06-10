@@ -83,10 +83,29 @@ h1, h2, h3, h4 {
   will-change: transform;
 }
 
+/* Animated "Aurora" card finish (demo card customiser) */
+.card-aurora {
+  background-image: linear-gradient(
+    115deg,
+    #6c4dff,
+    #ff6b4a 28%,
+    #b4ec3a 52%,
+    #4cc3ff 76%,
+    #6c4dff
+  );
+  background-size: 300% 300%;
+  animation: aurora 8s ease-in-out infinite;
+}
+@keyframes aurora {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
 /* Respect users (and battery) who've asked for less motion. */
 @media (prefers-reduced-motion: reduce) {
   .animate-float-slow,
-  .animate-marquee {
+  .animate-marquee,
+  .card-aurora {
     animation: none;
     will-change: auto;
   }

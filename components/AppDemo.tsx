@@ -243,75 +243,266 @@ const FINISHES = [
   {
     key: "silver",
     label: "Silver",
-    card: "from-zinc-100 via-zinc-300 to-zinc-500",
+    card: "bg-gradient-to-br from-zinc-100 via-zinc-300 to-zinc-500",
     text: "text-zinc-700",
     sub: "text-zinc-600",
     swatch: "bg-gradient-to-br from-zinc-200 to-zinc-500",
+    dark: false,
   },
   {
     key: "graphite",
     label: "Graphite",
-    card: "from-zinc-600 via-zinc-800 to-zinc-950",
+    card: "bg-gradient-to-br from-zinc-600 via-zinc-800 to-zinc-950",
     text: "text-zinc-200",
     sub: "text-zinc-400",
     swatch: "bg-gradient-to-br from-zinc-600 to-zinc-950",
+    dark: true,
   },
   {
     key: "rose",
     label: "Rose gold",
-    card: "from-[#f4cfc4] via-[#e8b4a4] to-[#d29985]",
+    card: "bg-gradient-to-br from-[#f4cfc4] via-[#e8b4a4] to-[#d29985]",
     text: "text-[#7a4a38]",
     sub: "text-[#96604c]",
     swatch: "bg-gradient-to-br from-[#f0c5b8] to-[#d29985]",
+    dark: false,
+  },
+  {
+    key: "grape",
+    label: "Grape",
+    card: "bg-gradient-to-br from-grape-300 via-grape-500 to-grape-700",
+    text: "text-white",
+    sub: "text-grape-100",
+    swatch: "bg-gradient-to-br from-grape-300 to-grape-700",
+    dark: true,
+  },
+  {
+    key: "midnight",
+    label: "Midnight",
+    card: "bg-gradient-to-br from-slate-700 via-slate-900 to-black",
+    text: "text-sky-200",
+    sub: "text-slate-400",
+    swatch: "bg-gradient-to-br from-slate-700 to-black",
+    dark: true,
+  },
+  {
+    key: "aurora",
+    label: "Aurora",
+    card: "card-aurora",
+    text: "text-white",
+    sub: "text-white/80",
+    swatch: "bg-gradient-to-br from-grape-500 via-coral-400 to-lime-400",
+    dark: true,
   },
 ] as const;
+
+const PATTERNS = [
+  { key: "none", label: "Clean" },
+  { key: "flock", label: "Flock" },
+  { key: "topo", label: "Topo" },
+  { key: "waves", label: "Waves" },
+  { key: "stamps", label: "Stamps" },
+] as const;
+
+const CHARMS = ["", "✈️", "🌏", "🐨", "🏄", "🌴", "⚡"] as const;
+
+// Engraved-look pattern overlays; colour adapts to finish via currentColor.
+function PatternOverlay({ pattern, dark }: { pattern: string; dark: boolean }) {
+  if (pattern === "none") return null;
+  const tone = dark ? "text-white/25" : "text-black/15";
+  return (
+    <svg
+      className={`pointer-events-none absolute inset-0 h-full w-full ${tone}`}
+      viewBox="0 0 320 200"
+      preserveAspectRatio="xMidYMid slice"
+      fill="none"
+      stroke="currentColor"
+      aria-hidden
+    >
+      {pattern === "flock" && (
+        <g strokeWidth="3" strokeLinecap="round">
+          <path d="M210 40c8 6 16 6 24 0M234 40c8 6 16 6 24 0" />
+          <path d="M250 78c6 4.5 12 4.5 18 0M268 78c6 4.5 12 4.5 18 0" />
+          <path d="M186 96c5 4 10 4 15 0M201 96c5 4 10 4 15 0" />
+          <path d="M236 124c4 3 8 3 12 0M248 124c4 3 8 3 12 0" />
+        </g>
+      )}
+      {pattern === "topo" && (
+        <g strokeWidth="1.5">
+          <path d="M-20 150c60-40 120 10 180-25s120-15 180-45" />
+          <path d="M-20 170c60-40 130 5 190-30s115-10 170-40" />
+          <path d="M-20 190c65-38 135 0 195-32s110-8 165-36" />
+          <path d="M40 -10c-10 40 30 60 20 95s30 55 15 90" />
+          <path d="M70 -10c-10 38 28 58 18 92s28 52 14 86" />
+        </g>
+      )}
+      {pattern === "waves" && (
+        <g strokeWidth="2.5" strokeLinecap="round">
+          <path d="M0 140q20-12 40 0t40 0 40 0 40 0 40 0 40 0 40 0 40 0" />
+          <path d="M0 158q20-12 40 0t40 0 40 0 40 0 40 0 40 0 40 0 40 0" />
+          <path d="M0 176q20-12 40 0t40 0 40 0 40 0 40 0 40 0 40 0 40 0" />
+        </g>
+      )}
+      {pattern === "stamps" && (
+        <g strokeWidth="2" strokeDasharray="5 4">
+          <circle cx="245" cy="60" r="32" />
+          <circle cx="245" cy="60" r="24" />
+          <rect x="170" y="110" width="80" height="46" rx="8" transform="rotate(-12 210 133)" />
+          <circle cx="120" cy="160" r="22" />
+        </g>
+      )}
+    </svg>
+  );
+}
 
 function Design({ locale }: { locale: string }) {
   const [name, setName] = useState("A. RILEY");
   const [finish, setFinish] = useState<(typeof FINISHES)[number]>(FINISHES[0]);
+  const [pattern, setPattern] = useState<(typeof PATTERNS)[number]["key"]>("flock");
+  const [charm, setCharm] = useState<(typeof CHARMS)[number]>("");
+  const [vertical, setVertical] = useState(false);
+  const [tilt, setTilt] = useState({ rx: 0, ry: 0, gx: 50, gy: 35 });
+
+  function onMove(e: React.PointerEvent<HTMLDivElement>) {
+    const r = e.currentTarget.getBoundingClientRect();
+    const px = (e.clientX - r.left) / r.width;
+    const py = (e.clientY - r.top) / r.height;
+    setTilt({ rx: (py - 0.5) * -16, ry: (px - 0.5) * 16, gx: px * 100, gy: py * 100 });
+  }
+  function onLeave() {
+    setTilt({ rx: 0, ry: 0, gx: 50, gy: 35 });
+  }
+  function shuffle() {
+    setFinish(FINISHES[Math.floor(Math.random() * FINISHES.length)]);
+    setPattern(PATTERNS[Math.floor(Math.random() * PATTERNS.length)].key);
+    setCharm(CHARMS[Math.floor(Math.random() * CHARMS.length)]);
+  }
 
   return (
-    <div className="flex h-full flex-col px-5 pb-6 pt-5">
-      <p className="font-display text-2xl font-bold text-ink">Design your metal card</p>
-      <p className="text-sm text-ink-soft">Free for the first 1,000 on the waitlist</p>
+    <div className="flex min-h-full flex-col px-5 pb-6 pt-5">
+      <div className="flex items-start justify-between">
+        <div>
+          <p className="font-display text-2xl font-bold text-ink">Design your metal card</p>
+          <p className="text-sm text-ink-soft">Free for the first 1,000 on the waitlist</p>
+        </div>
+        <button
+          onClick={shuffle}
+          className="shrink-0 rounded-full bg-grape-50 px-3 py-2 text-xs font-bold text-grape-600 transition active:scale-95"
+        >
+          🎲 Surprise me
+        </button>
+      </div>
 
-      {/* live preview */}
+      {/* live preview with 3D tilt + glare */}
       <div
-        className={`relative mx-auto mt-6 aspect-[8/5] w-full max-w-[300px] rounded-3xl bg-gradient-to-br ${finish.card} p-5 shadow-2xl shadow-black/30 ring-1 ring-white/40 transition-colors duration-300`}
+        className="mx-auto mt-6 [perspective:700px]"
+        onPointerMove={onMove}
+        onPointerLeave={onLeave}
       >
-        <div className="pointer-events-none absolute inset-0 rounded-3xl bg-gradient-to-tr from-transparent via-white/30 to-transparent" />
-        <div className="flex items-center justify-between">
-          <Logo className="h-7 w-7" />
-          <span className={`text-[9px] font-bold tracking-[0.25em] ${finish.sub}`}>METAL</span>
-        </div>
-        <div className={`mt-9 font-display text-base tracking-[0.3em] ${finish.text}`}>
-          •••• 1000
-        </div>
-        <div className="mt-2 flex items-end justify-between">
-          <span className={`max-w-[60%] truncate text-[11px] font-bold uppercase tracking-[0.2em] ${finish.sub}`}>
-            {name.trim() || "YOUR NAME"}
-          </span>
-          <span className={`font-display text-lg font-bold italic ${finish.text}`}>VISA</span>
+        <div
+          className={`relative overflow-hidden rounded-3xl p-5 shadow-2xl shadow-black/30 ring-1 ring-white/40 transition-[width,height] duration-300 ${finish.card} ${
+            vertical ? "flex h-[290px] w-[184px] flex-col" : "flex aspect-[8/5] w-[300px] flex-col"
+          }`}
+          style={{
+            transform: `rotateX(${tilt.rx}deg) rotateY(${tilt.ry}deg)`,
+            transition: "transform 120ms ease-out",
+          }}
+        >
+          <PatternOverlay pattern={pattern} dark={finish.dark} />
+          <div className="pointer-events-none absolute inset-0 rounded-3xl bg-gradient-to-tr from-transparent via-white/25 to-transparent" />
+          <div
+            className="pointer-events-none absolute inset-0 rounded-3xl"
+            style={{
+              background: `radial-gradient(circle at ${tilt.gx}% ${tilt.gy}%, rgba(255,255,255,0.4), transparent 55%)`,
+            }}
+          />
+          <div className="relative flex items-center justify-between">
+            <Logo className="h-7 w-7" />
+            <span className={`text-[9px] font-bold tracking-[0.25em] ${finish.sub}`}>METAL</span>
+          </div>
+          {charm && (
+            <span
+              className="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 text-3xl opacity-80 drop-shadow"
+              aria-hidden
+            >
+              {charm}
+            </span>
+          )}
+          <div className="relative mt-auto">
+            <div className={`font-display text-base tracking-[0.3em] ${finish.text}`}>
+              •••• 1000
+            </div>
+            <div className="mt-2 flex items-end justify-between">
+              <span
+                className={`max-w-[65%] truncate text-[11px] font-bold uppercase tracking-[0.2em] ${finish.sub}`}
+              >
+                {name.trim() || "YOUR NAME"}
+              </span>
+              <span className={`font-display text-lg font-bold italic ${finish.text}`}>VISA</span>
+            </div>
+          </div>
         </div>
       </div>
 
       {/* finish swatches */}
-      <div className="mt-6 flex justify-center gap-4">
+      <p className="mt-5 text-[10px] font-bold uppercase tracking-wider text-ink-soft/60">Finish</p>
+      <div className="no-scrollbar mt-1.5 flex gap-3 overflow-x-auto pb-1">
         {FINISHES.map((f) => (
           <button
             key={f.key}
             onClick={() => setFinish(f)}
             aria-label={f.label}
-            className={`flex flex-col items-center gap-1.5 ${finish.key === f.key ? "" : "opacity-60"}`}
+            className={`flex shrink-0 flex-col items-center gap-1 ${finish.key === f.key ? "" : "opacity-60"}`}
           >
             <span
-              className={`h-10 w-10 rounded-full ${f.swatch} ring-2 ${
+              className={`h-9 w-9 rounded-full ${f.swatch} ring-2 ${
                 finish.key === f.key ? "ring-grape-500" : "ring-transparent"
               }`}
             />
-            <span className="text-[10px] font-semibold text-ink-soft">{f.label}</span>
+            <span className="text-[9px] font-semibold text-ink-soft">{f.label}</span>
           </button>
         ))}
+      </div>
+
+      {/* pattern chips */}
+      <p className="mt-3 text-[10px] font-bold uppercase tracking-wider text-ink-soft/60">Engraving</p>
+      <div className="mt-1.5 flex flex-wrap gap-2">
+        {PATTERNS.map((pt) => (
+          <button
+            key={pt.key}
+            onClick={() => setPattern(pt.key)}
+            className={`rounded-full px-3 py-1.5 text-xs font-bold transition ${
+              pattern === pt.key
+                ? "bg-grape-500 text-white"
+                : "bg-white text-ink-soft ring-1 ring-ink/10"
+            }`}
+          >
+            {pt.label}
+          </button>
+        ))}
+      </div>
+
+      {/* charm + orientation */}
+      <p className="mt-3 text-[10px] font-bold uppercase tracking-wider text-ink-soft/60">Charm</p>
+      <div className="mt-1.5 flex items-center gap-2">
+        {CHARMS.map((c, i) => (
+          <button
+            key={i}
+            onClick={() => setCharm(c)}
+            aria-label={c || "No charm"}
+            className={`grid h-9 w-9 place-items-center rounded-full text-base transition ${
+              charm === c ? "bg-grape-500" : "bg-white ring-1 ring-ink/10"
+            }`}
+          >
+            {c || <span className={charm === c ? "text-white" : "text-ink-soft"}>—</span>}
+          </button>
+        ))}
+        <button
+          onClick={() => setVertical(!vertical)}
+          className="ml-auto rounded-full bg-white px-3 py-2 text-xs font-bold text-ink-soft ring-1 ring-ink/10 transition active:scale-95"
+        >
+          🔁 {vertical ? "Landscape" : "Portrait"}
+        </button>
       </div>
 
       {/* name input */}
@@ -319,13 +510,13 @@ function Design({ locale }: { locale: string }) {
         value={name}
         onChange={(e) => setName(e.target.value.toUpperCase().slice(0, 20))}
         placeholder="YOUR NAME"
-        className="mt-5 w-full rounded-full border-2 border-ink/10 bg-white px-5 py-3 text-center font-display text-sm font-bold tracking-[0.2em] text-ink outline-none focus:border-grape-500"
+        className="mt-4 w-full rounded-full border-2 border-ink/10 bg-white px-5 py-3 text-center font-display text-sm font-bold tracking-[0.2em] text-ink outline-none focus:border-grape-500"
         aria-label="Name on card"
       />
 
       <a
         href={`/${locale}#waitlist`}
-        className="mt-auto block w-full rounded-full bg-grape-500 py-4 text-center text-base font-bold text-white shadow-lg shadow-grape-500/30 transition active:scale-95"
+        className="mt-5 block w-full rounded-full bg-grape-500 py-4 text-center text-base font-bold text-white shadow-lg shadow-grape-500/30 transition active:scale-95"
       >
         Reserve it — join the waitlist
       </a>
