@@ -30,6 +30,11 @@ import { article as gDepartTW } from "./guides/taiwan-departure-checklist-workin
 import { article as gDepartDE } from "./guides/germany-departure-checklist-working-holiday";
 import { article as gDepartFR } from "./guides/france-departure-checklist-working-holiday";
 import { article as gDepartIT } from "./guides/italy-departure-checklist-working-holiday";
+// LatAm / Brazil targeted
+import { article as g462 } from "./guides/work-and-holiday-462-latin-america";
+import { article as gFundLatam } from "./guides/funding-working-holiday-from-latin-america";
+import { article as gBrazilMaster } from "./guides/working-holiday-for-brazilians";
+import { article as gDepartBR } from "./guides/brazil-departure-checklist-working-holiday";
 
 // Blog posts
 import { article as pSendMoney } from "./blog/send-money-home-working-holiday";
@@ -67,6 +72,10 @@ export const guides: Article[] = [
   gDepartDE,
   gDepartFR,
   gDepartIT,
+  g462,
+  gFundLatam,
+  gBrazilMaster,
+  gDepartBR,
   gNoAtm,
 ];
 

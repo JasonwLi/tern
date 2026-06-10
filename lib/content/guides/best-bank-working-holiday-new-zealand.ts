@@ -362,6 +362,92 @@ export const article: Article = {
         },
       ],
     },
+    pt: {
+      title: "Melhor banco para a working holiday na Nova Zelândia",
+      description:
+        "Comparação honesta dos bancos da NZ para WHV — abertura antes da chegada, regras AML de endereço, a cadeia do IRD e o Tern.",
+      excerpt:
+        "ANZ, BNZ ou Tern: qual é de fato o melhor banco para a working holiday na Nova Zelândia? Veja o que comparar antes de embarcar.",
+      sections: [
+        {
+          paragraphs: [
+            "\"Melhor banco para working holiday Nova Zelândia\" aparece em todo grupo de Facebook e thread do Reddit sobre WHV — e a resposta honesta é mais complicada do que uma recomendação única. As regras bancárias da Nova Zelândia ficaram mais rígidas nos últimos anos com a legislação antilavagem de dinheiro, e isso afeta quem viaja mais do que a maioria imagina. Este guia cobre os critérios que realmente importam para titulares de WHV, como os principais bancos da NZ se comparam, a cadeia crítica do número IRD e como encerrar tudo de forma limpa quando sua visa terminar.",
+          ],
+        },
+        {
+          heading: "O que realmente importa num banco para WHV",
+          paragraphs: [
+            "A maioria dos artigos de comparação de bancos é escrita para residentes. Para quem está em working holiday na Nova Zelândia, os fatores que fazem diferença de verdade são:",
+          ],
+          bullets: [
+            "Solicitar antes de chegar — você consegue iniciar a solicitação de casa para já sair rodando assim que desembarcar?",
+            "Sem taxa mensal — ou uma condição de isenção simples o suficiente para cumprir com um salário informal",
+            "Tarifas baixas ou zero em transações estrangeiras — você pode estar enviando dinheiro para casa ou gastando em outros países com frequência",
+            "Ativação rápida — as filas de agendamento nas agências de Auckland podem se estender por semanas; ativação lenta significa salário atrasado",
+            "Aceita endereços temporários — as regras AML fazem com que muitos bancos da NZ rejeitem endereços de hostel ou pousada diretamente",
+            "Fácil repatriação de fundos — quando sua visa vencer, você precisa mover seu dinheiro sem burocracia",
+          ],
+        },
+        {
+          heading: "Os grandes bancos da NZ comparados para quem está em working holiday",
+          paragraphs: [
+            "ANZ Nova Zelândia e BNZ são os dois bancos mais recomendados para quem chega com WHV porque ambos aceitam solicitações de conta do exterior antes de você chegar. O problema: a ativação ainda geralmente exige uma visita presencial à agência com o passaporte, e em Auckland — onde a maioria dos titulares de WHV desembarca — os agendamentos podem estar cheios por semanas. Chegar sem hora marcada e esperar é possível, mas não garantido.",
+            "Os outros grandes bancos — ASB, Westpac NZ e Kiwibank — de modo geral exigem que você esteja fisicamente na Nova Zelândia antes de poder solicitar, o que elimina por completo a vantagem de antecipar a abertura da conta.",
+            "Todos os bancos da NZ endureceram os requisitos de verificação de endereço sob as regulamentações AML (antilavagem de dinheiro). Endereços de hostel e pousada são frequentemente rejeitados, o que pega muitos titulares de WHV de surpresa. Ter um endereço de apartamento confirmado — ou uma carta do empregador — facilita bastante o processo.",
+          ],
+          bullets: [
+            "ANZ NZ: solicitação online aceita do exterior; ativação requer verificação de identidade na agência; filas em Auckland podem demorar semanas",
+            "BNZ: solicitação do exterior aceita; mesmo requisito de ativação presencial; mesmo problema de fila em Auckland",
+            "ASB: exige presença no país antes de solicitar",
+            "Westpac NZ: exige presença no país antes de solicitar",
+            "Kiwibank: voltado para a Nova Zelândia, exige presença no país; popular entre os locais, mas menos prático para quem acabou de chegar",
+            "Todos os bancos: endereços de hostel são rotineiramente rejeitados pelas regras AML — tenha um endereço estável em mãos antes de solicitar",
+          ],
+        },
+        {
+          heading: "A reação em cadeia do número IRD",
+          paragraphs: [
+            "Esse é o ponto que a maioria dos recém-chegados só percebe quando já é tarde demais. Na Nova Zelândia, obter o número IRD (seu identificador fiscal) exige uma conta bancária neozelandesa totalmente funcional — o Inland Revenue precisa verificar os dados da sua conta como parte da solicitação. Sem o número IRD, seu empregador é legalmente obrigado a reter o imposto PAYE pela alíquota de não notificação de 45%. Não é erro de digitação: 45% retidos em cada pagamento até que seu número IRD seja processado.",
+            "A cadeia é a seguinte: chegar → ativar conta bancária → solicitar número IRD → fornecer o número IRD ao empregador → ser tributado na alíquota correta. Cada semana de atraso para abrir a conta é uma semana em que você pode estar perdendo quase metade do salário para a alíquota de não notificação. Por isso, um banco que permite solicitação antes de chegar — e com ativação rápida na chegada — não é apenas uma conveniência, mas uma prioridade financeira direta.",
+          ],
+        },
+        {
+          heading: "Encerrar tudo quando você for embora",
+          paragraphs: [
+            "No fim da sua WHV, você precisa encerrar sua conta bancária na NZ e repatriar os fundos restantes. Parece simples, mas muitas vezes não é. Vários bancos da NZ exigem uma visita presencial à agência para fechar a conta, o que é inconveniente se você estiver terminando a viagem em uma cidade diferente de onde a abriu. As tarifas de transferência internacional também podem corroer o saldo final se você estiver enviando um valor relativamente pequeno para casa.",
+            "Antes de sair, confirme o processo de encerramento de conta do seu banco e se é possível transferir fundos internacionalmente a um custo razoável. Se o seu banco cobrar uma tarifa fixa ou percentual de transferência internacional, leve isso em conta no seu planejamento de saída.",
+          ],
+        },
+        {
+          heading: "Como o Tern ajuda",
+          paragraphs: [
+            "O Tern foi criado especificamente para o ciclo de vida da working holiday — não como uma conta bancária genérica nem como um cartão de viagem multimoeda, mas como um parceiro financeiro que entende a linha do tempo da WHV do pré-embarque à partida. Principais diferenças para titulares de WHV na NZ:",
+          ],
+          bullets: [
+            "Dados da conta antes de você chegar: o Tern fornece os dados da sua conta na NZ antes de você embarcar, para você entregá-los ao empregador assim que desembarcar",
+            "Carregue de casa pela taxa real: recarregue a partir da sua moeda local pela taxa de câmbio do mercado antes de sair — sem margem de conversão",
+            "Trocas de moeda com tarifa fixa: uma tarifa fixa por operação independentemente do valor, não um percentual que cresce com o seu saldo",
+            "Sem taxas de caixa eletrônico: saque em qualquer ATM sem cobranças do Tern",
+            "Saída limpa: o Tern foi projetado para que encerrar a conta e transferir seu dinheiro para casa no fim da visa seja simples, não uma maratona de agendamentos na agência",
+            "Pré-lançamento / lista de espera: o Tern ainda não está ativo na Nova Zelândia — entre na lista de espera para ser um dos primeiros quando ele for lançado",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "Qual banco da NZ posso abrir antes de chegar?",
+          a: "ANZ Nova Zelândia e BNZ aceitam solicitações de conta do exterior antes de você chegar. No entanto, ambos ainda exigem verificação de identidade presencial com o passaporte para ativar a conta — não dá para concluir o processo totalmente à distância. Em Auckland, os agendamentos nas agências podem estar cheios por semanas, então solicite online o quanto antes e marque o agendamento de ativação antes de embarcar. O Tern (em pré-lançamento) foi projetado para fornecer todos os dados da conta antes de você desembarcar sem precisar visitar uma agência.",
+        },
+        {
+          q: "Por que preciso da conta antes do número IRD?",
+          a: "O Inland Revenue da Nova Zelândia exige uma conta bancária neozelandesa verificada como parte da solicitação do número IRD para quem acabou de chegar. Você não pode obter o IRD primeiro e depois abrir a conta. Sem o número IRD, seu empregador deve reter o imposto PAYE pela alíquota de não notificação de 45% sobre todos os seus ganhos. Cada semana de atraso para abrir a conta é mais uma semana sujeita a essa alíquota elevada — por isso, ativar a conta bancária o mais rápido possível após chegar é uma prioridade financeira direta, não apenas uma tarefa administrativa.",
+        },
+        {
+          q: "Meu endereço de hostel serve para os requisitos de identificação dos bancos da NZ?",
+          a: "Na maioria das vezes, não. Os bancos da Nova Zelândia endureceram a verificação de endereço sob as normas AML (antilavagem de dinheiro), e endereços de hostel ou pousada são rejeitados com frequência. Se você for ficar em hostel no início, tente conseguir uma carta do empregador ou ter um endereço de apartamento confirmado antes de solicitar. Alguns bancos aceitam uma carta do Immigration New Zealand como documentação de apoio. Verifique os requisitos atuais do banco escolhido antes de chegar, pois eles podem mudar.",
+        },
+      ],
+    },
     "zh-TW": {
       title: "紐西蘭打工度假最佳銀行比較指南",
       description:

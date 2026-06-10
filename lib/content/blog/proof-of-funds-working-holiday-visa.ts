@@ -456,5 +456,59 @@ export const article: Article = {
         },
       ],
     },
+    pt: {
+      title: "Comprovante de renda para visto working holiday: quanto mostrar",
+      description:
+        "Vistos working holiday exigem comprovante de renda — AUD 5.000 na Austrália. Quanto você precisa, o que vale e como apresentar na fronteira.",
+      excerpt:
+        "A Austrália quer ver ~AUD 5.000. Nova Zelândia, NZD 4.200. Veja quanto cada país exige — e como preparar um comprovante de renda que os agentes de fronteira vão aceitar.",
+      sections: [
+        {
+          paragraphs: [
+            "A maioria dos programas de working holiday exige que você comprove que consegue se sustentar ao chegar. Agentes de fronteira podem — e de fato fazem — verificações aleatórias. Aparecer sem documentação adequada é uma forma desnecessariamente estressante de começar a viagem, e dá para evitar completamente. Se você ainda está calculando [quanto dinheiro precisa para o primeiro mês na Nova Zelândia](~/guides/how-much-money-working-holiday-new-zealand), comece por aí antes de se preocupar com o formato do extrato.",
+          ],
+        },
+        {
+          heading: "Quanto dinheiro você precisa?",
+          bullets: [
+            "Austrália (subclass 417/462): cerca de AUD 5.000, mais passagem de volta",
+            "Nova Zelândia: cerca de NZD 4.200",
+            "Canadá (IEC): cerca de CAD 2.500",
+            "Sempre confirme o requisito oficial para a sua nacionalidade e visto antes de embarcar — os valores podem mudar",
+          ],
+        },
+        {
+          heading: "O que conta como comprovante",
+          paragraphs: [
+            "Geralmente um extrato bancário recente em seu nome mostrando o saldo. O problema mais comum: PDFs gerados por app ou prints de tela que não parecem 'oficiais' o suficiente e são questionados na fronteira.",
+          ],
+        },
+        {
+          heading: "Como evitar problemas na fronteira",
+          bullets: [
+            "Leve um extrato bancário formatado (PDF ou impresso) com data próxima à da viagem",
+            "Verifique se seu nome e o saldo aparecem de forma clara",
+            "Tenha os valores já compensados na conta antes de embarcar — transferências de última hora podem demorar",
+            "Guarde um backup: um segundo extrato ou um print do saldo no app",
+          ],
+        },
+        {
+          heading: "Como o Tern ajuda",
+          paragraphs: [
+            "O Tern gera em segundos um comprovante de renda oficial e corretamente formatado — com seu saldo em moeda local e na sua moeda de origem, além de um código de verificação — para que você mostre na fronteira algo que vão aceitar, não um print que vão recusar.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "Quanto dinheiro preciso para um visto working holiday na Austrália?",
+          a: "Cerca de AUD 5.000 para comprovar que você consegue se sustentar ao chegar, mais o suficiente para um voo de volta ou de saída. Confirme o valor oficial vigente para a sua nacionalidade antes de viajar.",
+        },
+        {
+          q: "O que posso usar como comprovante de renda?",
+          a: "Um extrato bancário recente em seu nome mostrando o saldo. Um documento bem formatado e com aparência oficial tem muito menos chance de ser questionado do que um simples print de tela.",
+        },
+      ],
+    },
   },
 };

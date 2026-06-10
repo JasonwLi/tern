@@ -328,5 +328,65 @@ export const article: Article = {
         },
       ],
     },
+    pt: {
+      title: "O que é um número IRD? Guia para working holiday na NZ",
+      description:
+        "O número IRD é o identificador fiscal da Nova Zelândia. Sem ele, seu empregador retém 45% do salário. O que é, por que importa e como pedir ao chegar.",
+      excerpt:
+        "Sem um número IRD na Nova Zelândia, seu empregador é obrigado a reter 45% do salário pela alíquota de não declaração. Veja o que é o número IRD, o dilema para obtê-lo e como fazer a solicitação.",
+      sections: [
+        {
+          paragraphs: [
+            "O número IRD é o identificador fiscal pessoal da Nova Zelândia — um número único de 8 ou 9 dígitos emitido pelo Inland Revenue (IRD) que seu empregador, banco e provedor do KiwiSaver usam para registrar e processar seus impostos.",
+          ],
+        },
+        {
+          heading: "Por que você precisa dele com urgência",
+          paragraphs: [
+            "Se você começar a trabalhar na Nova Zelândia sem fornecer um número IRD e sem preencher a Declaração de Código Tributário (formulário IR330), seu empregador é legalmente obrigado a descontar imposto pela alíquota de não notificação de 45% — mais a taxa ACC. Isso significa que quase metade do seu salário bruto fica retida até você resolver a situação. Conseguir o número IRD rapidamente é uma das tarefas administrativas mais importantes quando você chega.",
+          ],
+        },
+        {
+          heading: "O dilema: conta bancária e número IRD",
+          paragraphs: [
+            "Aqui está a parte frustrante: o IRD recomenda fortemente ter uma conta bancária na Nova Zelândia para receber restituições de impostos e pagamentos recorrentes. Muitos bancos, por sua vez, pedem o número IRD como parte do processo de abertura de conta. O caminho prático é abrir uma conta bancária primeiro — alguns bancos e fintechs aceitam abrir conta para recém-chegados sem exigir o número IRD de imediato — e depois usar essa conta quando você solicitar o número IRD.",
+          ],
+        },
+        {
+          heading: "Como solicitar um número IRD",
+          paragraphs: [
+            "Quem acaba de chegar à Nova Zelândia pode solicitar o número IRD online pelo portal myIR ou preenchendo o formulário em papel IR595. Você vai precisar do passaporte, dos dados do visto e de um endereço na Nova Zelândia. O IRD geralmente emite o número em até 8 a 10 dias úteis após receber a solicitação completa.",
+          ],
+          bullets: [
+            "Solicite o mais rápido possível após chegar — de preferência antes do seu primeiro turno de trabalho",
+            "Você precisa do passaporte, dos dados do visto e de um endereço na NZ para a solicitação",
+            "O processamento geralmente leva de 8 a 10 dias úteis",
+            "Assim que receber o número, entregue-o ao seu empregador junto com o formulário IR330 preenchido",
+          ],
+        },
+        {
+          heading: "Qual código tributário usar",
+          paragraphs: [
+            "Além do número IRD, você precisa informar ao empregador qual código tributário usar no formulário IR330. Para a maioria dos trabalhadores em regime de working holiday que estão no primeiro emprego na Nova Zelândia, o código padrão é 'M'. Se você tiver mais de um emprego, use 'M' para o principal e 'SB', 'S' ou 'SH' para os empregos secundários, dependendo da renda esperada.",
+          ],
+        },
+        {
+          heading: "Onde a Tern entra",
+          paragraphs: [
+            "O dilema da conta bancária é exatamente o tipo de burocracia que a Tern foi criada para eliminar. Estamos construindo uma conta que quem viaja com working holiday pode abrir antes de chegar ou logo na chegada — para que você já tenha uma conta bancária na NZ quando for solicitar o número IRD, e nunca perca parte do salário pela alíquota de não notificação de 45%.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "O que acontece se eu trabalhar na Nova Zelândia sem número IRD?",
+          a: "Seu empregador será obrigado a descontar imposto pela alíquota de não notificação de 45% mais a taxa ACC sobre todos os seus ganhos até que você forneça um número IRD e um formulário IR330 preenchido. Você pode recuperar o imposto pago a mais ao final do ano fiscal.",
+        },
+        {
+          q: "Quanto tempo leva para obter um número IRD na Nova Zelândia?",
+          a: "O Inland Revenue geralmente processa as solicitações em 8 a 10 dias úteis após receber a solicitação completa e os documentos de suporte. Solicite assim que chegar — de preferência antes de começar o primeiro emprego.",
+        },
+      ],
+    },
   },
 };

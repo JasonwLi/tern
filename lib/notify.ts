@@ -180,6 +180,14 @@ const WELCOME_COPY: Record<
     status: "Consulta tu posición cuando quieras",
     signoff: "— Tern",
   },
+  pt: {
+    subject: (pos) => `Você está na lista de espera da Tern — nº ${pos} 🎉`,
+    hi: "Você está dentro!",
+    position: (pos) => `Você é o nº ${pos} na lista de espera da Tern, o app de dinheiro pensado para o working holiday.`,
+    share: "Quer subir na fila? Cada amigo que entrar pelo seu link te faz avançar 10 posições:",
+    status: "Confira sua posição quando quiser",
+    signoff: "— Tern",
+  },
   de: {
     subject: (pos) => `Du bist auf der Tern-Warteliste — Platz ${pos} 🎉`,
     hi: "Du bist dabei!",

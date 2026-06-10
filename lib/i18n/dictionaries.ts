@@ -1,6 +1,7 @@
 import type { Locale } from "./config";
 import { en, type Dictionary } from "./dictionaries/en";
 import { es } from "./dictionaries/es";
+import { pt } from "./dictionaries/pt";
 import { de } from "./dictionaries/de";
 import { fr } from "./dictionaries/fr";
 import { it } from "./dictionaries/it";
@@ -11,6 +12,7 @@ import { zhTW } from "./dictionaries/zh-TW";
 const dictionaries: Record<Locale, Dictionary> = {
   en,
   es,
+  pt,
   de,
   fr,
   it,

@@ -34,6 +34,11 @@ const LOCALES = [
     cjk: false,
   },
   {
+    locale: "pt",
+    tagline: "O banco digital para o\nseu working holiday",
+    cjk: false,
+  },
+  {
     locale: "de",
     tagline: "Die Neobank für dein\nWork and Travel",
     cjk: false,

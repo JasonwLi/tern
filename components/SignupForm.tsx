@@ -8,7 +8,8 @@ import { isLocale, defaultLocale, type Locale } from "@/lib/i18n/config";
 const HOME_COUNTRIES = [
   "United Kingdom", "Ireland", "France", "Germany", "Italy", "Spain",
   "Netherlands", "Sweden", "South Korea", "Japan", "Taiwan", "Hong Kong",
-  "Canada", "United States", "Argentina", "Chile", "Other",
+  "Canada", "United States", "Argentina", "Chile", "Brazil",
+  "Mexico", "Colombia", "Peru", "Uruguay", "Other",
 ];
 
 const WHV_COUNTRIES = [

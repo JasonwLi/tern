@@ -27,6 +27,7 @@ const GROUPS: { key: string; slugs: string[] }[] = [
       "best-bank-working-holiday-australia",
       "how-much-money-working-holiday-australia",
       "first-week-money-checklist-australia",
+      "work-and-holiday-462-latin-america",
     ],
   },
   {
@@ -64,6 +65,9 @@ const GROUPS: { key: string; slugs: string[] }[] = [
       "germany-departure-checklist-working-holiday",
       "france-departure-checklist-working-holiday",
       "italy-departure-checklist-working-holiday",
+      "funding-working-holiday-from-latin-america",
+      "working-holiday-for-brazilians",
+      "brazil-departure-checklist-working-holiday",
     ],
   },
   { key: "essentials", slugs: ["no-atm-fees-working-holiday"] },

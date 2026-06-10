@@ -1,4 +1,4 @@
-export const locales = ["en", "es", "de", "fr", "it", "ja", "ko", "zh-TW"] as const;
+export const locales = ["en", "es", "pt", "de", "fr", "it", "ja", "ko", "zh-TW"] as const;
 export type Locale = (typeof locales)[number];
 
 export const defaultLocale: Locale = "en";
@@ -7,6 +7,7 @@ export const defaultLocale: Locale = "en";
 export const localeMeta: Record<Locale, { label: string; flag: string; htmlLang: string }> = {
   en: { label: "English", flag: "🇬🇧", htmlLang: "en" },
   es: { label: "Español", flag: "🌎", htmlLang: "es" },
+  pt: { label: "Português", flag: "🇧🇷", htmlLang: "pt-BR" },
   de: { label: "Deutsch", flag: "🇩🇪", htmlLang: "de" },
   fr: { label: "Français", flag: "🇫🇷", htmlLang: "fr" },
   it: { label: "Italiano", flag: "🇮🇹", htmlLang: "it" },
@@ -19,6 +20,7 @@ export const localeMeta: Record<Locale, { label: string; flag: string; htmlLang:
 export const ogLocale: Record<Locale, string> = {
   en: "en_AU",
   es: "es_419",
+  pt: "pt_BR",
   de: "de_DE",
   fr: "fr_FR",
   it: "it_IT",
@@ -33,6 +35,8 @@ const countryToLocale: Record<string, Locale> = {
   JP: "ja",
   // Korean
   KR: "ko",
+  // Brazilian Portuguese (Portugal mapped too — better than en for them)
+  BR: "pt", PT: "pt",
   // German / French / Italian source markets (CH/BE/LU left to
   // Accept-Language — they're multilingual)
   DE: "de", AT: "de",
@@ -68,6 +72,7 @@ export function localeFromAcceptLanguage(header?: string | null): Locale | null 
     if (tag.startsWith("ja")) return "ja";
     if (tag.startsWith("ko")) return "ko";
     if (tag.startsWith("zh")) return "zh-TW"; // we only ship Traditional
+    if (tag.startsWith("pt")) return "pt";
     if (tag.startsWith("es")) return "es";
     if (tag.startsWith("de")) return "de";
     if (tag.startsWith("fr")) return "fr";

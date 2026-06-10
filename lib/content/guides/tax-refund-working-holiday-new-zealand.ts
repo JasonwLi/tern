@@ -436,5 +436,86 @@ export const article: Article = {
         },
       ],
     },
+    pt: {
+      title: "Impostos na working holiday na Nova Zelândia: guia completo",
+      description:
+        "Guia de impostos para working holiday na NZ: sem IRD você paga 45%. Como funcionam IRD, PAYE, códigos fiscais e restituições IR3.",
+      excerpt:
+        "Sem número IRD, seu empregador é obrigado a reter 45% do seu salário. Veja como obter o número, escolher o código fiscal certo e pedir a restituição.",
+      sections: [
+        {
+          paragraphs: [
+            "A Nova Zelândia torna os impostos relativamente simples para a maioria dos trabalhadores em visto working holiday — desde que você configure tudo corretamente. As duas coisas que mais causam prejuízo são começar a trabalhar sem número IRD e usar o código fiscal errado. Ambas se resolvem em menos de uma hora.",
+          ],
+        },
+        {
+          heading: "Por que você precisa do número IRD antes de começar a trabalhar",
+          paragraphs: [
+            "O [número IRD](~/blog/what-is-an-ird-number) é o equivalente neozelandês do número de identificação fiscal. Se você não fornecer um ao seu empregador, ele é legalmente obrigado a descontar imposto à alíquota de 'sem notificação' de 45% — a mais alta do sistema. O pedido é gratuito e leva cerca de 10 dias úteis para chegar.",
+            "Solicite online pelo site do IRD assim que chegar. Se você tem visto working holiday, provavelmente vai usar o processo de 'recém-chegado', que permite ao IRD verificar sua identidade com o Departamento de Imigração da Nova Zelândia — sem precisar de documentos adicionais.",
+          ],
+          bullets: [
+            "Solicite gratuitamente em ird.govt.nz assim que estiver na Nova Zelândia",
+            "Tenha em mãos seu passaporte, dados do visto e um endereço na Nova Zelândia",
+            "O número IRD chega em cerca de 10 dias úteis após o pedido",
+            "Passe o número para seu empregador imediatamente — não espere o primeiro salário",
+          ],
+        },
+        {
+          heading: "PAYE e códigos fiscais explicados",
+          paragraphs: [
+            "A Nova Zelândia tributa a renda do trabalho pelo sistema PAYE (pay-as-you-earn, ou seja, retenção na fonte). Seu empregador desconta o imposto de cada pagamento de acordo com o código fiscal que você declara no formulário IR330.",
+            "Para a maioria dos trabalhadores em working holiday com um único emprego, o código fiscal correto é 'M' (renda principal, sem empréstimo estudantil). Se você tiver um segundo emprego ou outra fonte de renda, use 'S' (renda secundária) para esse empregador. Usar o código errado — especialmente 'M' no segundo emprego — pode gerar uma dívida fiscal no fim do ano.",
+          ],
+          bullets: [
+            "Preencha o formulário de declaração de código fiscal IR330 para cada empregador",
+            "Emprego principal, sem empréstimo estudantil: use o código fiscal M",
+            "Segundo emprego ou renda secundária: use o código fiscal S",
+            "Não comece a trabalhar sem entregar ao empregador o IR330 preenchido",
+          ],
+        },
+        {
+          heading: "Avaliação automática de fim de ano",
+          paragraphs: [
+            "Se toda a sua renda do ano foi tributada via PAYE — o que é típico para assalariados —, o IRD calculará automaticamente seu imposto de fim de ano. Você não precisa fazer nada.",
+            "O ano fiscal da Nova Zelândia vai de 1º de abril a 31 de março. O IRD costuma emitir as avaliações automáticas entre o final de maio e o fim de julho, após o encerramento do ano fiscal. Se você pagou imposto a mais durante o ano, a restituição é depositada diretamente na conta bancária que você cadastrou no myIR.",
+            "Mantenha sua conta bancária neozelandesa aberta tempo suficiente para receber a restituição — ou atualize seus dados bancários no myIR para uma conta no exterior antes de embarcar.",
+          ],
+        },
+        {
+          heading: "Quando você precisa declarar o IR3",
+          paragraphs: [
+            "Se você sair da Nova Zelândia antes do fim do ano fiscal (31 de março) e quiser a restituição mais cedo, pode apresentar a declaração individual IR3 pelo período em que trabalhou. O IR3 também é obrigatório se você teve rendimentos que não foram totalmente tributados na fonte — por exemplo, renda de trabalho autônomo, aluguel ou rendimentos acima de NZD 200 que o IRD não foi informado.",
+            "Guarde todos os contracheques. O IR3 exige o total de renda e o total de imposto retido no período. Contracheques faltando são a maior causa de atrasos.",
+          ],
+          bullets: [
+            "Vai embora antes do prazo? Declare o IR3 para receber sua restituição sem esperar a avaliação automática",
+            "Teve renda em dinheiro ou de trabalho autônomo? Você precisa declarar no IR3",
+            "Guarde todos os contracheques — você vai precisar de todos eles",
+            "As declarações IR3 podem ser enviadas online pelo myIR",
+          ],
+        },
+        {
+          heading: "Como o Tern ajuda",
+          paragraphs: [
+            "O Tern solicita o pedido do número IRD no momento do cadastro para que você nunca caia na armadilha da alíquota sem notificação. Ele armazena cada contracheque assim que chega, avisa se o seu empregador parece estar usando o código fiscal errado e te lembra de declarar o IR3 — ou de atualizar seus dados bancários no myIR — antes de pegar o voo de volta.",
+          ],
+        },
+      ],
+      faq: [
+        {
+          q: "O que acontece se eu trabalhar sem número IRD na Nova Zelândia?",
+          a: "Seu empregador é obrigado a descontar 45% de tudo que você ganhar, pela alíquota sem notificação. Solicite seu número IRD assim que chegar — é gratuito e leva cerca de 10 dias úteis.",
+        },
+        {
+          q: "Preciso declarar imposto de renda ao sair da Nova Zelândia?",
+          a: "Se toda a sua renda foi tributada via PAYE e você não teve outras fontes de renda, o IRD avaliará seu imposto automaticamente e restituirá qualquer excesso sem que você precise declarar nada. Se quiser a restituição antes da avaliação automática (final de maio a julho), ou se teve renda fora do PAYE, você declara o IR3.",
+        },
+        {
+          q: "Qual código fiscal devo usar no visto working holiday na Nova Zelândia?",
+          a: "Para seu emprego principal (ou único) sem empréstimo estudantil, use o código fiscal M no formulário IR330. Para um segundo emprego, use o código fiscal S. Usar o código errado pode significar pagar imposto extra no fim do ano.",
+        },
+      ],
+    },
   },
 };
