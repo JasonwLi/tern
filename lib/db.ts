@@ -209,6 +209,49 @@ export async function addSignup(input: SignupInput): Promise<AddSignupResult> {
   }
 }
 
+export interface SignupStatus {
+  position: number;      // raw signup order (1-based)
+  referralCode: string;
+  referralCount: number;
+}
+
+// Read-only lookup for the status page. Never creates a signup.
+export async function findSignup(email: string): Promise<SignupStatus | null> {
+  const normalized = email.trim().toLowerCase();
+
+  if (!DATABASE_URL) {
+    const row = memory.find((r) => r.email === normalized);
+    if (!row) return null;
+    return {
+      position: row.id,
+      referralCode: row.code,
+      referralCount: memory.filter((r) => r.referredBy === row.code).length,
+    };
+  }
+
+  try {
+    await ensureSchema();
+    const db = getPool();
+    const res = await db.query<{ id: string; referral_code: string | null }>(
+      "SELECT id, referral_code FROM signups WHERE email = $1",
+      [normalized]
+    );
+    if (res.rows.length === 0) return null;
+    let code = res.rows[0].referral_code;
+    if (!code) {
+      code = newCode();
+      await db.query("UPDATE signups SET referral_code = $1 WHERE email = $2", [code, normalized]);
+    }
+    return {
+      position: Number(res.rows[0].id),
+      referralCode: code,
+      referralCount: await referralCountFor(code),
+    };
+  } catch {
+    return null;
+  }
+}
+
 export async function countSignups(): Promise<number> {
   if (!DATABASE_URL) return memory.length;
   try {

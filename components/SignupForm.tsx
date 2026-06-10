@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
+import { contentUi } from "@/lib/content/ui";
+import { isLocale, defaultLocale, type Locale } from "@/lib/i18n/config";
 
 const HOME_COUNTRIES = [
   "United Kingdom", "Ireland", "France", "Germany", "Italy", "Spain",
@@ -82,10 +84,15 @@ export default function SignupForm({
     }
   }
 
+  function currentLocale(): Locale {
+    if (typeof window === "undefined") return defaultLocale;
+    const seg = window.location.pathname.split("/")[1] || "";
+    return isLocale(seg) ? seg : defaultLocale;
+  }
+
   function referralLink(): string {
     if (typeof window === "undefined" || !referralCode) return "";
-    const localeSeg = window.location.pathname.split("/")[1] || "en";
-    return `${window.location.origin}/${localeSeg}?ref=${referralCode}`;
+    return `${window.location.origin}/${currentLocale()}?ref=${referralCode}`;
   }
 
   async function copyLink() {
@@ -136,6 +143,12 @@ export default function SignupForm({
                 {copied ? t.referralCopied : t.referralCopy}
               </button>
             </div>
+            <a
+              href={`/${currentLocale()}/status`}
+              className="mt-3 inline-block text-xs font-semibold text-grape-500 underline underline-offset-2 hover:text-grape-600"
+            >
+              {contentUi[currentLocale()].statusNav} →
+            </a>
           </div>
         )}
       </div>

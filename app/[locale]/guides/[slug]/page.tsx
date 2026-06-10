@@ -6,6 +6,7 @@ import { guides, getGuide, content, availableLocales } from "@/lib/content";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import ArticleView from "@/components/content/ArticleView";
+import { articleOgImage } from "@/lib/og";
 
 export function generateStaticParams() {
   return guides.flatMap((a) =>
@@ -37,7 +38,13 @@ export async function generateMetadata({
       canonical: `/${locale}/guides/${slug}`,
       languages: langsFor(slug, availableLocales(article)),
     },
-    openGraph: { type: "article", title: c.title, description: c.description, images: [`/og-${locale}.png`] },
+    openGraph: {
+      type: "article",
+      title: c.title,
+      description: c.description,
+      images: [articleOgImage(slug, locale)],
+    },
+    twitter: { card: "summary_large_image", images: [articleOgImage(slug, locale)] },
   };
 }
 

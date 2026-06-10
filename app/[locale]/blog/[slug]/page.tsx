@@ -6,6 +6,7 @@ import { posts, getPost, content, availableLocales } from "@/lib/content";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import ArticleView from "@/components/content/ArticleView";
+import { articleOgImage } from "@/lib/og";
 
 export function generateStaticParams() {
   return posts.flatMap((a) =>
@@ -42,8 +43,9 @@ export async function generateMetadata({
       title: c.title,
       description: c.description,
       publishedTime: article.date,
-      images: [`/og-${locale}.png`],
+      images: [articleOgImage(slug, locale)],
     },
+    twitter: { card: "summary_large_image", images: [articleOgImage(slug, locale)] },
   };
 }
 

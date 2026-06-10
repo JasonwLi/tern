@@ -28,10 +28,10 @@ export default function Footer({
 
           <FooterCol
             title={t.productTitle}
-            links={[...t.product, ui.guidesNav, ui.blogNav]}
+            links={[...t.product, ui.guidesNav, ui.blogNav, ui.statusNav]}
             hrefs={[
               `${home}#features`, `${home}#how-it-works`, `${home}#extras`, `${home}#faq`,
-              `${home}/guides`, `${home}/blog`,
+              `${home}/guides`, `${home}/blog`, `${home}/status`,
             ]}
           />
           <FooterCol
