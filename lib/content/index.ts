@@ -23,6 +23,10 @@ import { article as gBudgetNZ } from "./guides/how-much-money-working-holiday-ne
 import { article as gBudgetCA } from "./guides/how-much-money-working-holiday-canada";
 import { article as gChecklist } from "./guides/first-week-money-checklist-australia";
 import { article as gNoAtm } from "./guides/no-atm-fees-working-holiday";
+// Locale-original departure guides (native language + en only)
+import { article as gDepartJP } from "./guides/japan-departure-checklist-working-holiday";
+import { article as gDepartKR } from "./guides/korea-departure-checklist-working-holiday";
+import { article as gDepartTW } from "./guides/taiwan-departure-checklist-working-holiday";
 
 // Blog posts
 import { article as pSendMoney } from "./blog/send-money-home-working-holiday";
@@ -54,6 +58,9 @@ export const guides: Article[] = [
   gBankIE,
   gBankDE,
   gBankJP,
+  gDepartJP,
+  gDepartKR,
+  gDepartTW,
   gNoAtm,
 ];
 

@@ -55,6 +55,14 @@ const GROUPS: { key: string; slugs: string[] }[] = [
     ],
   },
   { key: "jp", slugs: ["bank-account-working-holiday-japan"] },
+  {
+    key: "departure",
+    slugs: [
+      "japan-departure-checklist-working-holiday",
+      "korea-departure-checklist-working-holiday",
+      "taiwan-departure-checklist-working-holiday",
+    ],
+  },
   { key: "essentials", slugs: ["no-atm-fees-working-holiday"] },
 ];
 
@@ -90,6 +98,7 @@ export default async function GuidesIndex({
     ca: dict.marquee.countries[2],
     europe: ui.guidesGroupEurope,
     jp: dict.marquee.countries[5],
+    departure: ui.guidesGroupDeparture,
     essentials: ui.guidesGroupEssentials,
   };
 

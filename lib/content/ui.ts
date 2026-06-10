@@ -28,6 +28,7 @@ export interface ContentUi {
   statusReferrals: string;
   guidesGroupEurope: string;
   guidesGroupEssentials: string;
+  guidesGroupDeparture: string;
 }
 
 export const contentUi: Record<Locale, ContentUi> = {
@@ -59,6 +60,7 @@ export const contentUi: Record<Locale, ContentUi> = {
     statusReferrals: "Friends referred",
     guidesGroupEurope: "UK & Europe",
     guidesGroupEssentials: "Money essentials",
+    guidesGroupDeparture: "Before you leave home",
   },
   es: {
     guidesNav: "Guías",
@@ -88,6 +90,7 @@ export const contentUi: Record<Locale, ContentUi> = {
     statusReferrals: "Amigos referidos",
     guidesGroupEurope: "Reino Unido y Europa",
     guidesGroupEssentials: "Conceptos básicos de dinero",
+    guidesGroupDeparture: "Antes de salir de tu país",
   },
   ja: {
     guidesNav: "ガイド",
@@ -117,6 +120,7 @@ export const contentUi: Record<Locale, ContentUi> = {
     statusReferrals: "紹介した友達",
     guidesGroupEurope: "イギリス・ヨーロッパ",
     guidesGroupEssentials: "お金の基礎知識",
+    guidesGroupDeparture: "出発前の自国での準備",
   },
   ko: {
     guidesNav: "가이드",
@@ -146,6 +150,7 @@ export const contentUi: Record<Locale, ContentUi> = {
     statusReferrals: "초대한 친구",
     guidesGroupEurope: "영국 & 유럽",
     guidesGroupEssentials: "머니 기초",
+    guidesGroupDeparture: "출국 전 준비",
   },
   "zh-TW": {
     guidesNav: "指南",
@@ -175,5 +180,6 @@ export const contentUi: Record<Locale, ContentUi> = {
     statusReferrals: "已邀請朋友",
     guidesGroupEurope: "英國與歐洲",
     guidesGroupEssentials: "理財基礎",
+    guidesGroupDeparture: "出發前的台灣準備",
   },
 };
