@@ -1,24 +1,74 @@
 import type { Locale } from "@/lib/i18n/config";
 import type { Article, ArticleLocale } from "./types";
 
-import { article as gBankAccount } from "./guides/bank-account-working-holiday-australia";
-import { article as gTaxRefund } from "./guides/working-holiday-tax-refund-australia";
+// Bank-account guides
+import { article as gBankAU } from "./guides/bank-account-working-holiday-australia";
+import { article as gBankNZ } from "./guides/bank-account-working-holiday-new-zealand";
+import { article as gBankCA } from "./guides/bank-account-working-holiday-canada";
+import { article as gBankUK } from "./guides/bank-account-working-holiday-uk";
+import { article as gBankIE } from "./guides/bank-account-working-holiday-ireland";
+import { article as gBankDE } from "./guides/bank-account-working-holiday-germany";
+import { article as gBankJP } from "./guides/bank-account-working-holiday-japan";
+// Tax & super guides
+import { article as gTaxAU } from "./guides/working-holiday-tax-refund-australia";
+import { article as gTaxNZ } from "./guides/tax-refund-working-holiday-new-zealand";
 import { article as gDasp } from "./guides/superannuation-refund-dasp";
-import { article as gBankAccountNZ } from "./guides/bank-account-working-holiday-new-zealand";
-import { article as gBankAccountCA } from "./guides/bank-account-working-holiday-canada";
-import { article as gNoAtmFees } from "./guides/no-atm-fees-working-holiday";
+// Comparison guides
+import { article as gBestAU } from "./guides/best-bank-working-holiday-australia";
+import { article as gBestNZ } from "./guides/best-bank-working-holiday-new-zealand";
+import { article as gBestCA } from "./guides/best-bank-working-holiday-canada";
+// Budget & practical guides
+import { article as gBudgetAU } from "./guides/how-much-money-working-holiday-australia";
+import { article as gBudgetNZ } from "./guides/how-much-money-working-holiday-new-zealand";
+import { article as gBudgetCA } from "./guides/how-much-money-working-holiday-canada";
+import { article as gChecklist } from "./guides/first-week-money-checklist-australia";
+import { article as gNoAtm } from "./guides/no-atm-fees-working-holiday";
 
+// Blog posts
 import { article as pSendMoney } from "./blog/send-money-home-working-holiday";
+import { article as pSendMoneyNZ } from "./blog/send-money-home-from-new-zealand";
 import { article as pProofOfFunds } from "./blog/proof-of-funds-working-holiday-visa";
 import { article as pSecondYear } from "./blog/second-year-visa-88-days";
+import { article as pWhatBsb } from "./blog/what-is-a-bsb-number";
+import { article as pWhatTfn } from "./blog/what-is-a-tfn";
+import { article as pWhatSuper } from "./blog/what-is-superannuation";
+import { article as pWhatIrd } from "./blog/what-is-an-ird-number";
+import { article as pWiseRevolut } from "./blog/wise-vs-revolut-working-holiday";
 
-// Guides are evergreen; order is curated.
-export const guides: Article[] = [gBankAccount, gTaxRefund, gDasp, gBankAccountNZ, gBankAccountCA, gNoAtmFees];
+// Guides are evergreen; order is curated (strongest/most-searched first).
+export const guides: Article[] = [
+  gBankAU,
+  gTaxAU,
+  gDasp,
+  gBankNZ,
+  gBankCA,
+  gBestAU,
+  gBestNZ,
+  gBestCA,
+  gBudgetAU,
+  gBudgetNZ,
+  gBudgetCA,
+  gChecklist,
+  gTaxNZ,
+  gBankUK,
+  gBankIE,
+  gBankDE,
+  gBankJP,
+  gNoAtm,
+];
 
 // Posts are date-ordered (newest first).
-export const posts: Article[] = [pProofOfFunds, pSecondYear, pSendMoney].sort(
-  (a, b) => (b.date ?? "").localeCompare(a.date ?? "")
-);
+export const posts: Article[] = [
+  pProofOfFunds,
+  pSecondYear,
+  pSendMoney,
+  pSendMoneyNZ,
+  pWiseRevolut,
+  pWhatIrd,
+  pWhatSuper,
+  pWhatTfn,
+  pWhatBsb,
+].sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""));
 
 export function getGuide(slug: string): Article | undefined {
   return guides.find((a) => a.slug === slug);

@@ -26,7 +26,7 @@ export const article: Article = {
       sections: [
         {
           paragraphs: [
-            "Superannuation (\"super\") is retirement money your employer pays on top of your wages — currently 11.5% of your earnings. As a temporary visa holder you can claim it back when you leave Australia for good, through the Departing Australia Superannuation Payment (DASP). Billions of dollars in super sit unclaimed, much of it belonging to backpackers who didn't know to ask.",
+            "Superannuation (\"super\") is retirement money your employer pays on top of your wages — currently 12% of your earnings. As a temporary visa holder you can claim it back when you leave Australia for good, through the Departing Australia Superannuation Payment (DASP). Billions of dollars in super sit unclaimed, much of it belonging to backpackers who didn't know to ask.",
           ],
         },
         {
@@ -87,7 +87,7 @@ export const article: Article = {
       sections: [
         {
           paragraphs: [
-            "El superannuation (\"super\") es dinero para el retiro que tu empleador paga además de tu sueldo — actualmente el 11.5% de tus ganancias. Como titular de una visa temporal, puedes reclamarlo cuando dejes Australia definitivamente a través del Departing Australia Superannuation Payment (DASP). Miles de millones de dólares en super siguen sin reclamarse, gran parte de ellos de backpackers que no sabían que podían pedirlo.",
+            "El superannuation (\"super\") es dinero para el retiro que tu empleador paga además de tu sueldo — actualmente el 12% de tus ganancias. Como titular de una visa temporal, puedes reclamarlo cuando dejes Australia definitivamente a través del Departing Australia Superannuation Payment (DASP). Miles de millones de dólares en super siguen sin reclamarse, gran parte de ellos de backpackers que no sabían que podían pedirlo.",
           ],
         },
         {
@@ -148,7 +148,7 @@ export const article: Article = {
       sections: [
         {
           paragraphs: [
-            "スーパーアニュエーション（「スーパー」）とは、雇用主が給与に上乗せして支払う退職積立金で、現在の割合は給与の11.5%です。一時ビザ保有者は、Departing Australia Superannuation Payment（DASP）を通じて、永久出国時にこの積立金を取り戻すことができます。何十億ドルものスーパーが未請求のままになっており、その多くは請求方法を知らなかったワーホリの方々のものです。",
+            "スーパーアニュエーション（「スーパー」）とは、雇用主が給与に上乗せして支払う退職積立金で、現在の割合は給与の12%です。一時ビザ保有者は、Departing Australia Superannuation Payment（DASP）を通じて、永久出国時にこの積立金を取り戻すことができます。何十億ドルものスーパーが未請求のままになっており、その多くは請求方法を知らなかったワーホリの方々のものです。",
           ],
         },
         {
@@ -209,7 +209,7 @@ export const article: Article = {
       sections: [
         {
           paragraphs: [
-            "슈퍼애뉴에이션(\"슈퍼\")은 고용주가 임금 외에 추가로 납부하는 퇴직 적립금으로, 현재 수입의 11.5%입니다. 임시 비자 소지자는 호주를 완전히 떠날 때 Departing Australia Superannuation Payment(DASP)를 통해 이를 돌려받을 수 있습니다. 수십억 달러의 슈퍼가 청구되지 않은 채 남아 있으며, 상당 부분이 신청 방법을 몰랐던 워홀러들의 것입니다.",
+            "슈퍼애뉴에이션(\"슈퍼\")은 고용주가 임금 외에 추가로 납부하는 퇴직 적립금으로, 현재 수입의 12%입니다. 임시 비자 소지자는 호주를 완전히 떠날 때 Departing Australia Superannuation Payment(DASP)를 통해 이를 돌려받을 수 있습니다. 수십억 달러의 슈퍼가 청구되지 않은 채 남아 있으며, 상당 부분이 신청 방법을 몰랐던 워홀러들의 것입니다.",
           ],
         },
         {
@@ -270,7 +270,7 @@ export const article: Article = {
       sections: [
         {
           paragraphs: [
-            "退休金（\"super\"）是雇主在薪資以外額外提撥的退休儲蓄，目前費率為薪資的11.5%。持臨時簽證者在永久離開澳洲時，可透過「離境澳洲退休金給付」（Departing Australia Superannuation Payment，DASP）申請取回這筆金額。目前有數十億澳幣的退休金尚未被領回，其中大部分屬於不知道可以申請的打工度假者。",
+            "退休金（\"super\"）是雇主在薪資以外額外提撥的退休儲蓄，目前費率為薪資的12%。持臨時簽證者在永久離開澳洲時，可透過「離境澳洲退休金給付」（Departing Australia Superannuation Payment，DASP）申請取回這筆金額。目前有數十億澳幣的退休金尚未被領回，其中大部分屬於不知道可以申請的打工度假者。",
           ],
         },
         {
