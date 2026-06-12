@@ -49,6 +49,11 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ ok: true, alreadyJoined: false, position: 0 });
   }
 
+  // Reserved/test domains never reach the real waitlist (keeps counts honest).
+  if (/@(example\.(com|org|net)|test\.com|mailinator\.com)$/i.test(email)) {
+    return NextResponse.json({ ok: true, alreadyJoined: false, position: 0 });
+  }
+
   const homeCountry = typeof body.homeCountry === "string" ? body.homeCountry : undefined;
   const whvCountry = typeof body.whvCountry === "string" ? body.whvCountry : undefined;
   const locale = typeof body.locale === "string" ? body.locale : undefined;
