@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { isLocale, type Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
-import { guides, getGuide, content, availableLocales } from "@/lib/content";
+import { guides, getGuide, content, availableLocales, hasLocale } from "@/lib/content";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import ArticleView from "@/components/content/ArticleView";
@@ -56,7 +56,8 @@ export default async function GuidePage({
   const { locale, slug } = await params;
   if (!isLocale(locale)) notFound();
   const article = getGuide(slug);
-  if (!article) notFound();
+  // No silent English fallback at foreign-locale URLs — 404 instead.
+  if (!article || !hasLocale(article, locale)) notFound();
   const dict = getDictionary(locale);
 
   return (

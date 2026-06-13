@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { isLocale, type Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/dictionaries";
-import { posts, getPost, content, availableLocales } from "@/lib/content";
+import { posts, getPost, content, availableLocales, hasLocale } from "@/lib/content";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import ArticleView from "@/components/content/ArticleView";
@@ -57,7 +57,8 @@ export default async function BlogPostPage({
   const { locale, slug } = await params;
   if (!isLocale(locale)) notFound();
   const article = getPost(slug);
-  if (!article) notFound();
+  // No silent English fallback at foreign-locale URLs — 404 instead.
+  if (!article || !hasLocale(article, locale)) notFound();
   const dict = getDictionary(locale);
 
   return (
