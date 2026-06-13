@@ -13,6 +13,7 @@ import { article as gBankJP } from "./guides/bank-account-working-holiday-japan"
 import { article as gTaxAU } from "./guides/working-holiday-tax-refund-australia";
 import { article as gTaxNZ } from "./guides/tax-refund-working-holiday-new-zealand";
 import { article as gDasp } from "./guides/superannuation-refund-dasp";
+import { article as gSuperChoice } from "./guides/choosing-a-super-fund-working-holiday";
 // Comparison guides
 import { article as gBestAU } from "./guides/best-bank-working-holiday-australia";
 import { article as gBestNZ } from "./guides/best-bank-working-holiday-new-zealand";
@@ -52,6 +53,7 @@ export const guides: Article[] = [
   gBankAU,
   gTaxAU,
   gDasp,
+  gSuperChoice,
   gBankNZ,
   gBankCA,
   gBestAU,

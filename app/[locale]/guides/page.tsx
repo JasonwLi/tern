@@ -24,6 +24,7 @@ const GROUPS: { key: string; slugs: string[] }[] = [
       "bank-account-working-holiday-australia",
       "working-holiday-tax-refund-australia",
       "superannuation-refund-dasp",
+      "choosing-a-super-fund-working-holiday",
       "best-bank-working-holiday-australia",
       "how-much-money-working-holiday-australia",
       "first-week-money-checklist-australia",
